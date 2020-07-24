@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in DQC Rules Validator successful, version Check version using Tools->DQC->Version on the GUI or --dqc-version on the command line. - validate/DQC </message>
+ <ref href="validate/DQC"/></entry>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in SEC Inline Transforms successful, version 19.2. - transforms/SEC </message>
+ <ref href="transforms/SEC"/></entry>
+<entry code="info" level="info">
+ <message>[info] Xule version: 3.0.22812 - </message>
+ <ref href=""/></entry>
+<entry code="info" level="info">
+ <message>[info] loaded in 1.61 secs at 2020-07-24T16:53:18 - http://www.sec.gov/Archives/edgar/data/922521/000162828019014320/falc-20190930.xml </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/922521/000162828019014320/falc-20190930.xml"/></entry>
+<entry code="xule:error" level="error">
+ <message cid="2454260983168">[xule:error] rule DQC.US.0004.9283: '&lt;' not supported between instances of 'float' and 'tuple' - falc-20190930.xml </message>
+ <ref href="falc-20190930.xml"/></entry>
+<entry code="info" level="info">
+ <message>[info] validated in 1.82 secs - http://www.sec.gov/Archives/edgar/data/922521/000162828019014320/falc-20190930.xml </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/922521/000162828019014320/falc-20190930.xml"/></entry>
+</log>
