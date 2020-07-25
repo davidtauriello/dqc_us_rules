@@ -11,6 +11,7 @@ env:
     - CURDIR=$(pwd)
 
   matrix:
+    - INFILES='[{"file":"http://www.sec.gov/Archives/edgar/data/70866/000007086620000007/ncr-20191231x10k.htm", "xule_run_only":"DQC.US.0004.9289"}]' EXFILES=$EXPECTED/DQC.US.0004.9289_ncr-2019.xml
     - INFILES='[{"file":"http://www.sec.gov/Archives/edgar/data/1719435/000164033420001778/assf_10q.htm", "xule_run_only":"DQC.US.0004.16"}]' EXFILES=$EXPECTED/DQC.US.0004.16_assf-2019.xml
     - INFILES='[{"file":"http://www.sec.gov/Archives/edgar/data/1602409/000152013820000312/fngr-20200229.xml", "xule_run_only":"DQC.US.0004.9280"}]' EXFILES=$EXPECTED/DQC.US.0004.9280_fngr-2020.xml
     - INFILES='[{"file":"http://www.sec.gov/Archives/edgar/data/1599117/000107878220000323/mntr-20200331.xml", "xule_run_only":"DQC.US.0004.9280"}]' EXFILES=$EXPECTED/DQC.US.0004.9280_mntr-2020.xml
