@@ -1,0 +1,130 @@
+/* InlineFunctions */
+output INLIN001
+/* {{list(us-gaap:ScheduleOfRelatedPartyTransactionsTableTextBlock, us-gaap:RelatedPartyTransactionsDisclosureTextBlock)},{list(us-gaap:ScheduleOfRelatedPartyTransactionsTableTextBlock, us-gaap:RelatedPartyTransactionsDisclosureTextBlock)},{list(us-gaap:ScheduleOfRelatedPartyTransactionsTableTextBlock, us-gaap:RelatedPartyTransactionsDisclosureTextBlock)}} */
+
+  { @instance=$INSTANCE3 @concept=us-gaap-2022:RelatedPartyTransactionSellingGeneralAndAdministrativeExpensesFromTransactionsWithRelatedParty }.inline-ancestors.concept.name
+
+output INLIN002
+/* {41,584,000},{97,223,000},{106,929,000} */
+
+  { @instance=$INSTANCE3 @concept=us-gaap-2022:RelatedPartyTransactionSellingGeneralAndAdministrativeExpensesFromTransactionsWithRelatedParty where $fact.inline-ancestors.length > 0}
+
+output INLIN003
+/* {41,584,000},{97,223,000},{106,929,000} */
+
+  { @instance=$INSTANCE3 @concept=us-gaap-2022:RelatedPartyTransactionSellingGeneralAndAdministrativeExpensesFromTransactionsWithRelatedParty  where $fact.inline-parents.length > 0}
+
+output INLIN004
+/* {{list(us-gaap:ScheduleOfRelatedPartyTransactionsTableTextBlock, us-gaap:RelatedPartyTransactionsDisclosureTextBlock)},{list(us-gaap:ScheduleOfRelatedPartyTransactionsTableTextBlock, us-gaap:RelatedPartyTransactionsDisclosureTextBlock)},{list(us-gaap:ScheduleOfRelatedPartyTransactionsTableTextBlock, us-gaap:RelatedPartyTransactionsDisclosureTextBlock)}} */
+
+  { @instance=$INSTANCE3 @concept=us-gaap-2022:RelatedPartyTransactionSellingGeneralAndAdministrativeExpensesFromTransactionsWithRelatedParty }.inline-parents.concept.name
+
+output INLIN005
+/* {{viot:ScheduleOfRelatedPartyTransactionRelationshipTableTextBlock},{viot:ScheduleOfRelatedPartyTransactionRelationshipTableTextBlock},{viot:ScheduleOfRelatedPartyTransactionRelationshipTableTextBlock}} */
+
+  { @instance=$INSTANCE3 @concept.local-name = 'RelatedPartyTransactionRelationshipDescription'}.inline-parents.concept.name
+
+output INLIN006
+/* list(viot:ScheduleOfRelatedPartyTransactionRelationshipTableTextBlock) */
+
+  { @instance=$INSTANCE3 @concept=us-gaap-2022:RelatedPartyTransactionsDisclosureTextBlock}.inline-children.concept.name
+
+output INLIN007
+/* list(viot:ScheduleOfRelatedPartyTransactionRelationshipTableTextBlock, viot:RelatedPartyTransactionRelationshipDescription, viot:RelatedPartyTransactionRelationshipDescription, viot:RelatedPartyTransactionRelationshipDescription) */
+
+  { @instance=$INSTANCE3 @concept=us-gaap-2022:RelatedPartyTransactionsDisclosureTextBlock}.inline-descendants.concept.name
+
+output INLIN008
+/* list(viot:ScheduleOfRelatedPartyTransactionRelationshipTableTextBlock, viot:RelatedPartyTransactionRelationshipDescription, viot:RelatedPartyTransactionRelationshipDescription, viot:RelatedPartyTransactionRelationshipDescription) */
+
+  { @instance=$INSTANCE3 @concept=us-gaap-2022:RelatedPartyTransactionsDisclosureTextBlock}.inline-descendants.concept.name
+
+output INLIN009
+/* skip */
+
+  { @instance=$INSTANCE3 @concept=us-gaap-2022:SellingAndMarketingExpense @us-gaap-2022:RelatedPartyTransactionsByRelatedPartyAxis= * where $fact.inline-ancestors.length == 0}
+
+output INLIN010
+/* 109 */
+
+  list({ covered @instance=$INSTANCE3 where $fact.inline-negated == true}).count
+
+output INLIN011
+/* list(None, None, None, 0001742770, --12-31, 2022, FY, VIOT, CN, CN, 104,539,463, 105,516,779, 102,854,550, 103,214,547, False) */
+
+  list({ covered @instance=$INSTANCE3 where $fact.inline-hidden == true})
+
+output INLIN012
+/* 6 */
+
+  list({ covered @instance=$INSTANCE3 where $fact.inline-scale == 6}).count
+
+output INLIN013
+/* 3 */
+
+  list({ covered @instance=$INSTANCE3 where $fact.inline-format == ixt-2015:datemonthyearen}).count
+
+output INLIN014
+/* list(January 2015, September 2021, September 2023) */
+
+  list({ covered @instance=$INSTANCE3 where $fact.inline-format == ixt-2015:datemonthyearen}.inline-display-value)
+
+output INLIN015
+/* 0 */
+
+  list({ covered @instance=$INSTANCE_XML where $fact.inline-negated == true}).count
+
+output INLIN016
+/* 0 */
+
+  list({ covered @instance=$INSTANCE_XML where $fact.inline-negated == false}).count
+
+output INLIN017
+/* 0 */
+
+  list({ covered @instance=$INSTANCE_XML where $fact.inline-hidden == true}).count
+
+output INLIN018
+/* 0 */
+
+  list({ covered @instance=$INSTANCE_XML where $fact.inline-hidden == false}).count
+
+output INLIN019
+/* 0 */
+
+  list({ covered @instance=$INSTANCE_XML where $fact.inline-scale == 6}).count
+
+output INLIN020
+/* 0 */
+
+  list({ covered @instance=$INSTANCE_XML where $fact.inline-scale == 0}).count
+
+output INLIN021
+/* 839 */
+
+  list({ covered @instance=$INSTANCE_XML where $fact.inline-scale == none}).count
+
+output INLIN022
+/* 839 */
+
+  length(list({ covered @instance=$INSTANCE_XML where $fact.inline-format == none}))
+
+output INLIN023
+/* 0 */
+
+  list({ covered @instance=$INSTANCE_XML where $fact.inline-format == ixt-2015:datemonthyearen}).count
+
+output INLIN024
+/* list() */
+
+  { @instance=$INSTANCE_XML @concept.local-name='Assets' }.inline-ancestors
+
+output INLIN025
+/* skip */
+
+  { @instance=$INSTANCE_XML @concept.local-name='Assets'  where $fact.inline-parents.length > 0}
+
+output INLIN026
+/* list() */
+
+  { @instance=$INSTANCE_XML @concept.local-name='Assets'}.inline-children.concept.name
