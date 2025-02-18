@@ -1,0 +1,1368 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by Xince -->
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:both="http://both/20241231" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:dei="http://xbrl.sec.gov/dei/2024">
+  <link:schemaRef xlink:href="./both-20200630_taxonomy.zip/both-20200630_taxonomy/both-20200630.xsd" xlink:type="simple"/>
+  <xbrli:context id="c">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote2Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-08-15</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-04-01</xbrli:startDate>
+      <xbrli:endDate>2019-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote2Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-04-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c9">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote2Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote2Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c11">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote2Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c12">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-07-28</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c13">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote3Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-11-15</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c14">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote3Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c15">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-06-30</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c16">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-03-31</xbrli:startDate>
+      <xbrli:endDate>2019-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c17">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote3Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c18">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote3Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c19">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote3Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c20">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c21">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote4Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c22">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote4Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c23">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c24">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote4Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c25">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote4Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c26">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote4Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c27">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c28">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c29">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c30">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote5Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-01-23</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c31">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c32">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c33">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c34">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote5Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c35">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote5Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c36">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c37">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote5Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c38">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote5Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c39">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c40">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c41">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c42">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote6Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-05-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c43">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-04-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c44">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote6Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c45">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:Director1Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c46">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote6Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c47">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-04-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c48">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-04-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c49">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:Director1Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c50">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:ALenderMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c51">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:Director1Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c52">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:ALenderMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c53">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c54">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:NewlyAffiliatedPartyMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-03-08</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c55">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c56">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:Director1Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c57">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c58">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:ALenderMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c59">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:NewlyAffiliatedPartyMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c60">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c61">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:NewlyAffiliatedPartyMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c62">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c63">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:NewlyAffiliatedPartyMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c64">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c65">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:SoleOfficerAndDirectorMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2017-12-12</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c66">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c67">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c68">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:NewlyAffiliatedPartyMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c69">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c70">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c71">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c72">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:ALender2Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c73">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:SoleOfficerAndDirectorMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c74">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c75">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:SoleOfficerAndDirectorMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c76">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:ALender2Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c77">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c78">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c79">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-04-01</xbrli:startDate>
+      <xbrli:endDate>2019-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c80">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-04-01</xbrli:startDate>
+      <xbrli:endDate>2019-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c81">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:SoleOfficerAndDirectorMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c82">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-04-01</xbrli:startDate>
+      <xbrli:endDate>2019-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c83">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c84">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:SoleOfficerAndDirectorMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c85">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c86">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c87">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">both:SoleOfficerAndDirectorMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c88">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote1Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c89">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote1Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-06-14</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c90">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote1Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c91">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote1Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c92">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0000894560</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:InformationByCategoryOfDebtSecurityAxis">both:PromissoryNote1Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="usd">
+    <xbrli:measure>iso4217:USD</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="usd1">
+    <xbrli:divide>
+      <xbrli:unitNumerator>
+        <xbrli:measure>iso4217:USD</xbrli:measure>
+      </xbrli:unitNumerator>
+      <xbrli:unitDenominator>
+        <xbrli:measure>xbrli:shares</xbrli:measure>
+      </xbrli:unitDenominator>
+    </xbrli:divide>
+  </xbrli:unit>
+  <xbrli:unit id="shares">
+    <xbrli:measure>xbrli:shares</xbrli:measure>
+  </xbrli:unit>
+  <us-gaap:ProceedsFromConvertibleDebt id="f" decimals="INF" contextRef="c" unitRef="usd">10000.0</us-gaap:ProceedsFromConvertibleDebt>
+  <us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest id="f1" decimals="INF" contextRef="c1" unitRef="usd">-44234.0</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+  <us-gaap:CashAndCashEquivalentsAtCarryingValue id="f2" decimals="INF" contextRef="c2" unitRef="usd">18126.0</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+  <us-gaap:DebtInstrumentInterestRateStatedPercentage id="f3" decimals="INF" contextRef="c3" unitRef="pure">0.12</us-gaap:DebtInstrumentInterestRateStatedPercentage>
+  <us-gaap:ProfitLoss id="f4" decimals="INF" contextRef="c4" unitRef="usd">-18059.0</us-gaap:ProfitLoss>
+  <us-gaap:DerivativeLiabilitiesCurrent id="f5" decimals="INF" contextRef="c5" unitRef="usd">14157.0</us-gaap:DerivativeLiabilitiesCurrent>
+  <us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest id="f6" decimals="INF" contextRef="c" unitRef="usd">-64371.0</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+  <us-gaap:ProceedsFromRepaymentsOfNotesPayable id="f7" decimals="INF" contextRef="c" unitRef="usd">5000.0</us-gaap:ProceedsFromRepaymentsOfNotesPayable>
+  <us-gaap:EarningsPerShareBasicAndDiluted id="f8" decimals="INF" contextRef="c" unitRef="usd1">-0.01</us-gaap:EarningsPerShareBasicAndDiluted>
+  <us-gaap:DebtInstrumentUnamortizedDiscount id="f9" decimals="INF" contextRef="c6" unitRef="usd">3716.0</us-gaap:DebtInstrumentUnamortizedDiscount>
+  <us-gaap:NetCashProvidedByUsedInOperatingActivities id="f10" decimals="INF" contextRef="c" unitRef="usd">-36714.0</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+  <us-gaap:InterestExpense id="f11" decimals="INF" contextRef="c7" unitRef="usd">598.0</us-gaap:InterestExpense>
+  <us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest id="f12" decimals="INF" contextRef="c4" unitRef="usd">-18059.0</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+  <us-gaap:IncomeTaxExpenseBenefit id="f13" decimals="128" contextRef="c8" unitRef="usd">0.0</us-gaap:IncomeTaxExpenseBenefit>
+  <us-gaap:IncreaseDecreaseInOtherAccruedLiabilities id="f14" decimals="INF" contextRef="c1" unitRef="usd">3924.0</us-gaap:IncreaseDecreaseInOtherAccruedLiabilities>
+  <us-gaap:InterestExpense id="f15" decimals="INF" contextRef="c9" unitRef="usd">595.0</us-gaap:InterestExpense>
+  <us-gaap:WeightedAverageNumberOfSharesOutstandingBasic id="f16" decimals="INF" contextRef="c1" unitRef="shares">11000000.0</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+  <dei:LocalPhoneNumber id="f17" contextRef="c">3632</dei:LocalPhoneNumber>
+  <us-gaap:DueToRelatedPartiesCurrent id="f18" decimals="INF" contextRef="c5" unitRef="usd">167134.0</us-gaap:DueToRelatedPartiesCurrent>
+  <us-gaap:NetCashProvidedByUsedInInvestingActivities id="f19" decimals="128" contextRef="c" unitRef="usd">0.0</us-gaap:NetCashProvidedByUsedInInvestingActivities>
+  <us-gaap:InterestPayableCurrent id="f20" decimals="INF" contextRef="c10" unitRef="usd">1502.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:ProfitLoss id="f21" decimals="INF" contextRef="c8" unitRef="usd">-27714.0</us-gaap:ProfitLoss>
+  <us-gaap:IncomeTaxExpenseBenefit id="f22" decimals="128" contextRef="c1" unitRef="usd">0.0</us-gaap:IncomeTaxExpenseBenefit>
+  <us-gaap:InterestPayableCurrent id="f23" decimals="INF" contextRef="c11" unitRef="usd">904.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:NotesPayableCurrent id="f24" decimals="INF" contextRef="c5" unitRef="usd">150000.0</us-gaap:NotesPayableCurrent>
+  <us-gaap:NetCashProvidedByUsedInOperatingActivities id="f25" decimals="INF" contextRef="c1" unitRef="usd">-48886.0</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+  <us-gaap:EarningsPerShareBasicAndDiluted id="f26" decimals="INF" contextRef="c1" unitRef="usd1">-0.0</us-gaap:EarningsPerShareBasicAndDiluted>
+  <us-gaap:DerivativeLiabilitiesCurrent id="f27" decimals="INF" contextRef="c6" unitRef="usd">6284.0</us-gaap:DerivativeLiabilitiesCurrent>
+  <dei:EntityCommonStockSharesOutstanding id="f28" decimals="INF" contextRef="c12" unitRef="shares">11000000.0</dei:EntityCommonStockSharesOutstanding>
+  <us-gaap:IncomeTaxExpenseBenefit id="f29" decimals="128" contextRef="c" unitRef="usd">0.0</us-gaap:IncomeTaxExpenseBenefit>
+  <us-gaap:DebtInstrumentCarryingAmount id="f30" decimals="INF" contextRef="c10" unitRef="usd">10000.0</us-gaap:DebtInstrumentCarryingAmount>
+  <us-gaap:IncomeTaxExpenseBenefit id="f31" decimals="128" contextRef="c4" unitRef="usd">0.0</us-gaap:IncomeTaxExpenseBenefit>
+  <us-gaap:NetCashProvidedByUsedInInvestingActivities id="f32" decimals="128" contextRef="c1" unitRef="usd">0.0</us-gaap:NetCashProvidedByUsedInInvestingActivities>
+  <us-gaap:EarningsPerShareBasicAndDiluted id="f33" decimals="INF" contextRef="c8" unitRef="usd1">-0.0</us-gaap:EarningsPerShareBasicAndDiluted>
+  <us-gaap:EarningsPerShareBasic id="f34" decimals="INF" contextRef="c8" unitRef="usd1">-0.0</us-gaap:EarningsPerShareBasic>
+  <us-gaap:DebtInstrumentFaceAmount id="f35" decimals="INF" contextRef="c13" unitRef="usd">20000.0</us-gaap:DebtInstrumentFaceAmount>
+  <us-gaap:EarningsPerShareBasicAndDiluted id="f36" decimals="INF" contextRef="c4" unitRef="usd1">-0.0</us-gaap:EarningsPerShareBasicAndDiluted>
+  <dei:CityAreaCode id="f37" contextRef="c">399</dei:CityAreaCode>
+  <us-gaap:DebtInstrumentInterestRateStatedPercentage id="f38" decimals="INF" contextRef="c13" unitRef="pure">0.12</us-gaap:DebtInstrumentInterestRateStatedPercentage>
+  <us-gaap:ScheduleOfDerivativeInstrumentsTextBlock id="f39" contextRef="c">The following data show the fully diluted shares for the six months ended June 30, 2020 and 2019:&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;table align="center" style='border-collapse:collapse;width:389.5pt'&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td colspan="3" valign="top" style='width:127.5pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;June 30,&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;2020&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt;border-top:0.5pt solid #000000'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;2019&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-top:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;Basic weighted average shares outstanding&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Convertible debt&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;90,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;0&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Total&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,090,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p style='margin:0'&gt;The following data show the fully diluted shares for the three months ended June 30, 2020 and 2019:&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;table align="center" style='border-collapse:collapse;width:389.5pt'&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td colspan="3" valign="top" style='width:127.5pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;June 30,&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;2020&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt;border-top:0.5pt solid #000000'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;2019&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-top:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;Basic weighted average shares outstanding&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Convertible debt&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;90,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;0&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Total&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,090,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:ScheduleOfDerivativeInstrumentsTextBlock>
+  <us-gaap:NotesPayableCurrent id="f40" decimals="INF" contextRef="c6" unitRef="usd">145000.0</us-gaap:NotesPayableCurrent>
+  <us-gaap:EarningsPerShareBasic id="f41" decimals="INF" contextRef="c1" unitRef="usd1">-0.0</us-gaap:EarningsPerShareBasic>
+  <us-gaap:ProceedsFromConvertibleDebt id="f42" decimals="128" contextRef="c1" unitRef="usd">0.0</us-gaap:ProceedsFromConvertibleDebt>
+  <us-gaap:InterestExpense id="f43" decimals="INF" contextRef="c14" unitRef="usd">1197.0</us-gaap:InterestExpense>
+  <us-gaap:WeightedAverageNumberDilutedSharesOutstandingAdjustment id="f44" decimals="INF" contextRef="c15" unitRef="shares">90000.0</us-gaap:WeightedAverageNumberDilutedSharesOutstandingAdjustment>
+  <us-gaap:PreferredStockSharesIssued id="f45" decimals="INF" contextRef="c6" unitRef="shares">0.0</us-gaap:PreferredStockSharesIssued>
+  <us-gaap:EarningsPerShareBasic id="f46" decimals="INF" contextRef="c" unitRef="usd1">-0.01</us-gaap:EarningsPerShareBasic>
+  <us-gaap:ProceedsFromRepaymentsOfOtherLongTermDebt id="f47" decimals="INF" contextRef="c" unitRef="usd">20900.0</us-gaap:ProceedsFromRepaymentsOfOtherLongTermDebt>
+  <us-gaap:ProceedsFromRepaymentsOfNotesPayable id="f48" decimals="INF" contextRef="c1" unitRef="usd">50000.0</us-gaap:ProceedsFromRepaymentsOfNotesPayable>
+  <us-gaap:WeightedAverageNumberOfSharesOutstandingBasic id="f49" decimals="INF" contextRef="c16" unitRef="shares">11000000.0</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+  <us-gaap:InterestExpense id="f50" decimals="INF" contextRef="c17" unitRef="usd">1190.0</us-gaap:InterestExpense>
+  <us-gaap:LiabilitiesCurrent id="f51" decimals="INF" contextRef="c5" unitRef="usd">426226.0</us-gaap:LiabilitiesCurrent>
+  <us-gaap:DueToRelatedPartiesCurrent id="f52" decimals="INF" contextRef="c6" unitRef="usd">152234.0</us-gaap:DueToRelatedPartiesCurrent>
+  <us-gaap:EarningsPerShareBasic id="f53" decimals="INF" contextRef="c4" unitRef="usd1">-0.0</us-gaap:EarningsPerShareBasic>
+  <us-gaap:InterestPayableCurrent id="f54" decimals="INF" contextRef="c18" unitRef="usd">3005.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:WeightedAverageNumberOfSharesOutstandingBasic id="f55" decimals="INF" contextRef="c15" unitRef="shares">11000000.0</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+  <us-gaap:WeightedAverageNumberOfSharesIssuedBasic id="f56" decimals="INF" contextRef="c8" unitRef="shares">11000000.0</us-gaap:WeightedAverageNumberOfSharesIssuedBasic>
+  <us-gaap:InterestPayableCurrent id="f57" decimals="INF" contextRef="c19" unitRef="usd">1808.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:WeightedAverageNumberOfSharesOutstandingBasic id="f58" decimals="INF" contextRef="c4" unitRef="shares">11000000.0</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+  <us-gaap:ProceedsFromRepaymentsOfRelatedPartyDebt id="f59" decimals="INF" contextRef="c" unitRef="usd">-6000.0</us-gaap:ProceedsFromRepaymentsOfRelatedPartyDebt>
+  <us-gaap:Liabilities id="f60" decimals="INF" contextRef="c5" unitRef="usd">426226.0</us-gaap:Liabilities>
+  <us-gaap:SharesOutstanding id="f61" decimals="INF" contextRef="c20" unitRef="shares">11000000.0</us-gaap:SharesOutstanding>
+  <us-gaap:WeightedAverageNumberDilutedSharesOutstandingAdjustment id="f62" decimals="INF" contextRef="c8" unitRef="shares">90000.0</us-gaap:WeightedAverageNumberDilutedSharesOutstandingAdjustment>
+  <us-gaap:WeightedAverageNumberOfSharesIssuedBasic id="f63" decimals="INF" contextRef="c1" unitRef="shares">11000000.0</us-gaap:WeightedAverageNumberOfSharesIssuedBasic>
+  <us-gaap:ProceedsFromRepaymentsOfOtherLongTermDebt id="f64" decimals="128" contextRef="c1" unitRef="usd">0.0</us-gaap:ProceedsFromRepaymentsOfOtherLongTermDebt>
+  <us-gaap:DebtInstrumentCarryingAmount id="f65" decimals="INF" contextRef="c18" unitRef="usd">20000.0</us-gaap:DebtInstrumentCarryingAmount>
+  <us-gaap:ProFormaWeightedAverageSharesOutstandingDiluted id="f66" decimals="INF" contextRef="c15" unitRef="shares">11090000.0</us-gaap:ProFormaWeightedAverageSharesOutstandingDiluted>
+  <us-gaap:LiabilitiesCurrent id="f67" decimals="INF" contextRef="c6" unitRef="usd">375012.0</us-gaap:LiabilitiesCurrent>
+  <us-gaap:WeightedAverageNumberOfSharesIssuedBasic id="f68" decimals="INF" contextRef="c" unitRef="shares">11000000.0</us-gaap:WeightedAverageNumberOfSharesIssuedBasic>
+  <us-gaap:CashAndCashEquivalentsAtCarryingValue id="f69" decimals="INF" contextRef="c6" unitRef="usd">8761.0</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+  <us-gaap:DebtInstrumentFaceAmount id="f70" decimals="INF" contextRef="c21" unitRef="usd">30000.0</us-gaap:DebtInstrumentFaceAmount>
+  <us-gaap:NetCashProvidedByUsedInFinancingActivities id="f71" decimals="INF" contextRef="c" unitRef="usd">29900.0</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+  <us-gaap:DebtInstrumentInterestRateStatedPercentage id="f72" decimals="INF" contextRef="c21" unitRef="pure">0.12</us-gaap:DebtInstrumentInterestRateStatedPercentage>
+  <us-gaap:WeightedAverageNumberDilutedSharesOutstandingAdjustment id="f73" decimals="INF" contextRef="c16" unitRef="shares">0.0</us-gaap:WeightedAverageNumberDilutedSharesOutstandingAdjustment>
+  <us-gaap:PreferredStockParOrStatedValuePerShare id="f74" decimals="INF" contextRef="c5" unitRef="usd1">0.01</us-gaap:PreferredStockParOrStatedValuePerShare>
+  <us-gaap:WeightedAverageNumberOfSharesIssuedBasic id="f75" decimals="INF" contextRef="c4" unitRef="shares">11000000.0</us-gaap:WeightedAverageNumberOfSharesIssuedBasic>
+  <dei:EntityShellCompany id="f76" contextRef="c">true</dei:EntityShellCompany>
+  <us-gaap:WeightedAverageNumberOfSharesOutstandingBasic id="f77" decimals="INF" contextRef="c8" unitRef="shares">11000000.0</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+  <us-gaap:ProceedsFromRepaymentsOfRelatedPartyDebt id="f78" decimals="INF" contextRef="c1" unitRef="usd">-14686.0</us-gaap:ProceedsFromRepaymentsOfRelatedPartyDebt>
+  <us-gaap:InterestExpense id="f79" decimals="INF" contextRef="c22" unitRef="usd">1795.0</us-gaap:InterestExpense>
+  <us-gaap:StockholdersEquity id="f80" decimals="INF" contextRef="c23" unitRef="usd">-861153.0</us-gaap:StockholdersEquity>
+  <us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease id="f81" decimals="INF" contextRef="c" unitRef="usd">-6814.0</us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease>
+  <us-gaap:ProFormaWeightedAverageSharesOutstandingDiluted id="f82" decimals="INF" contextRef="c16" unitRef="shares">11000000.0</us-gaap:ProFormaWeightedAverageSharesOutstandingDiluted>
+  <us-gaap:WeightedAverageNumberDilutedSharesOutstandingAdjustment id="f83" decimals="INF" contextRef="c4" unitRef="shares">0.0</us-gaap:WeightedAverageNumberDilutedSharesOutstandingAdjustment>
+  <us-gaap:Liabilities id="f84" decimals="INF" contextRef="c6" unitRef="usd">375012.0</us-gaap:Liabilities>
+  <dei:DocumentFiscalPeriodFocus id="f85" contextRef="c">Q2</dei:DocumentFiscalPeriodFocus>
+  <us-gaap:InterestExpense id="f86" decimals="INF" contextRef="c24" unitRef="usd">1785.0</us-gaap:InterestExpense>
+  <us-gaap:PreferredStockSharesOutstanding id="f87" decimals="INF" contextRef="c6" unitRef="shares">0.0</us-gaap:PreferredStockSharesOutstanding>
+  <us-gaap:StockholdersEquity id="f88" decimals="INF" contextRef="c6" unitRef="usd">-365739.0</us-gaap:StockholdersEquity>
+  <us-gaap:NetCashProvidedByUsedInFinancingActivities id="f89" decimals="INF" contextRef="c1" unitRef="usd">35314.0</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+  <us-gaap:ProFormaWeightedAverageSharesOutstandingDiluted id="f90" decimals="INF" contextRef="c8" unitRef="shares">11090000.0</us-gaap:ProFormaWeightedAverageSharesOutstandingDiluted>
+  <us-gaap:PreferredStockSharesAuthorized id="f91" decimals="INF" contextRef="c5" unitRef="shares">25000000.0</us-gaap:PreferredStockSharesAuthorized>
+  <us-gaap:InterestPayableCurrent id="f92" decimals="INF" contextRef="c25" unitRef="usd">4507.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:ProFormaWeightedAverageSharesOutstandingDiluted id="f93" decimals="INF" contextRef="c4" unitRef="shares">11000000.0</us-gaap:ProFormaWeightedAverageSharesOutstandingDiluted>
+  <us-gaap:InterestPayableCurrent id="f94" decimals="INF" contextRef="c26" unitRef="usd">2712.0</us-gaap:InterestPayableCurrent>
+  <dei:CountryRegion id="f95" contextRef="c">801</dei:CountryRegion>
+  <us-gaap:StockholdersEquity id="f96" decimals="INF" contextRef="c20" unitRef="usd">11000.0</us-gaap:StockholdersEquity>
+  <us-gaap:PreferredStockParOrStatedValuePerShare id="f97" decimals="INF" contextRef="c6" unitRef="usd1">0.01</us-gaap:PreferredStockParOrStatedValuePerShare>
+  <us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease id="f98" decimals="INF" contextRef="c1" unitRef="usd">-13572.0</us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease>
+  <us-gaap:CashAndCashEquivalentsAtCarryingValue id="f99" decimals="INF" contextRef="c5" unitRef="usd">1947.0</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+  <us-gaap:SubsequentEventsTextBlock id="f100" contextRef="c">NOTE 8 &amp;#150;&amp;nbsp;SUBSEQUENT EVENTS&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;The Company has evaluated subsequent events from the balance sheet date through the date the financial statements were issued and determined there are no events requiring disclosure.&lt;/p&gt;</us-gaap:SubsequentEventsTextBlock>
+  <us-gaap:StockholdersEquity id="f101" decimals="INF" contextRef="c27" unitRef="usd">484414.0</us-gaap:StockholdersEquity>
+  <us-gaap:DebtInstrumentCarryingAmount id="f102" decimals="INF" contextRef="c25" unitRef="usd">30000.0</us-gaap:DebtInstrumentCarryingAmount>
+  <us-gaap:PreferredStockSharesAuthorized id="f103" decimals="INF" contextRef="c6" unitRef="shares">25000000.0</us-gaap:PreferredStockSharesAuthorized>
+  <us-gaap:ProfitLoss id="f104" decimals="128" contextRef="c28" unitRef="usd">0.0</us-gaap:ProfitLoss>
+  <dei:EntityCentralIndexKey id="f105" contextRef="c">0000894560</dei:EntityCentralIndexKey>
+  <us-gaap:CashAndCashEquivalentsAtCarryingValue id="f106" decimals="INF" contextRef="c29" unitRef="usd">31698.0</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+  <us-gaap:DebtInstrumentFaceAmount id="f107" decimals="INF" contextRef="c30" unitRef="usd">50000.0</us-gaap:DebtInstrumentFaceAmount>
+  <us-gaap:SharesOutstanding id="f108" decimals="INF" contextRef="c31" unitRef="shares">11000000.0</us-gaap:SharesOutstanding>
+  <us-gaap:InterestPaid id="f109" decimals="INF" contextRef="c" unitRef="usd">5000.0</us-gaap:InterestPaid>
+  <us-gaap:DebtInstrumentInterestRateStatedPercentage id="f110" decimals="INF" contextRef="c30" unitRef="pure">0.12</us-gaap:DebtInstrumentInterestRateStatedPercentage>
+  <us-gaap:ProfitLoss id="f111" decimals="INF" contextRef="c32" unitRef="usd">-36657.0</us-gaap:ProfitLoss>
+  <us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature id="f112" decimals="INF" contextRef="c" unitRef="usd">6200.0</us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature>
+  <us-gaap:PreferredStockSharesIssued id="f113" decimals="INF" contextRef="c5" unitRef="shares">0.0</us-gaap:PreferredStockSharesIssued>
+  <us-gaap:ProfitLoss id="f114" decimals="INF" contextRef="c33" unitRef="usd">-36657.0</us-gaap:ProfitLoss>
+  <us-gaap:InterestExpense id="f115" decimals="INF" contextRef="c34" unitRef="usd">2992.0</us-gaap:InterestExpense>
+  <us-gaap:IncomeTaxesPaid id="f116" decimals="128" contextRef="c" unitRef="usd">0.0</us-gaap:IncomeTaxesPaid>
+  <dei:DocumentFiscalYearFocus id="f117" contextRef="c">2020</dei:DocumentFiscalYearFocus>
+  <us-gaap:InterestExpense id="f118" decimals="INF" contextRef="c35" unitRef="usd">2598.0</us-gaap:InterestExpense>
+  <us-gaap:ProfitLoss id="f119" decimals="128" contextRef="c36" unitRef="usd">0.0</us-gaap:ProfitLoss>
+  <us-gaap:CommonStockParOrStatedValuePerShare id="f120" decimals="INF" contextRef="c5" unitRef="usd1">0.001</us-gaap:CommonStockParOrStatedValuePerShare>
+  <us-gaap:InterestPaid id="f121" decimals="INF" contextRef="c1" unitRef="usd">17946.0</us-gaap:InterestPaid>
+  <us-gaap:InterestPayableCurrent id="f122" decimals="INF" contextRef="c37" unitRef="usd">7513.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:StockholdersEquity id="f123" decimals="INF" contextRef="c31" unitRef="usd">11000.0</us-gaap:StockholdersEquity>
+  <us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature id="f124" decimals="128" contextRef="c1" unitRef="usd">0.0</us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature>
+  <us-gaap:InterestPayableCurrent id="f125" decimals="INF" contextRef="c38" unitRef="usd">4521.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:PreferredStockValue id="f126" decimals="128" contextRef="c5" unitRef="usd">0.0</us-gaap:PreferredStockValue>
+  <us-gaap:StockholdersEquity id="f127" decimals="INF" contextRef="c39" unitRef="usd">484414.0</us-gaap:StockholdersEquity>
+  <us-gaap:PreferredStockSharesOutstanding id="f128" decimals="INF" contextRef="c5" unitRef="shares">0.0</us-gaap:PreferredStockSharesOutstanding>
+  <both:DisposalOfFullyDepreciatedFixedAsset id="f129" decimals="INF" contextRef="c" unitRef="usd">187.0</both:DisposalOfFullyDepreciatedFixedAsset>
+  <us-gaap:StockholdersEquity id="f130" decimals="INF" contextRef="c40" unitRef="usd">-897810.0</us-gaap:StockholdersEquity>
+  <dei:AmendmentFlag id="f131" contextRef="c">false</dei:AmendmentFlag>
+  <us-gaap:IncomeTaxesPaid id="f132" decimals="128" contextRef="c1" unitRef="usd">0.0</us-gaap:IncomeTaxesPaid>
+  <us-gaap:DebtInstrumentCarryingAmount id="f133" decimals="INF" contextRef="c37" unitRef="usd">50000.0</us-gaap:DebtInstrumentCarryingAmount>
+  <us-gaap:StockholdersEquity id="f134" decimals="INF" contextRef="c41" unitRef="usd">-402396.0</us-gaap:StockholdersEquity>
+  <both:DisposalOfFullyDepreciatedFixedAsset id="f135" decimals="128" contextRef="c1" unitRef="usd">0.0</both:DisposalOfFullyDepreciatedFixedAsset>
+  <us-gaap:DebtInstrumentFaceAmount id="f136" decimals="INF" contextRef="c42" unitRef="usd">5000.0</us-gaap:DebtInstrumentFaceAmount>
+  <us-gaap:RelatedPartyTransactionsDisclosureTextBlock id="f137" contextRef="c">NOTE 2 - RELATED PARTY TRANSACTIONS&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;Management Compensation - During the six months ended June 30, 2020 and 2019, the Company did not pay any compensation to its officers and directors.&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;Beginning August 2017, the Company entered into an oral agreement to pay the Company&amp;#146;s President $500 per month as payment for use of his personal residence as the Company&amp;#146;s office and mailing address. &amp;nbsp;The Company has recorded rent expense of $3,000 during each of the six months ended June 30, 2020 and 2019, which is included in the general and administrative expenses on the statements of operations. &amp;nbsp;The amount payable at December 31, 2019 was $1,500. &amp;nbsp;During the six months ended June 30, 2020, the Company paid $4,000, resulting in $500 payable at June 30, 2020. &amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;On March 8, 2018 the Company entered into a promissory note with a newly-affiliated party in the amount of $43,250. The note is payable on demand and carries interest at 10% per annum. &amp;nbsp;Interest expense for the six months ended June 30, 2020 and 2019 was $1,725 and $1,716, respectively, resulting in accrued interest of $8,010 and $6,285 at June 30, 2020 and December 31, 2019, respectively. &amp;nbsp;Principal balance on the note at June 30, 2020 and December 31, 2019 was $43,250. &amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;On December 12, 2017, the Company entered into a promissory note with its President in the amount of $107,000. &amp;nbsp;On various dates in 2018 and 2019, the officer advanced the Company an additional $16,670, and the Company made payments of $14,686, resulting in the total note principal balance of $108,984 at December 31, 2019. &amp;nbsp;During the six months ended June 30, 2020, the Company received an additional $20,900 and paid a total of $6,000 of the principal balance resulting in the total note principal balance of $123,884 at June 30, 2020. &amp;nbsp;The cumulative note balance is uncollateralized, due on demand, and carries interest at 12% per annum. &amp;nbsp;Interest expense on the note for the six months ended June 30, 2020 and 2019 was $6,890 and $6,467, respectively, of which the Company repaid $5,000 during the six months ended June 30, 2020, resulting in accrued interest totaling $7,894 and $6,004 at June 30, 2020 and December 31, 2019, respectively.&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:RelatedPartyTransactionsDisclosureTextBlock>
+  <us-gaap:DebtInstrumentInterestRateStatedPercentage id="f138" decimals="INF" contextRef="c42" unitRef="pure">0.12</us-gaap:DebtInstrumentInterestRateStatedPercentage>
+  <us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature id="f139" decimals="128" contextRef="c43" unitRef="usd">0.0</us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature>
+  <us-gaap:AssetsNoncurrent id="f140" decimals="INF" contextRef="c5" unitRef="usd">369.0</us-gaap:AssetsNoncurrent>
+  <us-gaap:SignificantAccountingPoliciesTextBlock id="f141" contextRef="c">NOTE 1 - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;Organization - Bioethics, Ltd. (&amp;#147;the Company&amp;#148;) was organized under the laws of the State of Nevada on July 26, 1990. &amp;nbsp;The Company was organized to provide a vehicle for participating in potentially profitable business ventures which may become available through the personal contacts, and at the complete discretion, of the Company&amp;#146;s officers and directors. &amp;nbsp;The Company has, at the present time, not paid any dividends and any dividends that may be paid in the future will depend upon the financial requirements of the Company and other relevant factors.&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;The accompanying financial statements have been prepared by the Company without audit. &amp;nbsp;In the opinion of management, all adjustments (which include only normal recurring adjustments) necessary to present fairly the financial position, results of operations, and cash flows for the six months ended June 30, 2020 and 2019 have been made.&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;Certain information and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States of America have been condensed or omitted. &amp;nbsp;It is suggested that these financial statements be read in conjunction with the financial statements and notes thereto included in the Company&amp;#146;s December 31, 2019 audited financial statements. &amp;nbsp;The results of operations for the six months ended June 30, 2020 are not necessarily indicative of the operating results for the full year.&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:SignificantAccountingPoliciesTextBlock>
+  <us-gaap:PreferredStockValue id="f142" decimals="128" contextRef="c6" unitRef="usd">0.0</us-gaap:PreferredStockValue>
+  <us-gaap:ProfitLoss id="f143" decimals="128" contextRef="c43" unitRef="usd">0.0</us-gaap:ProfitLoss>
+  <us-gaap:InterestExpense id="f144" decimals="INF" contextRef="c44" unitRef="usd">89.0</us-gaap:InterestExpense>
+  <us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature id="f145" decimals="INF" contextRef="c8" unitRef="usd">6200.0</us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature>
+  <us-gaap:DueToRelatedPartiesCurrent id="f146" decimals="INF" contextRef="c45" unitRef="usd">1500.0</us-gaap:DueToRelatedPartiesCurrent>
+  <us-gaap:InterestPayableCurrent id="f147" decimals="INF" contextRef="c46" unitRef="usd">89.0</us-gaap:InterestPayableCurrent>
+  <dei:EntityAddressPostalZipCode id="f148" contextRef="c">84403</dei:EntityAddressPostalZipCode>
+  <us-gaap:CommonStockSharesAuthorized id="f149" decimals="INF" contextRef="c6" unitRef="shares">250000000.0</us-gaap:CommonStockSharesAuthorized>
+  <us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature id="f150" decimals="128" contextRef="c47" unitRef="usd">0.0</us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature>
+  <us-gaap:DerivativeInstrumentsAndHedgingActivitiesDisclosureTextBlock id="f151" contextRef="c">NOTE 4 &amp;#150; CONVERTIBLE NOTE PAYABLE &lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;On December 18, 2019, the Company issued a convertible promissory note in the original principal amount of $10,000 to a lender. The Note was due on June 18, 2020 and is now due on demand and carries an interest rate of 8% per annum. The Note is due and payable in full unless converted partially or in its entirety upon the election of the lender into fully paid and non-assessable shares of common stock of the Company at a conversion rate of $.20 per share. &amp;#160;The Company recognized a beneficial conversion feature and recorded a debt discount in the amount of $4,000, which is being amortized over the life of the promissory note. &amp;#160;At June 30, 2020 and December 31, 2019, the unamortized debt discount was $-0- and $3,716, respectively, and the net convertible note balance was $10,000 and $6,284, respectively. &amp;#160;The amortization of debt discount was $3,716 during the six months ended June 30, 2020. &amp;nbsp;Interest expense for the six months ended June 30, 2020 totaled $598, resulting in accrued interest at June 30, 2020 and December 31, 2019 of $641 and $43, respectively.&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;On June 9, 2020, the Company issued a convertible promissory note in the original principal amount of $10,000 to a lender. The Note is due on June 9, 2021 and carries an interest rate of 10% per annum. The Note is due and payable in full unless converted partially or in its entirety upon the election of the lender into fully paid and non-assessable shares of common stock of the Company at a conversion rate of $.25 per share. &amp;#160;The Company recognized a beneficial conversion feature and recorded a debt discount in the amount of $6,200, which is being amortized over the life of the promissory note. &amp;#160;At June 30, 2020, the unamortized debt discount was $5,843 and the net convertible note balance was $4,157. &amp;#160;The amortization of debt discount was $357 during the six months ended June 30, 2020. &amp;nbsp;Interest expense for the six months ended June 30, 2020 totaled $46, resulting in accrued interest at June 30, 2020 of $46.&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:DerivativeInstrumentsAndHedgingActivitiesDisclosureTextBlock>
+  <us-gaap:CommonStockParOrStatedValuePerShare id="f152" decimals="INF" contextRef="c6" unitRef="usd1">0.001</us-gaap:CommonStockParOrStatedValuePerShare>
+  <us-gaap:DebtInstrumentCarryingAmount id="f153" decimals="INF" contextRef="c46" unitRef="usd">5000.0</us-gaap:DebtInstrumentCarryingAmount>
+  <us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature id="f154" decimals="INF" contextRef="c48" unitRef="usd">6200.0</us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature>
+  <us-gaap:LeaseAndRentalExpense id="f155" decimals="INF" contextRef="c49" unitRef="usd">3000.0</us-gaap:LeaseAndRentalExpense>
+  <us-gaap:ProfitLoss id="f156" decimals="128" contextRef="c48" unitRef="usd">0.0</us-gaap:ProfitLoss>
+  <us-gaap:AdditionalPaidInCapital id="f157" decimals="INF" contextRef="c5" unitRef="usd">490614.0</us-gaap:AdditionalPaidInCapital>
+  <us-gaap:DebtInstrumentPaymentTerms id="f158" contextRef="c50">The Note was due on June 18, 2020 and is now due on demand and carries an interest rate of 8% per annum.</us-gaap:DebtInstrumentPaymentTerms>
+  <us-gaap:ProfitLoss id="f159" decimals="INF" contextRef="c47" unitRef="usd">-27714.0</us-gaap:ProfitLoss>
+  <us-gaap:LeaseAndRentalExpense id="f160" decimals="INF" contextRef="c51" unitRef="usd">3000.0</us-gaap:LeaseAndRentalExpense>
+  <us-gaap:DebtInstrumentFaceAmount id="f161" decimals="INF" contextRef="c52" unitRef="usd">10000.0</us-gaap:DebtInstrumentFaceAmount>
+  <us-gaap:SharesOutstanding id="f162" decimals="INF" contextRef="c53" unitRef="shares">11000000.0</us-gaap:SharesOutstanding>
+  <us-gaap:RepaymentsOfRelatedPartyDebt id="f163" decimals="INF" contextRef="c49" unitRef="usd">4000.0</us-gaap:RepaymentsOfRelatedPartyDebt>
+  <us-gaap:DebtInstrumentFaceAmount id="f164" decimals="INF" contextRef="c54" unitRef="usd">43250.0</us-gaap:DebtInstrumentFaceAmount>
+  <dei:EntityFilerCategory id="f165" contextRef="c">Non-accelerated Filer</dei:EntityFilerCategory>
+  <dei:EntityEmergingGrowthCompany id="f166" contextRef="c">false</dei:EntityEmergingGrowthCompany>
+  <us-gaap:StockholdersEquity id="f167" decimals="INF" contextRef="c53" unitRef="usd">11000.0</us-gaap:StockholdersEquity>
+  <us-gaap:CommonStockValue id="f168" decimals="INF" contextRef="c5" unitRef="usd">11000.0</us-gaap:CommonStockValue>
+  <us-gaap:StockholdersEquity id="f169" decimals="INF" contextRef="c55" unitRef="usd">490614.0</us-gaap:StockholdersEquity>
+  <us-gaap:CommonStockValue id="f170" decimals="INF" contextRef="c6" unitRef="usd">11000.0</us-gaap:CommonStockValue>
+  <us-gaap:DueToRelatedPartiesCurrent id="f171" decimals="INF" contextRef="c56" unitRef="usd">500.0</us-gaap:DueToRelatedPartiesCurrent>
+  <us-gaap:DebtInstrumentUnamortizedDiscount id="f172" decimals="INF" contextRef="c52" unitRef="usd">4000.0</us-gaap:DebtInstrumentUnamortizedDiscount>
+  <us-gaap:RetainedEarningsAccumulatedDeficit id="f173" decimals="INF" contextRef="c5" unitRef="usd">-925524.0</us-gaap:RetainedEarningsAccumulatedDeficit>
+  <us-gaap:StockholdersEquity id="f174" decimals="INF" contextRef="c57" unitRef="usd">-925524.0</us-gaap:StockholdersEquity>
+  <us-gaap:DebtInstrumentCarryingAmount id="f175" decimals="INF" contextRef="c58" unitRef="usd">6284.0</us-gaap:DebtInstrumentCarryingAmount>
+  <dei:EntityCurrentReportingStatus id="f176" contextRef="c">Yes</dei:EntityCurrentReportingStatus>
+  <us-gaap:StockholdersEquity id="f177" decimals="INF" contextRef="c5" unitRef="usd">-423910.0</us-gaap:StockholdersEquity>
+  <dei:EntityAddressAddressLine1 id="f178" contextRef="c">1661 Lakeview Circle</dei:EntityAddressAddressLine1>
+  <us-gaap:InterestExpense id="f179" decimals="INF" contextRef="c59" unitRef="usd">1716.0</us-gaap:InterestExpense>
+  <us-gaap:DebtInstrumentConvertibleTermsOfConversionFeature id="f180" contextRef="c50">The Note is due and payable in full unless converted partially or in its entirety upon the election of the lender into fully paid and non-assessable shares of common stock of the Company at a conversion rate of $.20 per share.</us-gaap:DebtInstrumentConvertibleTermsOfConversionFeature>
+  <us-gaap:SharesOutstanding id="f181" decimals="INF" contextRef="c60" unitRef="shares">11000000.0</us-gaap:SharesOutstanding>
+  <us-gaap:InterestPayableCurrent id="f182" decimals="INF" contextRef="c61" unitRef="usd">8010.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:AdditionalPaidInCapital id="f183" decimals="INF" contextRef="c6" unitRef="usd">484414.0</us-gaap:AdditionalPaidInCapital>
+  <us-gaap:Revenues id="f184" decimals="128" contextRef="c1" unitRef="usd">0.0</us-gaap:Revenues>
+  <us-gaap:DebtInstrumentUnamortizedDiscountCurrent id="f185" decimals="INF" contextRef="c52" unitRef="usd">0.0</us-gaap:DebtInstrumentUnamortizedDiscountCurrent>
+  <us-gaap:LiabilitiesAndStockholdersEquity id="f186" decimals="INF" contextRef="c5" unitRef="usd">2316.0</us-gaap:LiabilitiesAndStockholdersEquity>
+  <us-gaap:StockholdersEquity id="f187" decimals="INF" contextRef="c60" unitRef="usd">11000.0</us-gaap:StockholdersEquity>
+  <us-gaap:DebtInstrumentCarryingAmount id="f188" decimals="INF" contextRef="c52" unitRef="usd">10000.0</us-gaap:DebtInstrumentCarryingAmount>
+  <dei:CurrentFiscalYearEndDate id="f189" contextRef="c">--12-31</dei:CurrentFiscalYearEndDate>
+  <us-gaap:DebtInstrumentInterestRateStatedPercentage id="f190" decimals="INF" contextRef="c54" unitRef="pure">0.1</us-gaap:DebtInstrumentInterestRateStatedPercentage>
+  <us-gaap:RetainedEarningsAccumulatedDeficit id="f191" decimals="INF" contextRef="c6" unitRef="usd">-861153.0</us-gaap:RetainedEarningsAccumulatedDeficit>
+  <us-gaap:StockholdersEquity id="f192" decimals="INF" contextRef="c62" unitRef="usd">480414.0</us-gaap:StockholdersEquity>
+  <dei:DocumentType id="f193" contextRef="c">10-Q</dei:DocumentType>
+  <dei:EntitySmallBusiness id="f194" contextRef="c">true</dei:EntitySmallBusiness>
+  <us-gaap:InterestExpense id="f195" decimals="INF" contextRef="c63" unitRef="usd">1725.0</us-gaap:InterestExpense>
+  <us-gaap:StockholdersEquity id="f196" decimals="INF" contextRef="c64" unitRef="usd">-759238.0</us-gaap:StockholdersEquity>
+  <us-gaap:DebtInstrumentUnamortizedDiscountCurrent id="f197" decimals="INF" contextRef="c58" unitRef="usd">3716.0</us-gaap:DebtInstrumentUnamortizedDiscountCurrent>
+  <us-gaap:DebtInstrumentFaceAmount id="f198" decimals="INF" contextRef="c65" unitRef="usd">107000.0</us-gaap:DebtInstrumentFaceAmount>
+  <us-gaap:Revenues id="f199" decimals="128" contextRef="c8" unitRef="usd">0.0</us-gaap:Revenues>
+  <us-gaap:StockholdersEquity id="f200" decimals="INF" contextRef="c29" unitRef="usd">-267824.0</us-gaap:StockholdersEquity>
+  <us-gaap:DebtInstrumentCarryingAmount id="f201" decimals="INF" contextRef="c61" unitRef="usd">43250.0</us-gaap:DebtInstrumentCarryingAmount>
+  <us-gaap:LiabilitiesAndStockholdersEquity id="f202" decimals="INF" contextRef="c6" unitRef="usd">9273.0</us-gaap:LiabilitiesAndStockholdersEquity>
+  <dei:DocumentQuarterlyReport id="f203" contextRef="c">true</dei:DocumentQuarterlyReport>
+  <us-gaap:AmortizationOfDebtDiscountPremium id="f204" decimals="INF" contextRef="c50" unitRef="usd">3716.0</us-gaap:AmortizationOfDebtDiscountPremium>
+  <us-gaap:ProfitLoss id="f205" decimals="128" contextRef="c66" unitRef="usd">0.0</us-gaap:ProfitLoss>
+  <us-gaap:InterestExpense id="f206" decimals="INF" contextRef="c50" unitRef="usd">598.0</us-gaap:InterestExpense>
+  <dei:EntityInteractiveDataCurrent id="f207" contextRef="c">Yes</dei:EntityInteractiveDataCurrent>
+  <us-gaap:Revenues id="f208" decimals="128" contextRef="c" unitRef="usd">0.0</us-gaap:Revenues>
+  <us-gaap:ProfitLoss id="f209" decimals="128" contextRef="c67" unitRef="usd">0.0</us-gaap:ProfitLoss>
+  <us-gaap:InterestPayableCurrent id="f210" decimals="INF" contextRef="c68" unitRef="usd">6285.0</us-gaap:InterestPayableCurrent>
+  <dei:DocumentPeriodEndDate id="f211" contextRef="c">2020-06-30</dei:DocumentPeriodEndDate>
+  <us-gaap:InterestPayableCurrent id="f212" decimals="INF" contextRef="c52" unitRef="usd">641.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:Revenues id="f213" decimals="128" contextRef="c4" unitRef="usd">0.0</us-gaap:Revenues>
+  <us-gaap:ProfitLoss id="f214" decimals="INF" contextRef="c69" unitRef="usd">-26175.0</us-gaap:ProfitLoss>
+  <us-gaap:InterestPayableCurrent id="f215" decimals="INF" contextRef="c58" unitRef="usd">43.0</us-gaap:InterestPayableCurrent>
+  <dei:EntityFileNumber id="f216" contextRef="c">33-55254-41</dei:EntityFileNumber>
+  <us-gaap:DebtInstrumentCarryingAmount id="f217" decimals="INF" contextRef="c68" unitRef="usd">43250.0</us-gaap:DebtInstrumentCarryingAmount>
+  <us-gaap:ProfitLoss id="f218" decimals="INF" contextRef="c70" unitRef="usd">-26175.0</us-gaap:ProfitLoss>
+  <us-gaap:GeneralAndAdministrativeExpense id="f219" decimals="INF" contextRef="c8" unitRef="usd">16743.0</us-gaap:GeneralAndAdministrativeExpense>
+  <us-gaap:SharesOutstanding id="f220" decimals="INF" contextRef="c71" unitRef="shares">11000000.0</us-gaap:SharesOutstanding>
+  <dei:EntityRegistrantName id="f221" contextRef="c">BIOETHICS LTD</dei:EntityRegistrantName>
+  <us-gaap:DebtInstrumentFaceAmount id="f222" decimals="INF" contextRef="c72" unitRef="usd">10000.0</us-gaap:DebtInstrumentFaceAmount>
+  <us-gaap:GeneralAndAdministrativeExpense id="f223" decimals="INF" contextRef="c" unitRef="usd">42972.0</us-gaap:GeneralAndAdministrativeExpense>
+  <us-gaap:StockholdersEquity id="f224" decimals="INF" contextRef="c71" unitRef="usd">11000.0</us-gaap:StockholdersEquity>
+  <dei:EntityIncorporationStateCountryCode id="f225" contextRef="c">NV</dei:EntityIncorporationStateCountryCode>
+  <us-gaap:ProceedsFromRelatedPartyDebt id="f226" decimals="INF" contextRef="c73" unitRef="usd">16670.0</us-gaap:ProceedsFromRelatedPartyDebt>
+  <us-gaap:StockholdersEquity id="f227" decimals="INF" contextRef="c74" unitRef="usd">480414.0</us-gaap:StockholdersEquity>
+  <us-gaap:DueToRelatedPartiesCurrent id="f228" decimals="INF" contextRef="c75" unitRef="usd">108984.0</us-gaap:DueToRelatedPartiesCurrent>
+  <us-gaap:DebtInstrumentPaymentTerms id="f229" contextRef="c76">The Note is due on June 9, 2021 and carries an interest rate of 10% per annum</us-gaap:DebtInstrumentPaymentTerms>
+  <us-gaap:DebtInstrumentConvertibleTermsOfConversionFeature id="f230" contextRef="c76">The Note is due and payable in full unless converted partially or in its entirety upon the election of the lender into fully paid and non-assessable shares of common stock of the Company at a conversion rate of $.25 per share.</us-gaap:DebtInstrumentConvertibleTermsOfConversionFeature>
+  <us-gaap:GeneralAndAdministrativeExpense id="f231" decimals="INF" contextRef="c4" unitRef="usd">10074.0</us-gaap:GeneralAndAdministrativeExpense>
+  <us-gaap:StockholdersEquity id="f232" decimals="INF" contextRef="c77" unitRef="usd">-785413.0</us-gaap:StockholdersEquity>
+  <dei:EntityTaxIdentificationNumber id="f233" contextRef="c">87-0485312</dei:EntityTaxIdentificationNumber>
+  <us-gaap:RepaymentsOfRelatedPartyDebt id="f234" decimals="INF" contextRef="c73" unitRef="usd">14686.0</us-gaap:RepaymentsOfRelatedPartyDebt>
+  <us-gaap:DebtInstrumentUnamortizedDiscountCurrent id="f235" decimals="INF" contextRef="c72" unitRef="usd">5843.0</us-gaap:DebtInstrumentUnamortizedDiscountCurrent>
+  <us-gaap:GeneralAndAdministrativeExpense id="f236" decimals="INF" contextRef="c1" unitRef="usd">28495.0</us-gaap:GeneralAndAdministrativeExpense>
+  <us-gaap:StockholdersEquity id="f237" decimals="INF" contextRef="c78" unitRef="usd">-293999.0</us-gaap:StockholdersEquity>
+  <us-gaap:OperatingExpenses id="f238" decimals="INF" contextRef="c8" unitRef="usd">16743.0</us-gaap:OperatingExpenses>
+  <us-gaap:DebtInstrumentUnamortizedDiscount id="f239" decimals="INF" contextRef="c72" unitRef="usd">6200.0</us-gaap:DebtInstrumentUnamortizedDiscount>
+  <us-gaap:ProfitLoss id="f240" decimals="128" contextRef="c79" unitRef="usd">0.0</us-gaap:ProfitLoss>
+  <us-gaap:OperatingExpenses id="f241" decimals="INF" contextRef="c1" unitRef="usd">28495.0</us-gaap:OperatingExpenses>
+  <us-gaap:ProfitLoss id="f242" decimals="128" contextRef="c80" unitRef="usd">0.0</us-gaap:ProfitLoss>
+  <us-gaap:ProceedsFromRelatedPartyDebt id="f243" decimals="INF" contextRef="c81" unitRef="usd">20900.0</us-gaap:ProceedsFromRelatedPartyDebt>
+  <us-gaap:OperatingExpenses id="f244" decimals="INF" contextRef="c" unitRef="usd">42972.0</us-gaap:OperatingExpenses>
+  <us-gaap:DebtInstrumentCarryingAmount id="f245" decimals="INF" contextRef="c72" unitRef="usd">4157.0</us-gaap:DebtInstrumentCarryingAmount>
+  <dei:EntityAddressCityOrTown id="f246" contextRef="c">Ogden</dei:EntityAddressCityOrTown>
+  <us-gaap:ProfitLoss id="f247" decimals="INF" contextRef="c82" unitRef="usd">-18059.0</us-gaap:ProfitLoss>
+  <us-gaap:AmortizationOfDebtDiscountPremium id="f248" decimals="INF" contextRef="c76" unitRef="usd">357.0</us-gaap:AmortizationOfDebtDiscountPremium>
+  <us-gaap:RepaymentsOfRelatedPartyDebt id="f249" decimals="INF" contextRef="c81" unitRef="usd">6000.0</us-gaap:RepaymentsOfRelatedPartyDebt>
+  <us-gaap:InterestExpense id="f250" decimals="INF" contextRef="c76" unitRef="usd">46.0</us-gaap:InterestExpense>
+  <us-gaap:OperatingExpenses id="f251" decimals="INF" contextRef="c4" unitRef="usd">10074.0</us-gaap:OperatingExpenses>
+  <us-gaap:SharesOutstanding id="f252" decimals="INF" contextRef="c83" unitRef="shares">11000000.0</us-gaap:SharesOutstanding>
+  <dei:DocumentTransitionReport id="f253" contextRef="c">false</dei:DocumentTransitionReport>
+  <us-gaap:StockholdersEquity id="f254" decimals="INF" contextRef="c83" unitRef="usd">11000.0</us-gaap:StockholdersEquity>
+  <us-gaap:AssetsCurrent id="f255" decimals="INF" contextRef="c5" unitRef="usd">1947.0</us-gaap:AssetsCurrent>
+  <us-gaap:DueToRelatedPartiesCurrent id="f256" decimals="INF" contextRef="c84" unitRef="usd">123884.0</us-gaap:DueToRelatedPartiesCurrent>
+  <us-gaap:InterestPayableCurrent id="f257" decimals="INF" contextRef="c72" unitRef="usd">46.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:OperatingIncomeLoss id="f258" decimals="INF" contextRef="c8" unitRef="usd">-16743.0</us-gaap:OperatingIncomeLoss>
+  <us-gaap:StockholdersEquity id="f259" decimals="INF" contextRef="c85" unitRef="usd">480414.0</us-gaap:StockholdersEquity>
+  <us-gaap:DebtInstrumentInterestRateStatedPercentage id="f260" decimals="INF" contextRef="c84" unitRef="pure">0.12</us-gaap:DebtInstrumentInterestRateStatedPercentage>
+  <us-gaap:StockholdersEquityNoteDisclosureTextBlock id="f261" contextRef="c">NOTE 5 &amp;#150; EQUITY TRANSACTIONS&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;On December 2, 2019, the Company amended its articles of incorporation with the state of Nevada increasing the number of authorized common stock of the Company to 250,000,000 shares. &amp;nbsp;There were no equity transactions during the six months ended June 30, 2020 or 2019, resulting in 11,000,000 shares of common stock issued and outstanding at June 30, 2020 and December 31, 2019.&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:StockholdersEquityNoteDisclosureTextBlock>
+  <us-gaap:AssetsCurrent id="f262" decimals="INF" contextRef="c6" unitRef="usd">8761.0</us-gaap:AssetsCurrent>
+  <us-gaap:StockholdersEquity id="f263" decimals="INF" contextRef="c86" unitRef="usd">-803472.0</us-gaap:StockholdersEquity>
+  <us-gaap:OperatingIncomeLoss id="f264" decimals="INF" contextRef="c1" unitRef="usd">-28495.0</us-gaap:OperatingIncomeLoss>
+  <both:AccruedInterestRelatedParties id="f265" decimals="INF" contextRef="c5" unitRef="usd">15904.0</both:AccruedInterestRelatedParties>
+  <us-gaap:InterestExpense id="f266" decimals="INF" contextRef="c81" unitRef="usd">6890.0</us-gaap:InterestExpense>
+  <us-gaap:CommonStockSharesOutstanding id="f267" decimals="INF" contextRef="c6" unitRef="shares">11000000.0</us-gaap:CommonStockSharesOutstanding>
+  <us-gaap:StockholdersEquity id="f268" decimals="INF" contextRef="c2" unitRef="usd">-312058.0</us-gaap:StockholdersEquity>
+  <us-gaap:OperatingIncomeLoss id="f269" decimals="INF" contextRef="c" unitRef="usd">-42972.0</us-gaap:OperatingIncomeLoss>
+  <us-gaap:Assets id="f270" decimals="INF" contextRef="c5" unitRef="usd">2316.0</us-gaap:Assets>
+  <us-gaap:InterestExpense id="f271" decimals="INF" contextRef="c87" unitRef="usd">6467.0</us-gaap:InterestExpense>
+  <us-gaap:CommonStockSharesAuthorized id="f272" decimals="INF" contextRef="c5" unitRef="shares">250000000.0</us-gaap:CommonStockSharesAuthorized>
+  <us-gaap:RepaymentOfNotesReceivableFromRelatedParties id="f273" decimals="INF" contextRef="c81" unitRef="usd">5000.0</us-gaap:RepaymentOfNotesReceivableFromRelatedParties>
+  <us-gaap:AssetsNoncurrent id="f274" decimals="INF" contextRef="c6" unitRef="usd">512.0</us-gaap:AssetsNoncurrent>
+  <us-gaap:OperatingIncomeLoss id="f275" decimals="INF" contextRef="c4" unitRef="usd">-10074.0</us-gaap:OperatingIncomeLoss>
+  <us-gaap:InterestExpense id="f276" decimals="INF" contextRef="c88" unitRef="usd">1396.0</us-gaap:InterestExpense>
+  <us-gaap:CommonStockSharesIssued id="f277" decimals="INF" contextRef="c5" unitRef="shares">11000000.0</us-gaap:CommonStockSharesIssued>
+  <us-gaap:AmortizationOfDebtDiscountPremium id="f278" decimals="INF" contextRef="c" unitRef="usd">4073.0</us-gaap:AmortizationOfDebtDiscountPremium>
+  <us-gaap:AccountsPayableCurrent id="f279" decimals="INF" contextRef="c5" unitRef="usd">49898.0</us-gaap:AccountsPayableCurrent>
+  <us-gaap:CommonStockSharesOutstanding id="f280" decimals="INF" contextRef="c5" unitRef="shares">11000000.0</us-gaap:CommonStockSharesOutstanding>
+  <us-gaap:InterestExpense id="f281" decimals="INF" contextRef="c8" unitRef="usd">10971.0</us-gaap:InterestExpense>
+  <us-gaap:IncreaseDecreaseInAccountsPayableTrade id="f282" decimals="INF" contextRef="c" unitRef="usd">12115.0</us-gaap:IncreaseDecreaseInAccountsPayableTrade>
+  <dei:EntityAddressStateOrProvince id="f283" contextRef="c">UT</dei:EntityAddressStateOrProvince>
+  <us-gaap:DebtDisclosureTextBlock id="f284" contextRef="c">NOTE 3 - NOTES PAYABLE &lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;On June 14, 2016, the Company issued a promissory note in the principal amount of $35,000 to an unaffiliated lender. The Note is due on demand at any time after its original maturity date of June 14, 2017, and carries an interest rate of 8% per annum. &amp;nbsp;Interest expense for the six months ended June 30, 2020 and 2019 totaled $1,396 and $1,388, respectively, resulting in accrued interest at June 30, 2020 and December 31, 2019 of $11,330 and $9,934, respectively. &amp;nbsp;Principal balance due on the note at June 30, 2020 and December 31, 2019 was $35,000.&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;On August 15, 2018, the Company issued a promissory note in the principal amount of $10,000 to an unaffiliated lender. The Note was due on November 15, 2018 and is now due on demand and carries an interest rate of 12% per annum. &amp;nbsp;Interest expense for the six months ended June 30, 2020 and 2019 totaled $598 and $595, respectively, resulting in accrued interest at June 30, 2020 and December 31, 2019 of $1,502 and $904, respectively. &amp;nbsp;Principal balance on the note at June 30, 2020 and December 31, 2019 was $10,000. &lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;On November 15, 2018, the Company issued a promissory note in the principal amount of $20,000 to an unaffiliated lender. The Note was due on February 15, 2019 and is now due on demand and carries an interest rate of 12% per annum. &amp;nbsp;Interest expense for the six months ended June 30, 2020 and 2019 totaled $1,197 and $1,190, respectively, resulting in accrued interest at June 30, 2020 and December 31, 2019 of $3,005 and $1,808, respectively. &amp;nbsp;Principal balance on the note at June 30, 2020 and December 31, 2019 was $20,000. &lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;On December 31, 2018, the Company issued a promissory note in the principal amount of $30,000 to an unaffiliated lender. The Note was due on December 31, 2019 and is now due on demand and carries an interest rate of 12% per annum. &amp;nbsp;Interest expense for the six months ended June 30, 2020 and 2019 totaled $1,795 and $1,785, respectively, resulting in accrued interest at June 30, 2020 and December 31, 2019 of $4,507 and $2,712, respectively. &amp;nbsp;Principal balance on the note at June 30, 2020 and December 31, 2019 was $30,000. &lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;On January 23, 2019, the Company issued a promissory note in the principal amount of $50,000 to an unaffiliated lender. The Note was due on January 23, 2020 and is now due on demand and carries an interest rate of 12% per annum. &amp;nbsp;Interest expense for the six months ended June 30, 2020 and 2019 totaled $2,992 and $2,598, respectively, resulting in accrued interest at June 30, 2020 and December 31, 2019 of $7,513 and $4,521, respectively. &amp;nbsp;Principal balance on the note at June 30, 2020 and December 31, 2019 was $50,000.&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;On May 1, 2020, the Company issued a promissory note in the principal amount of $5,000 to an unaffiliated lender. The Note is due on May 1, 2021 and carries an interest rate of 12% per annum. &amp;nbsp;Interest expense for the six months ended June 30, 2020 totaled $89, resulting in accrued interest at June 30, 2020 of $89. &amp;nbsp;Principal balance on the note at June 30, 2020 was $5,000.&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:DebtDisclosureTextBlock>
+  <us-gaap:Assets id="f285" decimals="INF" contextRef="c6" unitRef="usd">9273.0</us-gaap:Assets>
+  <us-gaap:InterestPayableCurrent id="f286" decimals="INF" contextRef="c75" unitRef="usd">6004.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:CommonStockSharesIssued id="f287" decimals="INF" contextRef="c6" unitRef="shares">11000000.0</us-gaap:CommonStockSharesIssued>
+  <us-gaap:Depreciation id="f288" decimals="INF" contextRef="c" unitRef="usd">143.0</us-gaap:Depreciation>
+  <us-gaap:InterestExpense id="f289" decimals="INF" contextRef="c1" unitRef="usd">15739.0</us-gaap:InterestExpense>
+  <us-gaap:AmortizationOfDebtDiscountPremium id="f290" decimals="128" contextRef="c1" unitRef="usd">0.0</us-gaap:AmortizationOfDebtDiscountPremium>
+  <both:AccountsPayableRelatedParty id="f291" decimals="INF" contextRef="c5" unitRef="usd">500.0</both:AccountsPayableRelatedParty>
+  <us-gaap:InterestPayableCurrent id="f292" decimals="INF" contextRef="c84" unitRef="usd">7894.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:SubstantialDoubtAboutGoingConcernTextBlock id="f293" contextRef="c">NOTE 6 - GOING CONCERN&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;The accompanying financial statements have been prepared in conformity with accounting principles generally accepted in the United States of America, which contemplate continuation of the Company as a going concern. &amp;nbsp;However, the Company has incurred losses since its inception totaling $925,524 and has no on-going operations. &amp;nbsp;These factors raise substantial doubt about the ability of the Company to continue as a going concern. &amp;nbsp;In this regard, management is proposing to raise any necessary additional funds not provided by operations through loans, additional sales of its common stock, or through a possible business combination. &amp;nbsp;There is no assurance that the Company will be successful in raising this additional capital or in achieving profitable operations. &amp;nbsp;In addition, the COVID-19 pandemic could have an impact on our ability to obtain financing to fund the operations. The financial statements do not include any adjustments that might result from the outcome of these uncertainties. &lt;/p&gt;&lt;p style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:SubstantialDoubtAboutGoingConcernTextBlock>
+  <us-gaap:InterestExpense id="f294" decimals="INF" contextRef="c" unitRef="usd">21399.0</us-gaap:InterestExpense>
+  <us-gaap:AccountsPayableCurrent id="f295" decimals="INF" contextRef="c6" unitRef="usd">37783.0</us-gaap:AccountsPayableCurrent>
+  <us-gaap:DebtInstrumentFaceAmount id="f296" decimals="INF" contextRef="c89" unitRef="usd">35000.0</us-gaap:DebtInstrumentFaceAmount>
+  <us-gaap:InterestExpense id="f297" decimals="INF" contextRef="c4" unitRef="usd">7985.0</us-gaap:InterestExpense>
+  <both:AccountsPayableRelatedParty id="f298" decimals="INF" contextRef="c6" unitRef="usd">1500.0</both:AccountsPayableRelatedParty>
+  <us-gaap:NonoperatingIncomeExpense id="f299" decimals="INF" contextRef="c8" unitRef="usd">-10971.0</us-gaap:NonoperatingIncomeExpense>
+  <us-gaap:Depreciation id="f300" decimals="INF" contextRef="c1" unitRef="usd">143.0</us-gaap:Depreciation>
+  <us-gaap:ProfitLoss id="f301" decimals="INF" contextRef="c" unitRef="usd">-64371.0</us-gaap:ProfitLoss>
+  <us-gaap:DebtInstrumentInterestRateStatedPercentage id="f302" decimals="INF" contextRef="c89" unitRef="pure">0.08</us-gaap:DebtInstrumentInterestRateStatedPercentage>
+  <us-gaap:IncreaseDecreaseInOtherAccruedLiabilities id="f303" decimals="INF" contextRef="c" unitRef="usd">8711.0</us-gaap:IncreaseDecreaseInOtherAccruedLiabilities>
+  <us-gaap:EarningsPerShareTextBlock id="f304" contextRef="c">NOTE 7 - LOSS PER SHARE&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0;margin-right:-18pt'&gt;The computation of basic loss per share is based on the weighted average number of shares outstanding during each period. &amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0;margin-right:-18pt'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0;margin-right:-18pt'&gt;The following data show the amounts used in computing loss per share for the six months ended:&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;table align="center" style='border-collapse:collapse;width:389.5pt'&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;June 30, 2020&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;June 30,&lt;/p&gt;&lt;p align="center" style='margin:0'&gt;2019&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-top:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;Net loss (numerator)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;(64,371)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;(44,234)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Weighted average shares outstanding (denominator)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Basic and fully diluted net loss per share amount&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:3px double #000000'&gt;&lt;p align="right" style='margin:0'&gt;(0.01)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:3px double #000000'&gt;&lt;p align="right" style='margin:0'&gt;(0.00)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0;margin-right:-18pt'&gt;The following data show the amounts used in computing loss per share for the three months ended:&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;table align="center" style='border-collapse:collapse;width:389.5pt'&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;June 30, 2020&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;June 30,&lt;/p&gt;&lt;p align="center" style='margin:0'&gt;2019&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-top:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;Net loss (numerator)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;(27,714)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;(18,059)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Weighted average shares outstanding (denominator)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Basic and fully diluted net loss per share amount&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:3px double #000000'&gt;&lt;p align="right" style='margin:0'&gt;(0.00)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:3px double #000000'&gt;&lt;p align="right" style='margin:0'&gt;(0.00)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p align="justify" style='margin:0;margin-right:-18pt'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0;margin-right:-18pt'&gt;The computation of diluted earnings per common share is based on the weighted average number of shares outstanding during the year plus the common stock equivalents as detailed in the following chart. &amp;nbsp;For the six months ended June 30, 2020 and 2019, the inclusion of these shares on the statements of operations would have resulted in a weighted average shares fully diluted number that was anti-dilutive, and as such they are excluded. &amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0;margin-right:-18pt'&gt;&amp;nbsp;&lt;/p&gt;&lt;p style='margin:0'&gt;The following data show the fully diluted shares for the six months ended June 30, 2020 and 2019:&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;table align="center" style='border-collapse:collapse;width:389.5pt'&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td colspan="3" valign="top" style='width:127.5pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;June 30,&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;2020&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt;border-top:0.5pt solid #000000'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;2019&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-top:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;Basic weighted average shares outstanding&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Convertible debt&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;90,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;0&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Total&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,090,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p style='margin:0'&gt;The following data show the fully diluted shares for the three months ended June 30, 2020 and 2019:&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;table align="center" style='border-collapse:collapse;width:389.5pt'&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td colspan="3" valign="top" style='width:127.5pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;June 30,&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;2020&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt;border-top:0.5pt solid #000000'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;2019&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-top:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;Basic weighted average shares outstanding&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Convertible debt&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;90,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;0&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Total&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,090,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:EarningsPerShareTextBlock>
+  <us-gaap:NonoperatingIncomeExpense id="f305" decimals="INF" contextRef="c" unitRef="usd">-21399.0</us-gaap:NonoperatingIncomeExpense>
+  <both:AccruedInterestRelatedParties id="f306" decimals="INF" contextRef="c6" unitRef="usd">12289.0</both:AccruedInterestRelatedParties>
+  <us-gaap:InterestExpense id="f307" decimals="INF" contextRef="c90" unitRef="usd">1388.0</us-gaap:InterestExpense>
+  <us-gaap:IncreaseDecreaseInAccountsPayableRelatedParties id="f308" decimals="INF" contextRef="c" unitRef="usd">-1000.0</us-gaap:IncreaseDecreaseInAccountsPayableRelatedParties>
+  <us-gaap:InterestPayableCurrent id="f309" decimals="INF" contextRef="c91" unitRef="usd">11330.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:ScheduleOfEarningsPerShareBasicAndDilutedTableTextBlock id="f310" contextRef="c">The following data show the amounts used in computing loss per share for the six months ended:&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;table align="center" style='border-collapse:collapse;width:389.5pt'&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;June 30, 2020&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;June 30,&lt;/p&gt;&lt;p align="center" style='margin:0'&gt;2019&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-top:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;Net loss (numerator)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;(64,371)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;(44,234)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Weighted average shares outstanding (denominator)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Basic and fully diluted net loss per share amount&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:3px double #000000'&gt;&lt;p align="right" style='margin:0'&gt;(0.01)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:3px double #000000'&gt;&lt;p align="right" style='margin:0'&gt;(0.00)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;p align="justify" style='margin:0;margin-right:-18pt'&gt;The following data show the amounts used in computing loss per share for the three months ended:&lt;/p&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;table align="center" style='border-collapse:collapse;width:389.5pt'&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="center" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;June 30, 2020&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:15.8pt'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="top" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="center" style='margin:0'&gt;June 30,&lt;/p&gt;&lt;p align="center" style='margin:0'&gt;2019&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-top:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p align="justify" style='margin:0'&gt;Net loss (numerator)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;(27,714)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt'&gt;&lt;p align="right" style='margin:0'&gt;(18,059)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Weighted average shares outstanding (denominator)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" style='width:55.85pt;border-bottom:0.5pt solid #000000'&gt;&lt;p align="right" style='margin:0'&gt;11,000,000&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height:7.2pt'&gt;&lt;td valign="top" bgcolor="#CCEEFF" style='width:246.2pt'&gt;&lt;p style='margin:0'&gt;Basic and fully diluted net loss per share amount&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:3px double #000000'&gt;&lt;p align="right" style='margin:0'&gt;(0.00)&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:15.8pt'&gt;&lt;p align="right" style='margin:0'&gt;$&lt;/p&gt;&lt;/td&gt;&lt;td valign="bottom" bgcolor="#CCEEFF" style='width:55.85pt;border-top:0.5pt solid #000000;border-bottom:3px double #000000'&gt;&lt;p align="right" style='margin:0'&gt;(0.00)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p align="justify" style='margin:0;margin-right:-18pt'&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:ScheduleOfEarningsPerShareBasicAndDilutedTableTextBlock>
+  <us-gaap:IncreaseDecreaseInAccountsPayableTrade id="f311" decimals="INF" contextRef="c1" unitRef="usd">-1088.0</us-gaap:IncreaseDecreaseInAccountsPayableTrade>
+  <us-gaap:NonoperatingIncomeExpense id="f312" decimals="INF" contextRef="c4" unitRef="usd">-7985.0</us-gaap:NonoperatingIncomeExpense>
+  <us-gaap:AccruedLiabilitiesCurrent id="f313" decimals="INF" contextRef="c5" unitRef="usd">28633.0</us-gaap:AccruedLiabilitiesCurrent>
+  <us-gaap:InterestPayableCurrent id="f314" decimals="INF" contextRef="c92" unitRef="usd">9934.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:IncreaseDecreaseInDueToOtherRelatedPartiesCurrent id="f315" decimals="INF" contextRef="c" unitRef="usd">3615.0</us-gaap:IncreaseDecreaseInDueToOtherRelatedPartiesCurrent>
+  <us-gaap:ProfitLoss id="f316" decimals="INF" contextRef="c1" unitRef="usd">-44234.0</us-gaap:ProfitLoss>
+  <us-gaap:DebtInstrumentFaceAmount id="f317" decimals="INF" contextRef="c3" unitRef="usd">10000.0</us-gaap:DebtInstrumentFaceAmount>
+  <us-gaap:NonoperatingIncomeExpense id="f318" decimals="INF" contextRef="c1" unitRef="usd">-15739.0</us-gaap:NonoperatingIncomeExpense>
+  <us-gaap:DebtInstrumentUnamortizedDiscount id="f319" decimals="INF" contextRef="c5" unitRef="usd">5843.0</us-gaap:DebtInstrumentUnamortizedDiscount>
+  <us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest id="f320" decimals="INF" contextRef="c8" unitRef="usd">-27714.0</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+  <us-gaap:IncreaseDecreaseInAccountsPayableRelatedParties id="f321" decimals="INF" contextRef="c1" unitRef="usd">-1500.0</us-gaap:IncreaseDecreaseInAccountsPayableRelatedParties>
+  <us-gaap:AccruedLiabilitiesCurrent id="f322" decimals="INF" contextRef="c6" unitRef="usd">19922.0</us-gaap:AccruedLiabilitiesCurrent>
+  <us-gaap:WeightedAverageNumberOfSharesOutstandingBasic id="f323" decimals="INF" contextRef="c" unitRef="shares">11000000.0</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+  <us-gaap:DebtInstrumentCarryingAmount id="f324" decimals="INF" contextRef="c91" unitRef="usd">35000.0</us-gaap:DebtInstrumentCarryingAmount>
+  <us-gaap:IncreaseDecreaseInDueToOtherRelatedPartiesCurrent id="f325" decimals="INF" contextRef="c1" unitRef="usd">-6131.0</us-gaap:IncreaseDecreaseInDueToOtherRelatedPartiesCurrent>
+</xbrli:xbrl>

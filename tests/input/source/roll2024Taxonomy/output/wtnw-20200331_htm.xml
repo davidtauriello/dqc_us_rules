@@ -1,0 +1,926 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by Xince -->
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wtnw="http://WTNW/20241231" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:dei="http://xbrl.sec.gov/dei/2024">
+  <link:schemaRef xlink:href="./wtnw-20200331_taxonomy.zip/wtnw-20200331_taxonomy/wtnw-20200331.xsd" xlink:type="simple"/>
+  <xbrli:context id="c">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">wtnw:SubscriptionReceivableMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">wtnw:SubscriptionReceivableMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c9">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c11">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c12">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c13">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-01-01</xbrli:startDate>
+      <xbrli:endDate>2019-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c14">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c15">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c16">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-07-13</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c17">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c18">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c19">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c20">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c21">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">wtnw:MarchConvertibleNoteMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c22">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c23">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c24">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c25">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c26">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:SubsequentEventTypeAxis">wtnw:PaycheckProtectionProgramLoanMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-04-20</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c27">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">wtnw:SubscriptionReceivableMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c28">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">wtnw:FebruaryConvertibleNoteMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c29">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:ShortTermDebtTypeAxis">wtnw:Note1Member</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c30">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">wtnw:SubscriptionReceivableMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c31">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">wtnw:SubscriptionReceivableMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c32">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">wtnw:SubscriptionReceivableMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c33">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c34">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c35">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">wtnw:JanuaryConvertibleNoteMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-01-14</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c36">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c37">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">wtnw:MarchConvertibleNoteMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-03-04</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c38">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c39">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c40">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c41">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c42">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c43">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">wtnw:JanuaryConvertibleNoteMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c44">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001713909</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">wtnw:FebruaryConvertibleNoteMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-02-05</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="usd">
+    <xbrli:measure>iso4217:USD</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="shares">
+    <xbrli:measure>xbrli:shares</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="usd1">
+    <xbrli:divide>
+      <xbrli:unitNumerator>
+        <xbrli:measure>iso4217:USD</xbrli:measure>
+      </xbrli:unitNumerator>
+      <xbrli:unitDenominator>
+        <xbrli:measure>xbrli:shares</xbrli:measure>
+      </xbrli:unitDenominator>
+    </xbrli:divide>
+  </xbrli:unit>
+  <us-gaap:ConvertibleLongTermNotesPayable id="f" xsi:nil="true" contextRef="c" unitRef="usd"/>
+  <us-gaap:CommonStockSharesOutstanding id="f1" decimals="INF" contextRef="c" unitRef="shares">55466999.0</us-gaap:CommonStockSharesOutstanding>
+  <us-gaap:OperatingLeasePaymentsUse id="f2" decimals="0" contextRef="c1" unitRef="usd">57000.0</us-gaap:OperatingLeasePaymentsUse>
+  <wtnw:StockIssuedDuringPeriodValueConversionDebt id="f3" xsi:nil="true" contextRef="c2" unitRef="usd"/>
+  <us-gaap:ProceedsFromNotesPayable id="f4" decimals="0" contextRef="c1" unitRef="usd">241500.0</us-gaap:ProceedsFromNotesPayable>
+  <wtnw:StockIssuedDuringPeriodValueConversionDebt id="f5" xsi:nil="true" contextRef="c3" unitRef="usd"/>
+  <wtnw:StockIssuedDuringPeriodValueConversionDebt id="f6" xsi:nil="true" contextRef="c4" unitRef="usd"/>
+  <us-gaap:SubsequentEventsTextBlock id="f7" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&lt;b&gt;13. Subsequent Events&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;font style="font-size: 11pt"&gt;&amp;#160;&lt;/font&gt;Paycheck&#13;Protection Program Loan&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 3.5pt 0 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 3.5pt 0 0; text-align: justify"&gt;On April 20, 2020, the Company obtained&#13;a Paycheck Protection Program (PPP) loan from a commercial bank in the amount of $290,400. The loan is unsecured, bears interest&#13;at 1.0% interest and is payable beginning November 20, 2020 in 18 equal installments. Interest accrues during the deferment period.&#13;The loan is subject to potential forgiveness in part or total, depending on the amount of certain costs incurred by the Company&#13;over an 8-week period after the loan&amp;#8217;s disbursement date, including payroll costs, payment of interest on a covered obligation,&#13;rent and utilities.&lt;/p&gt;</us-gaap:SubsequentEventsTextBlock>
+  <us-gaap:CommonStockSharesIssued id="f8" decimals="INF" contextRef="c" unitRef="shares">55663191.0</us-gaap:CommonStockSharesIssued>
+  <us-gaap:ProceedsFromSaleOfOtherAssetsInvestingActivities id="f9" decimals="0" contextRef="c1" unitRef="usd">59500.0</us-gaap:ProceedsFromSaleOfOtherAssetsInvestingActivities>
+  <us-gaap:CommonStockSharesAuthorized id="f10" decimals="INF" contextRef="c5" unitRef="shares">90000000.0</us-gaap:CommonStockSharesAuthorized>
+  <us-gaap:OperatingLeasesFutureMinimumPaymentsDue id="f11" decimals="0" contextRef="c5" unitRef="usd">765000.0</us-gaap:OperatingLeasesFutureMinimumPaymentsDue>
+  <wtnw:StockIssuedDuringPeriodValueConversionDebt id="f12" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <wtnw:StockIssuedDuringPeriodValueConversionDebt id="f13" xsi:nil="true" contextRef="c7" unitRef="usd"/>
+  <wtnw:DistributorshipAgreementExpense id="f14" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <wtnw:StockIssuedDuringPeriodValueConversionDebt id="f15" xsi:nil="true" contextRef="c8" unitRef="usd"/>
+  <us-gaap:OperatingLeasesFutureMinimumPaymentsDueInFiveYears id="f16" decimals="0" contextRef="c5" unitRef="usd">103000.0</us-gaap:OperatingLeasesFutureMinimumPaymentsDueInFiveYears>
+  <us-gaap:OperatingLeaseLiability id="f17" decimals="0" contextRef="c" unitRef="usd">520137.0</us-gaap:OperatingLeaseLiability>
+  <us-gaap:ConvertibleLongTermNotesPayable id="f18" decimals="0" contextRef="c5" unitRef="usd">114292.0</us-gaap:ConvertibleLongTermNotesPayable>
+  <wtnw:StockIssuedDuringPeriodSharesConversionDebt id="f19" decimals="INF" contextRef="c9" unitRef="shares">200000.0</wtnw:StockIssuedDuringPeriodSharesConversionDebt>
+  <us-gaap:ProceedsFromSaleOfOtherAssetsInvestingActivities id="f20" decimals="0" contextRef="c10" unitRef="usd">30000.0</us-gaap:ProceedsFromSaleOfOtherAssetsInvestingActivities>
+  <wtnw:StockIssuedDuringPeriodSharesConversionDebt id="f21" decimals="INF" contextRef="c11" unitRef="shares">16894369.0</wtnw:StockIssuedDuringPeriodSharesConversionDebt>
+  <us-gaap:OperatingLeaseCost id="f22" decimals="0" contextRef="c1" unitRef="usd">40000.0</us-gaap:OperatingLeaseCost>
+  <wtnw:StockIssuedDuringPeriodValueConversionDebt id="f23" decimals="0" contextRef="c9" unitRef="usd">100000.0</wtnw:StockIssuedDuringPeriodValueConversionDebt>
+  <us-gaap:IncomeTaxReconciliationChangeInDeferredTaxAssetsValuationAllowance id="f24" decimals="0" contextRef="c1" unitRef="usd">236000.0</us-gaap:IncomeTaxReconciliationChangeInDeferredTaxAssetsValuationAllowance>
+  <wtnw:StockIssuedDuringPeriodValueConversionDebt id="f25" decimals="0" contextRef="c11" unitRef="usd">378681.0</wtnw:StockIssuedDuringPeriodValueConversionDebt>
+  <us-gaap:CommonStockSharesIssued id="f26" decimals="INF" contextRef="c5" unitRef="shares">73942560.0</us-gaap:CommonStockSharesIssued>
+  <wtnw:StockIssuedDuringPeriodValueConversionDebt id="f27" decimals="0" contextRef="c10" unitRef="usd">100000.0</wtnw:StockIssuedDuringPeriodValueConversionDebt>
+  <us-gaap:FairValueLiabilitiesMeasuredOnRecurringBasisUnobservableInputReconciliationTextBlock id="f28" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 0.2pt 0 0"&gt;&lt;/p&gt;&#13;&#13;&lt;table cellpadding="0" cellspacing="0" style="font: 11pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%"&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="width: 70%; text-align: left"&gt;Derivative liability balance at December 31, 2019&lt;/td&gt;&lt;td style="width: 10%"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="width: 1%; text-align: left"&gt;$&lt;/td&gt;&lt;td style="width: 18%; text-align: right"&gt;508,323&lt;/td&gt;&lt;td style="width: 1%; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="text-align: left"&gt;Additions to derivative liability for new debt&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;764,990&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="text-align: left"&gt;Reclass to equity upon conversion/cancellation&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;(622,781&lt;/td&gt;&lt;td style="text-align: left"&gt;)&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="text-align: left; padding-bottom: 1pt"&gt;Change in fair value&lt;/td&gt;&lt;td style="padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; text-align: right"&gt;(550,726&lt;/td&gt;&lt;td style="padding-bottom: 1pt; text-align: left"&gt;)&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="padding-bottom: 1pt"&gt;Balance at March 31, 2020&lt;/td&gt;&lt;td style="padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; text-align: right"&gt;1,201,258&lt;/td&gt;&lt;td style="padding-bottom: 1pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;/table&gt;&#13;&#13;&lt;p style="font: 11pt/12pt Times New Roman, Times, Serif; margin: 0.35pt 0.2pt 0 0"&gt;&amp;#160;&lt;/p&gt;</us-gaap:FairValueLiabilitiesMeasuredOnRecurringBasisUnobservableInputReconciliationTextBlock>
+  <us-gaap:Liabilities id="f29" decimals="0" contextRef="c" unitRef="usd">11037487.0</us-gaap:Liabilities>
+  <us-gaap:CashAndCashEquivalentsAtCarryingValue id="f30" decimals="0" contextRef="c" unitRef="usd">66042.0</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+  <wtnw:StockIssuedDuringPeriodValueConversionDebt id="f31" decimals="0" contextRef="c1" unitRef="usd">378681.0</wtnw:StockIssuedDuringPeriodValueConversionDebt>
+  <us-gaap:PreferredStockSharesOutstanding id="f32" decimals="INF" contextRef="c" unitRef="shares">0.0</us-gaap:PreferredStockSharesOutstanding>
+  <us-gaap:NetCashProvidedByUsedInInvestingActivities id="f33" decimals="0" contextRef="c1" unitRef="usd">29500.0</us-gaap:NetCashProvidedByUsedInInvestingActivities>
+  <wtnw:StockIssuedDuringPeriodValueConversionDebt id="f34" xsi:nil="true" contextRef="c12" unitRef="usd"/>
+  <us-gaap:ReconciliationOfRevenueFromSegmentsToConsolidatedTextBlock id="f35" contextRef="c1">&lt;p style="font: 12pt/12pt Times New Roman, Times, Serif; margin: 0"&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 12pt/12pt Times New Roman, Times, Serif; margin: 0"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%"&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td style="text-align: center"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="7" style="font-size: 11pt; text-align: center"&gt;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: center"&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/p&gt;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: center"&gt;&lt;b&gt;For the Three Months&lt;/b&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td style="text-align: center"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; font-weight: bold; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="7" style="border-bottom: Black 1pt solid; font-size: 11pt; font-weight: bold; text-align: center"&gt;Ended March 31,&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td style="text-align: center"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; font-weight: bold; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3" style="border-bottom: Black 1pt solid; font-size: 11pt; font-weight: bold; text-align: center"&gt;2020&lt;/td&gt;&lt;td style="font-size: 11pt; font-weight: bold; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3" style="border-bottom: Black 1pt solid; font-size: 11pt; font-weight: bold; text-align: center"&gt;2019&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td style="font-size: 11pt"&gt;Revenues&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3" style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3" style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="width: 56%; font-size: 11pt; text-align: left; padding-left: 10pt"&gt;Water purification products&lt;/td&gt;&lt;td style="width: 8%; font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="width: 12%; font-size: 11pt; text-align: right"&gt;2,995&lt;/td&gt;&lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="width: 8%; font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="width: 12%; font-size: 11pt; text-align: right"&gt;78,552&lt;/td&gt;&lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-bottom: 1pt; padding-left: 10pt"&gt;Oil recovery machines&lt;/td&gt;&lt;td style="font-size: 9pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: right"&gt;&amp;#8212;&amp;#160;&amp;#160;&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 9pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: right"&gt;&amp;#8212;&amp;#160;&amp;#160;&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;2,995&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;78,552&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;/table&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;font style="color: black"&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;</us-gaap:ReconciliationOfRevenueFromSegmentsToConsolidatedTextBlock>
+  <us-gaap:EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate id="f36" decimals="INF" contextRef="c1" unitRef="pure">0.0</us-gaap:EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate>
+  <us-gaap:PreferredStockParOrStatedValuePerShare id="f37" decimals="INF" contextRef="c" unitRef="usd1">0.0</us-gaap:PreferredStockParOrStatedValuePerShare>
+  <wtnw:StockIssuedDuringPeriodValueConversionDebt id="f38" xsi:nil="true" contextRef="c13" unitRef="usd"/>
+  <wtnw:SharesIssuedDebtIssuanceShares id="f39" decimals="INF" contextRef="c9" unitRef="shares">465384.0</wtnw:SharesIssuedDebtIssuanceShares>
+  <us-gaap:OperatingLossCarryforwards id="f40" decimals="0" contextRef="c5" unitRef="usd">14243000.0</us-gaap:OperatingLossCarryforwards>
+  <us-gaap:OperatingLeaseLiability id="f41" decimals="0" contextRef="c5" unitRef="usd">473932.0</us-gaap:OperatingLeaseLiability>
+  <wtnw:SharesIssuedDebtIssuanceValue id="f42" decimals="0" contextRef="c9" unitRef="usd">491608.0</wtnw:SharesIssuedDebtIssuanceValue>
+  <wtnw:DistributorshipAgreementExpense id="f43" decimals="0" contextRef="c10" unitRef="usd">-400000.0</wtnw:DistributorshipAgreementExpense>
+  <us-gaap:CommonStockSharesOutstanding id="f44" decimals="INF" contextRef="c5" unitRef="shares">73746368.0</us-gaap:CommonStockSharesOutstanding>
+  <us-gaap:NetCashProvidedByUsedInInvestingActivities id="f45" decimals="0" contextRef="c10" unitRef="usd">-1090783.0</us-gaap:NetCashProvidedByUsedInInvestingActivities>
+  <us-gaap:CommitmentsAndContingencies id="f46" xsi:nil="true" contextRef="c" unitRef="usd"/>
+  <wtnw:SharesIssuedDebtIssuanceValue id="f47" xsi:nil="true" contextRef="c3" unitRef="usd"/>
+  <us-gaap:EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate id="f48" decimals="INF" contextRef="c10" unitRef="pure">0.0</us-gaap:EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate>
+  <us-gaap:PreferredStockSharesAuthorized id="f49" decimals="INF" contextRef="c" unitRef="shares">10000000.0</us-gaap:PreferredStockSharesAuthorized>
+  <us-gaap:CashAndCashEquivalentsAtCarryingValue id="f50" decimals="0" contextRef="c14" unitRef="usd">65941.0</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+  <us-gaap:EmbeddedDerivativeNoLongerBifurcatedAmountReclassifiedToStockholdersEquity id="f51" decimals="0" contextRef="c1" unitRef="usd">-622781.0</us-gaap:EmbeddedDerivativeNoLongerBifurcatedAmountReclassifiedToStockholdersEquity>
+  <wtnw:OperatingLeasesRightofUseAssetsTableTextBlock id="f52" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;/p&gt;&#13;&#13;&lt;table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%"&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="width: 70%; font-size: 11pt; text-align: justify; padding-bottom: 2.5pt"&gt;Right-of-use assets&lt;/td&gt;&lt;td style="width: 10%; font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; width: 1%; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; width: 18%; font-size: 11pt; text-align: right"&gt;632,930&lt;/td&gt;&lt;td style="width: 1%; padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: justify"&gt;Lease liability obligations, current&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;178,116&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: justify; padding-bottom: 1pt"&gt;Lease liability obligations, less current portion&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: right"&gt;473,932&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: justify; padding-bottom: 2.5pt"&gt;Total lease liability obligations&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;652,048&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;Weighted-average remaining lease term&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;&lt;font style="font-size: 11pt"&gt;3.2 years&lt;/font&gt;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;Weighted-average discount rate&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;10&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;%&lt;/td&gt;&lt;/tr&gt;&#13;&lt;/table&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;</wtnw:OperatingLeasesRightofUseAssetsTableTextBlock>
+  <dei:DocumentType id="f53" contextRef="c1">10-Q</dei:DocumentType>
+  <wtnw:SharesIssuedDebtIssuanceValue id="f54" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <us-gaap:Liabilities id="f55" decimals="0" contextRef="c5" unitRef="usd">12004075.0</us-gaap:Liabilities>
+  <us-gaap:PreferredStockParOrStatedValuePerShare id="f56" decimals="INF" contextRef="c5" unitRef="usd1">0.0</us-gaap:PreferredStockParOrStatedValuePerShare>
+  <us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease id="f57" decimals="0" contextRef="c1" unitRef="usd">-65637.0</us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease>
+  <wtnw:TotalCapitalExpenditures id="f58" decimals="0" contextRef="c1" unitRef="usd">30000.0</wtnw:TotalCapitalExpenditures>
+  <wtnw:SharesIssuedDebtIssuanceValue id="f59" decimals="0" contextRef="c10" unitRef="usd">491608.0</wtnw:SharesIssuedDebtIssuanceValue>
+  <wtnw:OperatingLeasesRemainingRightofUseAssetsTextBlock id="f60" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;/p&gt;&#13;&#13;&lt;table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%"&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td colspan="3" style="font-size: 11pt; text-align: justify"&gt;Year ending December 31,&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3" style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="vertical-align: middle; width: 43%; font-size: 11pt; text-align: left"&gt;2020&lt;/td&gt;&lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="width: 10%; font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="width: 43%; font-size: 11pt; text-align: right"&gt;176,000&lt;/td&gt;&lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="vertical-align: middle; font-size: 11pt; text-align: left"&gt;2021&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;240,000&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="vertical-align: middle; font-size: 11pt; text-align: left"&gt;2022&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;246,000&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; vertical-align: middle; font-size: 11pt; text-align: left"&gt;2023&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: right"&gt;103,000&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; vertical-align: middle; font-size: 11pt; text-align: left"&gt;&lt;font style="font-size: 11pt"&gt;Total minimum payments&lt;/font&gt;&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;765,000&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;/table&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;</wtnw:OperatingLeasesRemainingRightofUseAssetsTextBlock>
+  <dei:CurrentFiscalYearEndDate id="f61" contextRef="c1">--12-31</dei:CurrentFiscalYearEndDate>
+  <us-gaap:ProceedsFromNotesPayable id="f62" decimals="0" contextRef="c10" unitRef="usd">1041500.0</us-gaap:ProceedsFromNotesPayable>
+  <wtnw:DerivativeLiabilityBeginning id="f63" decimals="0" contextRef="c1" unitRef="usd">508323.0</wtnw:DerivativeLiabilityBeginning>
+  <wtnw:SegmentReportingDisclosureTableTextBlock id="f64" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0"&gt;&lt;/p&gt;&#13;&#13;&lt;table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%"&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="6" style="text-align: center; vertical-align: middle"&gt;&lt;font style="font-size: 11pt"&gt;&lt;b&gt;For the Three Months&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&#13;    &lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="6" style="text-align: center; vertical-align: middle"&gt;&lt;font style="font-size: 11pt"&gt;&lt;b&gt;Ended March 31,&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&#13;    &lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; font-weight: bold; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3" style="border-bottom: Black 1pt solid; font-size: 11pt; font-weight: bold; text-align: center"&gt;2020&lt;/td&gt;&lt;td style="font-size: 11pt; font-weight: bold; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3" style="border-bottom: Black 1pt solid; font-size: 11pt; font-weight: bold; text-align: center"&gt;2019&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td style="font-size: 11pt"&gt;Revenues&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3"&gt;&amp;#160;&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="width: 56%; font-size: 11pt; text-align: left; padding-left: 10pt"&gt;Water purification products&lt;/td&gt;&lt;td style="width: 8%; font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="width: 12%; font-size: 11pt; text-align: right"&gt;2,995&lt;/td&gt;&lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="width: 8%; font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="width: 12%; font-size: 11pt; text-align: right"&gt;78,552&lt;/td&gt;&lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-bottom: 1pt; padding-left: 10pt"&gt;Oil recovery machines&lt;/td&gt;&lt;td style="font-size: 9pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: right"&gt;&amp;#8212;&amp;#160;&amp;#160;&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 9pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: right"&gt;&amp;#8212;&amp;#160;&amp;#160;&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="text-align: left; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;2,995&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;78,552&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;Loss from operations&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-left: 10pt"&gt;Water purification products&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;201,304&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;722,554&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-left: 10pt"&gt;Oil recovery machines&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;268,909&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;96,581&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-bottom: 1pt; padding-left: 10pt"&gt;General corporate&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: right"&gt;174,979&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: right"&gt;149,276&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="text-align: left; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;645,192&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;968,411&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;Capital expenditures&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-left: 10pt"&gt;Water purification products&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;&amp;#8212;&amp;#160;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;92,158&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-left: 10pt"&gt;Oil recovery machines&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;30,000&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;628,625&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-bottom: 1pt; padding-left: 10pt"&gt;General corporate&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: right"&gt;&amp;#8212;&amp;#160;&amp;#160;&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 9pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: right"&gt;&amp;#8212;&amp;#160;&amp;#160;&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="text-align: left; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;30,000&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;720,783&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; font-weight: bold; text-align: center; padding-bottom: 1pt"&gt;March 31, 2020&lt;/td&gt;&lt;td style="font-size: 11pt; font-weight: bold; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; font-weight: bold; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; vertical-align: middle; font-size: 11pt; font-weight: bold; text-align: center"&gt;&lt;font style="font-size: 11pt"&gt;&lt;b&gt;December 31, 2019&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; font-weight: bold; text-align: left"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;Total assets&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;Water purification products&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;666,823&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;749,536&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;Oil recovery machines&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;2,691,613&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;2,576,758&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-bottom: 1pt"&gt;General corporate&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: right"&gt;859,061&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: right"&gt;1,088,812&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="text-align: left; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;4,217,497&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;4,415,106&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;/table&gt;</wtnw:SegmentReportingDisclosureTableTextBlock>
+  <us-gaap:PreferredStockValue id="f65" xsi:nil="true" contextRef="c" unitRef="usd"/>
+  <us-gaap:PreferredStockSharesIssued id="f66" decimals="INF" contextRef="c" unitRef="shares">0.0</us-gaap:PreferredStockSharesIssued>
+  <wtnw:SharesIssuedDebtIssuanceValue id="f67" xsi:nil="true" contextRef="c8" unitRef="usd"/>
+  <us-gaap:IncreaseDecreaseInDerivativeLiabilities id="f68" decimals="0" contextRef="c1" unitRef="usd">764990.0</us-gaap:IncreaseDecreaseInDerivativeLiabilities>
+  <us-gaap:CommitmentsAndContingencies id="f69" xsi:nil="true" contextRef="c5" unitRef="usd"/>
+  <us-gaap:IncomeTaxReconciliationChangeInDeferredTaxAssetsValuationAllowance id="f70" decimals="0" contextRef="c10" unitRef="usd">334000.0</us-gaap:IncomeTaxReconciliationChangeInDeferredTaxAssetsValuationAllowance>
+  <us-gaap:CommonStockValue id="f71" decimals="0" contextRef="c" unitRef="usd">9071943.0</us-gaap:CommonStockValue>
+  <us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease id="f72" decimals="0" contextRef="c10" unitRef="usd">12835.0</us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease>
+  <wtnw:SharesIssuedDebtIssuanceValue id="f73" xsi:nil="true" contextRef="c13" unitRef="usd"/>
+  <dei:AmendmentFlag id="f74" contextRef="c1">false</dei:AmendmentFlag>
+  <us-gaap:PreferredStockSharesAuthorized id="f75" decimals="INF" contextRef="c5" unitRef="shares">10000000.0</us-gaap:PreferredStockSharesAuthorized>
+  <us-gaap:AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature id="f76" decimals="0" contextRef="c10" unitRef="usd">874204.0</us-gaap:AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature>
+  <us-gaap:PreferredStockValue id="f77" xsi:nil="true" contextRef="c5" unitRef="usd"/>
+  <us-gaap:CashAndCashEquivalentsAtCarryingValue id="f78" decimals="0" contextRef="c15" unitRef="usd">53106.0</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+  <us-gaap:AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature id="f79" xsi:nil="true" contextRef="c8" unitRef="usd"/>
+  <wtnw:GeneralCorporateCapitalExpenditures id="f80" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <dei:DocumentPeriodEndDate id="f81" contextRef="c1">2020-03-31</dei:DocumentPeriodEndDate>
+  <dei:DocumentFiscalPeriodFocus id="f82" contextRef="c1">Q1</dei:DocumentFiscalPeriodFocus>
+  <us-gaap:AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature id="f83" decimals="0" contextRef="c6" unitRef="usd">874204.0</us-gaap:AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature>
+  <wtnw:DerivativeLiabilityEnding id="f84" decimals="0" contextRef="c1" unitRef="usd">1201258.0</wtnw:DerivativeLiabilityEnding>
+  <wtnw:IncreaseDecreaseInFairValueDeferredLiabilities id="f85" decimals="0" contextRef="c1" unitRef="usd">-550726.0</wtnw:IncreaseDecreaseInFairValueDeferredLiabilities>
+  <dei:DocumentFiscalYearFocus id="f86" contextRef="c1">2020</dei:DocumentFiscalYearFocus>
+  <us-gaap:PreferredStockSharesIssued id="f87" decimals="INF" contextRef="c5" unitRef="shares">0.0</us-gaap:PreferredStockSharesIssued>
+  <us-gaap:CashAndCashEquivalentsAtCarryingValue id="f88" decimals="0" contextRef="c5" unitRef="usd">405.0</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+  <us-gaap:AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature id="f89" xsi:nil="true" contextRef="c3" unitRef="usd"/>
+  <wtnw:TotalCapitalExpenditures id="f90" decimals="0" contextRef="c10" unitRef="usd">720783.0</wtnw:TotalCapitalExpenditures>
+  <us-gaap:AdditionalPaidInCapital id="f91" decimals="0" contextRef="c" unitRef="usd">2813464.0</us-gaap:AdditionalPaidInCapital>
+  <us-gaap:AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature id="f92" xsi:nil="true" contextRef="c9" unitRef="usd"/>
+  <us-gaap:InterestPaidNet id="f93" decimals="0" contextRef="c1" unitRef="usd">22209.0</us-gaap:InterestPaidNet>
+  <wtnw:OilRecoveryMachinesCapitalExpenditures id="f94" decimals="0" contextRef="c1" unitRef="usd">30000.0</wtnw:OilRecoveryMachinesCapitalExpenditures>
+  <wtnw:CommonStockValueDerivativeLiabilitiesValue id="f95" decimals="INF" contextRef="c5" unitRef="pure">0.02</wtnw:CommonStockValueDerivativeLiabilitiesValue>
+  <wtnw:GeneralCorporateCapitalExpenditures id="f96" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <us-gaap:CommonStockValue id="f97" decimals="0" contextRef="c5" unitRef="usd">9475224.0</us-gaap:CommonStockValue>
+  <us-gaap:RevenuesNetOfInterestExpense id="f98" decimals="0" contextRef="c1" unitRef="usd">2995.0</us-gaap:RevenuesNetOfInterestExpense>
+  <wtnw:WaterPurificateProductsRevenues id="f99" decimals="0" contextRef="c1" unitRef="usd">2995.0</wtnw:WaterPurificateProductsRevenues>
+  <dei:EntityRegistrantName id="f100" contextRef="c1">Water Now, Inc.</dei:EntityRegistrantName>
+  <us-gaap:ProceedsFromConvertibleDebt id="f101" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <us-gaap:AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature id="f102" xsi:nil="true" contextRef="c13" unitRef="usd"/>
+  <wtnw:ExpectedVolatilityCommonStock id="f103" decimals="INF" contextRef="c5" unitRef="pure">242.48</wtnw:ExpectedVolatilityCommonStock>
+  <dei:EntityCommonStockSharesOutstanding id="f104" decimals="INF" contextRef="c16" unitRef="shares">73746368.0</dei:EntityCommonStockSharesOutstanding>
+  <us-gaap:CommonStockShareSubscribedButUnissuedSubscriptionsReceivable id="f105" decimals="0" contextRef="c" unitRef="usd">50000.0</us-gaap:CommonStockShareSubscribedButUnissuedSubscriptionsReceivable>
+  <us-gaap:TreasuryStockShares id="f106" decimals="INF" contextRef="c" unitRef="shares">100000.0</us-gaap:TreasuryStockShares>
+  <us-gaap:IncomeTaxesPaidNet id="f107" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <us-gaap:NetIncomeLoss id="f108" decimals="0" contextRef="c1" unitRef="usd">-2190259.0</us-gaap:NetIncomeLoss>
+  <us-gaap:PreferredStockSharesOutstanding id="f109" decimals="INF" contextRef="c5" unitRef="shares">0.0</us-gaap:PreferredStockSharesOutstanding>
+  <wtnw:RiskFreeInterestRate id="f110" decimals="INF" contextRef="c5" unitRef="pure">0.15</wtnw:RiskFreeInterestRate>
+  <us-gaap:InterestPaidNet id="f111" decimals="0" contextRef="c10" unitRef="usd">99632.0</us-gaap:InterestPaidNet>
+  <us-gaap:NetIncomeLoss id="f112" xsi:nil="true" contextRef="c2" unitRef="usd"/>
+  <wtnw:OilRecoveryMachinesCapitalExpenditures id="f113" decimals="0" contextRef="c10" unitRef="usd">628625.0</wtnw:OilRecoveryMachinesCapitalExpenditures>
+  <us-gaap:AdditionalPaidInCapital id="f114" decimals="0" contextRef="c5" unitRef="usd">3436245.0</us-gaap:AdditionalPaidInCapital>
+  <us-gaap:RetainedEarningsAccumulatedDeficit id="f115" decimals="0" contextRef="c" unitRef="usd">-18447788.0</us-gaap:RetainedEarningsAccumulatedDeficit>
+  <us-gaap:NetIncomeLoss id="f116" xsi:nil="true" contextRef="c9" unitRef="usd"/>
+  <wtnw:WorkingCapital id="f117" decimals="0" contextRef="c5" unitRef="usd">-8528000.0</wtnw:WorkingCapital>
+  <wtnw:OilRecoveryMachinesRevenues id="f118" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <wtnw:WaterPurificateProductsCapitalExpenditures id="f119" decimals="0" contextRef="c10" unitRef="usd">92158.0</wtnw:WaterPurificateProductsCapitalExpenditures>
+  <wtnw:GainLossDerivativeLiability id="f120" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <dei:EntityCentralIndexKey id="f121" contextRef="c1">0001713909</dei:EntityCentralIndexKey>
+  <wtnw:ConversionOfConvertibleNotesPayable id="f122" decimals="0" contextRef="c1" unitRef="usd">346286.0</wtnw:ConversionOfConvertibleNotesPayable>
+  <us-gaap:NetIncomeLoss id="f123" xsi:nil="true" contextRef="c11" unitRef="usd"/>
+  <wtnw:WaterPurificateProductsCapitalExpenditures id="f124" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <dei:EntityCurrentReportingStatus id="f125" contextRef="c1">Yes</dei:EntityCurrentReportingStatus>
+  <wtnw:WaterPurificateProductsRevenues id="f126" decimals="0" contextRef="c10" unitRef="usd">78552.0</wtnw:WaterPurificateProductsRevenues>
+  <wtnw:GeneralCorporateLossfromOperations id="f127" decimals="0" contextRef="c1" unitRef="usd">174979.0</wtnw:GeneralCorporateLossfromOperations>
+  <us-gaap:IncomeTaxesPaidNet id="f128" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <us-gaap:NetIncomeLoss id="f129" decimals="0" contextRef="c10" unitRef="usd">-1595569.0</us-gaap:NetIncomeLoss>
+  <us-gaap:CommonStockShareSubscribedButUnissuedSubscriptionsReceivable id="f130" decimals="0" contextRef="c5" unitRef="usd">50000.0</us-gaap:CommonStockShareSubscribedButUnissuedSubscriptionsReceivable>
+  <us-gaap:NetIncomeLoss id="f131" xsi:nil="true" contextRef="c3" unitRef="usd"/>
+  <us-gaap:Revenues id="f132" decimals="0" contextRef="c1" unitRef="usd">2995.0</us-gaap:Revenues>
+  <wtnw:TotalLossfromOperations id="f133" decimals="0" contextRef="c10" unitRef="usd">968411.0</wtnw:TotalLossfromOperations>
+  <us-gaap:StockholdersEquity id="f134" decimals="0" contextRef="c17" unitRef="usd">9475224.0</us-gaap:StockholdersEquity>
+  <us-gaap:TreasuryStockShares id="f135" decimals="INF" contextRef="c5" unitRef="shares">100000.0</us-gaap:TreasuryStockShares>
+  <wtnw:TotalLossfromOperations id="f136" decimals="0" contextRef="c1" unitRef="usd">645192.0</wtnw:TotalLossfromOperations>
+  <dei:EntityFilerCategory id="f137" contextRef="c1">Non-accelerated Filer</dei:EntityFilerCategory>
+  <us-gaap:NetIncomeLoss id="f138" xsi:nil="true" contextRef="c4" unitRef="usd"/>
+  <wtnw:OilRecoveryMachinesLossfromOperations id="f139" decimals="0" contextRef="c1" unitRef="usd">268909.0</wtnw:OilRecoveryMachinesLossfromOperations>
+  <us-gaap:SellingGeneralAndAdministrativeExpense id="f140" decimals="0" contextRef="c1" unitRef="usd">240029.0</us-gaap:SellingGeneralAndAdministrativeExpense>
+  <wtnw:BorrowingsOnRevenueSharingLiabilities id="f141" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <wtnw:OilRecoveryMachinesRevenues id="f142" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <us-gaap:StockholdersEquity id="f143" decimals="0" contextRef="c" unitRef="usd">-6622381.0</us-gaap:StockholdersEquity>
+  <us-gaap:CostOfGoodsAndServicesSold id="f144" decimals="0" contextRef="c1" unitRef="usd">2127.0</us-gaap:CostOfGoodsAndServicesSold>
+  <us-gaap:NetIncomeLoss id="f145" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <wtnw:GeneralCorporateLossfromOperations id="f146" decimals="0" contextRef="c10" unitRef="usd">149276.0</wtnw:GeneralCorporateLossfromOperations>
+  <us-gaap:RetainedEarningsAccumulatedDeficit id="f147" decimals="0" contextRef="c5" unitRef="usd">-20638047.0</us-gaap:RetainedEarningsAccumulatedDeficit>
+  <us-gaap:NetIncomeLoss id="f148" xsi:nil="true" contextRef="c7" unitRef="usd"/>
+  <wtnw:ConversionOfConvertibleNotesPayable id="f149" decimals="0" contextRef="c10" unitRef="usd">100000.0</wtnw:ConversionOfConvertibleNotesPayable>
+  <us-gaap:Revenues id="f150" decimals="0" contextRef="c10" unitRef="usd">78552.0</us-gaap:Revenues>
+  <us-gaap:StockholdersEquity id="f151" decimals="0" contextRef="c18" unitRef="usd">9071943.0</us-gaap:StockholdersEquity>
+  <us-gaap:RevenuesNetOfInterestExpense id="f152" decimals="0" contextRef="c10" unitRef="usd">78552.0</us-gaap:RevenuesNetOfInterestExpense>
+  <us-gaap:NetIncomeLoss id="f153" xsi:nil="true" contextRef="c8" unitRef="usd"/>
+  <dei:EntitySmallBusiness id="f154" contextRef="c1">true</dei:EntitySmallBusiness>
+  <us-gaap:NetCashProvidedByUsedInFinancingActivities id="f155" decimals="0" contextRef="c1" unitRef="usd">403334.0</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+  <us-gaap:NetIncomeLoss id="f156" decimals="0" contextRef="c12" unitRef="usd">-2190259.0</us-gaap:NetIncomeLoss>
+  <wtnw:OilRecoveryMachinesLossfromOperations id="f157" decimals="0" contextRef="c10" unitRef="usd">96581.0</wtnw:OilRecoveryMachinesLossfromOperations>
+  <us-gaap:StockholdersEquity id="f158" decimals="0" contextRef="c5" unitRef="usd">-7786578.0</us-gaap:StockholdersEquity>
+  <wtnw:BorrowingsOnRevenueSharingLiabilities id="f159" decimals="0" contextRef="c10" unitRef="usd">2046000.0</wtnw:BorrowingsOnRevenueSharingLiabilities>
+  <us-gaap:NetIncomeLoss id="f160" decimals="0" contextRef="c13" unitRef="usd">-1595569.0</us-gaap:NetIncomeLoss>
+  <us-gaap:InterestExpenseOtherLongTermDebt id="f161" decimals="0" contextRef="c1" unitRef="usd">50000.0</us-gaap:InterestExpenseOtherLongTermDebt>
+  <dei:EntityEmergingGrowthCompany id="f162" contextRef="c1">true</dei:EntityEmergingGrowthCompany>
+  <wtnw:DistributorshipAgreementValue id="f163" decimals="0" contextRef="c1" unitRef="usd">1000000.0</wtnw:DistributorshipAgreementValue>
+  <us-gaap:StockholdersEquity id="f164" decimals="0" contextRef="c19" unitRef="usd">6463705.0</us-gaap:StockholdersEquity>
+  <us-gaap:GrossProfit id="f165" decimals="0" contextRef="c1" unitRef="usd">868.0</us-gaap:GrossProfit>
+  <wtnw:StockIssuedDuringPeriodValueServicesCompensationDistributionshipAgreement id="f166" xsi:nil="true" contextRef="c4" unitRef="usd"/>
+  <us-gaap:NetCashProvidedByUsedInOperatingActivities id="f167" decimals="0" contextRef="c10" unitRef="usd">-1713382.0</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+  <us-gaap:CostOfGoodsAndServicesSold id="f168" decimals="0" contextRef="c10" unitRef="usd">68880.0</us-gaap:CostOfGoodsAndServicesSold>
+  <us-gaap:NetCashProvidedByUsedInFinancingActivities id="f169" decimals="0" contextRef="c10" unitRef="usd">2817000.0</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+  <wtnw:WaterPurificationProductsLossfromOperations id="f170" decimals="0" contextRef="c10" unitRef="usd">722554.0</wtnw:WaterPurificationProductsLossfromOperations>
+  <wtnw:StockIssuedDuringPeriodValueServicesCompensationDistributionshipAgreement id="f171" xsi:nil="true" contextRef="c7" unitRef="usd"/>
+  <wtnw:DistributorshipAgreementPayment id="f172" decimals="0" contextRef="c1" unitRef="usd">500000.0</wtnw:DistributorshipAgreementPayment>
+  <us-gaap:StockholdersEquity id="f173" decimals="0" contextRef="c20" unitRef="usd">7055313.0</us-gaap:StockholdersEquity>
+  <wtnw:StockIssuedDuringPeriodValueServicesCompensationDistributionshipAgreement id="f174" xsi:nil="true" contextRef="c12" unitRef="usd"/>
+  <wtnw:DateofAgreement id="f175" contextRef="c1">2018-10-31</wtnw:DateofAgreement>
+  <wtnw:WaterPurificationProductsLossfromOperations id="f176" decimals="0" contextRef="c1" unitRef="usd">201304.0</wtnw:WaterPurificationProductsLossfromOperations>
+  <dei:EntityExTransitionPeriod id="f177" contextRef="c1">false</dei:EntityExTransitionPeriod>
+  <wtnw:BalanceRemainingNote id="f178" decimals="0" contextRef="c21" unitRef="usd">175000.0</wtnw:BalanceRemainingNote>
+  <us-gaap:StockholdersEquity id="f179" decimals="0" contextRef="c22" unitRef="usd">2813464.0</us-gaap:StockholdersEquity>
+  <wtnw:DistributorshipAgreementShares id="f180" decimals="INF" contextRef="c1" unitRef="shares">500000.0</wtnw:DistributorshipAgreementShares>
+  <wtnw:WaterPurificateProducts id="f181" decimals="0" contextRef="c5" unitRef="usd">666823.0</wtnw:WaterPurificateProducts>
+  <us-gaap:ProceedsFromConvertibleDebt id="f182" decimals="0" contextRef="c10" unitRef="usd">491608.0</us-gaap:ProceedsFromConvertibleDebt>
+  <wtnw:WaterPurificateProducts id="f183" decimals="0" contextRef="c" unitRef="usd">749536.0</wtnw:WaterPurificateProducts>
+  <dei:EntityShellCompany id="f184" contextRef="c1">false</dei:EntityShellCompany>
+  <us-gaap:LaborAndRelatedExpense id="f185" decimals="0" contextRef="c1" unitRef="usd">316067.0</us-gaap:LaborAndRelatedExpense>
+  <wtnw:StockIssuedLoanCollateralValue id="f186" xsi:nil="true" contextRef="c11" unitRef="usd"/>
+  <wtnw:DistributorshipAgreementShareValue id="f187" decimals="0" contextRef="c1" unitRef="usd">250000.0</wtnw:DistributorshipAgreementShareValue>
+  <us-gaap:StockholdersEquity id="f188" decimals="0" contextRef="c23" unitRef="usd">3436245.0</us-gaap:StockholdersEquity>
+  <wtnw:OilRecoveryMachines id="f189" decimals="0" contextRef="c5" unitRef="usd">2691613.0</wtnw:OilRecoveryMachines>
+  <us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature id="f190" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <us-gaap:Cash id="f191" decimals="0" contextRef="c" unitRef="usd">66042.0</us-gaap:Cash>
+  <wtnw:StockIssuedDuringPeriodSharesServicesCompensationDistributionshipAgreement id="f192" decimals="INF" contextRef="c11" unitRef="shares">385000.0</wtnw:StockIssuedDuringPeriodSharesServicesCompensationDistributionshipAgreement>
+  <wtnw:OilRecoveryMachines id="f193" decimals="0" contextRef="c" unitRef="usd">2576758.0</wtnw:OilRecoveryMachines>
+  <us-gaap:StockholdersEquity id="f194" decimals="0" contextRef="c24" unitRef="usd">687431.0</us-gaap:StockholdersEquity>
+  <us-gaap:GrossProfit id="f195" decimals="0" contextRef="c10" unitRef="usd">9672.0</us-gaap:GrossProfit>
+  <wtnw:StockIssuedDuringPeriodValueServicesCompensationDistributionshipAgreement id="f196" xsi:nil="true" contextRef="c2" unitRef="usd"/>
+  <us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodIntrinsicValue id="f197" decimals="INF" contextRef="c1" unitRef="usd1">0.5</us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodIntrinsicValue>
+  <wtnw:ReclassDerrivative id="f198" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <wtnw:StockIssuedDuringPeriodValueServicesCompensationDistributionshipAgreement id="f199" decimals="0" contextRef="c11" unitRef="usd">24600.0</wtnw:StockIssuedDuringPeriodValueServicesCompensationDistributionshipAgreement>
+  <wtnw:StockIssuedDuringPeriodValueServicesCompensationDistributionshipAgreement id="f200" decimals="0" contextRef="c1" unitRef="usd">24600.0</wtnw:StockIssuedDuringPeriodValueServicesCompensationDistributionshipAgreement>
+  <wtnw:GeneralCorporate id="f201" decimals="0" contextRef="c5" unitRef="usd">859061.0</wtnw:GeneralCorporate>
+  <us-gaap:StockholdersEquity id="f202" decimals="0" contextRef="c25" unitRef="usd">1561635.0</us-gaap:StockholdersEquity>
+  <wtnw:ReclassDerrivative id="f203" decimals="0" contextRef="c1" unitRef="usd">622781.0</wtnw:ReclassDerrivative>
+  <wtnw:StockIssuedLoanCollateralShares id="f204" decimals="INF" contextRef="c11" unitRef="shares">1000000.0</wtnw:StockIssuedLoanCollateralShares>
+  <us-gaap:AccountsReceivableNetCurrent id="f205" decimals="0" contextRef="c" unitRef="usd">118250.0</us-gaap:AccountsReceivableNetCurrent>
+  <wtnw:ProceedsFromIssuanceOfNotes id="f206" decimals="0" contextRef="c1" unitRef="usd">142361.0</wtnw:ProceedsFromIssuanceOfNotes>
+  <wtnw:ReductionDerivativeLiabilityConversionRedemption id="f207" xsi:nil="true" contextRef="c12" unitRef="usd"/>
+  <wtnw:GeneralCorporate id="f208" decimals="0" contextRef="c" unitRef="usd">1088812.0</wtnw:GeneralCorporate>
+  <us-gaap:ProfessionalFees id="f209" decimals="0" contextRef="c1" unitRef="usd">69976.0</us-gaap:ProfessionalFees>
+  <wtnw:ReductionDerivativeLiabilityConversionRedemption id="f210" xsi:nil="true" contextRef="c7" unitRef="usd"/>
+  <us-gaap:LoansReceivableWithFixedRatesOfInterest1 id="f211" decimals="0" contextRef="c26" unitRef="usd">290400.0</us-gaap:LoansReceivableWithFixedRatesOfInterest1>
+  <us-gaap:StockholdersEquity id="f212" decimals="0" contextRef="c27" unitRef="usd">-50000.0</us-gaap:StockholdersEquity>
+  <wtnw:ReductionDerivativeLiabilityConversionRedemption id="f213" xsi:nil="true" contextRef="c4" unitRef="usd"/>
+  <us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature id="f214" decimals="0" contextRef="c28" unitRef="usd">52000.0</us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature>
+  <wtnw:ReductionDerivativeLiabilityConversionRedemption id="f215" decimals="0" contextRef="c2" unitRef="usd">622781.0</wtnw:ReductionDerivativeLiabilityConversionRedemption>
+  <us-gaap:NotesPayable id="f216" decimals="0" contextRef="c29" unitRef="usd">25000.0</us-gaap:NotesPayable>
+  <wtnw:TotalAssets id="f217" decimals="0" contextRef="c5" unitRef="usd">4217497.0</wtnw:TotalAssets>
+  <us-gaap:Cash id="f218" decimals="0" contextRef="c5" unitRef="usd">405.0</us-gaap:Cash>
+  <us-gaap:LaborAndRelatedExpense id="f219" decimals="0" contextRef="c10" unitRef="usd">322628.0</us-gaap:LaborAndRelatedExpense>
+  <us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature id="f220" decimals="0" contextRef="c10" unitRef="usd">959467.0</us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature>
+  <wtnw:ReductionDerivativeLiabilityConversionRedemption id="f221" xsi:nil="true" contextRef="c11" unitRef="usd"/>
+  <us-gaap:InterestExpenseOtherLongTermDebt id="f222" decimals="0" contextRef="c10" unitRef="usd">50000.0</us-gaap:InterestExpenseOtherLongTermDebt>
+  <us-gaap:StockholdersEquity id="f223" decimals="0" contextRef="c30" unitRef="usd">-50000.0</us-gaap:StockholdersEquity>
+  <wtnw:ReductionDerivativeLiabilityConversionRedemption id="f224" decimals="0" contextRef="c1" unitRef="usd">622781.0</wtnw:ReductionDerivativeLiabilityConversionRedemption>
+  <wtnw:TotalAssets id="f225" decimals="0" contextRef="c" unitRef="usd">4415106.0</wtnw:TotalAssets>
+  <us-gaap:ProceedsFromRelatedPartyDebt id="f226" decimals="0" contextRef="c1" unitRef="usd">322036.0</us-gaap:ProceedsFromRelatedPartyDebt>
+  <us-gaap:PropertyPlantAndEquipmentNet id="f227" decimals="0" contextRef="c" unitRef="usd">2137272.0</us-gaap:PropertyPlantAndEquipmentNet>
+  <wtnw:DistributorshipAccruedExpenses id="f228" decimals="INF" contextRef="c5" unitRef="shares">500000.0</wtnw:DistributorshipAccruedExpenses>
+  <us-gaap:RepaymentsOfNotesPayable id="f229" decimals="0" contextRef="c1" unitRef="usd">-3502.0</us-gaap:RepaymentsOfNotesPayable>
+  <wtnw:StockIssuedLoanCollateralValue id="f230" xsi:nil="true" contextRef="c2" unitRef="usd"/>
+  <us-gaap:StockholdersEquity id="f231" decimals="0" contextRef="c31" unitRef="usd">-50000.0</us-gaap:StockholdersEquity>
+  <us-gaap:InventoryNet id="f232" decimals="0" contextRef="c" unitRef="usd">517849.0</us-gaap:InventoryNet>
+  <us-gaap:ProfessionalFees id="f233" decimals="0" contextRef="c10" unitRef="usd">293644.0</us-gaap:ProfessionalFees>
+  <dei:EntityInteractiveDataCurrent id="f234" contextRef="c1">Yes</dei:EntityInteractiveDataCurrent>
+  <us-gaap:StockholdersEquity id="f235" decimals="0" contextRef="c32" unitRef="usd">-50000.0</us-gaap:StockholdersEquity>
+  <wtnw:StockIssuedLoanCollateralValue id="f236" xsi:nil="true" contextRef="c4" unitRef="usd"/>
+  <us-gaap:AccountsReceivableNetCurrent id="f237" decimals="0" contextRef="c5" unitRef="usd">118250.0</us-gaap:AccountsReceivableNetCurrent>
+  <us-gaap:GainLossOnDispositionOfAssets id="f238" decimals="0" contextRef="c1" unitRef="usd">19988.0</us-gaap:GainLossOnDispositionOfAssets>
+  <wtnw:ProceedsFromIssuanceOfNotes id="f239" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <wtnw:RepaymentsOfConvertibleNotesPayable id="f240" decimals="0" contextRef="c1" unitRef="usd">-80000.0</wtnw:RepaymentsOfConvertibleNotesPayable>
+  <wtnw:StockIssuedLoanCollateralValue id="f241" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <wtnw:LoanInterestRate id="f242" decimals="INF" contextRef="c26" unitRef="pure">0.01</wtnw:LoanInterestRate>
+  <us-gaap:PrepaidExpenseCurrent id="f243" decimals="0" contextRef="c" unitRef="usd">21264.0</us-gaap:PrepaidExpenseCurrent>
+  <us-gaap:StockholdersEquity id="f244" decimals="0" contextRef="c33" unitRef="usd">-10000.0</us-gaap:StockholdersEquity>
+  <us-gaap:RepaymentsOfNotesPayable id="f245" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <dei:EntityIncorporationStateCountryCode id="f246" contextRef="c1">TX</dei:EntityIncorporationStateCountryCode>
+  <us-gaap:SellingGeneralAndAdministrativeExpense id="f247" decimals="0" contextRef="c10" unitRef="usd">365881.0</us-gaap:SellingGeneralAndAdministrativeExpense>
+  <us-gaap:StockholdersEquity id="f248" decimals="0" contextRef="c34" unitRef="usd">-10000.0</us-gaap:StockholdersEquity>
+  <wtnw:StockIssuedLoanCollateralValue id="f249" xsi:nil="true" contextRef="c7" unitRef="usd"/>
+  <us-gaap:DebtSecuritiesAvailableForSaleMaturityDate id="f250" contextRef="c35">2020-06-14</us-gaap:DebtSecuritiesAvailableForSaleMaturityDate>
+  <us-gaap:InventoryNet id="f251" decimals="0" contextRef="c5" unitRef="usd">515722.0</us-gaap:InventoryNet>
+  <wtnw:SharesIssuedHeldInEscrowforCollateral id="f252" decimals="INF" contextRef="c1" unitRef="shares">1000000.0</wtnw:SharesIssuedHeldInEscrowforCollateral>
+  <us-gaap:DepositsAssets id="f253" decimals="0" contextRef="c" unitRef="usd">34330.0</us-gaap:DepositsAssets>
+  <us-gaap:StockholdersEquity id="f254" xsi:nil="true" contextRef="c36" unitRef="usd"/>
+  <wtnw:StockIssuedLoanCollateralValue id="f255" xsi:nil="true" contextRef="c12" unitRef="usd"/>
+  <us-gaap:OperatingExpenses id="f256" decimals="0" contextRef="c1" unitRef="usd">646060.0</us-gaap:OperatingExpenses>
+  <wtnw:BorrowingsOnNotesPayable id="f257" decimals="0" contextRef="c1" unitRef="usd">25000.0</wtnw:BorrowingsOnNotesPayable>
+  <us-gaap:GainLossOnDispositionOfAssets id="f258" decimals="0" contextRef="c10" unitRef="usd">-4070.0</us-gaap:GainLossOnDispositionOfAssets>
+  <us-gaap:DebtSecuritiesAvailableForSaleMaturityDate id="f259" contextRef="c37">2020-09-04</us-gaap:DebtSecuritiesAvailableForSaleMaturityDate>
+  <us-gaap:AssetsCurrent id="f260" decimals="0" contextRef="c" unitRef="usd">723405.0</us-gaap:AssetsCurrent>
+  <us-gaap:StockholdersEquity id="f261" xsi:nil="true" contextRef="c38" unitRef="usd"/>
+  <us-gaap:ShareBasedCompensation id="f262" decimals="0" contextRef="c1" unitRef="usd">24600.0</us-gaap:ShareBasedCompensation>
+  <us-gaap:IncreaseDecreaseInInventories id="f263" decimals="0" contextRef="c1" unitRef="usd">2127.0</us-gaap:IncreaseDecreaseInInventories>
+  <wtnw:BalanceRemainingNote id="f264" decimals="0" contextRef="c28" unitRef="usd">100000.0</wtnw:BalanceRemainingNote>
+  <wtnw:RepaymentsOfConvertibleNotesPayable id="f265" decimals="0" contextRef="c10" unitRef="usd">-310500.0</wtnw:RepaymentsOfConvertibleNotesPayable>
+  <us-gaap:DepreciationAmortizationAndAccretionNet id="f266" decimals="0" contextRef="c1" unitRef="usd">74436.0</us-gaap:DepreciationAmortizationAndAccretionNet>
+  <us-gaap:PrepaidExpenseCurrent id="f267" decimals="0" contextRef="c5" unitRef="usd">4333.0</us-gaap:PrepaidExpenseCurrent>
+  <us-gaap:StockholdersEquity id="f268" decimals="0" contextRef="c39" unitRef="usd">-18447788.0</us-gaap:StockholdersEquity>
+  <us-gaap:OperatingIncomeLoss id="f269" decimals="0" contextRef="c1" unitRef="usd">-645192.0</us-gaap:OperatingIncomeLoss>
+  <wtnw:DebtInstrumentInterestRateDuringPeriod1 id="f270" decimals="INF" contextRef="c35" unitRef="pure">0.18</wtnw:DebtInstrumentInterestRateDuringPeriod1>
+  <wtnw:PrincipalRepaidExtended id="f271" decimals="0" contextRef="c29" unitRef="usd">529000.0</wtnw:PrincipalRepaidExtended>
+  <us-gaap:StockholdersEquity id="f272" decimals="0" contextRef="c40" unitRef="usd">-20638047.0</us-gaap:StockholdersEquity>
+  <us-gaap:ProceedsFromRepaymentsOfRelatedPartyDebt id="f273" decimals="0" contextRef="c1" unitRef="usd">-101700.0</us-gaap:ProceedsFromRepaymentsOfRelatedPartyDebt>
+  <us-gaap:ShareBasedCompensation id="f274" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <us-gaap:DebtIssuanceCostsLineOfCreditArrangementsNet id="f275" decimals="0" contextRef="c37" unitRef="usd">3500.0</us-gaap:DebtIssuanceCostsLineOfCreditArrangementsNet>
+  <us-gaap:OperatingExpenses id="f276" decimals="0" contextRef="c10" unitRef="usd">978083.0</us-gaap:OperatingExpenses>
+  <wtnw:DebtInstrumentInterestRateDuringPeriod1 id="f277" decimals="INF" contextRef="c37" unitRef="pure">0.12</wtnw:DebtInstrumentInterestRateDuringPeriod1>
+  <us-gaap:AssetsCurrent id="f278" decimals="0" contextRef="c5" unitRef="usd">638710.0</us-gaap:AssetsCurrent>
+  <us-gaap:StockholdersEquity id="f279" decimals="0" contextRef="c41" unitRef="usd">-7979177.0</us-gaap:StockholdersEquity>
+  <wtnw:BorrowingsOnNotesPayable id="f280" decimals="0" contextRef="c10" unitRef="usd">300000.0</wtnw:BorrowingsOnNotesPayable>
+  <us-gaap:OperatingLeaseRightOfUseAsset id="f281" decimals="0" contextRef="c" unitRef="usd">753432.0</us-gaap:OperatingLeaseRightOfUseAsset>
+  <us-gaap:IncreaseDecreaseInAccountsReceivable id="f282" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <us-gaap:ProceedsFromRepaymentsOfRelatedPartyDebt id="f283" decimals="0" contextRef="c10" unitRef="usd">-270000.0</us-gaap:ProceedsFromRepaymentsOfRelatedPartyDebt>
+  <us-gaap:GainLossOnSaleOfOtherAssets id="f284" decimals="0" contextRef="c1" unitRef="usd">19988.0</us-gaap:GainLossOnSaleOfOtherAssets>
+  <wtnw:DiscountForInterestOnNote id="f285" decimals="0" contextRef="c37" unitRef="usd">17500.0</wtnw:DiscountForInterestOnNote>
+  <us-gaap:StockholdersEquity id="f286" decimals="0" contextRef="c42" unitRef="usd">-9574746.0</us-gaap:StockholdersEquity>
+  <us-gaap:InterestExpense id="f287" decimals="0" contextRef="c1" unitRef="usd">265000.0</us-gaap:InterestExpense>
+  <us-gaap:DepreciationAmortizationAndAccretionNet id="f288" decimals="0" contextRef="c10" unitRef="usd">63403.0</us-gaap:DepreciationAmortizationAndAccretionNet>
+  <us-gaap:PropertyPlantAndEquipmentNet id="f289" decimals="0" contextRef="c5" unitRef="usd">2205709.0</us-gaap:PropertyPlantAndEquipmentNet>
+  <us-gaap:StockholdersEquity id="f290" decimals="0" contextRef="c15" unitRef="usd">-878041.0</us-gaap:StockholdersEquity>
+  <us-gaap:AmortizationOfDebtDiscountPremium id="f291" decimals="0" contextRef="c1" unitRef="usd">124769.0</us-gaap:AmortizationOfDebtDiscountPremium>
+  <us-gaap:DueToRelatedPartiesNoncurrent id="f292" decimals="0" contextRef="c" unitRef="usd">4000.0</us-gaap:DueToRelatedPartiesNoncurrent>
+  <us-gaap:DueToRelatedPartiesCurrent id="f293" decimals="0" contextRef="c" unitRef="usd">4407.0</us-gaap:DueToRelatedPartiesCurrent>
+  <us-gaap:OperatingIncomeLoss id="f294" decimals="0" contextRef="c10" unitRef="usd">-968411.0</us-gaap:OperatingIncomeLoss>
+  <us-gaap:OtherAccruedLiabilitiesCurrent id="f295" decimals="0" contextRef="c" unitRef="usd">532512.0</us-gaap:OtherAccruedLiabilitiesCurrent>
+  <us-gaap:StockholdersEquity id="f296" decimals="0" contextRef="c14" unitRef="usd">-1007798.0</us-gaap:StockholdersEquity>
+  <us-gaap:GainsLossesOnExtinguishmentOfDebt id="f297" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <us-gaap:LeaseAndRentalExpense id="f298" decimals="0" contextRef="c1" unitRef="usd">5343.0</us-gaap:LeaseAndRentalExpense>
+  <wtnw:BalanceRemainingNote id="f299" decimals="0" contextRef="c43" unitRef="usd">50000.0</wtnw:BalanceRemainingNote>
+  <us-gaap:ProceedsFromRelatedPartyDebt id="f300" decimals="0" contextRef="c10" unitRef="usd">10000.0</us-gaap:ProceedsFromRelatedPartyDebt>
+  <us-gaap:FairValueNetDerivativeAssetLiabilityMeasuredOnRecurringBasisUnobservableInputsReconciliationGainLossIncludedInEarnings id="f301" decimals="0" contextRef="c1" unitRef="usd">550726.0</us-gaap:FairValueNetDerivativeAssetLiabilityMeasuredOnRecurringBasisUnobservableInputsReconciliationGainLossIncludedInEarnings>
+  <us-gaap:OperatingLeasesFutureMinimumPaymentsDueInFourYears id="f302" decimals="0" contextRef="c5" unitRef="usd">246000.0</us-gaap:OperatingLeasesFutureMinimumPaymentsDueInFourYears>
+  <us-gaap:GainLossOnSaleOfOtherAssets id="f303" decimals="0" contextRef="c10" unitRef="usd">-4070.0</us-gaap:GainLossOnSaleOfOtherAssets>
+  <us-gaap:AccountsPayableCurrentAndNoncurrent id="f304" decimals="0" contextRef="c16" unitRef="usd">1000000.0</us-gaap:AccountsPayableCurrentAndNoncurrent>
+  <wtnw:DistributorshipAgreementAsset id="f305" decimals="0" contextRef="c" unitRef="usd">766667.0</wtnw:DistributorshipAgreementAsset>
+  <us-gaap:LiabilitiesAndStockholdersEquity id="f306" decimals="0" contextRef="c" unitRef="usd">4415106.0</us-gaap:LiabilitiesAndStockholdersEquity>
+  <us-gaap:InterestExpense id="f307" decimals="0" contextRef="c10" unitRef="usd">605595.0</us-gaap:InterestExpense>
+  <us-gaap:ConvertibleNotesPayableCurrent id="f308" decimals="0" contextRef="c35" unitRef="usd">50000.0</us-gaap:ConvertibleNotesPayableCurrent>
+  <us-gaap:EarningsPerShareBasicAndDiluted id="f309" decimals="INF" contextRef="c1" unitRef="usd1">-0.04</us-gaap:EarningsPerShareBasicAndDiluted>
+  <us-gaap:NonoperatingIncomeExpense id="f310" decimals="0" contextRef="c1" unitRef="usd">-1545067.0</us-gaap:NonoperatingIncomeExpense>
+  <us-gaap:LeaseAndRentalExpense id="f311" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <us-gaap:DueToRelatedPartiesNoncurrent id="f312" decimals="0" contextRef="c5" unitRef="usd">225000.0</us-gaap:DueToRelatedPartiesNoncurrent>
+  <us-gaap:ConvertibleNotesPayableCurrent id="f313" decimals="0" contextRef="c" unitRef="usd">2143369.0</us-gaap:ConvertibleNotesPayableCurrent>
+  <wtnw:DistributorshipAgreementAsset id="f314" decimals="0" contextRef="c5" unitRef="usd">716667.0</wtnw:DistributorshipAgreementAsset>
+  <us-gaap:LiabilitiesAndStockholdersEquity id="f315" decimals="0" contextRef="c5" unitRef="usd">4217497.0</us-gaap:LiabilitiesAndStockholdersEquity>
+  <us-gaap:GainsLossesOnExtinguishmentOfDebt id="f316" decimals="0" contextRef="c10" unitRef="usd">-21563.0</us-gaap:GainsLossesOnExtinguishmentOfDebt>
+  <us-gaap:FairValueNetDerivativeAssetLiabilityMeasuredOnRecurringBasisUnobservableInputsReconciliationGainLossIncludedInEarnings id="f317" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <us-gaap:Assets id="f318" decimals="0" contextRef="c" unitRef="usd">4415106.0</us-gaap:Assets>
+  <us-gaap:DepositsAssets id="f319" decimals="0" contextRef="c5" unitRef="usd">23481.0</us-gaap:DepositsAssets>
+  <wtnw:DerivativeExpenseIssuance id="f320" decimals="0" contextRef="c1" unitRef="usd">514990.0</wtnw:DerivativeExpenseIssuance>
+  <us-gaap:PaymentsToAcquireProductiveAssets id="f321" decimals="0" contextRef="c10" unitRef="usd">720783.0</us-gaap:PaymentsToAcquireProductiveAssets>
+  <us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest id="f322" decimals="0" contextRef="c1" unitRef="usd">-2190259.0</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+  <us-gaap:AmortizationOfDebtDiscountPremium id="f323" decimals="0" contextRef="c10" unitRef="usd">363296.0</us-gaap:AmortizationOfDebtDiscountPremium>
+  <us-gaap:IncreaseDecreaseInPrepaidExpense id="f324" decimals="0" contextRef="c1" unitRef="usd">16931.0</us-gaap:IncreaseDecreaseInPrepaidExpense>
+  <us-gaap:NonoperatingIncomeExpense id="f325" decimals="0" contextRef="c10" unitRef="usd">-627158.0</us-gaap:NonoperatingIncomeExpense>
+  <us-gaap:IncreaseDecreaseInOtherReceivables id="f326" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <us-gaap:ConvertibleNotesPayableCurrent id="f327" decimals="0" contextRef="c5" unitRef="usd">1833352.0</us-gaap:ConvertibleNotesPayableCurrent>
+  <wtnw:SharesIssuedForConversion id="f328" decimals="INF" contextRef="c1" unitRef="shares">16894369.0</wtnw:SharesIssuedForConversion>
+  <us-gaap:AccountsPayableCurrent id="f329" decimals="0" contextRef="c" unitRef="usd">1285214.0</us-gaap:AccountsPayableCurrent>
+  <us-gaap:IncreaseDecreaseInAccountsReceivable id="f330" decimals="0" contextRef="c10" unitRef="usd">-69671.0</us-gaap:IncreaseDecreaseInAccountsReceivable>
+  <us-gaap:IncomeTaxExpenseBenefit id="f331" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <wtnw:SharesIssuedEmployees id="f332" decimals="INF" contextRef="c1" unitRef="shares">385000.0</wtnw:SharesIssuedEmployees>
+  <us-gaap:Assets id="f333" decimals="0" contextRef="c5" unitRef="usd">4217497.0</us-gaap:Assets>
+  <us-gaap:IncreaseDecreaseInOtherReceivables id="f334" decimals="0" contextRef="c10" unitRef="usd">-6000.0</us-gaap:IncreaseDecreaseInOtherReceivables>
+  <us-gaap:ConvertibleNotesPayableCurrent id="f335" decimals="0" contextRef="c44" unitRef="usd">37500.0</us-gaap:ConvertibleNotesPayableCurrent>
+  <us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest id="f336" decimals="0" contextRef="c10" unitRef="usd">-1595569.0</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+  <wtnw:DerivativeExpenseIssuance id="f337" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <wtnw:SharesIssuedForConversion id="f338" decimals="INF" contextRef="c10" unitRef="shares">200000.0</wtnw:SharesIssuedForConversion>
+  <us-gaap:SubstantialDoubtAboutGoingConcernTextBlock id="f339" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&lt;b&gt;2. Going Concern&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;At March 31, 2020, the Company had approximately&#13;$405 in cash and had net working capital deficit of approximately $8,528,000. The Company, which generated a net loss of approximately&#13;$2,190,000 and $1,596,000 for the three months ended March 31, 2020 and 2019, respectively, may not have sufficient cash to fund&#13;its current and future operations. There is no assurance that future operations will result in profitability. No assurance can&#13;be given that management will be successful in its efforts to raise additional capital. The failure to raise additional capital&#13;needed to achieve its business plans will have a material adverse effect on the Company&amp;#8217;s financial position, results of&#13;operations, and ability to continue as a going concern.&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;</us-gaap:SubstantialDoubtAboutGoingConcernTextBlock>
+  <us-gaap:AccountsPayableCurrent id="f340" decimals="0" contextRef="c5" unitRef="usd">1315513.0</us-gaap:AccountsPayableCurrent>
+  <wtnw:InterestConvertedtoCommonStock id="f341" decimals="0" contextRef="c1" unitRef="usd">32395.0</wtnw:InterestConvertedtoCommonStock>
+  <wtnw:SharesIssuedForDebtIssuance id="f342" decimals="INF" contextRef="c10" unitRef="shares">465384.0</wtnw:SharesIssuedForDebtIssuance>
+  <us-gaap:ConvertibleNotesPayableCurrent id="f343" decimals="0" contextRef="c37" unitRef="usd">175000.0</us-gaap:ConvertibleNotesPayableCurrent>
+  <wtnw:AmortizationInterestForRevenueSharingAgreements id="f344" decimals="0" contextRef="c10" unitRef="usd">117000.0</wtnw:AmortizationInterestForRevenueSharingAgreements>
+  <us-gaap:NotesPayableCurrent id="f345" decimals="0" contextRef="c" unitRef="usd">504000.0</us-gaap:NotesPayableCurrent>
+  <us-gaap:ProfitLoss id="f346" decimals="0" contextRef="c1" unitRef="usd">-2190259.0</us-gaap:ProfitLoss>
+  <wtnw:DistributorshipAccruedExpense id="f347" decimals="0" contextRef="c" unitRef="usd">250000.0</wtnw:DistributorshipAccruedExpense>
+  <us-gaap:IncreaseDecreaseInInventories id="f348" decimals="0" contextRef="c10" unitRef="usd">-8548.0</us-gaap:IncreaseDecreaseInInventories>
+  <wtnw:CommonStockIssued id="f349" decimals="INF" contextRef="c1" unitRef="shares">1000000.0</wtnw:CommonStockIssued>
+  <us-gaap:OtherAccruedLiabilitiesCurrent id="f350" decimals="0" contextRef="c5" unitRef="usd">552116.0</us-gaap:OtherAccruedLiabilitiesCurrent>
+  <wtnw:AmortizationInterestForRevenueSharingAgreements id="f351" decimals="0" contextRef="c1" unitRef="usd">264731.0</wtnw:AmortizationInterestForRevenueSharingAgreements>
+  <us-gaap:IncomeTaxExpenseBenefit id="f352" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <us-gaap:IncomeTaxDisclosureTextBlock id="f353" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&lt;b&gt;11. Income Taxes&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;The Company accounts for income taxes&#13;under the liability method. Deferred tax assets and liabilities are recorded based on the differences between the tax bases of&#13;assets and liabilities and their carrying amounts for financial reporting purpose, referred to as temporary differences. Deferred&#13;tax assets and liabilities at the end of each period are determined using the currently enacted tax rates applied to taxable income&#13;in the periods in which the deferred tax assets and liabilities are expected to be settled or realized.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&amp;#160;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;The Company&amp;#8217;s tax provision is&#13;determined using an estimate of an annual effective tax rate adjusted for discrete items, if any, that are taken into account in&#13;the relevant period. The 2020 and 2019 annual effective tax rate is estimated to be 0% for the U.S. federal and state statutory&#13;tax rates because the Company is in a net operating loss position. The Company reviews tax uncertainties in light of changing facts&#13;and circumstances and adjust them accordingly. As of March 31, 2020 and December 31, 2019, there were no tax contingencies recorded.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;Deferred income taxes reflect the net&#13;tax effects of temporary differences between the carrying amounts of assets and liabilities recognized for financial reporting,&#13;and the amounts recognized for income tax purposes.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&#13;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;The Company had a net operating loss&#13;carry-forward for federal and state tax purposes of approximately $14,243,000 at March 31, 2020, that is potentially available&#13;to offset future taxable income. The TCJA (Tax Cut and Jobs Act) changes the rules on NOL carryforwards. The 20-year limitation&#13;was eliminated, giving the taxpayer the ability to carry forward losses indefinitely. However, NOL carry forward arising after&#13;January 1, 2018, will now be limited to 80 percent of taxable income.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;For financial reporting purposes, no&#13;deferred tax asset was recognized at March 31, 2020 and December 31, 2019 because management estimates that it is more likely than&#13;not that substantially all of the net operating losses will expire unused. As a result, the amount of the deferred tax assets considered&#13;realizable was reduced 100% by a valuation allowance. The change in the valuation allowance was approximately $236,000 and $334,000&#13;for the three-months ended March 31, 2020 and 2019, respectively.&lt;/p&gt;</us-gaap:IncomeTaxDisclosureTextBlock>
+  <us-gaap:FinanceLeaseLiabilityNoncurrent id="f354" decimals="0" contextRef="c5" unitRef="usd">473932.0</us-gaap:FinanceLeaseLiabilityNoncurrent>
+  <us-gaap:ConversionOfStockAmountIssued1 id="f355" decimals="0" contextRef="c1" unitRef="usd">378681.0</us-gaap:ConversionOfStockAmountIssued1>
+  <us-gaap:BusinessDescriptionAndBasisOfPresentationTextBlock id="f356" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&lt;b&gt;1. Basis of Presentation&amp;#160;&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;The accompanying unaudited financial&#13;statements of Water Now, Inc. and subsidiary (collectively, the &amp;#8220;Company&amp;#8221;) have been prepared in accordance with the&#13;rules and regulations of the Securities and Exchange Commission, or the SEC, including the instructions to Regulation S-X. Certain&#13;information and note disclosures normally included in financial statements prepared in accordance with generally accepted accounting&#13;principles in the United States of America have been or omitted from these statements pursuant to such rules and regulations and,&#13;accordingly, they do not include all the information and notes necessary for comprehensive financial statements and should be read&#13;in conjunction with our audited financial statements for the year ended December 31, 2019.&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;In the opinion of the management of&#13;the Company, all adjustments, which are of a normal recurring nature, necessary for a fair statement of the results for the three-month&#13;period have been made. Results for the interim period presented are not necessarily indicative of the results that might be expected&#13;for the entire fiscal year. When used in these notes, the terms &amp;#8220;Company&amp;#8221;, &amp;#8220;we&amp;#8221;, &amp;#8220;us&amp;#8221; or &amp;#8220;our&amp;#8221;&#13;mean Water Now, Inc. and subsidiary.&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 0.2pt 0 0; text-align: justify"&gt;&lt;b&gt;Fair Value Measurements&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt/12pt Times New Roman, Times, Serif; margin: 0.2pt 0.2pt 0 0"&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt/97% Times New Roman, Times, Serif; margin: 0 0.2pt 0 0; text-align: justify"&gt;ASC Topic 820, &lt;i&gt;Fair Value&#13;Measurement&lt;/i&gt;, requires that certain financial instruments be recognized at their fair values at our balance sheet dates. However,&#13;other financial instruments, such as debt obligations, are not required to be recognized at their fair values, but GAAP provides&#13;an option to elect fair value accounting for these instruments. GAAP requires the disclosure of the fair values of all financial&#13;instruments, regardless of whether they are recognized at their fair values or carrying amounts in our balance sheets. For financial&#13;instruments recognized at fair value, GAAP requires the disclosure of their fair values by type of instrument, along with other&#13;information, including changes in the fair values of certain financial instruments recognized in income or other comprehensive&#13;income. For financial instruments not recognized at fair value, the disclosure of their fair values is provided below under &lt;i&gt;Financial&#13;Instruments.&lt;/i&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt/12pt Times New Roman, Times, Serif; margin: 0.05pt 0.2pt 0 0"&gt;&lt;i&gt;&amp;#160;&lt;/i&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt/97% Times New Roman, Times, Serif; margin: 0 0.2pt 0 0; text-align: justify"&gt;Nonfinancial assets, such as&#13;property, plant and equipment, and nonfinancial liabilities are recognized at their carrying amounts in the Company s balance sheets.&#13;GAAP does not permit nonfinancial assets and liabilities to be remeasured at their fair values. However, GAAP requires the remeasurement&#13;of such assets and liabilities to their fair values upon the occurrence of certain events, such as the impairment of property,&#13;plant and equipment. In addition, if such an event occurs, GAAP requires the disclosure of the fair value of the asset or liability&#13;along with other information, including the gain or loss recognized in income in the period the remeasurement occurred.&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 0.2pt 0 0"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 0.2pt 0 0; text-align: justify"&gt;The Company did not have any Level&#13;1 or Level 2 assets and liabilities at March 31, 2020 and 2019. The derivative liabilities are Level 3 fair value measurements.&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 0.2pt 0 0"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 0.2pt 0 0"&gt;The following is a summary of activity of Level 3 liabilities&#13;during the three months ended March 31, 2020:&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 0.2pt 0 0"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;table cellpadding="0" cellspacing="0" style="font: 11pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%"&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="width: 70%; text-align: left"&gt;Derivative liability balance at December 31, 2019&lt;/td&gt;&lt;td style="width: 10%"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="width: 1%; text-align: left"&gt;$&lt;/td&gt;&lt;td style="width: 18%; text-align: right"&gt;508,323&lt;/td&gt;&lt;td style="width: 1%; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="text-align: left"&gt;Additions to derivative liability for new debt&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;764,990&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="text-align: left"&gt;Reclass to equity upon conversion/cancellation&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;(622,781&lt;/td&gt;&lt;td style="text-align: left"&gt;)&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="text-align: left; padding-bottom: 1pt"&gt;Change in fair value&lt;/td&gt;&lt;td style="padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; text-align: right"&gt;(550,726&lt;/td&gt;&lt;td style="padding-bottom: 1pt; text-align: left"&gt;)&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="padding-bottom: 1pt"&gt;Balance at March 31, 2020&lt;/td&gt;&lt;td style="padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; text-align: right"&gt;1,201,258&lt;/td&gt;&lt;td style="padding-bottom: 1pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;/table&gt;&#13;&#13;&lt;p style="font: 11pt/12pt Times New Roman, Times, Serif; margin: 0.35pt 0.2pt 0 0"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt/97% Times New Roman, Times, Serif; margin: 0 0.2pt 0 0; text-align: justify"&gt;At March 31, 2020, the fair value&#13;of the derivative liabilities of convertible notes was estimated using the following weighted-average inputs: the price of the&#13;Company s common stock of $0.02, a risk-free interest rate of 0.15%, and expected volatility of the Company s common stock of 242.48%,&#13;and the various estimated reset exercise prices weighted by probability.&lt;/p&gt;</us-gaap:BusinessDescriptionAndBasisOfPresentationTextBlock>
+  <us-gaap:IncreaseDecreaseInSecurityDeposits id="f357" decimals="0" contextRef="c1" unitRef="usd">10849.0</us-gaap:IncreaseDecreaseInSecurityDeposits>
+  <us-gaap:LiabilitiesCurrent id="f358" decimals="0" contextRef="c5" unitRef="usd">9166373.0</us-gaap:LiabilitiesCurrent>
+  <wtnw:RevenueSharingLiabilitiesCurrent id="f359" xsi:nil="true" contextRef="c" unitRef="usd"/>
+  <wtnw:SharesIssuedEmployeesValue id="f360" decimals="0" contextRef="c1" unitRef="usd">24600.0</wtnw:SharesIssuedEmployeesValue>
+  <us-gaap:DerivativeLiabilities id="f361" decimals="0" contextRef="c" unitRef="usd">508323.0</us-gaap:DerivativeLiabilities>
+  <wtnw:InterestConvertedtoCommonStock id="f362" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <us-gaap:IncreaseDecreaseInPrepaidExpense id="f363" decimals="0" contextRef="c10" unitRef="usd">-49522.0</us-gaap:IncreaseDecreaseInPrepaidExpense>
+  <us-gaap:ProfitLoss id="f364" decimals="0" contextRef="c10" unitRef="usd">-1595569.0</us-gaap:ProfitLoss>
+  <us-gaap:FinanceLeaseRightOfUseAsset id="f365" decimals="0" contextRef="c5" unitRef="usd">632930.0</us-gaap:FinanceLeaseRightOfUseAsset>
+  <us-gaap:NotesPayableCurrent id="f366" decimals="0" contextRef="c5" unitRef="usd">553567.0</us-gaap:NotesPayableCurrent>
+  <us-gaap:SharesIssued id="f367" decimals="INF" contextRef="c19" unitRef="shares">35816808.0</us-gaap:SharesIssued>
+  <us-gaap:CommonStockParOrStatedValuePerShare id="f368" decimals="INF" contextRef="c" unitRef="usd1">0.0</us-gaap:CommonStockParOrStatedValuePerShare>
+  <us-gaap:RevenueRecognitionSalesOfGoods id="f369" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&lt;b&gt;3. Revenues&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 9.5pt/12pt Times New Roman, Times, Serif; margin: 0.05pt 0 0"&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 12pt/97% Times New Roman, Times, Serif; margin: 0 7.7pt 0 0; text-align: justify"&gt;The Company&amp;#8217;s revenues&#13;are generated from the sales of water purification products and the sales of hydrocarbons derived from the deployment and operation&#13;of Company owned oil recovery systems. The Company obtains purchase orders from its water purification customers for the sale of&#13;its products which sets forth the general terms and conditions including line item pricing and payment terms (generally due upon&#13;receipt). The Company recognizes revenue when its customers obtain control over the assets (generally when the title passes upon&#13;shipment) and it is probable that the Company will collect substantially all the amounts due. Individual promised goods are the&#13;Company s only performance obligation.&lt;/p&gt;&#13;&#13;&lt;p style="font: 12pt/12pt Times New Roman, Times, Serif; margin: 0"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 12pt/97% Times New Roman, Times, Serif; margin: 0 7.9pt 0 0; text-align: justify"&gt;The Company earns revenue each&#13;month that the oil recovery systems are in place and operating. The Company generally receives 50% of the proceeds of the sales&#13;of oil recovered using its systems.&lt;/p&gt;&#13;&#13;&lt;p style="font: 9.5pt/12pt Times New Roman, Times, Serif; margin: 0.45pt 0 0"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 12pt/97% Times New Roman, Times, Serif; margin: 0 7.85pt 0 0; text-align: justify"&gt;Water purification products&#13;that have been sold are not subject to returns unless the product is deemed defective. Credits or refunds are recognized when they&#13;are probable and reasonably estimated. The Company&amp;#8217;s management reduces revenue to account for estimates of the Company s credits&#13;and refunds.&lt;/p&gt;&#13;&#13;&lt;p style="font: 9.5pt/12pt Times New Roman, Times, Serif; margin: 0.45pt 0 0"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 12pt/97% Times New Roman, Times, Serif; margin: 0 7.85pt 0 0; text-align: justify"&gt;The Company included shipping&#13;and handling fees in net revenues. Shipping and handling costs are associated with outbound freight after control over a product&#13;has transferred to a customer. These costs are accounted for as a fulfillment cost and are included in cost of goods sold.&lt;/p&gt;&#13;&#13;&lt;p style="font: 9.5pt/12pt Times New Roman, Times, Serif; margin: 0.3pt 0 0"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 12pt/12pt Times New Roman, Times, Serif; margin: 0"&gt;Revenues, as disaggregated by revenue type and reportable segment&#13;(see Note 12), are shown below.&lt;/p&gt;&#13;&#13;&lt;table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%"&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td style="text-align: center"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="7" style="font-size: 11pt; text-align: center"&gt;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: center"&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/p&gt;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: center"&gt;&lt;b&gt;For the Three Months&lt;/b&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td style="text-align: center"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; font-weight: bold; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="7" style="border-bottom: Black 1pt solid; font-size: 11pt; font-weight: bold; text-align: center"&gt;Ended March 31,&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td style="text-align: center"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; font-weight: bold; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3" style="border-bottom: Black 1pt solid; font-size: 11pt; font-weight: bold; text-align: center"&gt;2020&lt;/td&gt;&lt;td style="font-size: 11pt; font-weight: bold; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3" style="border-bottom: Black 1pt solid; font-size: 11pt; font-weight: bold; text-align: center"&gt;2019&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td style="font-size: 11pt"&gt;Revenues&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3" style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3" style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="width: 56%; font-size: 11pt; text-align: left; padding-left: 10pt"&gt;Water purification products&lt;/td&gt;&lt;td style="width: 8%; font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="width: 12%; font-size: 11pt; text-align: right"&gt;2,995&lt;/td&gt;&lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="width: 8%; font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="width: 12%; font-size: 11pt; text-align: right"&gt;78,552&lt;/td&gt;&lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-bottom: 1pt; padding-left: 10pt"&gt;Oil recovery machines&lt;/td&gt;&lt;td style="font-size: 9pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: right"&gt;&amp;#8212;&amp;#160;&amp;#160;&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 9pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: right"&gt;&amp;#8212;&amp;#160;&amp;#160;&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;2,995&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;78,552&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;/table&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;font style="color: black"&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;</us-gaap:RevenueRecognitionSalesOfGoods>
+  <wtnw:DistributorshipAccruedExpense id="f370" decimals="0" contextRef="c5" unitRef="usd">250000.0</wtnw:DistributorshipAccruedExpense>
+  <us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted id="f371" decimals="INF" contextRef="c1" unitRef="shares">58753418.0</us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted>
+  <us-gaap:IncreaseDecreaseInAccountsPayable id="f372" decimals="0" contextRef="c1" unitRef="usd">30299.0</us-gaap:IncreaseDecreaseInAccountsPayable>
+  <us-gaap:FinanceLeaseLiabilityCurrent id="f373" decimals="0" contextRef="c5" unitRef="usd">178116.0</us-gaap:FinanceLeaseLiabilityCurrent>
+  <us-gaap:EarningsPerShareBasicAndDiluted id="f374" decimals="INF" contextRef="c10" unitRef="usd1">-0.04</us-gaap:EarningsPerShareBasicAndDiluted>
+  <wtnw:RevenueSharingLiabilitiesLongTerm id="f375" decimals="0" contextRef="c" unitRef="usd">5042455.0</wtnw:RevenueSharingLiabilitiesLongTerm>
+  <us-gaap:DerivativeLiabilities id="f376" decimals="0" contextRef="c5" unitRef="usd">1201258.0</us-gaap:DerivativeLiabilities>
+  <us-gaap:OtherIncome id="f377" decimals="0" contextRef="c1" unitRef="usd">895.0</us-gaap:OtherIncome>
+  <us-gaap:IncreaseDecreaseInSecurityDeposits id="f378" decimals="0" contextRef="c10" unitRef="usd">-23481.0</us-gaap:IncreaseDecreaseInSecurityDeposits>
+  <us-gaap:RepurchaseAndResaleAgreementsPolicy id="f379" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;font style="color: black"&gt;&lt;b&gt;4&lt;/b&gt;&lt;/font&gt;&lt;b&gt;.&#13;Distributorship Agreement&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;On October 31, 2018, the Company entered into&#13;an Exclusive Sales Distribution Agreement (the &amp;#8220;Agreement&amp;#8221;) with African Horizon Technologies (Pty) Ltd (&amp;#8220;AHT&amp;#8221;)&#13;whereby the Company will be AHT&amp;#8217;s exclusive distributor of the Hydraspin Hydro Cyclone technology in the United States of&#13;America. The Company paid AHT $500,000 in cash and issued AHT 500,000 shares valued at $250,000 based on the closing price of the&#13;Company&amp;#8217;s shares of $0.50 on the date of the Agreement. In addition, the Company will issue AHT 500,000 shares at the earlier&#13;of 24 months from the commencement date of the Agreement or the sale of 50 units to the Company. The Company will also pay AHT&#13;a royalty of 2% of total net profits generated by the Company from the sale of oil generated using the Hydraspin units. The term&#13;of the Agreement is for five years with an automatic renewal term of five years unless terminated earlier. The Company recorded&#13;the value of the Agreement of $1,000,000 as an other asset and is amortizing the asset to expense over the life of the Agreement&#13;of five years. As of March 31, 2020, the 500,000 shares remaining to be issued are recorded as distributorship accrued expense&#13;in the amount&lt;/p&gt;&#13;&#13;&#13;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;of $250,000 and are required to be issued prior&#13;to October 31, 2020. Amortization expense amounted to $50,000 and $50,000 for the three months ended March 31, 2020 and 2019, respectively.&lt;/p&gt;</us-gaap:RepurchaseAndResaleAgreementsPolicy>
+  <us-gaap:OperatingLeaseLiabilityCurrent id="f380" decimals="0" contextRef="c" unitRef="usd">247070.0</us-gaap:OperatingLeaseLiabilityCurrent>
+  <wtnw:RevenueSharingLiabilitiesCurrent id="f381" decimals="0" contextRef="c5" unitRef="usd">3057708.0</wtnw:RevenueSharingLiabilitiesCurrent>
+  <us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted id="f382" decimals="INF" contextRef="c10" unitRef="shares">35962919.0</us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted>
+  <us-gaap:IncreaseDecreaseInAccruedLiabilities id="f383" decimals="0" contextRef="c1" unitRef="usd">19604.0</us-gaap:IncreaseDecreaseInAccruedLiabilities>
+  <us-gaap:DebtDisclosureTextBlock id="f384" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&lt;b&gt;5. Notes Payable&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0.7pt 0 0; text-align: justify"&gt;During 2020 the Company entered into&#13;an additional short-term loan with a lender. Total principal borrowed during 2020 was $25,000. No repayments were made during the&#13;three months ended March 31, 2020. The remaining $529,000 of principal was repaid or extended as of July 13, 2020. The notes are&#13;generally unsecured.&lt;/p&gt;</us-gaap:DebtDisclosureTextBlock>
+  <us-gaap:TreasuryStockValue id="f385" decimals="0" contextRef="c" unitRef="usd">-10000.0</us-gaap:TreasuryStockValue>
+  <us-gaap:SharesIssued id="f386" decimals="INF" contextRef="c17" unitRef="shares">73746368.0</us-gaap:SharesIssued>
+  <us-gaap:IncreaseDecreaseInAccountsPayable id="f387" decimals="0" contextRef="c10" unitRef="usd">-243797.0</us-gaap:IncreaseDecreaseInAccountsPayable>
+  <us-gaap:DueToRelatedPartiesCurrent id="f388" decimals="0" contextRef="c5" unitRef="usd">224743.0</us-gaap:DueToRelatedPartiesCurrent>
+  <us-gaap:DebtAndCapitalLeasesDisclosuresTextBlock id="f389" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&lt;b&gt;6. Convertible Notes Payable &lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 0.7pt 0 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;The Company borrowed $50,000 from a lender&#13;on January 14, 2020. The note bears interest at 18% and is payable in one lump sum on June 14, 2020, at which time the entire amount&#13;of principal and accrued interest is due and payable. The note is unsecured. The outstanding principal and interest amount is convertible&#13;by the holder into shares of the Company&amp;#8217;s common stock at any time prior to the maturity date at the conversion price of&#13;$0.50 per share.&amp;#160;&lt;font style="color: black"&gt;The principal balance at March 31, 2020 is $50,000. &lt;/font&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;font style="color: black"&gt;The Company borrowed&#13;$37,500 from a lender on February 5, 2020. The note is an extension of the existing Amended and Restated Secured Convertible Promissory&#13;Note dated June 18, 2018. The total principal due under the note is $100,000. The note bears interest at 18% and is payable in&#13;one lump sum on May 5, 2020. In the event 50% or more of the principal balance is paid prior to May 5, 2020 and the note is not&#13;in default, then the maturity date is extended to August 5, 2020. The required payment was not made by May 5, 2020 and the note&#13;is currently in default and outstanding. The outstanding principal and interest amount is convertible by the holder into shares&#13;of the Company&amp;#8217;s common stock at any time prior to the maturity date at a price per share equal to fifty percent of the average&#13;closing price of the Company&amp;#8217;s common stock for the ten trading days prior to the conversion date.&amp;#160;&lt;/font&gt;The conversion&#13;feature meets the definition of a derivative and therefore requires bifurcation and is accounted for as a derivative liability.&#13;The Company estimated the aggregate fair value of the conversion feature derivatives embedded in the debenture at the date the&#13;debt becomes convertible at $52,000, based on weighted probabilities of assumptions used in the Black Scholes pricing model. The&#13;key valuation assumptions used consist, in part, of the price of the Company&amp;#8217;s common stock of $0.05, a risk-free interest&#13;rate of 1.57% and expected volatility of the Company&amp;#8217;s common stock of 232.73%, and the various estimated reset exercise&#13;prices weighted by probability. &lt;font style="color: black"&gt;The principal balance at March 31, 2020 is $100,000. &lt;/font&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;The Company borrowed $175,000 from a lender&#13;on March 4, 2020. The note bears interest at 12% and is payable in one lump sum on September 4, 2020, at which time the entire&#13;amount of principal and accrued interest is due and payable. The note is unsecured. The outstanding principal and interest amount&#13;is convertible by the holder into shares of the Company&amp;#8217;s common stock beginning 180 days after the issuance date and prior&#13;to the maturity date at a price per share equal to sixty-five percent of the second lowest trade price of the Company&amp;#8217;s common&#13;stock for the twenty trading days prior to the conversion date. In addition, the Company paid $17,500 as a discount on the note&#13;and paid $3,500 for debt issuance costs. The principal balance at March 31, 2020 is $175,000.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;During the quarter ended March 31, 2020, the&#13;Company issued 1,000,000 shares to a lender as collateral held in escrow, to be cancelled upon payment of the debt.&lt;/p&gt;</us-gaap:DebtAndCapitalLeasesDisclosuresTextBlock>
+  <wtnw:RevenueSharingLiabilitiesLongTerm id="f390" decimals="0" contextRef="c5" unitRef="usd">2249478.0</wtnw:RevenueSharingLiabilitiesLongTerm>
+  <wtnw:GainLossDerivativeLiability id="f391" decimals="0" contextRef="c1" unitRef="usd">-550726.0</wtnw:GainLossDerivativeLiability>
+  <us-gaap:FinanceLeaseLiability id="f392" decimals="0" contextRef="c5" unitRef="usd">652048.0</us-gaap:FinanceLeaseLiability>
+  <us-gaap:PaymentsToAcquireProductiveAssets id="f393" decimals="0" contextRef="c1" unitRef="usd">30000.0</us-gaap:PaymentsToAcquireProductiveAssets>
+  <us-gaap:OtherIncome id="f394" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <us-gaap:OperatingLeaseWeightedAverageRemainingLeaseTerm1 id="f395" contextRef="c5">P3Y73D</us-gaap:OperatingLeaseWeightedAverageRemainingLeaseTerm1>
+  <us-gaap:TreasuryStockValue id="f396" decimals="0" contextRef="c5" unitRef="usd">-10000.0</us-gaap:TreasuryStockValue>
+  <us-gaap:RelatedPartyTransactionsDisclosureTextBlock id="f397" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&lt;b&gt;7. Advances From Related Parties&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;The Company has received non-interest&#13;bearing advances without a specified maturity date from two stockholders of the Company. The Company owed approximately $225,000&#13;and $4,000 at March 31, 2020 and December 31, 2019, respectively, to the stockholders.&lt;/p&gt;</us-gaap:RelatedPartyTransactionsDisclosureTextBlock>
+  <us-gaap:NetCashProvidedByUsedInOperatingActivities id="f398" decimals="0" contextRef="c1" unitRef="usd">-498471.0</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+  <us-gaap:LiabilitiesCurrent id="f399" decimals="0" contextRef="c" unitRef="usd">5474895.0</us-gaap:LiabilitiesCurrent>
+  <us-gaap:SharesIssued id="f400" decimals="INF" contextRef="c20" unitRef="shares">36482192.0</us-gaap:SharesIssued>
+  <wtnw:EquityTransactionsNoteDisclosureTextBlock id="f401" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 0 12pt; text-align: justify"&gt;&lt;b&gt;9. Equity Transactions &lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;From January 1, 2019 to March 31, 2019,&#13;the Company issued 200,000 shares to a lender upon receipt of a conversion notice. The Company also issued 465,384 shares to lenders&#13;for debt issuance costs.&lt;/p&gt;&#13;&#13;&#13;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&lt;font style="font-size: 11pt"&gt;From&#13;January 1, 2020 to March 31, 2020, the Company issued 16,894,369 shares to lenders upon receipt of conversion notices for total&#13;principal, interest and fees of $378,681. The Company also issued 385,000 shares to employees&#13;and consultants valued at $24,600 and issued 1,000,000 shares as collateral held in escrow, to&#13;be cancelled upon payment of the debt.&lt;/font&gt;&lt;/p&gt;</wtnw:EquityTransactionsNoteDisclosureTextBlock>
+  <us-gaap:IncreaseDecreaseInAccruedLiabilities id="f402" decimals="0" contextRef="c10" unitRef="usd">-277986.0</us-gaap:IncreaseDecreaseInAccruedLiabilities>
+  <us-gaap:OperatingLeasesFutureMinimumPaymentsDueInThreeYears id="f403" decimals="0" contextRef="c5" unitRef="usd">240000.0</us-gaap:OperatingLeasesFutureMinimumPaymentsDueInThreeYears>
+  <us-gaap:OperatingLeaseLiabilityCurrent id="f404" decimals="0" contextRef="c5" unitRef="usd">178116.0</us-gaap:OperatingLeaseLiabilityCurrent>
+  <us-gaap:SharesIssued id="f405" decimals="INF" contextRef="c18" unitRef="shares">55466999.0</us-gaap:SharesIssued>
+  <us-gaap:CommonStockSharesAuthorized id="f406" decimals="INF" contextRef="c" unitRef="shares">90000000.0</us-gaap:CommonStockSharesAuthorized>
+  <wtnw:RevenueSharingAgreementsTextBlock id="f407" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;8. Revenue Sharing Agreements &lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;No additional revenue sharing agreements were&#13;entered into during the three months ended March 31, 2020. The Company recorded an additional $265,000 in interest expense during&#13;the three months ended March 31, 2020 related to the existing revenue sharing agreements. No payments have been made on existing&#13;revenue sharing agreements.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;As of July 13, 2020, the Company is obligated&#13;to purchase seven HydraSpin units with an aggregate cost of approximately $2 million awaiting shipment from Africa to the Company&#13;and there is approximately $1 million included in accounts payable for unpaid amounts on other units. No payment has been made&#13;on these units.&lt;/p&gt;</wtnw:RevenueSharingAgreementsTextBlock>
+  <us-gaap:CommonStockParOrStatedValuePerShare id="f408" decimals="INF" contextRef="c5" unitRef="usd1">0.0</us-gaap:CommonStockParOrStatedValuePerShare>
+  <us-gaap:SegmentReportingDisclosureTextBlock id="f409" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&lt;b&gt;12. Segment Information&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;The Company sells water purification products&#13;and operates oil recovery systems. The Company has identified such reportable segments based on management responsibility and the&#13;nature of the Company&amp;#8217;s products, services, and costs. To date, the Company primarily sells its water purification products&#13;internationally and operates its oil recovery systems in the United States. The Company measures segment profit (loss) as income&#13;(loss) from operations. Segment assets are those assets controlled by each reportable segment.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0"&gt;Below is the financial information related to the Company&amp;#8217;s&#13;segments:&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%"&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="6" style="text-align: center; vertical-align: middle"&gt;&lt;font style="font-size: 11pt"&gt;&lt;b&gt;For the Three Months&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&#13;    &lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="6" style="text-align: center; vertical-align: middle"&gt;&lt;font style="font-size: 11pt"&gt;&lt;b&gt;Ended March 31,&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&#13;    &lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; font-weight: bold; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3" style="border-bottom: Black 1pt solid; font-size: 11pt; font-weight: bold; text-align: center"&gt;2020&lt;/td&gt;&lt;td style="font-size: 11pt; font-weight: bold; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3" style="border-bottom: Black 1pt solid; font-size: 11pt; font-weight: bold; text-align: center"&gt;2019&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td style="font-size: 11pt"&gt;Revenues&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3"&gt;&amp;#160;&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="width: 56%; font-size: 11pt; text-align: left; padding-left: 10pt"&gt;Water purification products&lt;/td&gt;&lt;td style="width: 8%; font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="width: 12%; font-size: 11pt; text-align: right"&gt;2,995&lt;/td&gt;&lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="width: 8%; font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="width: 12%; font-size: 11pt; text-align: right"&gt;78,552&lt;/td&gt;&lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-bottom: 1pt; padding-left: 10pt"&gt;Oil recovery machines&lt;/td&gt;&lt;td style="font-size: 9pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: right"&gt;&amp;#8212;&amp;#160;&amp;#160;&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 9pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: right"&gt;&amp;#8212;&amp;#160;&amp;#160;&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="text-align: left; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;2,995&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;78,552&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;Loss from operations&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-left: 10pt"&gt;Water purification products&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;201,304&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;722,554&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-left: 10pt"&gt;Oil recovery machines&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;268,909&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;96,581&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-bottom: 1pt; padding-left: 10pt"&gt;General corporate&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: right"&gt;174,979&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: right"&gt;149,276&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="text-align: left; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;645,192&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;968,411&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;Capital expenditures&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-left: 10pt"&gt;Water purification products&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;&amp;#8212;&amp;#160;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;92,158&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-left: 10pt"&gt;Oil recovery machines&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;30,000&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;628,625&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-bottom: 1pt; padding-left: 10pt"&gt;General corporate&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: right"&gt;&amp;#8212;&amp;#160;&amp;#160;&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 9pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 9pt; text-align: right"&gt;&amp;#8212;&amp;#160;&amp;#160;&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 9pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="text-align: left; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;30,000&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;720,783&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; font-weight: bold; text-align: center; padding-bottom: 1pt"&gt;March 31, 2020&lt;/td&gt;&lt;td style="font-size: 11pt; font-weight: bold; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; font-weight: bold; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; vertical-align: middle; font-size: 11pt; font-weight: bold; text-align: center"&gt;&lt;font style="font-size: 11pt"&gt;&lt;b&gt;December 31, 2019&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; font-weight: bold; text-align: left"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;Total assets&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;td style="text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;Water purification products&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;666,823&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;749,536&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;Oil recovery machines&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;2,691,613&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;2,576,758&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left; padding-bottom: 1pt"&gt;General corporate&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: right"&gt;859,061&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: right"&gt;1,088,812&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="text-align: left; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;4,217,497&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;4,415,106&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;/table&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;General corporate expenses include corporate&#13;salaries, health insurance and social security taxes for officers and corporate employees, corporate insurance, legal and accounting&#13;fees, and other corporate costs such as transfer agent and travel costs. Management considers these to be non-allocable costs for&#13;segment purposes.&lt;/p&gt;</us-gaap:SegmentReportingDisclosureTextBlock>
+  <us-gaap:FinanceLeaseWeightedAverageDiscountRatePercent id="f410" decimals="INF" contextRef="c5" unitRef="pure">10.0</us-gaap:FinanceLeaseWeightedAverageDiscountRatePercent>
+  <us-gaap:OperatingLeasesFutureMinimumPaymentsDueInTwoYears id="f411" decimals="0" contextRef="c5" unitRef="usd">176000.0</us-gaap:OperatingLeasesFutureMinimumPaymentsDueInTwoYears>
+  <wtnw:OperatingLeasesRightofUseAssetsTextBlock id="f412" contextRef="c1">&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0 1pt 0 0; text-align: justify"&gt;&lt;b&gt;10. Operating Leases &amp;#8211; Right&#13;of Use Assets&lt;/b&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;The Company has an operating lease for office&#13;and warehouse space that expires in 2023. Below is a summary of the Company&amp;#8217;s right of use assets and liabilities as of March&#13;31, 2020:&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%"&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="width: 70%; font-size: 11pt; text-align: justify; padding-bottom: 2.5pt"&gt;Right-of-use assets&lt;/td&gt;&lt;td style="width: 10%; font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; width: 1%; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; width: 18%; font-size: 11pt; text-align: right"&gt;632,930&lt;/td&gt;&lt;td style="width: 1%; padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: justify"&gt;Lease liability obligations, current&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;178,116&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: justify; padding-bottom: 1pt"&gt;Lease liability obligations, less current portion&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: right"&gt;473,932&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: justify; padding-bottom: 2.5pt"&gt;Total lease liability obligations&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;652,048&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;Weighted-average remaining lease term&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;&lt;font style="font-size: 11pt"&gt;3.2 years&lt;/font&gt;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;Weighted-average discount rate&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;10&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;%&lt;/td&gt;&lt;/tr&gt;&#13;&lt;/table&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;During the three months ended March 31, 2020,&#13;the Company recognized approximately&amp;#160;$40,000&amp;#160;in operating lease costs and&amp;#160;are included in selling, general and administrative&#13;expenses in our consolidated statement of operations. During the three months ended March 31, 2020, operating cash flows from operating&#13;leases was&amp;#160;$57,000.&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;Approximate future minimum lease payments for&#13;the Company&amp;#8217;s right of use assets over the remaining lease periods as of&amp;#160;March&amp;#160;31, 2020, are as follows:&lt;/p&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%"&gt;&#13;&lt;tr style="vertical-align: bottom"&gt;&#13;    &lt;td colspan="3" style="font-size: 11pt; text-align: justify"&gt;Year ending December 31,&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="3" style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="vertical-align: middle; width: 43%; font-size: 11pt; text-align: left"&gt;2020&lt;/td&gt;&lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="width: 10%; font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="width: 43%; font-size: 11pt; text-align: right"&gt;176,000&lt;/td&gt;&lt;td style="width: 1%; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="vertical-align: middle; font-size: 11pt; text-align: left"&gt;2021&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;240,000&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="vertical-align: middle; font-size: 11pt; text-align: left"&gt;2022&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: right"&gt;246,000&lt;/td&gt;&lt;td style="font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: White"&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; vertical-align: middle; font-size: 11pt; text-align: left"&gt;2023&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 1pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font-size: 11pt; text-align: right"&gt;103,000&lt;/td&gt;&lt;td style="padding-bottom: 1pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; vertical-align: middle; font-size: 11pt; text-align: left"&gt;&lt;font style="font-size: 11pt"&gt;Total minimum payments&lt;/font&gt;&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;td style="font-size: 11pt; padding-bottom: 2.5pt"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 2.5pt double; font-size: 11pt; text-align: right"&gt;765,000&lt;/td&gt;&lt;td style="padding-bottom: 2.5pt; font-size: 11pt; text-align: left"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;/table&gt;&#13;&#13;&lt;p style="font: 11pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;</wtnw:OperatingLeasesRightofUseAssetsTextBlock>
+</xbrli:xbrl>

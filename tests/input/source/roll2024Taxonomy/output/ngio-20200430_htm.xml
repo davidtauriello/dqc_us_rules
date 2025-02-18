@@ -1,0 +1,565 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by Xince -->
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:nugenerex.com="http://nugenerex.com/20241231" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:dei="http://xbrl.sec.gov/dei/2024">
+  <link:schemaRef xlink:href="./ngio-20200430_taxonomy.zip/ngio-20200430_taxonomy/ngio-20200430.xsd" xlink:type="simple"/>
+  <xbrli:context id="c">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-07-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-02-01</xbrli:startDate>
+      <xbrli:endDate>2019-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-08-01</xbrli:startDate>
+      <xbrli:endDate>2020-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-08-01</xbrli:startDate>
+      <xbrli:endDate>2019-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-07-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-02-01</xbrli:startDate>
+      <xbrli:endDate>2020-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c9">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:TypeOfArrangementAxis">nugenerex.com:ClinicalTrialAgreementMember</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionAxis">nugenerex.com:NSABPMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-08-01</xbrli:startDate>
+      <xbrli:endDate>2019-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionAxis">nugenerex.com:NSABPMember</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="us-gaap:TypeOfArrangementAxis">nugenerex.com:ClinicalTrialAgreementMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-08-01</xbrli:startDate>
+      <xbrli:endDate>2020-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c11">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionAxis">nugenerex.com:NSABPMember</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="us-gaap:TypeOfArrangementAxis">nugenerex.com:ClinicalTrialAgreementMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-02-01</xbrli:startDate>
+      <xbrli:endDate>2020-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c12">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionAxis">nugenerex.com:NSABPMember</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="us-gaap:TypeOfArrangementAxis">nugenerex.com:ClinicalTrialAgreementMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-02-01</xbrli:startDate>
+      <xbrli:endDate>2019-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c13">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c14">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-07-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c15">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-07-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c16">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-07-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c17">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:TypeOfArrangementAxis">nugenerex.com:ClinicalTrialAgreementMember</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionAxis">nugenerex.com:NSABPMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-11-01</xbrli:startDate>
+      <xbrli:endDate>2018-11-20</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c18">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c19">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-07-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c20">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionAxis">nugenerex.com:HenryJJacksonFoundationMember</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="us-gaap:TypeOfArrangementAxis">nugenerex.com:ClinicalStudyAgreementMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2007-01-30</xbrli:startDate>
+      <xbrli:endDate>2007-02-04</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c21">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c22">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionAxis">nugenerex.com:ContractResearchOrganizationMember</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="us-gaap:TypeOfArrangementAxis">nugenerex.com:ClinicalTrialAgreementMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-11-01</xbrli:startDate>
+      <xbrli:endDate>2017-11-29</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c23">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-07-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c24">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:TypeOfArrangementAxis">nugenerex.com:ForbearanceAgreementMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-09-01</xbrli:startDate>
+      <xbrli:endDate>2013-09-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c25">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-02-01</xbrli:startDate>
+      <xbrli:endDate>2020-02-21</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c26">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c27">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-08-01</xbrli:startDate>
+      <xbrli:endDate>2020-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c28">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-07-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c29">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-08-01</xbrli:startDate>
+      <xbrli:endDate>2020-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c30">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c31">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-08-01</xbrli:startDate>
+      <xbrli:endDate>2019-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c32">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-08-01</xbrli:startDate>
+      <xbrli:endDate>2020-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c33">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-17</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c34">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001804585</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-08-01</xbrli:startDate>
+      <xbrli:endDate>2019-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="usd">
+    <xbrli:measure>iso4217:USD</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="shares">
+    <xbrli:measure>xbrli:shares</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="usd1">
+    <xbrli:divide>
+      <xbrli:unitNumerator>
+        <xbrli:measure>iso4217:USD</xbrli:measure>
+      </xbrli:unitNumerator>
+      <xbrli:unitDenominator>
+        <xbrli:measure>xbrli:shares</xbrli:measure>
+      </xbrli:unitDenominator>
+    </xbrli:divide>
+  </xbrli:unit>
+  <us-gaap:PreferredStockValue id="f" decimals="0" contextRef="c" unitRef="usd">0.0</us-gaap:PreferredStockValue>
+  <us-gaap:SharesOutstanding id="f1" decimals="INF" contextRef="c1" unitRef="shares">400000.0</us-gaap:SharesOutstanding>
+  <us-gaap:ResearchAndDevelopmentExpense id="f2" decimals="0" contextRef="c2" unitRef="usd">0.0</us-gaap:ResearchAndDevelopmentExpense>
+  <dei:EntityInteractiveDataCurrent id="f3" contextRef="c3">Yes</dei:EntityInteractiveDataCurrent>
+  <us-gaap:PreferredStockSharesOutstanding id="f4" decimals="INF" contextRef="c4" unitRef="shares">0.0</us-gaap:PreferredStockSharesOutstanding>
+  <us-gaap:OperatingExpenses id="f5" decimals="0" contextRef="c5" unitRef="usd">388030.0</us-gaap:OperatingExpenses>
+  <us-gaap:PreferredStockSharesAuthorized id="f6" decimals="INF" contextRef="c4" unitRef="shares">10000000.0</us-gaap:PreferredStockSharesAuthorized>
+  <us-gaap:SharesOutstanding id="f7" decimals="INF" contextRef="c6" unitRef="shares">400000.0</us-gaap:SharesOutstanding>
+  <us-gaap:PreferredStockParOrStatedValuePerShare id="f8" decimals="INF" contextRef="c" unitRef="usd1">0.001</us-gaap:PreferredStockParOrStatedValuePerShare>
+  <us-gaap:ResearchAndDevelopmentExpense id="f9" decimals="0" contextRef="c7" unitRef="usd">0.0</us-gaap:ResearchAndDevelopmentExpense>
+  <us-gaap:SharesOutstanding id="f10" decimals="INF" contextRef="c8" unitRef="shares">400000.0</us-gaap:SharesOutstanding>
+  <nugenerex.com:ExpensesPaidByParentAsNoncashCapitalContributions id="f11" decimals="0" contextRef="c3" unitRef="usd">66438.0</nugenerex.com:ExpensesPaidByParentAsNoncashCapitalContributions>
+  <us-gaap:GeneralAndAdministrativeExpense id="f12" decimals="0" contextRef="c3" unitRef="usd">200594.0</us-gaap:GeneralAndAdministrativeExpense>
+  <dei:EntityShellCompany id="f13" contextRef="c3">false</dei:EntityShellCompany>
+  <us-gaap:PreferredStockSharesAuthorized id="f14" decimals="INF" contextRef="c" unitRef="shares">10000000.0</us-gaap:PreferredStockSharesAuthorized>
+  <dei:EntityFileNumber id="f15" contextRef="c3">000-56153</dei:EntityFileNumber>
+  <us-gaap:ResearchAndDevelopmentExpense id="f16" decimals="0" contextRef="c5" unitRef="usd">354000.0</us-gaap:ResearchAndDevelopmentExpense>
+  <us-gaap:GeneralAndAdministrativeExpense id="f17" decimals="0" contextRef="c2" unitRef="usd">25062.0</us-gaap:GeneralAndAdministrativeExpense>
+  <us-gaap:InterestPaidNet id="f18" decimals="0" contextRef="c3" unitRef="usd">0.0</us-gaap:InterestPaidNet>
+  <us-gaap:GeneralAndAdministrativeExpense id="f19" decimals="0" contextRef="c7" unitRef="usd">88710.0</us-gaap:GeneralAndAdministrativeExpense>
+  <dei:EntityIncorporationStateCountryCode id="f20" contextRef="c3">DE</dei:EntityIncorporationStateCountryCode>
+  <us-gaap:ResearchAndDevelopmentExpense id="f21" decimals="0" contextRef="c9" unitRef="usd">340000.0</us-gaap:ResearchAndDevelopmentExpense>
+  <us-gaap:AssetsCurrent id="f22" decimals="0" contextRef="c4" unitRef="usd">129.0</us-gaap:AssetsCurrent>
+  <us-gaap:PreferredStockSharesIssued id="f23" decimals="INF" contextRef="c" unitRef="shares">0.0</us-gaap:PreferredStockSharesIssued>
+  <us-gaap:GeneralAndAdministrativeExpense id="f24" decimals="0" contextRef="c5" unitRef="usd">34030.0</us-gaap:GeneralAndAdministrativeExpense>
+  <us-gaap:NetCashProvidedByUsedInOperatingActivities id="f25" decimals="0" contextRef="c3" unitRef="usd">-260.0</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+  <us-gaap:Revenues id="f26" decimals="0" contextRef="c3" unitRef="usd">0.0</us-gaap:Revenues>
+  <us-gaap:ResearchAndDevelopmentExpense id="f27" decimals="0" contextRef="c10" unitRef="usd">251459.0</us-gaap:ResearchAndDevelopmentExpense>
+  <us-gaap:IncomeTaxesPaidNet id="f28" decimals="0" contextRef="c3" unitRef="usd">0.0</us-gaap:IncomeTaxesPaidNet>
+  <us-gaap:Revenues id="f29" decimals="0" contextRef="c5" unitRef="usd">0.0</us-gaap:Revenues>
+  <us-gaap:AssetsCurrent id="f30" decimals="0" contextRef="c" unitRef="usd">389.0</us-gaap:AssetsCurrent>
+  <nugenerex.com:ExpensesPaidByParentAsNoncashCapitalContributions id="f31" decimals="0" contextRef="c5" unitRef="usd">386182.0</nugenerex.com:ExpensesPaidByParentAsNoncashCapitalContributions>
+  <us-gaap:ResearchAndDevelopmentExpense id="f32" decimals="0" contextRef="c11" unitRef="usd">0.0</us-gaap:ResearchAndDevelopmentExpense>
+  <us-gaap:IncomeTaxesPaidNet id="f33" decimals="0" contextRef="c5" unitRef="usd">0.0</us-gaap:IncomeTaxesPaidNet>
+  <us-gaap:Revenues id="f34" decimals="0" contextRef="c2" unitRef="usd">0.0</us-gaap:Revenues>
+  <us-gaap:CommitmentsAndContingencies id="f35" decimals="0" contextRef="c" unitRef="usd">0.0</us-gaap:CommitmentsAndContingencies>
+  <us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted id="f36" decimals="INF" contextRef="c3" unitRef="shares">400000000.0</us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted>
+  <us-gaap:PreferredStockSharesOutstanding id="f37" decimals="INF" contextRef="c" unitRef="shares">0.0</us-gaap:PreferredStockSharesOutstanding>
+  <us-gaap:Cash id="f38" decimals="0" contextRef="c4" unitRef="usd">129.0</us-gaap:Cash>
+  <us-gaap:ResearchAndDevelopmentExpense id="f39" decimals="0" contextRef="c12" unitRef="usd">0.0</us-gaap:ResearchAndDevelopmentExpense>
+  <us-gaap:InterestPayableCurrent id="f40" decimals="0" contextRef="c4" unitRef="usd">3682812.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:Revenues id="f41" decimals="0" contextRef="c7" unitRef="usd">0.0</us-gaap:Revenues>
+  <us-gaap:InterestPaidNet id="f42" decimals="0" contextRef="c5" unitRef="usd">0.0</us-gaap:InterestPaidNet>
+  <us-gaap:StockholdersEquity id="f43" decimals="0" contextRef="c4" unitRef="usd">-5400164.0</us-gaap:StockholdersEquity>
+  <us-gaap:AccountsPayableCurrent id="f44" decimals="0" contextRef="c" unitRef="usd">1315817.0</us-gaap:AccountsPayableCurrent>
+  <us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted id="f45" decimals="INF" contextRef="c5" unitRef="shares">400000000.0</us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted>
+  <us-gaap:ResearchAndDevelopmentExpensePolicy id="f46" contextRef="c3">&lt;p style="font: 10pt Times New Roman, Times, Serif; text-align: justify; margin-right: 0; margin-left: 0"&gt;&lt;b&gt;Research and Development&#13;Costs&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; text-align: justify; margin-right: 0; margin-left: 0"&gt;Expenditures for research&#13;and development are expensed as incurred and include, among other costs, those related to the production of experimental drugs,&#13;and amounts incurred for conducting clinical trials. Amounts expected to be received from governments under research and development&#13;tax credit arrangements are offset against current research and development expense.&lt;/p&gt;</us-gaap:ResearchAndDevelopmentExpensePolicy>
+  <us-gaap:Cash id="f47" decimals="0" contextRef="c13" unitRef="usd">434.0</us-gaap:Cash>
+  <us-gaap:LiabilitiesCurrent id="f48" decimals="0" contextRef="c4" unitRef="usd">5400293.0</us-gaap:LiabilitiesCurrent>
+  <us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted id="f49" decimals="INF" contextRef="c2" unitRef="shares">400000000.0</us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted>
+  <us-gaap:Cash id="f50" decimals="0" contextRef="c14" unitRef="usd">1025.0</us-gaap:Cash>
+  <us-gaap:StockholdersEquity id="f51" decimals="0" contextRef="c8" unitRef="usd">400000.0</us-gaap:StockholdersEquity>
+  <nugenerex.com:WorkingCapitalDeficiency id="f52" decimals="0" contextRef="c4" unitRef="usd">5400000.0</nugenerex.com:WorkingCapitalDeficiency>
+  <us-gaap:Cash id="f53" decimals="0" contextRef="c" unitRef="usd">389.0</us-gaap:Cash>
+  <us-gaap:IncomeTaxPolicyTextBlock id="f54" contextRef="c3">&lt;p style="font: 10pt Times New Roman, Times, Serif; text-align: justify; margin-right: 0; margin-left: 0"&gt;&lt;b&gt;Income Taxes&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; text-align: justify; margin-right: 0; margin-left: 0"&gt;NGIO is included in the&#13;Generex consolidated federal tax return. All tax provisions and the related tax liabilities and assets have been computed using&#13;the separate return method, as if the company was the legal taxpayer.&lt;/p&gt;</us-gaap:IncomeTaxPolicyTextBlock>
+  <us-gaap:InterestPayableCurrent id="f55" decimals="0" contextRef="c" unitRef="usd">3055945.0</us-gaap:InterestPayableCurrent>
+  <us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted id="f56" decimals="INF" contextRef="c7" unitRef="shares">400000000.0</us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted>
+  <us-gaap:StockholdersEquity id="f57" decimals="0" contextRef="c15" unitRef="usd">400000.0</us-gaap:StockholdersEquity>
+  <us-gaap:CommonStockValue id="f58" decimals="0" contextRef="c4" unitRef="usd">400000.0</us-gaap:CommonStockValue>
+  <us-gaap:IncomeTaxDisclosureTextBlock id="f59" contextRef="c3">&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;&lt;u&gt;Note 5&amp;#8211;Income taxes:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;Deferred tax assets and liabilities&#13;are recognized for the future tax consequences attributable to differences between the financial statement carrying amounts of&#13;existing assets and liabilities and their respective tax bases and operating loss and tax credit carry forwards. Deferred tax assets&#13;and liabilities are measured using enacted tax rates expected to apply to taxable income in the years in which those temporary&#13;differences are expected to be recovered or settled. The effect on net deferred tax assets and liabilities of a change in tax rates&#13;is recognized in income in the period that includes the enactment date. At April 30, 2020, the Company had a full valuation allowance&#13;against its deferred tax assets, accordingly the Company did not recognize an income tax benefit for losses incurred during the&#13;three and nine-month periods ended April 30, 2020.&lt;/p&gt;</us-gaap:IncomeTaxDisclosureTextBlock>
+  <us-gaap:StockholdersEquity id="f60" decimals="0" contextRef="c" unitRef="usd">-4383901.0</us-gaap:StockholdersEquity>
+  <us-gaap:EarningsPerShareBasicAndDiluted id="f61" decimals="INF" contextRef="c3" unitRef="usd1">0.0</us-gaap:EarningsPerShareBasicAndDiluted>
+  <us-gaap:StockholdersEquity id="f62" decimals="0" contextRef="c6" unitRef="usd">400000.0</us-gaap:StockholdersEquity>
+  <us-gaap:SubstantialDoubtAboutGoingConcernTextBlock id="f63" contextRef="c3">&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;&lt;u&gt;Note 1 Going Concern:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;The accompanying financial statements&#13;of Nugenerex Immuno-Oncology, Inc. (the &amp;#8220;Company&amp;#8221;) have been prepared in conformity with accounting principles generally&#13;accepted in the United States of America (&amp;#8220;U.S. GAAP&amp;#8221;), which contemplates continuation of the Company as a going concern.&#13;The Company has experienced recurring net losses and negative cash flows from operations since inception and has both accumulated&#13;deficits of approximately $37.9 million and a working capital deficiency of approximately $5.4 million as of April 30, 2020. The&#13;Company&amp;#8217;s parent, Generex Biotechnology Corporation (&amp;#8220;Generex&amp;#8221;) has funded substantially all the Company&amp;#8217;s&#13;underlying working capital deficiencies. The uncertain economic fallout from the COVID -19 pandemic may also adversely affect our&#13;operations (See Commitments and Contingencies). These conditions raise substantial doubt about the Company&amp;#8217;s ability to continue&#13;as a going concern.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;The Company will continue to require&#13;substantial funds to implement its business plans.&amp;#160; Management&amp;#8217;s plans, to meet its operating cash flow requirements,&#13;include financing activities such as public or private placements of its common stock, preferred stock offerings, and issuances&#13;of debt and convertible debt instruments. There are no assurances that such additional funding will be achieved and that the Company&#13;will succeed in its future operations. Management is also actively pursuing financial and strategic alternatives, including strategic&#13;investments and divestitures, industry collaboration activities and strategic partners.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;These financial statements do not&#13;include any adjustments to the recoverability and classification of recorded assets amounts and classification of liabilities that&#13;might be necessary should the Company not be able to continue as a going concern. The Company&amp;#8217;s inability to obtain required&#13;funding in the near future or its inability to obtain funding on favorable terms will have a material adverse effect on its operations&#13;and strategic development plan for future growth. If the Company cannot successfully raise additional capital and implement its&#13;strategic development plan, its liquidity, financial condition, and business prospects will be materially and adversely affected,&#13;and the Company may have to cease operations.&lt;/p&gt;</us-gaap:SubstantialDoubtAboutGoingConcernTextBlock>
+  <dei:DocumentType id="f64" contextRef="c3">10-Q</dei:DocumentType>
+  <us-gaap:RevenueRecognitionPolicyTextBlock id="f65" contextRef="c3">&lt;p style="font: 10pt Times New Roman, Times, Serif; text-align: justify; margin-right: 0; margin-left: 0"&gt;&lt;b&gt;Revenue &lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; text-align: justify; margin-right: 0; margin-left: 0"&gt;The Company expects to&#13;generate revenue from licenses to access its intellectual property.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; text-align: justify; margin-right: 0; margin-left: 0"&gt;If a license to the Company&amp;#8217;s&#13;intellectual property is determined to be distinct from the other performance obligations identified in the arrangement, the Company&#13;recognizes revenues attributed to the license when the license is transferred to the customer and the customer is able to use and&#13;benefit from the license. For licenses that are bundled with other promises, the Company utilizes judgement to assess the nature&#13;of the combined performance obligation to determine whether the combined performance obligation is satisfied over time or at a&#13;point in time. At the inception of each arrangement that contain development milestones, the Company evaluates whether the development&#13;milestones included are considered probable of being reached and estimates the amount to be included in the transaction price using&#13;the most likely amount method. If it is probable that a significant revenue reversal would not occur, the associated milestone&#13;value is included in the transaction price. Milestone payments that are not within the control of the Company or the licensee,&#13;such as regulatory approvals, are not generally considered probable of being achieved until those approvals are received.&lt;/p&gt;</us-gaap:RevenueRecognitionPolicyTextBlock>
+  <us-gaap:LiabilitiesCurrent id="f66" decimals="0" contextRef="c" unitRef="usd">4384290.0</us-gaap:LiabilitiesCurrent>
+  <us-gaap:EarningsPerShareBasicAndDiluted id="f67" decimals="INF" contextRef="c2" unitRef="usd1">0.0</us-gaap:EarningsPerShareBasicAndDiluted>
+  <us-gaap:StockholdersEquity id="f68" decimals="0" contextRef="c1" unitRef="usd">400000.0</us-gaap:StockholdersEquity>
+  <us-gaap:NetCashProvidedByUsedInOperatingActivities id="f69" decimals="0" contextRef="c5" unitRef="usd">-591.0</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+  <dei:EntityCurrentReportingStatus id="f70" contextRef="c3">Yes</dei:EntityCurrentReportingStatus>
+  <us-gaap:AdditionalPaidInCapital id="f71" decimals="0" contextRef="c4" unitRef="usd">32117424.0</us-gaap:AdditionalPaidInCapital>
+  <us-gaap:CommonStockParOrStatedValuePerShare id="f72" decimals="INF" contextRef="c4" unitRef="usd1">0.001</us-gaap:CommonStockParOrStatedValuePerShare>
+  <us-gaap:IncreaseDecreaseInInterestPayableNet id="f73" decimals="0" contextRef="c3" unitRef="usd">626867.0</us-gaap:IncreaseDecreaseInInterestPayableNet>
+  <us-gaap:StockholdersEquity id="f74" decimals="0" contextRef="c16" unitRef="usd">31663656.0</us-gaap:StockholdersEquity>
+  <us-gaap:EarningsPerShareBasicAndDiluted id="f75" decimals="INF" contextRef="c7" unitRef="usd1">0.0</us-gaap:EarningsPerShareBasicAndDiluted>
+  <us-gaap:CommitmentsAndContingenciesDisclosureTextBlock id="f76" contextRef="c3">&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;&lt;u&gt;Note 3 - Commitments and Contingencies:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;Commitments&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;On November 29, 2017, the Company&#13;entered into a clinical trial agreement (&amp;#8220;CTA&amp;#8221;) with a shanghai based, contract research organization (&amp;#8220;CRO&amp;#8221;)&#13;for a four-year Phase II study of AE37 for the treatment of metastatic triple negative breast cancer. In accordance with the CTA,&#13;the Company agrees to pay the CRO amounts not to exceed $5,747,039, unless approved in writing by both parties, upon completion&#13;of certain milestones and achievements over the four-year study&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;On November 20, 2018, the Company&#13;entered into a clinical trial agreement with NSABP Foundation, Inc. (&amp;#8220;NSABP&amp;#8221;) under which NSABP will conduct clinical&#13;research using the Company&amp;#8217;s AE37 peptide immunotherapeutic vaccine in combination with pembrolizumab (Ketruda&amp;#174;) for&#13;the treatment of metastatic triple negative breast cancer. The company has agreed to pay NSABP an amount not to exceed $2,118,461&#13;based on NSABP achieving various milestones.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;The Company recognized $251,459&#13;and $340,000 as research and development related to the clinical trial agreement with NSABP for the nine-month periods ended April&#13;30, 2020 and 2019, respectively. For the three-month periods ended April 30, 2020 and 2019, the Company did not recognize any research&#13;and development expense related to the NSABP clinical trial agreement, respectively. Any other research and development costs have&#13;been de minimis.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;Payable to Foundation&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;On February 1, 2007, the Company&#13;entered into a clinical study agreement with the Henry J. Jackson Foundation (the &amp;#8220;Foundation&amp;#8221; for the clinical research&#13;and development of AE37 for the treatment of breast cancer). The Company agreed to pay the foundation total compensation of $2,700,000&#13;payable at various intervals over the term of the agreement.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;On September 9, 2013, the Company&#13;entered into a forbearance agreement (the &amp;#8220;Forbearance Agreement&amp;#8221;) with the Foundation and under which the Company&#13;n acknowledged that they were in arrears on its payment and interest obligations to the Foundation in the amount of $1,315,817.&#13;Pursuant to the Forbearance Agreement, the Company and the Foundation agreed that in exchange for deferring the overdue payments&#13;the Company would among other matters, pay the foundation (i) the final $200,000 upon completion of the study and acceptance of&#13;all study documents, (ii) a royalty of 5% of net third party sales and (iii) the original forbearance amount will continue to bear&#13;interest at 1.5% per month, compounded. The Foundation may terminate the Forbearance Agreement by providing the Company written&#13;notice should the Company, among other matters, fail to make payments due under the Forbearance Agreement. The foundation has not&#13;provided the study documents to the Company.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&amp;#160;As of April 30, 2020, and&#13;July 31, 2019, the Company&amp;#8217;s payable to the foundation for services was $1,315,817. Interest payable to the Foundation was&#13;$3,682,812 and $3,055,945 as of April 30, 2020 and July 31, 2019, respectively. Interest accrued related to the payable to the&#13;foundation was $218,360 and $182,629, respectively for the three months ended April 30, 2020 and 2019; and $626,872 and $524,303,&#13;respectively, for the nine months ended April 30, 2020 and 2019.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;Related Party&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;Expenses paid by Generex on behalf&#13;of the Company have been treated as capital contributions from Generex as Generex will not be reimbursed by the Company for these&#13;expenses. For the nine-month periods ended April 30, 2020 and 2019, Generex paid expenses of $66,438 and $386,182, respectively.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;COVID-19&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify; background-color: white"&gt;The ongoing&#13;coronavirus outbreak which began in China at the beginning of 2020 has impacted various businesses throughout the world, including&#13;travel restrictions and the extended shutdown of certain businesses in impacted geographic regions. If the coronavirus outbreak&#13;situation should continue to worsen, we may experience disruptions to our business including, but not limited disruptions of our&#13;ongoing clinical trials and the operations of our partners.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;The extent to which the coronavirus&#13;impacts our operations or those of our third-party partners will depend on future developments, which are highly uncertain and&#13;cannot be predicted with confidence, including the duration of the outbreak, new information that may emerge concerning the severity&#13;of the coronavirus and the actions to contain the coronavirus or treat its impact, among others. Any such disruptions or losses&#13;we incur could have a material adverse effect on our financial results and our ability to conduct business as expected.&lt;/p&gt;</us-gaap:CommitmentsAndContingenciesDisclosureTextBlock>
+  <us-gaap:ProfessionalFees id="f77" decimals="0" contextRef="c17" unitRef="usd">2118461.0</us-gaap:ProfessionalFees>
+  <us-gaap:StockholdersEquity id="f78" decimals="0" contextRef="c18" unitRef="usd">32049838.0</us-gaap:StockholdersEquity>
+  <us-gaap:EarningsPerShareBasicAndDiluted id="f79" decimals="INF" contextRef="c5" unitRef="usd1">0.0</us-gaap:EarningsPerShareBasicAndDiluted>
+  <dei:AmendmentFlag id="f80" contextRef="c3">false</dei:AmendmentFlag>
+  <us-gaap:NetIncomeLoss id="f81" decimals="0" contextRef="c3" unitRef="usd">-1082701.0</us-gaap:NetIncomeLoss>
+  <us-gaap:NewAccountingPronouncementsPolicyPolicyTextBlock id="f82" contextRef="c3">&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;New Accounting Standards&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;The Company has reviewed the FASB&#13;issued Accounting Standards Update (&amp;#8220;ASU&amp;#8221;) accounting pronouncements and interpretations thereof that have effective&#13;dates during the periods reported and in future periods. The Company does not believe that any new or modified standards will have&#13;a material impact on the Company&amp;#8217;s reported financial position or operations in the near term. The applicability of any standard&#13;is subject to the formal review of our financial management and certain standards are under consideration.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;In February 2016, the FASB issued&#13;Accounting Standards Update (ASU) No.&amp;#160;2016-02,&amp;#160;&lt;i&gt;Leases&lt;/i&gt;&amp;#160;(&amp;#8220;ASU 2016-02&amp;#8221;).&amp;#160;In January 2018,&#13;the FASB issued ASU 2018-01, which provides additional implementation guidance on the previously issued ASU 2016-02. Under the&#13;new guidance, lessees will be required to recognize the following for all leases (with the exception of short-term leases) at&#13;the commencement date: (1) a lease liability, which is a lessee's obligation to make lease payments arising from a lease, measured&#13;on a discounted basis; and (2) a right-of-use asset, which is an asset that represents the lessee's right to use, or control the&#13;use of, a specified asset for the lease term. The Company is required to adopt ASU 2016-02 for fiscal years, and for interim periods&#13;within those fiscal years, beginning after December 15, 2018. This ASU was effective for us in the first quarter of fiscal 2020&#13;which begins with interim period ending October 31, 2019. Implementation of this guidance did not impact our condensed financial&#13;statements.&lt;/p&gt;</us-gaap:NewAccountingPronouncementsPolicyPolicyTextBlock>
+  <us-gaap:StockholdersEquity id="f83" decimals="0" contextRef="c19" unitRef="usd">32050986.0</us-gaap:StockholdersEquity>
+  <us-gaap:CommonStockValue id="f84" decimals="0" contextRef="c" unitRef="usd">400000.0</us-gaap:CommonStockValue>
+  <us-gaap:ProfessionalFees id="f85" decimals="0" contextRef="c20" unitRef="usd">2700000.0</us-gaap:ProfessionalFees>
+  <us-gaap:RetainedEarningsAccumulatedDeficit id="f86" decimals="0" contextRef="c4" unitRef="usd">-37917588.0</us-gaap:RetainedEarningsAccumulatedDeficit>
+  <dei:DocumentPeriodEndDate id="f87" contextRef="c3">2020-04-30</dei:DocumentPeriodEndDate>
+  <us-gaap:StockholdersEquity id="f88" decimals="0" contextRef="c21" unitRef="usd">32117424.0</us-gaap:StockholdersEquity>
+  <us-gaap:NetIncomeLoss id="f89" decimals="0" contextRef="c5" unitRef="usd">-912333.0</us-gaap:NetIncomeLoss>
+  <dei:DocumentFiscalPeriodFocus id="f90" contextRef="c3">Q3</dei:DocumentFiscalPeriodFocus>
+  <us-gaap:NetIncomeLoss id="f91" decimals="0" contextRef="c2" unitRef="usd">-207691.0</us-gaap:NetIncomeLoss>
+  <dei:DocumentFiscalYearFocus id="f92" contextRef="c3">2020</dei:DocumentFiscalYearFocus>
+  <us-gaap:ProfessionalFees id="f93" decimals="0" contextRef="c22" unitRef="usd">5747039.0</us-gaap:ProfessionalFees>
+  <us-gaap:StockholdersEquity id="f94" decimals="0" contextRef="c23" unitRef="usd">-35726871.0</us-gaap:StockholdersEquity>
+  <us-gaap:IncreaseDecreaseInAccountsPayable id="f95" decimals="0" contextRef="c3" unitRef="usd">455574.0</us-gaap:IncreaseDecreaseInAccountsPayable>
+  <nugenerex.com:PaymentAndInterestObligations id="f96" decimals="0" contextRef="c24" unitRef="usd">1315817.0</nugenerex.com:PaymentAndInterestObligations>
+  <us-gaap:StockholdersEquityNoteStockSplit id="f97" contextRef="c25"> 4,000 to 1</us-gaap:StockholdersEquityNoteStockSplit>
+  <us-gaap:StockholdersEquity id="f98" decimals="0" contextRef="c26" unitRef="usd">-36639204.0</us-gaap:StockholdersEquity>
+  <us-gaap:AdditionalPaidInCapital id="f99" decimals="0" contextRef="c" unitRef="usd">32050986.0</us-gaap:AdditionalPaidInCapital>
+  <us-gaap:NetIncomeLoss id="f100" decimals="0" contextRef="c7" unitRef="usd">-307070.0</us-gaap:NetIncomeLoss>
+  <us-gaap:CommonStockSharesOutstanding id="f101" decimals="INF" contextRef="c4" unitRef="shares">400000000.0</us-gaap:CommonStockSharesOutstanding>
+  <us-gaap:CommonStockParOrStatedValuePerShare id="f102" decimals="INF" contextRef="c" unitRef="usd1">0.001</us-gaap:CommonStockParOrStatedValuePerShare>
+  <us-gaap:LiabilitiesAndStockholdersEquity id="f103" decimals="0" contextRef="c4" unitRef="usd">129.0</us-gaap:LiabilitiesAndStockholdersEquity>
+  <us-gaap:NetIncomeLoss id="f104" xsi:nil="true" contextRef="c27" unitRef="usd"/>
+  <dei:EntityRegistrantName id="f105" contextRef="c3">Nugenerex Immuno-oncology, Inc.</dei:EntityRegistrantName>
+  <us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent id="f106" decimals="0" contextRef="c4" unitRef="usd">401664.0</us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent>
+  <us-gaap:StockholdersEquity id="f107" decimals="0" contextRef="c28" unitRef="usd">-36834887.0</us-gaap:StockholdersEquity>
+  <us-gaap:NetIncomeLoss id="f108" xsi:nil="true" contextRef="c29" unitRef="usd"/>
+  <us-gaap:RetainedEarningsAccumulatedDeficit id="f109" decimals="0" contextRef="c" unitRef="usd">-36834887.0</us-gaap:RetainedEarningsAccumulatedDeficit>
+  <us-gaap:IncreaseDecreaseInAccountsPayable id="f110" decimals="0" contextRef="c5" unitRef="usd">387439.0</us-gaap:IncreaseDecreaseInAccountsPayable>
+  <us-gaap:StockholdersEquity id="f111" decimals="0" contextRef="c30" unitRef="usd">-37917588.0</us-gaap:StockholdersEquity>
+  <us-gaap:NetIncomeLoss id="f112" decimals="0" contextRef="c31" unitRef="usd">-912333.0</us-gaap:NetIncomeLoss>
+  <us-gaap:RelatedPartyCosts id="f113" decimals="0" contextRef="c5" unitRef="usd">386182.0</us-gaap:RelatedPartyCosts>
+  <us-gaap:NetIncomeLoss id="f114" decimals="0" contextRef="c32" unitRef="usd">-1082701.0</us-gaap:NetIncomeLoss>
+  <dei:EntityCentralIndexKey id="f115" contextRef="c3">0001804585</dei:EntityCentralIndexKey>
+  <us-gaap:IncomeTaxExpenseBenefit id="f116" decimals="0" contextRef="c3" unitRef="usd">0.0</us-gaap:IncomeTaxExpenseBenefit>
+  <us-gaap:StockholdersEquity id="f117" decimals="0" contextRef="c14" unitRef="usd">-3663215.0</us-gaap:StockholdersEquity>
+  <us-gaap:CommonStockSharesAuthorized id="f118" decimals="INF" contextRef="c4" unitRef="shares">750000000.0</us-gaap:CommonStockSharesAuthorized>
+  <us-gaap:SignificantAccountingPoliciesTextBlock id="f119" contextRef="c3">&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;&lt;u&gt;Note 2 &amp;#8211; Summary of&#13;Significant Accounting Policies:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&amp;#160;&lt;b&gt;Basis of Presentation&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;The Company&amp;#8217;s financial statements&#13;have been included in consolidated financial statements of its parent, Generex and the Company has been dependent on Generex to&#13;fund its operations. Generex does not have costs centralized or shared services departments serving all its subsidiaries, accordingly,&#13;no allocations of centralized or shared service are necessary or included in the financial statements, as they are de-minimis.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;The accompanying unaudited condensed&#13;financial statements of the Company have been prepared in accordance with accounting principles generally accepted in the United&#13;States of America (&amp;#8220;U.S. GAAP&amp;#8221;) for interim financial information and with the instructions to Form 10-Q and Article&#13;10 of Regulation S-X. Accordingly, they do not include all of the information and footnotes required by U.S.&amp;#160;GAAP for complete&#13;financial statements. In the opinion of management, all adjustments, which include only normal recurring adjustments, considered&#13;necessary for a fair presentation have been included. The Company&amp;#8217;s fiscal year ends on July&amp;#160;31 of each calendar year.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;Operating results for the&#13;three and nine months ended April 30, 2020 are not necessarily indicative of the results that may be expected for the fiscal year&#13;ending July&amp;#160;31, 2020.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;Research and Development Costs&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;Expenditures for research and development&#13;are expensed as incurred and include, among other costs, those related to the production of experimental drugs, and amounts incurred&#13;for conducting clinical trials. Amounts expected to be received from governments under research and development tax credit arrangements&#13;are offset against current research and development expense.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;Income Taxes&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;NGIO is included in the Generex&#13;consolidated federal tax return. All tax provisions and the related tax liabilities and assets have been computed using the separate&#13;return method, as if the company was the legal taxpayer.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;Revenue &lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; text-align: justify; margin-top: 6pt; margin-right: 0; margin-left: 0"&gt;The&#13;Company expects to generate revenue from licenses to access its intellectual property.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;If a license to the Company&amp;#8217;s&#13;intellectual property is determined to be distinct from the other performance obligations identified in the arrangement, the Company&#13;recognizes revenues attributed to the license when the license is transferred to the customer and the customer is able to use and&#13;benefit from the license. For licenses that are bundled with other promises, the Company utilizes judgement to assess the nature&#13;of the combined performance obligation to determine whether the combined performance obligation is satisfied over time or at a&#13;point in time. At the inception of each arrangement that contain development milestones, the Company evaluates whether the development&#13;milestones included are considered probable of being reached and estimates the amount to be included in the transaction price using&#13;the most likely amount method. If it is probable that a significant revenue reversal would not occur, the associated milestone&#13;value is included in the transaction price. Milestone payments that are not within the control of the Company or the licensee,&#13;such as regulatory approvals, are not generally considered probable of being achieved until those approvals are received.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;New Accounting Standards&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;The Company has reviewed the FASB&#13;issued Accounting Standards Update (&amp;#8220;ASU&amp;#8221;) accounting pronouncements and interpretations thereof that have effective&#13;dates during the periods reported and in future periods. The Company does not believe that any new or modified standards will have&#13;a material impact on the Company&amp;#8217;s reported financial position or operations in the near term. The applicability of any standard&#13;is subject to the formal review of our financial management and certain standards are under consideration.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;In February 2016, the FASB issued&#13;Accounting Standards Update (ASU) No.&amp;#160;2016-02,&amp;#160;&lt;i&gt;Leases&lt;/i&gt;&amp;#160;(&amp;#8220;ASU 2016-02&amp;#8221;).&amp;#160;In January 2018,&#13;the FASB issued ASU 2018-01, which provides additional implementation guidance on the previously issued ASU 2016-02. Under the&#13;new guidance, lessees will be required to recognize the following for all leases (with the exception of short-term leases) at&#13;the commencement date: (1) a lease liability, which is a lessee's obligation to make lease payments arising from a lease, measured&#13;on a discounted basis; and (2) a right-of-use asset, which is an asset that represents the lessee's right to use, or control the&#13;use of, a specified asset for the lease term. The Company is required to adopt ASU 2016-02 for fiscal years, and for interim periods&#13;within those fiscal years, beginning after December 15, 2018. This ASU was effective for us in the first quarter of fiscal 2020&#13;which begins with interim period ending October 31, 2019. Implementation of this guidance did not impact our condensed financial&#13;statements.&lt;/p&gt;</us-gaap:SignificantAccountingPoliciesTextBlock>
+  <nugenerex.com:AmountReceivedByFoundationFromCompany id="f120" contextRef="c24">Pay the foundation (i) the final $200,000 upon completion of the study and acceptance of all study documents, 274 (ii) for a royalty of 5% of net third party sales and (iii) the original forbearance amount will continue to bear interest at 1.5% per month, compounded. The Foundation may terminate the Forbearance Agreement by providing the Company written notice should the Company, among other matters, fail to make payments due under the Forbearance Agreement. The foundation has not provided the study documents to the Company</nugenerex.com:AmountReceivedByFoundationFromCompany>
+  <us-gaap:InterestExpense id="f121" decimals="0" contextRef="c3" unitRef="usd">626872.0</us-gaap:InterestExpense>
+  <us-gaap:StockholdersEquity id="f122" decimals="0" contextRef="c13" unitRef="usd">-4189366.0</us-gaap:StockholdersEquity>
+  <us-gaap:LiabilitiesAndStockholdersEquity id="f123" decimals="0" contextRef="c" unitRef="usd">389.0</us-gaap:LiabilitiesAndStockholdersEquity>
+  <us-gaap:IncreaseDecreaseInInterestPayableNet id="f124" decimals="0" contextRef="c5" unitRef="usd">524303.0</us-gaap:IncreaseDecreaseInInterestPayableNet>
+  <dei:EntityFilerCategory id="f125" contextRef="c3">Non-accelerated Filer</dei:EntityFilerCategory>
+  <us-gaap:OperatingIncomeLoss id="f126" decimals="0" contextRef="c3" unitRef="usd">-455829.0</us-gaap:OperatingIncomeLoss>
+  <us-gaap:InterestExpense id="f127" decimals="0" contextRef="c5" unitRef="usd">524303.0</us-gaap:InterestExpense>
+  <dei:EntityCommonStockSharesOutstanding id="f128" decimals="INF" contextRef="c33" unitRef="shares">400000000.0</dei:EntityCommonStockSharesOutstanding>
+  <us-gaap:RelatedPartyCosts id="f129" decimals="0" contextRef="c3" unitRef="usd">66438.0</us-gaap:RelatedPartyCosts>
+  <us-gaap:InterestExpense id="f130" decimals="0" contextRef="c2" unitRef="usd">182629.0</us-gaap:InterestExpense>
+  <us-gaap:ProceedsFromContributionsFromParent id="f131" decimals="0" contextRef="c3" unitRef="usd">66438.0</us-gaap:ProceedsFromContributionsFromParent>
+  <us-gaap:CommonStockSharesIssued id="f132" decimals="INF" contextRef="c4" unitRef="shares">400000000.0</us-gaap:CommonStockSharesIssued>
+  <us-gaap:PreferredStockParOrStatedValuePerShare id="f133" decimals="INF" contextRef="c4" unitRef="usd1">0.001</us-gaap:PreferredStockParOrStatedValuePerShare>
+  <us-gaap:CommonStockSharesAuthorized id="f134" decimals="INF" contextRef="c" unitRef="shares">750000000.0</us-gaap:CommonStockSharesAuthorized>
+  <us-gaap:BasisOfAccountingPolicyPolicyTextBlock id="f135" contextRef="c3">&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;Basis of Presentation&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;The Company&amp;#8217;s financial statements&#13;have been included in consolidated financial statements of its parent, Generex and the Company has been dependent on Generex to&#13;fund its operations. Generex does not have costs centralized or shared services departments serving all its subsidiaries, accordingly,&#13;no allocations of centralized or shared service are necessary or included in the financial statements, as they are de-minimis.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;The accompanying unaudited condensed&#13;financial statements of the Company have been prepared in accordance with accounting principles generally accepted in the United&#13;States of America (&amp;#8220;U.S. GAAP&amp;#8221;) for interim financial information and with the instructions to Form 10-Q and Article&#13;10 of Regulation S-X. Accordingly, they do not include all of the information and footnotes required by U.S.&amp;#160;GAAP for complete&#13;financial statements. In the opinion of management, all adjustments, which include only normal recurring adjustments, considered&#13;necessary for a fair presentation have been included. The Company&amp;#8217;s fiscal year ends on July&amp;#160;31 of each calendar year.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&amp;#160;Operating results for the&#13;three and nine months ended April 30, 2020 are not necessarily indicative of the results that may be expected for the fiscal year&#13;ending July&amp;#160;31, 2020.&lt;/p&gt;</us-gaap:BasisOfAccountingPolicyPolicyTextBlock>
+  <dei:EntitySmallBusiness id="f136" contextRef="c3">true</dei:EntitySmallBusiness>
+  <us-gaap:PreferredStockSharesIssued id="f137" decimals="INF" contextRef="c4" unitRef="shares">0.0</us-gaap:PreferredStockSharesIssued>
+  <us-gaap:InterestExpense id="f138" decimals="0" contextRef="c7" unitRef="usd">218360.0</us-gaap:InterestExpense>
+  <us-gaap:ProceedsFromContributionsFromParent id="f139" xsi:nil="true" contextRef="c27" unitRef="usd"/>
+  <us-gaap:OperatingIncomeLoss id="f140" decimals="0" contextRef="c5" unitRef="usd">-388030.0</us-gaap:OperatingIncomeLoss>
+  <dei:EntityEmergingGrowthCompany id="f141" contextRef="c3">true</dei:EntityEmergingGrowthCompany>
+  <us-gaap:ProceedsFromContributionsFromParent id="f142" decimals="0" contextRef="c5" unitRef="usd">386182.0</us-gaap:ProceedsFromContributionsFromParent>
+  <us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent id="f143" decimals="0" contextRef="c" unitRef="usd">12528.0</us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent>
+  <us-gaap:OperatingIncomeLoss id="f144" decimals="0" contextRef="c2" unitRef="usd">-25062.0</us-gaap:OperatingIncomeLoss>
+  <us-gaap:StockholdersEquityNoteDisclosureTextBlock id="f145" contextRef="c3">&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;&lt;u&gt;Note 4 - Stockholders&amp;#8217;&#13;Deficiency:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;&lt;b&gt;Capital Stock&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0 0 8pt; text-align: justify"&gt;On February 21, 2019, the Company&#13;issued a 4,000 to 1 stock split the effect of which has been presented retrospectively for all periods presented. On March 10,&#13;2020 the Company filed an amended and restated certificate of incorporation (a) increasing its authorized shares of common stock;&#13;par value $0.001 per share, from 400,000,000 shares to 750,000,000 shares, and (b) authorizing 10,000,000 shares of preferred stock,&#13;par value $0.001 per share. The holders of common stock are entitled to one vote per share of Common Stock held at the time of&#13;vote.&lt;/p&gt;</us-gaap:StockholdersEquityNoteDisclosureTextBlock>
+  <us-gaap:AccountsPayableCurrent id="f146" decimals="0" contextRef="c4" unitRef="usd">1315817.0</us-gaap:AccountsPayableCurrent>
+  <us-gaap:ProceedsFromContributionsFromParent id="f147" decimals="0" contextRef="c34" unitRef="usd">386182.0</us-gaap:ProceedsFromContributionsFromParent>
+  <us-gaap:CommonStockSharesIssued id="f148" decimals="INF" contextRef="c" unitRef="shares">400000000.0</us-gaap:CommonStockSharesIssued>
+  <us-gaap:ProfitLoss id="f149" decimals="0" contextRef="c3" unitRef="usd">-1082701.0</us-gaap:ProfitLoss>
+  <dei:EntityExTransitionPeriod id="f150" contextRef="c3">false</dei:EntityExTransitionPeriod>
+  <us-gaap:PreferredStockValue id="f151" decimals="0" contextRef="c4" unitRef="usd">0.0</us-gaap:PreferredStockValue>
+  <us-gaap:OperatingIncomeLoss id="f152" decimals="0" contextRef="c7" unitRef="usd">-88710.0</us-gaap:OperatingIncomeLoss>
+  <us-gaap:OperatingExpenses id="f153" decimals="0" contextRef="c3" unitRef="usd">455829.0</us-gaap:OperatingExpenses>
+  <us-gaap:ProceedsFromContributionsFromParent id="f154" decimals="0" contextRef="c29" unitRef="usd">66438.0</us-gaap:ProceedsFromContributionsFromParent>
+  <us-gaap:IncomeTaxExpenseBenefit id="f155" decimals="0" contextRef="c7" unitRef="usd">0.0</us-gaap:IncomeTaxExpenseBenefit>
+  <us-gaap:ResearchAndDevelopmentExpense id="f156" decimals="0" contextRef="c3" unitRef="usd">255265.0</us-gaap:ResearchAndDevelopmentExpense>
+  <us-gaap:CommonStockSharesOutstanding id="f157" decimals="INF" contextRef="c" unitRef="shares">400000000.0</us-gaap:CommonStockSharesOutstanding>
+  <us-gaap:OperatingExpenses id="f158" decimals="0" contextRef="c2" unitRef="usd">25062.0</us-gaap:OperatingExpenses>
+  <dei:CurrentFiscalYearEndDate id="f159" contextRef="c3">--07-31</dei:CurrentFiscalYearEndDate>
+  <us-gaap:ProceedsFromContributionsFromParent id="f160" xsi:nil="true" contextRef="c32" unitRef="usd"/>
+  <us-gaap:ProfitLoss id="f161" decimals="0" contextRef="c5" unitRef="usd">-912333.0</us-gaap:ProfitLoss>
+  <us-gaap:SharesOutstanding id="f162" decimals="INF" contextRef="c15" unitRef="shares">400000.0</us-gaap:SharesOutstanding>
+  <us-gaap:OperatingExpenses id="f163" decimals="0" contextRef="c7" unitRef="usd">88710.0</us-gaap:OperatingExpenses>
+</xbrli:xbrl>

@@ -1,0 +1,1345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by Xince -->
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advbiomed.com="http://advbiomed.com/20241231" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:srt="http://fasb.org/srt/2024" xmlns:dei="http://xbrl.sec.gov/dei/2024">
+  <link:schemaRef xlink:href="./abmt-20200430_taxonomy.zip/abmt-20200430_taxonomy/abmt-20200430.xsd" xlink:type="simple"/>
+  <xbrli:context id="c">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">advbiomed.com:StockBasedCompensationReservesMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-01-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-11-01</xbrli:startDate>
+      <xbrli:endDate>2020-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-10-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-02-01</xbrli:startDate>
+      <xbrli:endDate>2019-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">advbiomed.com:StockBasedCompensationReservesMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-02-01</xbrli:startDate>
+      <xbrli:endDate>2020-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-11-01</xbrli:startDate>
+      <xbrli:endDate>2019-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="srt:TitleOfIndividualAxis">advbiomed.com:ProfPuyiShengMember</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="us-gaap:AwardDateAxis">advbiomed.com:MarchOneTwoThousandTwemtyThirtyToFebruaryTwentyEightTwoThousandTwentyThreeMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-02-27</xbrli:startDate>
+      <xbrli:endDate>2020-03-01</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-02-01</xbrli:startDate>
+      <xbrli:endDate>2019-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c9">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-02-01</xbrli:startDate>
+      <xbrli:endDate>2019-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-02-01</xbrli:startDate>
+      <xbrli:endDate>2019-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c11">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c12">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-02-01</xbrli:startDate>
+      <xbrli:endDate>2019-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c13">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="srt:TitleOfIndividualAxis">advbiomed.com:ProfPuyiShengMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-02-27</xbrli:startDate>
+      <xbrli:endDate>2020-03-03</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c14">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-11-01</xbrli:startDate>
+      <xbrli:endDate>2019-01-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c15">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-11-01</xbrli:startDate>
+      <xbrli:endDate>2020-01-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c16">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="srt:TitleOfIndividualAxis">advbiomed.com:ProfPuyiShengMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-03-03</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c17">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-11-01</xbrli:startDate>
+      <xbrli:endDate>2019-01-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c18">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-11-01</xbrli:startDate>
+      <xbrli:endDate>2020-01-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c19">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-11-01</xbrli:startDate>
+      <xbrli:endDate>2019-01-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c20">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="srt:OwnershipAxis">advbiomed.com:ShenzhenChanghuaBiomedicalEngineeringCompanyLimitedMember</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">srt:ParentCompanyMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c21">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-11-01</xbrli:startDate>
+      <xbrli:endDate>2020-01-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c22">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c23">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-11-01</xbrli:startDate>
+      <xbrli:endDate>2019-01-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c24">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-06-22</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c25">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-11-01</xbrli:startDate>
+      <xbrli:endDate>2020-01-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c26">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-11-01</xbrli:startDate>
+      <xbrli:endDate>2019-01-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c27">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-11-01</xbrli:startDate>
+      <xbrli:endDate>2020-01-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c28">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-02-01</xbrli:startDate>
+      <xbrli:endDate>2020-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c29">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-02-01</xbrli:startDate>
+      <xbrli:endDate>2020-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c30">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-02-01</xbrli:startDate>
+      <xbrli:endDate>2020-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c31">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-10-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c32">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-02-01</xbrli:startDate>
+      <xbrli:endDate>2020-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c33">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">advbiomed.com:StockBasedCompensationReservesMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-11-01</xbrli:startDate>
+      <xbrli:endDate>2019-01-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c34">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">advbiomed.com:StockBasedCompensationReservesMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-02-01</xbrli:startDate>
+      <xbrli:endDate>2019-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c35">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">advbiomed.com:StockBasedCompensationReservesMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-02-01</xbrli:startDate>
+      <xbrli:endDate>2020-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c36">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="srt:OwnershipAxis">advbiomed.com:MasteriseHoldingsLimitedMember</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">srt:ParentCompanyMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c37">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">advbiomed.com:StockBasedCompensationReservesMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-11-01</xbrli:startDate>
+      <xbrli:endDate>2020-01-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c38">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="srt:OwnershipAxis">advbiomed.com:ShenzhenChanghuaBiomedicalEngineeringCompanyLimitedMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2002-09-24</xbrli:startDate>
+      <xbrli:endDate>2002-09-25</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c39">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">srt:ParentCompanyMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-12-30</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c40">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">advbiomed.com:ShenzhenChanghuaMember</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="srt:OwnershipAxis">advbiomed.com:MasteriseHoldingsLimitedMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2007-05-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c41">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="srt:OwnershipAxis">advbiomed.com:MasteriseHoldingsLimitedMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2007-05-30</xbrli:startDate>
+      <xbrli:endDate>2007-05-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c42">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="srt:OwnershipAxis">advbiomed.com:MasteriseHoldingsLimitedMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-01-29</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c43">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="srt:OwnershipAxis">advbiomed.com:MasteriseHoldingsLimitedMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-01-28</xbrli:startDate>
+      <xbrli:endDate>2008-01-29</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c44">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">srt:ParentCompanyMember</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionAxis">us-gaap:MajorityShareholderMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c45">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">srt:ParentCompanyMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c46">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">advbiomed.com:MasteriseMember</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionAxis">us-gaap:MajorityShareholderMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2008-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c47">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c48">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">srt:ParentCompanyMember</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionAxis">us-gaap:MajorityShareholderMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-12-30</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c49">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionAxis">us-gaap:MajorityShareholderMember</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">advbiomed.com:MasteriseMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2008-12-30</xbrli:startDate>
+      <xbrli:endDate>2008-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c50">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-10-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c51">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c52">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">advbiomed.com:FourRelatedPartiesMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-10-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c53">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">advbiomed.com:FourRelatedPartiesMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c54">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-10-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c55">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-10-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c56">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-10-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c57">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-10-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c58">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-01-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c59">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-10-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c60">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-01-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c61">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-10-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c62">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-10-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c63">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c64">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c65">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c66">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="srt:OwnershipAxis">advbiomed.com:ShenzhenChanghuaBiomedicalEngineeringCompanyLimitedMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2002-09-25</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c67">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-01-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c68">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c69">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c70">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c71">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-01-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c72">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-01-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c73">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-01-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c74">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-01-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c75">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-01-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c76">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-01-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c77">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-01-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c78">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">advbiomed.com:StockBasedCompensationReservesMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-10-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c79">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">advbiomed.com:StockBasedCompensationReservesMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-01-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c80">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">advbiomed.com:FourRelatedPartiesMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2019-11-01</xbrli:startDate>
+      <xbrli:endDate>2020-04-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c81">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">advbiomed.com:StockBasedCompensationReservesMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c82">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.sec.gov/CIK">0001385799</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">advbiomed.com:StockBasedCompensationReservesMember</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2019-10-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="usd">
+    <xbrli:measure>iso4217:USD</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="shares">
+    <xbrli:measure>xbrli:shares</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="usd1">
+    <xbrli:divide>
+      <xbrli:unitNumerator>
+        <xbrli:measure>iso4217:USD</xbrli:measure>
+      </xbrli:unitNumerator>
+      <xbrli:unitDenominator>
+        <xbrli:measure>xbrli:shares</xbrli:measure>
+      </xbrli:unitDenominator>
+    </xbrli:divide>
+  </xbrli:unit>
+  <xbrli:unit id="pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <us-gaap:StockholdersEquity id="f" xsi:nil="true" contextRef="c" unitRef="usd"/>
+  <us-gaap:PaymentsToAcquirePropertyPlantAndEquipment id="f1" decimals="0" contextRef="c1" unitRef="usd">28270.0</us-gaap:PaymentsToAcquirePropertyPlantAndEquipment>
+  <us-gaap:LiabilitiesAndStockholdersEquity id="f2" decimals="0" contextRef="c2" unitRef="usd">218500.0</us-gaap:LiabilitiesAndStockholdersEquity>
+  <us-gaap:OtherComprehensiveIncomeLossNetOfTax id="f3" decimals="0" contextRef="c3" unitRef="usd">31985.0</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+  <advbiomed.com:PaymentsOfProceedsFromCapitalElementOfLeaseRentalPaid id="f4" decimals="0" contextRef="c1" unitRef="usd">21579.0</advbiomed.com:PaymentsOfProceedsFromCapitalElementOfLeaseRentalPaid>
+  <us-gaap:StockholdersEquity id="f5" decimals="0" contextRef="c4" unitRef="usd">2267.0</us-gaap:StockholdersEquity>
+  <us-gaap:OtherAccountsPayableAndAccruedLiabilities id="f6" decimals="0" contextRef="c2" unitRef="usd">674882.0</us-gaap:OtherAccountsPayableAndAccruedLiabilities>
+  <advbiomed.com:DepreciationOnRightofuseAssets id="f7" decimals="0" contextRef="c5" unitRef="usd">10747.0</advbiomed.com:DepreciationOnRightofuseAssets>
+  <us-gaap:OtherComprehensiveIncomeLossNetOfTax id="f8" decimals="0" contextRef="c6" unitRef="usd">-179659.0</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+  <us-gaap:StockIssuedDuringPeriodSharesNewIssues id="f9" decimals="INF" contextRef="c7" unitRef="shares">80000.0</us-gaap:StockIssuedDuringPeriodSharesNewIssues>
+  <us-gaap:NetIncomeLoss id="f10" decimals="0" contextRef="c1" unitRef="usd">-273441.0</us-gaap:NetIncomeLoss>
+  <us-gaap:IncreaseDecreaseInInventories id="f11" decimals="0" contextRef="c1" unitRef="usd">627.0</us-gaap:IncreaseDecreaseInInventories>
+  <advbiomed.com:DepreciationOnRightofuseAssets id="f12" xsi:nil="true" contextRef="c3" unitRef="usd"/>
+  <us-gaap:NetIncomeLoss id="f13" decimals="0" contextRef="c8" unitRef="usd">-235679.0</us-gaap:NetIncomeLoss>
+  <us-gaap:AdditionalPaidInCapitalCommonStock id="f14" decimals="0" contextRef="c2" unitRef="usd">2768138.0</us-gaap:AdditionalPaidInCapitalCommonStock>
+  <us-gaap:NetIncomeLoss id="f15" xsi:nil="true" contextRef="c9" unitRef="usd"/>
+  <us-gaap:OtherComprehensiveIncomeLossNetOfTax id="f16" decimals="0" contextRef="c5" unitRef="usd">121584.0</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+  <us-gaap:IncreaseDecreaseInOtherAccountsPayableAndAccruedLiabilities id="f17" decimals="0" contextRef="c1" unitRef="usd">2045.0</us-gaap:IncreaseDecreaseInOtherAccountsPayableAndAccruedLiabilities>
+  <us-gaap:PaymentsToAcquirePropertyPlantAndEquipment id="f18" decimals="0" contextRef="c6" unitRef="usd">12099.0</us-gaap:PaymentsToAcquirePropertyPlantAndEquipment>
+  <advbiomed.com:DepreciationOnRightofuseAssets id="f19" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <advbiomed.com:CostOfSales id="f20" decimals="0" contextRef="c5" unitRef="usd">116.0</advbiomed.com:CostOfSales>
+  <us-gaap:NetIncomeLoss id="f21" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <us-gaap:GrossProfit id="f22" decimals="0" contextRef="c1" unitRef="usd">27279.0</us-gaap:GrossProfit>
+  <us-gaap:CashAndCashEquivalentsAtCarryingValue id="f23" decimals="0" contextRef="c2" unitRef="usd">5592.0</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+  <us-gaap:OtherAccountsPayableAndAccruedLiabilities id="f24" decimals="0" contextRef="c11" unitRef="usd">674989.0</us-gaap:OtherAccountsPayableAndAccruedLiabilities>
+  <advbiomed.com:CostOfSales id="f25" xsi:nil="true" contextRef="c3" unitRef="usd"/>
+  <us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets id="f26" decimals="0" contextRef="c1" unitRef="usd">-13365.0</us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets>
+  <us-gaap:ProceedsFromRelatedPartyDebt id="f27" decimals="0" contextRef="c1" unitRef="usd">222484.0</us-gaap:ProceedsFromRelatedPartyDebt>
+  <advbiomed.com:CostOfSales id="f28" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <us-gaap:NetIncomeLoss id="f29" decimals="0" contextRef="c6" unitRef="usd">-488202.0</us-gaap:NetIncomeLoss>
+  <us-gaap:IncreaseDecreaseInInventories id="f30" decimals="0" contextRef="c6" unitRef="usd">13999.0</us-gaap:IncreaseDecreaseInInventories>
+  <us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardExpirationPeriod id="f31" contextRef="c7">P12Y</us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardExpirationPeriod>
+  <us-gaap:NetIncomeLoss id="f32" xsi:nil="true" contextRef="c12" unitRef="usd"/>
+  <us-gaap:AssetsCurrent id="f33" decimals="0" contextRef="c2" unitRef="usd">119466.0</us-gaap:AssetsCurrent>
+  <us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax id="f34" decimals="0" contextRef="c1" unitRef="usd">60290.0</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+  <us-gaap:CashAndCashEquivalentsAtCarryingValue id="f35" decimals="0" contextRef="c11" unitRef="usd">10640.0</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+  <us-gaap:StockIssuedDuringPeriodSharesNewIssues id="f36" decimals="INF" contextRef="c13" unitRef="shares">100000.0</us-gaap:StockIssuedDuringPeriodSharesNewIssues>
+  <us-gaap:NetIncomeLoss id="f37" decimals="0" contextRef="c3" unitRef="usd">-235679.0</us-gaap:NetIncomeLoss>
+  <us-gaap:IncreaseDecreaseInOtherAccountsPayableAndAccruedLiabilities id="f38" decimals="0" contextRef="c6" unitRef="usd">71364.0</us-gaap:IncreaseDecreaseInOtherAccountsPayableAndAccruedLiabilities>
+  <us-gaap:WeightedAverageNumberOfSharesOutstandingBasic id="f39" decimals="INF" contextRef="c3" unitRef="shares">69624850.0</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+  <us-gaap:NetIncomeLoss id="f40" decimals="0" contextRef="c5" unitRef="usd">-209652.0</us-gaap:NetIncomeLoss>
+  <us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets id="f41" decimals="0" contextRef="c6" unitRef="usd">13702.0</us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets>
+  <us-gaap:NetIncomeLoss id="f42" xsi:nil="true" contextRef="c14" unitRef="usd"/>
+  <us-gaap:Assets id="f43" decimals="0" contextRef="c2" unitRef="usd">218500.0</us-gaap:Assets>
+  <advbiomed.com:GovernmentGrants id="f44" decimals="0" contextRef="c1" unitRef="usd">-125566.0</advbiomed.com:GovernmentGrants>
+  <us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardDescription id="f45" contextRef="c7">In the event that the agreement is terminated for any reason by the Officer prior to the end of a 12-month term, the Officer shall not be entitled to the 80,000 shares for that term.</us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardDescription>
+  <us-gaap:ProceedsFromRelatedPartyDebt id="f46" decimals="0" contextRef="c6" unitRef="usd">393427.0</us-gaap:ProceedsFromRelatedPartyDebt>
+  <us-gaap:NetIncomeLoss id="f47" xsi:nil="true" contextRef="c15" unitRef="usd"/>
+  <us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax id="f48" decimals="0" contextRef="c5" unitRef="usd">-211.0</us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax>
+  <us-gaap:SharesIssuedPricePerShare id="f49" decimals="INF" contextRef="c16" unitRef="usd1">0.42</us-gaap:SharesIssuedPricePerShare>
+  <us-gaap:AssetsCurrent id="f50" decimals="0" contextRef="c11" unitRef="usd">111553.0</us-gaap:AssetsCurrent>
+  <advbiomed.com:PaymentsOfProceedsFromCapitalElementOfLeaseRentalPaid id="f51" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <us-gaap:NetIncomeLoss id="f52" xsi:nil="true" contextRef="c17" unitRef="usd"/>
+  <us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax id="f53" xsi:nil="true" contextRef="c3" unitRef="usd"/>
+  <dei:EntityFilerCategory id="f54" contextRef="c1">Non-accelerated Filer</dei:EntityFilerCategory>
+  <us-gaap:AdditionalPaidInCapitalCommonStock id="f55" decimals="0" contextRef="c11" unitRef="usd">2779132.0</us-gaap:AdditionalPaidInCapitalCommonStock>
+  <us-gaap:OperatingLeaseLiability id="f56" decimals="0" contextRef="c11" unitRef="usd">55390.0</us-gaap:OperatingLeaseLiability>
+  <us-gaap:NetIncomeLoss id="f57" xsi:nil="true" contextRef="c18" unitRef="usd"/>
+  <us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax id="f58" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <us-gaap:LiabilitiesCurrent id="f59" decimals="0" contextRef="c2" unitRef="usd">6696739.0</us-gaap:LiabilitiesCurrent>
+  <advbiomed.com:GovernmentGrants id="f60" decimals="0" contextRef="c5" unitRef="usd">86.0</advbiomed.com:GovernmentGrants>
+  <us-gaap:NetIncomeLoss id="f61" decimals="0" contextRef="c19" unitRef="usd">-252523.0</us-gaap:NetIncomeLoss>
+  <us-gaap:StockIssuedDuringPeriodValueNewIssues id="f62" decimals="0" contextRef="c13" unitRef="usd">4200.0</us-gaap:StockIssuedDuringPeriodValueNewIssues>
+  <us-gaap:MinorityInterestOwnershipPercentageByNoncontrollingOwners id="f63" decimals="INF" contextRef="c20" unitRef="pure">0.3</us-gaap:MinorityInterestOwnershipPercentageByNoncontrollingOwners>
+  <advbiomed.com:GovernmentGrants id="f64" xsi:nil="true" contextRef="c3" unitRef="usd"/>
+  <us-gaap:NetIncomeLoss id="f65" decimals="0" contextRef="c21" unitRef="usd">-63789.0</us-gaap:NetIncomeLoss>
+  <us-gaap:Assets id="f66" decimals="0" contextRef="c11" unitRef="usd">276357.0</us-gaap:Assets>
+  <us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations id="f67" decimals="0" contextRef="c22" unitRef="usd">11880.0</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations>
+  <us-gaap:GrossProfit id="f68" decimals="0" contextRef="c5" unitRef="usd">-95.0</us-gaap:GrossProfit>
+  <advbiomed.com:GovernmentGrants id="f69" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <dei:EntityRegistrantName id="f70" contextRef="c1">Advanced Biomedical Technologies Inc.</dei:EntityRegistrantName>
+  <us-gaap:NetIncomeLoss id="f71" xsi:nil="true" contextRef="c23" unitRef="usd"/>
+  <us-gaap:CommonStockValue id="f72" decimals="0" contextRef="c2" unitRef="usd">698.0</us-gaap:CommonStockValue>
+  <dei:EntityCommonStockSharesOutstanding id="f73" decimals="INF" contextRef="c24" unitRef="shares">69974850.0</dei:EntityCommonStockSharesOutstanding>
+  <us-gaap:DisclosureOfShareBasedCompensationArrangementsByShareBasedPaymentAwardTextBlock id="f74" contextRef="c1">&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;NOTE 10 SHARE BASED COMPENSATION AND DEFERRED&#13;COMPENSATION&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify; text-indent: -0.25in"&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;On March 1, 2020, the Company offered&#13;240,000 shares of common stock to Prof. Puyi Sheng, MD PhD, Chief Medical Officer (&amp;#8220;CMO&amp;#8221;) for the services rendered&#13;from March 1, 2020 to February 28, 2023 whereas 80,000 shares will be issued for each 12-month term at the end of each term. In&#13;the event that the agreement is terminated for any reason by the Officer prior to the end of a 12-month term, the Officer shall&#13;not be entitled to the 80,000 shares for that term. On March 3, 2020, the Company issued 100,000 shares of common stock to the&#13;Chief Medical Officer at $0.42 per share (the share price at March 3, 2020) with a total value of $4,200 as a sign on bonus. The&#13;stock compensation transactions are recorded according to ASC 718 Compensation &amp;#8211; Stock Compensation which follows the terms&#13;of the Compensation Agreement executed on March 1, 2020 between the Company and Prof. Sheng. The deferred compensation will be&#13;awarded when all the services rendered and vested according to the agreement. The sign on bonus was recognized at March 1, 2020&#13;when the agreement was executed.&lt;/p&gt;</us-gaap:DisclosureOfShareBasedCompensationArrangementsByShareBasedPaymentAwardTextBlock>
+  <us-gaap:GrossProfit id="f75" xsi:nil="true" contextRef="c3" unitRef="usd"/>
+  <us-gaap:NetIncomeLoss id="f76" xsi:nil="true" contextRef="c25" unitRef="usd"/>
+  <dei:EntitySmallBusiness id="f77" contextRef="c1">true</dei:EntitySmallBusiness>
+  <us-gaap:LiabilitiesCurrent id="f78" decimals="0" contextRef="c11" unitRef="usd">6983314.0</us-gaap:LiabilitiesCurrent>
+  <us-gaap:NetIncomeLoss id="f79" decimals="0" contextRef="c26" unitRef="usd">-252523.0</us-gaap:NetIncomeLoss>
+  <us-gaap:GrossProfit id="f80" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <advbiomed.com:StockbasedCompensationReserves id="f81" xsi:nil="true" contextRef="c2" unitRef="usd"/>
+  <dei:CurrentFiscalYearEndDate id="f82" contextRef="c1">--10-31</dei:CurrentFiscalYearEndDate>
+  <us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax id="f83" decimals="0" contextRef="c2" unitRef="usd">334363.0</us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+  <dei:EntityEmergingGrowthCompany id="f84" contextRef="c1">false</dei:EntityEmergingGrowthCompany>
+  <us-gaap:NetIncomeLoss id="f85" decimals="0" contextRef="c27" unitRef="usd">-63789.0</us-gaap:NetIncomeLoss>
+  <us-gaap:OperatingLeaseLiabilityNoncurrent id="f86" xsi:nil="true" contextRef="c2" unitRef="usd"/>
+  <us-gaap:OtherCommitment id="f87" xsi:nil="true" contextRef="c11" unitRef="usd"/>
+  <us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations id="f88" decimals="0" contextRef="c2" unitRef="usd">5592.0</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations>
+  <us-gaap:NetIncomeLoss id="f89" xsi:nil="true" contextRef="c28" unitRef="usd"/>
+  <us-gaap:WeightedAverageNumberOfSharesOutstandingBasic id="f90" decimals="INF" contextRef="c5" unitRef="shares">69940406.0</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+  <us-gaap:CommonStockValue id="f91" decimals="0" contextRef="c11" unitRef="usd">700.0</us-gaap:CommonStockValue>
+  <us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations id="f92" decimals="0" contextRef="c11" unitRef="usd">10640.0</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations>
+  <dei:EntityCentralIndexKey id="f93" contextRef="c1">0001385799</dei:EntityCentralIndexKey>
+  <us-gaap:NetIncomeLoss id="f94" xsi:nil="true" contextRef="c29" unitRef="usd"/>
+  <us-gaap:DueToOfficersOrStockholdersCurrent id="f95" decimals="0" contextRef="c2" unitRef="usd">824705.0</us-gaap:DueToOfficersOrStockholdersCurrent>
+  <us-gaap:NetIncomeLoss id="f96" decimals="0" contextRef="c30" unitRef="usd">-209652.0</us-gaap:NetIncomeLoss>
+  <us-gaap:WeightedAverageNumberOfSharesOutstandingBasic id="f97" decimals="INF" contextRef="c1" unitRef="shares">69907268.0</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+  <us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations id="f98" decimals="0" contextRef="c31" unitRef="usd">6860.0</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations>
+  <advbiomed.com:StockbasedCompensationReserves id="f99" decimals="0" contextRef="c11" unitRef="usd">2267.0</advbiomed.com:StockbasedCompensationReserves>
+  <dei:DocumentType id="f100" contextRef="c1">10-Q</dei:DocumentType>
+  <us-gaap:NetIncomeLoss id="f101" xsi:nil="true" contextRef="c32" unitRef="usd"/>
+  <advbiomed.com:DepositForCommitments id="f102" decimals="0" contextRef="c11" unitRef="usd">1446.0</advbiomed.com:DepositForCommitments>
+  <us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations id="f103" decimals="0" contextRef="c1" unitRef="usd">-50.0</us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations>
+  <us-gaap:NetIncomeLoss id="f104" xsi:nil="true" contextRef="c33" unitRef="usd"/>
+  <us-gaap:DueToOfficersOrStockholdersCurrent id="f105" decimals="0" contextRef="c11" unitRef="usd">850505.0</us-gaap:DueToOfficersOrStockholdersCurrent>
+  <us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax id="f106" decimals="0" contextRef="c11" unitRef="usd">355657.0</us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+  <us-gaap:GeneralAndAdministrativeExpense id="f107" decimals="0" contextRef="c3" unitRef="usd">127472.0</us-gaap:GeneralAndAdministrativeExpense>
+  <dei:DocumentPeriodEndDate id="f108" contextRef="c1">2020-04-30</dei:DocumentPeriodEndDate>
+  <us-gaap:NetIncomeLoss id="f109" xsi:nil="true" contextRef="c34" unitRef="usd"/>
+  <us-gaap:WeightedAverageNumberOfSharesOutstandingBasic id="f110" decimals="INF" contextRef="c6" unitRef="shares">69624850.0</us-gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+  <us-gaap:GeneralAndAdministrativeExpense id="f111" decimals="0" contextRef="c1" unitRef="usd">112061.0</us-gaap:GeneralAndAdministrativeExpense>
+  <us-gaap:CommonStockSharesOutstanding id="f112" decimals="INF" contextRef="c2" unitRef="shares">69874850.0</us-gaap:CommonStockSharesOutstanding>
+  <us-gaap:NetIncomeLoss id="f113" xsi:nil="true" contextRef="c35" unitRef="usd"/>
+  <us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueYearTwo id="f114" decimals="0" contextRef="c11" unitRef="usd">27753.0</us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueYearTwo>
+  <us-gaap:EquityMethodInvestmentOwnershipPercentage id="f115" decimals="INF" contextRef="c36" unitRef="pure">0.7</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+  <us-gaap:ShareBasedCompensation id="f116" decimals="0" contextRef="c1" unitRef="usd">6467.0</us-gaap:ShareBasedCompensation>
+  <dei:AmendmentFlag id="f117" contextRef="c1">false</dei:AmendmentFlag>
+  <us-gaap:NetIncomeLoss id="f118" xsi:nil="true" contextRef="c37" unitRef="usd"/>
+  <us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect id="f119" decimals="0" contextRef="c1" unitRef="usd">5048.0</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect>
+  <us-gaap:InterestExpenseDebt id="f120" decimals="0" contextRef="c6" unitRef="usd">6355.0</us-gaap:InterestExpenseDebt>
+  <us-gaap:LiabilitiesAndStockholdersEquity id="f121" decimals="0" contextRef="c11" unitRef="usd">276357.0</us-gaap:LiabilitiesAndStockholdersEquity>
+  <us-gaap:LimitedLiabilityCompanyLLCOrLimitedPartnershipLPManagingMemberOrGeneralPartnerOwnershipInterest id="f122" decimals="INF" contextRef="c38" unitRef="pure">0.7</us-gaap:LimitedLiabilityCompanyLLCOrLimitedPartnershipLPManagingMemberOrGeneralPartnerOwnershipInterest>
+  <us-gaap:OperatingLeaseLiabilityCurrent id="f123" xsi:nil="true" contextRef="c2" unitRef="usd"/>
+  <us-gaap:ShareBasedCompensation id="f124" decimals="0" contextRef="c5" unitRef="usd">6467.0</us-gaap:ShareBasedCompensation>
+  <us-gaap:GeneralAndAdministrativeExpense id="f125" decimals="0" contextRef="c6" unitRef="usd">275402.0</us-gaap:GeneralAndAdministrativeExpense>
+  <us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations id="f126" decimals="0" contextRef="c6" unitRef="usd">110.0</us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations>
+  <us-gaap:CommonStockParOrStatedValuePerShare id="f127" decimals="INF" contextRef="c2" unitRef="usd1">0.00001</us-gaap:CommonStockParOrStatedValuePerShare>
+  <us-gaap:OtherCommitment id="f128" decimals="0" contextRef="c2" unitRef="usd">7235.0</us-gaap:OtherCommitment>
+  <us-gaap:StockIssuedDuringPeriodSharesAcquisitions id="f129" decimals="INF" contextRef="c39" unitRef="shares">50000.0</us-gaap:StockIssuedDuringPeriodSharesAcquisitions>
+  <us-gaap:InterestPaidNet id="f130" decimals="0" contextRef="c1" unitRef="usd">10.0</us-gaap:InterestPaidNet>
+  <us-gaap:ShareBasedCompensation id="f131" xsi:nil="true" contextRef="c3" unitRef="usd"/>
+  <dei:DocumentFiscalPeriodFocus id="f132" contextRef="c1">Q2</dei:DocumentFiscalPeriodFocus>
+  <us-gaap:BusinessAcquisitionPercentageOfVotingInterestsAcquired id="f133" decimals="INF" contextRef="c40" unitRef="pure">0.7</us-gaap:BusinessAcquisitionPercentageOfVotingInterestsAcquired>
+  <us-gaap:OperatingLeaseRightOfUseAsset id="f134" xsi:nil="true" contextRef="c2" unitRef="usd"/>
+  <us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect id="f135" decimals="0" contextRef="c6" unitRef="usd">5020.0</us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect>
+  <us-gaap:ShareBasedCompensation id="f136" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <us-gaap:LimitedLiabilityCompanyLLCOrLimitedPartnershipLPMembersOrLimitedPartnersOwnershipInterest id="f137" decimals="INF" contextRef="c38" unitRef="pure">0.3</us-gaap:LimitedLiabilityCompanyLLCOrLimitedPartnershipLPMembersOrLimitedPartnersOwnershipInterest>
+  <us-gaap:GeneralAndAdministrativeExpense id="f138" decimals="0" contextRef="c5" unitRef="usd">57776.0</us-gaap:GeneralAndAdministrativeExpense>
+  <us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding id="f139" decimals="INF" contextRef="c1" unitRef="shares">69985070.0</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+  <us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueYearThree id="f140" decimals="0" contextRef="c11" unitRef="usd">6797.0</us-gaap:LesseeOperatingLeaseLiabilityPaymentsDueYearThree>
+  <us-gaap:OperatingExpenses id="f141" decimals="0" contextRef="c1" unitRef="usd">247258.0</us-gaap:OperatingExpenses>
+  <advbiomed.com:InterestExpenses id="f142" decimals="0" contextRef="c1" unitRef="usd">162728.0</advbiomed.com:InterestExpenses>
+  <dei:DocumentFiscalYearFocus id="f143" contextRef="c1">2020</dei:DocumentFiscalYearFocus>
+  <us-gaap:LimitedLiabilityCompanyLLCOrLimitedPartnershipLPManagingMemberOrGeneralPartnerOwnershipInterest id="f144" decimals="INF" contextRef="c41" unitRef="pure">0.63</us-gaap:LimitedLiabilityCompanyLLCOrLimitedPartnershipLPManagingMemberOrGeneralPartnerOwnershipInterest>
+  <advbiomed.com:EffectOfAdoptionOfASU id="f145" xsi:nil="true" contextRef="c15" unitRef="usd"/>
+  <us-gaap:LesseeOperatingLeaseLiabilityPaymentsDue id="f146" decimals="0" contextRef="c11" unitRef="usd">58339.0</us-gaap:LesseeOperatingLeaseLiabilityPaymentsDue>
+  <us-gaap:OperatingExpenses id="f147" decimals="0" contextRef="c5" unitRef="usd">120239.0</us-gaap:OperatingExpenses>
+  <us-gaap:InterestPaidNet id="f148" decimals="0" contextRef="c6" unitRef="usd">17.0</us-gaap:InterestPaidNet>
+  <us-gaap:BusinessAcquisitionPercentageOfVotingInterestsAcquired id="f149" decimals="INF" contextRef="c42" unitRef="pure">0.7</us-gaap:BusinessAcquisitionPercentageOfVotingInterestsAcquired>
+  <us-gaap:ProceedsFromRepaymentsOfRelatedPartyDebt id="f150" decimals="0" contextRef="c1" unitRef="usd">17125.0</us-gaap:ProceedsFromRepaymentsOfRelatedPartyDebt>
+  <us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding id="f151" decimals="INF" contextRef="c5" unitRef="shares">70097739.0</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+  <us-gaap:CommonStockSharesAuthorized id="f152" decimals="INF" contextRef="c2" unitRef="shares">100000000.0</us-gaap:CommonStockSharesAuthorized>
+  <us-gaap:OperatingExpenses id="f153" decimals="0" contextRef="c3" unitRef="usd">148528.0</us-gaap:OperatingExpenses>
+  <us-gaap:PaymentsToAcquireBusinessesGross id="f154" decimals="0" contextRef="c43" unitRef="usd">64100.0</us-gaap:PaymentsToAcquireBusinessesGross>
+  <us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding id="f155" decimals="INF" contextRef="c3" unitRef="shares">69624850.0</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+  <us-gaap:LimitedLiabilityCompanyLLCOrLimitedPartnershipLPMembersOrLimitedPartnersOwnershipInterest id="f156" decimals="INF" contextRef="c41" unitRef="pure">0.37</us-gaap:LimitedLiabilityCompanyLLCOrLimitedPartnershipLPMembersOrLimitedPartnersOwnershipInterest>
+  <us-gaap:CommonStockParOrStatedValuePerShare id="f157" decimals="INF" contextRef="c11" unitRef="usd1">0.00001</us-gaap:CommonStockParOrStatedValuePerShare>
+  <us-gaap:BusinessAcquisitionPercentageOfVotingInterestsAcquired id="f158" decimals="INF" contextRef="c44" unitRef="pure">0.807</us-gaap:BusinessAcquisitionPercentageOfVotingInterestsAcquired>
+  <us-gaap:OperatingLeaseRightOfUseAsset id="f159" decimals="0" contextRef="c11" unitRef="usd">52483.0</us-gaap:OperatingLeaseRightOfUseAsset>
+  <advbiomed.com:ProceedsFromStockholder id="f160" decimals="0" contextRef="c1" unitRef="usd">24632.0</advbiomed.com:ProceedsFromStockholder>
+  <us-gaap:OperatingExpenses id="f161" decimals="0" contextRef="c6" unitRef="usd">318437.0</us-gaap:OperatingExpenses>
+  <us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding id="f162" decimals="INF" contextRef="c6" unitRef="shares">69624850.0</us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+  <us-gaap:EquityMethodInvestmentOwnershipPercentage id="f163" decimals="INF" contextRef="c45" unitRef="pure">1.0</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+  <us-gaap:BusinessAcquisitionPercentageOfVotingInterestsAcquired id="f164" decimals="INF" contextRef="c46" unitRef="pure">0.7</us-gaap:BusinessAcquisitionPercentageOfVotingInterestsAcquired>
+  <us-gaap:DueToRelatedPartiesCurrent id="f165" decimals="0" contextRef="c11" unitRef="usd">5118899.0</us-gaap:DueToRelatedPartiesCurrent>
+  <us-gaap:OperatingLeaseLiabilityCurrent id="f166" decimals="0" contextRef="c11" unitRef="usd">42298.0</us-gaap:OperatingLeaseLiabilityCurrent>
+  <advbiomed.com:InterestExpenses id="f167" decimals="0" contextRef="c6" unitRef="usd">154970.0</advbiomed.com:InterestExpenses>
+  <advbiomed.com:EffectOfAdoptionOfASU id="f168" xsi:nil="true" contextRef="c37" unitRef="usd"/>
+  <us-gaap:OperatingIncomeLoss id="f169" decimals="0" contextRef="c1" unitRef="usd">-219979.0</us-gaap:OperatingIncomeLoss>
+  <us-gaap:CommonStockSharesIssued id="f170" decimals="INF" contextRef="c2" unitRef="shares">69874850.0</us-gaap:CommonStockSharesIssued>
+  <us-gaap:CommonStockSharesAuthorized id="f171" decimals="INF" contextRef="c11" unitRef="shares">100000000.0</us-gaap:CommonStockSharesAuthorized>
+  <us-gaap:DueToRelatedPartiesCurrent id="f172" decimals="0" contextRef="c2" unitRef="usd">4916638.0</us-gaap:DueToRelatedPartiesCurrent>
+  <us-gaap:PropertyPlantAndEquipmentGross id="f173" decimals="0" contextRef="c11" unitRef="usd">560922.0</us-gaap:PropertyPlantAndEquipmentGross>
+  <advbiomed.com:EffectOfAdoptionOfASU id="f174" decimals="0" contextRef="c27" unitRef="usd">-2926.0</advbiomed.com:EffectOfAdoptionOfASU>
+  <us-gaap:OperatingIncomeLoss id="f175" decimals="0" contextRef="c5" unitRef="usd">-120334.0</us-gaap:OperatingIncomeLoss>
+  <us-gaap:Depreciation id="f176" decimals="0" contextRef="c1" unitRef="usd">9076.0</us-gaap:Depreciation>
+  <us-gaap:SharesOutstanding id="f177" decimals="INF" contextRef="c47" unitRef="shares">69974850.0</us-gaap:SharesOutstanding>
+  <us-gaap:ProceedsFromRepaymentsOfRelatedPartyDebt id="f178" decimals="0" contextRef="c6" unitRef="usd">-4711.0</us-gaap:ProceedsFromRepaymentsOfRelatedPartyDebt>
+  <advbiomed.com:EffectOfAdoptionOfASU id="f179" xsi:nil="true" contextRef="c25" unitRef="usd"/>
+  <us-gaap:SaleOfStockConsiderationReceivedOnTransaction id="f180" decimals="0" contextRef="c48" unitRef="usd">5000.0</us-gaap:SaleOfStockConsiderationReceivedOnTransaction>
+  <advbiomed.com:PaymentsOfProceedsFromInterestElementOfLeaseRentalPaid id="f181" decimals="0" contextRef="c1" unitRef="usd">2397.0</advbiomed.com:PaymentsOfProceedsFromInterestElementOfLeaseRentalPaid>
+  <us-gaap:OperatingIncomeLoss id="f182" decimals="0" contextRef="c3" unitRef="usd">-148528.0</us-gaap:OperatingIncomeLoss>
+  <us-gaap:OperatingLeaseLiabilityNoncurrent id="f183" decimals="0" contextRef="c11" unitRef="usd">13092.0</us-gaap:OperatingLeaseLiabilityNoncurrent>
+  <advbiomed.com:EffectOfAdoptionOfASU id="f184" decimals="0" contextRef="c21" unitRef="usd">-2926.0</advbiomed.com:EffectOfAdoptionOfASU>
+  <us-gaap:SaleOfStockNumberOfSharesIssuedInTransaction id="f185" decimals="INF" contextRef="c48" unitRef="shares">5001000.0</us-gaap:SaleOfStockNumberOfSharesIssuedInTransaction>
+  <us-gaap:CommonStockSharesIssued id="f186" decimals="INF" contextRef="c11" unitRef="shares">69974850.0</us-gaap:CommonStockSharesIssued>
+  <us-gaap:OperatingIncomeLoss id="f187" decimals="0" contextRef="c6" unitRef="usd">-318437.0</us-gaap:OperatingIncomeLoss>
+  <advbiomed.com:EffectOfAdoptionOfASU id="f188" xsi:nil="true" contextRef="c18" unitRef="usd"/>
+  <us-gaap:Depreciation id="f189" decimals="0" contextRef="c5" unitRef="usd">3944.0</us-gaap:Depreciation>
+  <us-gaap:SaleOfStockNumberOfSharesIssuedInTransaction id="f190" decimals="INF" contextRef="c49" unitRef="shares">4438250.0</us-gaap:SaleOfStockNumberOfSharesIssuedInTransaction>
+  <us-gaap:PropertyPlantAndEquipmentGross id="f191" decimals="0" contextRef="c2" unitRef="usd">534666.0</us-gaap:PropertyPlantAndEquipmentGross>
+  <us-gaap:StockIssuedDuringPeriodSharesIssuedForServices id="f192" decimals="INF" contextRef="c28" unitRef="shares">100000.0</us-gaap:StockIssuedDuringPeriodSharesIssuedForServices>
+  <us-gaap:StockholdersEquity id="f193" decimals="0" contextRef="c50" unitRef="usd">2740183.0</us-gaap:StockholdersEquity>
+  <us-gaap:SharesOutstanding id="f194" decimals="INF" contextRef="c51" unitRef="shares">69624850.0</us-gaap:SharesOutstanding>
+  <us-gaap:InvestmentIncomeInterest id="f195" decimals="0" contextRef="c1" unitRef="usd">10.0</us-gaap:InvestmentIncomeInterest>
+  <us-gaap:StockholdersEquity id="f196" decimals="0" contextRef="c2" unitRef="usd">-6478239.0</us-gaap:StockholdersEquity>
+  <us-gaap:StockIssuedDuringPeriodValueIssuedForServices id="f197" xsi:nil="true" contextRef="c32" unitRef="usd"/>
+  <us-gaap:DueToRelatedPartiesCurrent id="f198" decimals="0" contextRef="c52" unitRef="usd">4916638.0</us-gaap:DueToRelatedPartiesCurrent>
+  <us-gaap:CommonStockSharesOutstanding id="f199" decimals="INF" contextRef="c11" unitRef="shares">69974850.0</us-gaap:CommonStockSharesOutstanding>
+  <us-gaap:InvestmentIncomeInterest id="f200" decimals="0" contextRef="c3" unitRef="usd">7.0</us-gaap:InvestmentIncomeInterest>
+  <advbiomed.com:ProceedsFromStockholder id="f201" decimals="0" contextRef="c6" unitRef="usd">73597.0</advbiomed.com:ProceedsFromStockholder>
+  <us-gaap:StockIssuedDuringPeriodValueIssuedForServices id="f202" decimals="0" contextRef="c5" unitRef="usd">4200.0</us-gaap:StockIssuedDuringPeriodValueIssuedForServices>
+  <us-gaap:DueToRelatedPartiesCurrent id="f203" decimals="0" contextRef="c53" unitRef="usd">5118899.0</us-gaap:DueToRelatedPartiesCurrent>
+  <advbiomed.com:ImputedInterestRate id="f204" decimals="INF" contextRef="c1" unitRef="pure">0.05</advbiomed.com:ImputedInterestRate>
+  <advbiomed.com:DueToDirectors id="f205" decimals="0" contextRef="c2" unitRef="usd">280514.0</advbiomed.com:DueToDirectors>
+  <us-gaap:InvestmentIncomeInterest id="f206" decimals="0" contextRef="c6" unitRef="usd">17.0</us-gaap:InvestmentIncomeInterest>
+  <us-gaap:Depreciation id="f207" decimals="0" contextRef="c3" unitRef="usd">5013.0</us-gaap:Depreciation>
+  <us-gaap:StockholdersEquity id="f208" decimals="0" contextRef="c54" unitRef="usd">696.0</us-gaap:StockholdersEquity>
+  <advbiomed.com:PaymentsOfProceedsFromInterestElementOfLeaseRentalPaid id="f209" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <us-gaap:StockIssuedDuringPeriodSharesIssuedForServices id="f210" decimals="INF" contextRef="c7" unitRef="shares">240000.0</us-gaap:StockIssuedDuringPeriodSharesIssuedForServices>
+  <us-gaap:ProfitLoss id="f211" decimals="0" contextRef="c1" unitRef="usd">-273441.0</us-gaap:ProfitLoss>
+  <us-gaap:StockIssuedDuringPeriodValueIssuedForServices id="f212" xsi:nil="true" contextRef="c30" unitRef="usd"/>
+  <us-gaap:Depreciation id="f213" decimals="0" contextRef="c6" unitRef="usd">10013.0</us-gaap:Depreciation>
+  <us-gaap:StockholdersEquity id="f214" decimals="0" contextRef="c31" unitRef="usd">-5619012.0</us-gaap:StockholdersEquity>
+  <us-gaap:NetCashProvidedByUsedInOperatingActivities id="f215" decimals="0" contextRef="c1" unitRef="usd">-206897.0</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+  <us-gaap:StockIssuedDuringPeriodValueIssuedForServices id="f216" decimals="0" contextRef="c29" unitRef="usd">4198.0</us-gaap:StockIssuedDuringPeriodValueIssuedForServices>
+  <us-gaap:LesseeOperatingLeaseLiabilityPaymentsRemainderOfFiscalYear id="f217" decimals="0" contextRef="c11" unitRef="usd">23789.0</us-gaap:LesseeOperatingLeaseLiabilityPaymentsRemainderOfFiscalYear>
+  <us-gaap:InvestmentIncomeInterest id="f218" decimals="0" contextRef="c5" unitRef="usd">5.0</us-gaap:InvestmentIncomeInterest>
+  <us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest id="f219" decimals="0" contextRef="c1" unitRef="usd">-273441.0</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+  <us-gaap:ProfitLoss id="f220" decimals="0" contextRef="c5" unitRef="usd">-209652.0</us-gaap:ProfitLoss>
+  <advbiomed.com:ImputedInterestRate id="f221" decimals="INF" contextRef="c6" unitRef="pure">0.05</advbiomed.com:ImputedInterestRate>
+  <dei:EntityCurrentReportingStatus id="f222" contextRef="c1">Yes</dei:EntityCurrentReportingStatus>
+  <us-gaap:StockIssuedDuringPeriodValueIssuedForServices id="f223" decimals="0" contextRef="c28" unitRef="usd">2.0</us-gaap:StockIssuedDuringPeriodValueIssuedForServices>
+  <us-gaap:StockholdersEquity id="f224" decimals="0" contextRef="c55" unitRef="usd">-8632618.0</us-gaap:StockholdersEquity>
+  <us-gaap:LesseeOperatingLeaseLiabilityUndiscountedExcessAmount id="f225" decimals="0" contextRef="c11" unitRef="usd">2949.0</us-gaap:LesseeOperatingLeaseLiabilityUndiscountedExcessAmount>
+  <us-gaap:StockIssuedDuringPeriodValueIssuedForServices id="f226" xsi:nil="true" contextRef="c35" unitRef="usd"/>
+  <us-gaap:RetainedEarningsAccumulatedDeficit id="f227" decimals="0" contextRef="c2" unitRef="usd">-9581438.0</us-gaap:RetainedEarningsAccumulatedDeficit>
+  <us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest id="f228" decimals="0" contextRef="c5" unitRef="usd">-209652.0</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+  <us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue id="f229" decimals="0" contextRef="c5" unitRef="usd">2267.0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+  <us-gaap:StockholdersEquity id="f230" decimals="0" contextRef="c56" unitRef="usd">272727.0</us-gaap:StockholdersEquity>
+  <us-gaap:SharesOutstanding id="f231" decimals="INF" contextRef="c54" unitRef="shares">69624850.0</us-gaap:SharesOutstanding>
+  <us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest id="f232" decimals="0" contextRef="c3" unitRef="usd">-235679.0</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+  <us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue id="f233" xsi:nil="true" contextRef="c32" unitRef="usd"/>
+  <us-gaap:StockholdersEquity id="f234" decimals="0" contextRef="c57" unitRef="usd">698.0</us-gaap:StockholdersEquity>
+  <advbiomed.com:DueToDirectors id="f235" decimals="0" contextRef="c11" unitRef="usd">296623.0</advbiomed.com:DueToDirectors>
+  <dei:EntityInteractiveDataCurrent id="f236" contextRef="c1">Yes</dei:EntityInteractiveDataCurrent>
+  <us-gaap:SharesOutstanding id="f237" decimals="INF" contextRef="c57" unitRef="shares">69874850.0</us-gaap:SharesOutstanding>
+  <us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue id="f238" xsi:nil="true" contextRef="c30" unitRef="usd"/>
+  <us-gaap:SharesOutstanding id="f239" decimals="INF" contextRef="c58" unitRef="shares">69624850.0</us-gaap:SharesOutstanding>
+  <us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest id="f240" decimals="0" contextRef="c6" unitRef="usd">-488202.0</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest>
+  <us-gaap:StockholdersEquity id="f241" decimals="0" contextRef="c59" unitRef="usd">2768138.0</us-gaap:StockholdersEquity>
+  <us-gaap:RetainedEarningsAccumulatedDeficit id="f242" decimals="0" contextRef="c11" unitRef="usd">-9857805.0</us-gaap:RetainedEarningsAccumulatedDeficit>
+  <us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue id="f243" xsi:nil="true" contextRef="c29" unitRef="usd"/>
+  <us-gaap:IncomeTaxExpenseBenefit id="f244" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <dei:EntityShellCompany id="f245" contextRef="c1">false</dei:EntityShellCompany>
+  <us-gaap:ProfitLoss id="f246" decimals="0" contextRef="c3" unitRef="usd">-235679.0</us-gaap:ProfitLoss>
+  <us-gaap:SharesOutstanding id="f247" decimals="INF" contextRef="c60" unitRef="shares">69874850.0</us-gaap:SharesOutstanding>
+  <us-gaap:StockholdersEquity id="f248" decimals="0" contextRef="c61" unitRef="usd">-9581438.0</us-gaap:StockholdersEquity>
+  <us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue id="f249" xsi:nil="true" contextRef="c28" unitRef="usd"/>
+  <us-gaap:InventoryNet id="f250" decimals="0" contextRef="c2" unitRef="usd">64107.0</us-gaap:InventoryNet>
+  <us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue id="f251" decimals="0" contextRef="c35" unitRef="usd">2267.0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+  <us-gaap:ProfitLoss id="f252" decimals="0" contextRef="c6" unitRef="usd">-488202.0</us-gaap:ProfitLoss>
+  <us-gaap:IncomeTaxExpenseBenefit id="f253" xsi:nil="true" contextRef="c5" unitRef="usd"/>
+  <us-gaap:StockholdersEquity id="f254" decimals="0" contextRef="c62" unitRef="usd">334363.0</us-gaap:StockholdersEquity>
+  <us-gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment id="f255" decimals="0" contextRef="c2" unitRef="usd">435632.0</us-gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f256" xsi:nil="true" contextRef="c9" unitRef="usd"/>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f257" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <us-gaap:IncomeTaxExpenseBenefit id="f258" xsi:nil="true" contextRef="c3" unitRef="usd"/>
+  <advbiomed.com:IncreaseDecreaseInDepreciationAllocatedToInventory id="f259" decimals="0" contextRef="c1" unitRef="usd">5461.0</advbiomed.com:IncreaseDecreaseInDepreciationAllocatedToInventory>
+  <advbiomed.com:InterestOnLeaseLiabilities id="f260" decimals="0" contextRef="c1" unitRef="usd">2397.0</advbiomed.com:InterestOnLeaseLiabilities>
+  <us-gaap:StockholdersEquity id="f261" decimals="0" contextRef="c51" unitRef="usd">696.0</us-gaap:StockholdersEquity>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f262" xsi:nil="true" contextRef="c8" unitRef="usd"/>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f263" decimals="0" contextRef="c3" unitRef="usd">3207.0</advbiomed.com:ImputedInterestOnAdvancesFromDirectors>
+  <us-gaap:IncomeTaxExpenseBenefit id="f264" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <us-gaap:InventoryNet id="f265" decimals="0" contextRef="c11" unitRef="usd">64509.0</us-gaap:InventoryNet>
+  <us-gaap:IssuanceOfStockAndWarrantsForServicesOrClaims id="f266" decimals="0" contextRef="c1" unitRef="usd">6467.0</us-gaap:IssuanceOfStockAndWarrantsForServicesOrClaims>
+  <us-gaap:StockholdersEquity id="f267" decimals="0" contextRef="c63" unitRef="usd">2746538.0</us-gaap:StockholdersEquity>
+  <us-gaap:NetIncomeLossAttributableToNoncontrollingInterest id="f268" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <us-gaap:NonoperatingIncomeExpense id="f269" decimals="0" contextRef="c1" unitRef="usd">-53462.0</us-gaap:NonoperatingIncomeExpense>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f270" decimals="0" contextRef="c1" unitRef="usd">21294.0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+  <us-gaap:NonoperatingIncomeExpense id="f271" decimals="0" contextRef="c3" unitRef="usd">-87151.0</us-gaap:NonoperatingIncomeExpense>
+  <advbiomed.com:InterestOnLeaseLiabilities id="f272" decimals="0" contextRef="c5" unitRef="usd">1100.0</advbiomed.com:InterestOnLeaseLiabilities>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f273" xsi:nil="true" contextRef="c12" unitRef="usd"/>
+  <us-gaap:StockholdersEquity id="f274" decimals="0" contextRef="c64" unitRef="usd">-9120820.0</us-gaap:StockholdersEquity>
+  <us-gaap:PropertyPlantAndEquipmentNet id="f275" decimals="0" contextRef="c2" unitRef="usd">99034.0</us-gaap:PropertyPlantAndEquipmentNet>
+  <us-gaap:NetCashProvidedByUsedInOperatingActivities id="f276" decimals="0" contextRef="c6" unitRef="usd">-428039.0</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f277" xsi:nil="true" contextRef="c8" unitRef="usd"/>
+  <us-gaap:NetIncomeLossAttributableToNoncontrollingInterest id="f278" xsi:nil="true" contextRef="c5" unitRef="usd"/>
+  <advbiomed.com:InterestOnLeaseLiabilities id="f279" xsi:nil="true" contextRef="c3" unitRef="usd"/>
+  <us-gaap:StockholdersEquity id="f280" decimals="0" contextRef="c65" unitRef="usd">93068.0</us-gaap:StockholdersEquity>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f281" xsi:nil="true" contextRef="c10" unitRef="usd"/>
+  <us-gaap:NetIncomeLossAttributableToNoncontrollingInterest id="f282" xsi:nil="true" contextRef="c3" unitRef="usd"/>
+  <us-gaap:Capital id="f283" decimals="0" contextRef="c66" unitRef="usd">724017.0</us-gaap:Capital>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f284" xsi:nil="true" contextRef="c9" unitRef="usd"/>
+  <us-gaap:StockholdersEquity id="f285" decimals="0" contextRef="c67" unitRef="usd">-6080031.0</us-gaap:StockholdersEquity>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f286" decimals="0" contextRef="c6" unitRef="usd">-179659.0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+  <advbiomed.com:IncreaseDecreaseInDepreciationAllocatedToInventory id="f287" decimals="0" contextRef="c6" unitRef="usd">132.0</advbiomed.com:IncreaseDecreaseInDepreciationAllocatedToInventory>
+  <advbiomed.com:InterestOnLeaseLiabilities id="f288" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f289" decimals="0" contextRef="c12" unitRef="usd">31985.0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+  <us-gaap:NetIncomeLossAttributableToNoncontrollingInterest id="f290" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <advbiomed.com:PrinciplesOfConsolidationTextBlock id="f291" contextRef="c1">&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;NOTE 3 PRINCIPLES OF CONSOLIDATION&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 42pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;The accompanying condensed consolidated&#13;financial statements include the financial statements of ABMT and its wholly owned subsidiaries, Masterise and its 70% owned subsidiary,&#13;Shenzhen Changhua. The non-controlling interests in periods prior to 2012 represent the non-controlling stockholders&amp;#8217; 30%&#13;proportionate share of the results of Shenzhen Changhua.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.45pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;All significant inter-company balances&#13;and transactions have been eliminated in consolidation.&lt;/p&gt;</advbiomed.com:PrinciplesOfConsolidationTextBlock>
+  <us-gaap:StockholdersEquity id="f292" decimals="0" contextRef="c22" unitRef="usd">-6280518.0</us-gaap:StockholdersEquity>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f293" decimals="0" contextRef="c3" unitRef="usd">31985.0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f294" decimals="0" contextRef="c5" unitRef="usd">3407.0</advbiomed.com:ImputedInterestOnAdvancesFromDirectors>
+  <us-gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment id="f295" decimals="0" contextRef="c11" unitRef="usd">448601.0</us-gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment>
+  <us-gaap:LesseeOperatingLeaseDescription id="f296" contextRef="c1">The Company has two operating leases with unrelated parties for factory space and director's quarter in the P.R.C., which are non-cancelable and expiring on dates between 28 March 2021 and 30 April 2022, and do not include options to renew. The depreciable life of right-of use assets are limited by the term of leases.</us-gaap:LesseeOperatingLeaseDescription>
+  <us-gaap:ComprehensiveIncomeNetOfTax id="f297" decimals="0" contextRef="c1" unitRef="usd">-252147.0</us-gaap:ComprehensiveIncomeNetOfTax>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f298" decimals="0" contextRef="c5" unitRef="usd">121584.0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+  <us-gaap:StockholdersEquity id="f299" decimals="0" contextRef="c11" unitRef="usd">-6720049.0</us-gaap:StockholdersEquity>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f300" xsi:nil="true" contextRef="c14" unitRef="usd"/>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f301" xsi:nil="true" contextRef="c14" unitRef="usd"/>
+  <us-gaap:ComprehensiveIncomeNetOfTax id="f302" decimals="0" contextRef="c3" unitRef="usd">-203694.0</us-gaap:ComprehensiveIncomeNetOfTax>
+  <us-gaap:PropertyPlantAndEquipmentNet id="f303" decimals="0" contextRef="c11" unitRef="usd">112321.0</us-gaap:PropertyPlantAndEquipmentNet>
+  <us-gaap:StockholdersEquity id="f304" decimals="0" contextRef="c47" unitRef="usd">700.0</us-gaap:StockholdersEquity>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f305" xsi:nil="true" contextRef="c15" unitRef="usd"/>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f306" xsi:nil="true" contextRef="c15" unitRef="usd"/>
+  <us-gaap:IssuanceOfStockAndWarrantsForServicesOrClaims id="f307" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f308" xsi:nil="true" contextRef="c17" unitRef="usd"/>
+  <us-gaap:StockholdersEquity id="f309" decimals="0" contextRef="c68" unitRef="usd">2779132.0</us-gaap:StockholdersEquity>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f310" decimals="0" contextRef="c17" unitRef="usd">3148.0</advbiomed.com:ImputedInterestOnAdvancesFromDirectors>
+  <us-gaap:ComprehensiveIncomeNetOfTax id="f311" decimals="0" contextRef="c6" unitRef="usd">-667861.0</us-gaap:ComprehensiveIncomeNetOfTax>
+  <us-gaap:NonoperatingIncomeExpense id="f312" decimals="0" contextRef="c6" unitRef="usd">-169765.0</us-gaap:NonoperatingIncomeExpense>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f313" xsi:nil="true" contextRef="c18" unitRef="usd"/>
+  <us-gaap:StockholdersEquity id="f314" decimals="0" contextRef="c69" unitRef="usd">-9857805.0</us-gaap:StockholdersEquity>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f315" xsi:nil="true" contextRef="c19" unitRef="usd"/>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f316" decimals="0" contextRef="c18" unitRef="usd">3389.0</advbiomed.com:ImputedInterestOnAdvancesFromDirectors>
+  <us-gaap:ComprehensiveIncomeNetOfTax id="f317" decimals="0" contextRef="c5" unitRef="usd">-88068.0</us-gaap:ComprehensiveIncomeNetOfTax>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f318" xsi:nil="true" contextRef="c21" unitRef="usd"/>
+  <advbiomed.com:DepositForPurchaseOfPlantAndEquipment id="f319" xsi:nil="true" contextRef="c1" unitRef="usd"/>
+  <us-gaap:StockholdersEquity id="f320" decimals="0" contextRef="c70" unitRef="usd">355657.0</us-gaap:StockholdersEquity>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f321" xsi:nil="true" contextRef="c19" unitRef="usd"/>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f322" decimals="0" contextRef="c23" unitRef="usd">-211644.0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+  <us-gaap:EarningsPerShareBasicAndDiluted id="f323" decimals="INF" contextRef="c1" unitRef="usd1">-0.0</us-gaap:EarningsPerShareBasicAndDiluted>
+  <us-gaap:EarningsPerShareBasicAndDiluted id="f324" decimals="INF" contextRef="c3" unitRef="usd1">-0.0</us-gaap:EarningsPerShareBasicAndDiluted>
+  <us-gaap:NonoperatingIncomeExpense id="f325" decimals="0" contextRef="c5" unitRef="usd">-89318.0</us-gaap:NonoperatingIncomeExpense>
+  <us-gaap:StockholdersEquity id="f326" decimals="0" contextRef="c58" unitRef="usd">696.0</us-gaap:StockholdersEquity>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f327" decimals="0" contextRef="c25" unitRef="usd">-100290.0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f328" xsi:nil="true" contextRef="c21" unitRef="usd"/>
+  <advbiomed.com:NetExchangeDifference id="f329" decimals="0" contextRef="c1" unitRef="usd">5.0</advbiomed.com:NetExchangeDifference>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f330" decimals="0" contextRef="c26" unitRef="usd">-211644.0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+  <advbiomed.com:DepositForPurchaseOfPlantAndEquipment id="f331" decimals="0" contextRef="c6" unitRef="usd">17265.0</advbiomed.com:DepositForPurchaseOfPlantAndEquipment>
+  <us-gaap:StockholdersEquity id="f332" decimals="0" contextRef="c60" unitRef="usd">698.0</us-gaap:StockholdersEquity>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f333" xsi:nil="true" contextRef="c23" unitRef="usd"/>
+  <us-gaap:EarningsPerShareBasicAndDiluted id="f334" decimals="INF" contextRef="c6" unitRef="usd1">-0.01</us-gaap:EarningsPerShareBasicAndDiluted>
+  <us-gaap:OtherNonoperatingExpense id="f335" decimals="0" contextRef="c1" unitRef="usd">9514.0</us-gaap:OtherNonoperatingExpense>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f336" decimals="0" contextRef="c27" unitRef="usd">-100290.0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+  <us-gaap:OtherNonoperatingExpense id="f337" decimals="0" contextRef="c3" unitRef="usd">4488.0</us-gaap:OtherNonoperatingExpense>
+  <us-gaap:StockholdersEquity id="f338" decimals="0" contextRef="c71" unitRef="usd">2743331.0</us-gaap:StockholdersEquity>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f339" xsi:nil="true" contextRef="c28" unitRef="usd"/>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f340" xsi:nil="true" contextRef="c25" unitRef="usd"/>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f341" xsi:nil="true" contextRef="c29" unitRef="usd"/>
+  <us-gaap:OtherNonoperatingExpense id="f342" decimals="0" contextRef="c6" unitRef="usd">8457.0</us-gaap:OtherNonoperatingExpense>
+  <us-gaap:StockholdersEquity id="f343" decimals="0" contextRef="c72" unitRef="usd">2771527.0</us-gaap:StockholdersEquity>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f344" decimals="0" contextRef="c26" unitRef="usd">3148.0</advbiomed.com:ImputedInterestOnAdvancesFromDirectors>
+  <us-gaap:BusinessDescriptionAndBasisOfPresentationTextBlock id="f345" contextRef="c1">&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;NOTE 1 BASIS OF PRESENTATION&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;The accompanying unaudited condensed&#13;consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the United&#13;States of America for interim financial information and rules and regulations of the U.S. Securities and Exchange Commission (&amp;#8220;SEC&amp;#8221;).&#13;Accordingly, they do not include all of the information and footnotes required by generally accepted accounting principles for&#13;complete financial statements.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.45pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;In the opinion of management, the&#13;unaudited condensed consolidated financial statements contain adjustments considered necessary to present fairly the Company&amp;#8217;s&#13;financial position as of April 30, 2020, the consolidated results of operations for the three and six months ended April 30, 2020&#13;and 2019 and consolidated statements of cash flows for the six months ended April 30, 2020 and 2019 on an accrual basis and in&#13;accordance with accounting principles generally accepted in the United States of America for interim financial information and&#13;rules and regulations of the SEC. The consolidated results for the three and six months ended April 30, 2020 are not necessarily&#13;indicative of the results to be expected for the entire fiscal year ending October 31, 2020. These consolidated financial statements&#13;should be read in conjunction with the consolidated financial statements and notes for the year ended October 31, 2019 appearing&#13;in the Company&amp;#8217;s annual report on Form 10-K as filed with the Securities and Exchange Commission on March 20, 2020.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.45pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;The reporting currency of the Company&#13;is US dollar.&lt;/p&gt;</us-gaap:BusinessDescriptionAndBasisOfPresentationTextBlock>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f346" xsi:nil="true" contextRef="c30" unitRef="usd"/>
+  <us-gaap:EarningsPerShareBasicAndDiluted id="f347" decimals="INF" contextRef="c5" unitRef="usd1">-0.0</us-gaap:EarningsPerShareBasicAndDiluted>
+  <advbiomed.com:NetExchangeDifference id="f348" xsi:nil="true" contextRef="c6" unitRef="usd"/>
+  <us-gaap:StockholdersEquity id="f349" decimals="0" contextRef="c73" unitRef="usd">-8885141.0</us-gaap:StockholdersEquity>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f350" decimals="0" contextRef="c32" unitRef="usd">121584.0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f351" decimals="0" contextRef="c27" unitRef="usd">3389.0</advbiomed.com:ImputedInterestOnAdvancesFromDirectors>
+  <us-gaap:NetCashProvidedByUsedInInvestingActivities id="f352" decimals="0" contextRef="c1" unitRef="usd">-28270.0</us-gaap:NetCashProvidedByUsedInInvestingActivities>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f353" xsi:nil="true" contextRef="c33" unitRef="usd"/>
+  <advbiomed.com:UseOfEstimatesTextBlock id="f354" contextRef="c1">&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;NOTE 4 USE OF ESTIMATES&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;The preparation of the financial&#13;statements in conformity with accounting principles generally accepted in the United States of America requires management to make&#13;estimates and assumptions that affect the reported amount of assets and liabilities and disclosure of contingent assets and liabilities&#13;at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period. Actual results&#13;could differ from those estimates.&lt;/p&gt;</advbiomed.com:UseOfEstimatesTextBlock>
+  <us-gaap:StockholdersEquity id="f355" decimals="0" contextRef="c74" unitRef="usd">-9648153.0</us-gaap:StockholdersEquity>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f356" xsi:nil="true" contextRef="c28" unitRef="usd"/>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f357" xsi:nil="true" contextRef="c34" unitRef="usd"/>
+  <us-gaap:OtherNonoperatingExpense id="f358" decimals="0" contextRef="c5" unitRef="usd">4653.0</us-gaap:OtherNonoperatingExpense>
+  <advbiomed.com:InterestExpenseToStockholderAndRelatedParties id="f359" decimals="0" contextRef="c1" unitRef="usd">160331.0</advbiomed.com:InterestExpenseToStockholderAndRelatedParties>
+  <us-gaap:SubstantialDoubtAboutGoingConcernTextBlock id="f360" contextRef="c1">&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;NOTE 9 GOING CONCERN&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify; text-indent: -0.25in"&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;As reflected in the accompanying&#13;unaudited condensed consolidated financial statements, the Company has an accumulated deficit of $9,857,805 as of April 30, 2020&#13;and which includes a net loss of $273,441 for the six months ended April 30, 2020. As of April 30, 2020, the Company&amp;#8217;s total&#13;current liabilities exceeded its total current assets by $6,871,761 and the Company&amp;#8217;s net cash used in operations was $206,897&#13;for the six months ended on that date. These factors raise substantial doubt about its ability to continue as a going concern.&#13;In view of the matters described above, recoverability of a major portion of the recorded asset amounts shown in the accompanying&#13;condensed consolidated balance sheet is dependent upon continued operations of the Company, which in turn is dependent upon the&#13;Company&amp;#8217;s ability to raise additional capital, obtain financing and succeed in its future operations. The financial statements&#13;do not include any adjustments relating to the recoverability and classification of recorded asset amounts or amounts and classification&#13;of liabilities that might be necessary should the Company be unable to continue as a going concern.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.55pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;Management has taken the following&#13;steps to enhance its operating and financial resources, as far as possible, to help the Company to continue as a going concern.&#13;The Company is actively pursuing additional funding and strategic partners, which will enable the Company to implement its business&#13;plan. Management believes that these actions, if successful, will allow the Company to continue its operations through the next&#13;fiscal year.&lt;/p&gt;</us-gaap:SubstantialDoubtAboutGoingConcernTextBlock>
+  <us-gaap:StockholdersEquity id="f361" decimals="0" contextRef="c75" unitRef="usd">61083.0</us-gaap:StockholdersEquity>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f362" xsi:nil="true" contextRef="c35" unitRef="usd"/>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f363" decimals="0" contextRef="c29" unitRef="usd">3407.0</advbiomed.com:ImputedInterestOnAdvancesFromDirectors>
+  <us-gaap:NetCashProvidedByUsedInFinancingActivities id="f364" decimals="0" contextRef="c1" unitRef="usd">240265.0</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+  <us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent id="f365" xsi:nil="true" contextRef="c37" unitRef="usd"/>
+  <us-gaap:StockholdersEquity id="f366" decimals="0" contextRef="c76" unitRef="usd">234073.0</us-gaap:StockholdersEquity>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f367" xsi:nil="true" contextRef="c30" unitRef="usd"/>
+  <us-gaap:InterestExpenseDebt id="f368" decimals="0" contextRef="c5" unitRef="usd">3407.0</us-gaap:InterestExpenseDebt>
+  <us-gaap:NetCashProvidedByUsedInInvestingActivities id="f369" decimals="0" contextRef="c6" unitRef="usd">-29364.0</us-gaap:NetCashProvidedByUsedInInvestingActivities>
+  <us-gaap:CommitmentsAndContingenciesDisclosureTextBlock id="f370" contextRef="c1">&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;NOTE 6 COMMITMENTS AND CONTINGENCIES&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;&lt;u&gt;Leases&lt;/u&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.55pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;The Company adopted ASU 2016-02 on&#13;November 1, 2019 using the modified retrospective adoption method. The reported results for the six months ended April 30, 2020&#13;reflect the adoption of ASC 842 guidance while the reported results for the six months ended April 30, 2019 were prepared and continue&#13;to be reported under the guidance of ASC 840, Leases.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.55pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;Pursuant to ASC 842, the Company&#13;recognizes operating leases as right-of-use assets and lease liabilities as shown in the consolidated balance sheet. The Company&#13;has two operating leases with unrelated parties for factory space and director&amp;#8217;s quarter in the P.R.C., which are non-cancelable&#13;and expiring on dates between 28 March 2021 and 30 April 2022, and do not include options to renew. The depreciable life of right-of&#13;use assets are limited by the term of leases.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.55pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;As of April 30, 2020, the Company&#13;has lease commitments as follows:&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.55pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;table cellspacing="0" cellpadding="0" style="font: 11pt Calibri, Helvetica, Sans-Serif; width: 100%; border-collapse: collapse"&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: #CCEEFF"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;For the year ending October 31,&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="2" style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: white"&gt;&#13;    &lt;td style="width: 77%; text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;2020&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style="width: 1%"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="width: 1%"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style="width: 20%; text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;23,789&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style="width: 1%"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: #CCEEFF"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;2021&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;27,753&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: white"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;2022&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 1.5pt solid"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 1.5pt solid; text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;6,797&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: #CCEEFF"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;Total lease payment payables&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;58,339&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: white"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;Less: Interest element&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 1.5pt solid"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 1.5pt solid; text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;(2,949&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: #CCEEFF"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;Total lease liabilities&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;55,390&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: white"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;Lease liabilities current portion&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 1.5pt solid"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 1.5pt solid; text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;(42,298&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: #CCEEFF"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;Lease liabilities non-current portion&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 2.25pt double"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 2.25pt double; text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;13,092&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;/table&gt;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.55pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;&lt;u&gt;Capital commitments&lt;/u&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;The Company has outstanding commitments&#13;contracted for, net of deposit paid of US$1,446, in respect of acquisitions of plant and machineries amounted to US$Nil and US$7,235&#13;as of April 30, 2020 and 31 October 2019 respectively.&lt;/p&gt;</us-gaap:CommitmentsAndContingenciesDisclosureTextBlock>
+  <us-gaap:StockholdersEquity id="f371" decimals="0" contextRef="c77" unitRef="usd">-6641855.0</us-gaap:StockholdersEquity>
+  <us-gaap:ResearchAndDevelopmentExpense id="f372" decimals="0" contextRef="c1" unitRef="usd">98085.0</us-gaap:ResearchAndDevelopmentExpense>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f373" xsi:nil="true" contextRef="c32" unitRef="usd"/>
+  <us-gaap:InterestExpenseDebt id="f374" decimals="0" contextRef="c1" unitRef="usd">6796.0</us-gaap:InterestExpenseDebt>
+  <us-gaap:RelatedPartyTransactionsDisclosureTextBlock id="f375" contextRef="c1">&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;NOTE 5 RELATED PARTY TRANSACTIONS&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.45pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;As of April 30, 2020 and October&#13;31, 2019, the Company owed a stockholder $850,505 and $824,705 respectively which are unsecured and repayable on demand. Interests&#13;are charged at 7% per annum on the amount owed.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.45pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;As of April 30, 2020 and October&#13;31, 2019, the Company owed four related parties a total of $5,118,899 and $4,916,638 respectively which are unsecured and repayable&#13;on demand. Interests are charged at 7% per annum on the amounts owed.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.45pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;Total interest expenses on advances&#13;from a stockholder and the related parties accrued for the three and six months ended April 30, 2020 and 2019 were $80,077, $79,463,&#13;$160,331 and $154,970 respectively.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.45pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;As of April 30, 2020 and October&#13;31, 2019, the Company owed $296,623 and $280,514 respectively, to two directors for advances made on an unsecured basis, repayable&#13;on demand and interest free.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;Imputed interest charged at 5% per&#13;annum on the amounts owed to two directors is $3,407, $3,207, $6,796 and $6,355 for the three and six months ended April 30, 2020&#13;and 2019 respectively.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.45pt; text-align: justify"&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;Sales for the 6 months ended 30 April&#13;2020 amounted to US$60,290 (2019: Nil) were made to a company in which Mr. Chen Tie Jun has a significant equity interest&lt;/p&gt;</us-gaap:RelatedPartyTransactionsDisclosureTextBlock>
+  <us-gaap:StockholdersEquity id="f376" xsi:nil="true" contextRef="c78" unitRef="usd"/>
+  <us-gaap:ResearchAndDevelopmentExpense id="f377" decimals="0" contextRef="c3" unitRef="usd">16043.0</us-gaap:ResearchAndDevelopmentExpense>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f378" xsi:nil="true" contextRef="c33" unitRef="usd"/>
+  <advbiomed.com:WorkingCapitalDeficit id="f379" decimals="0" contextRef="c11" unitRef="usd">6780031.0</advbiomed.com:WorkingCapitalDeficit>
+  <advbiomed.com:InterestExpenseToStockholderAndRelatedParties id="f380" decimals="0" contextRef="c5" unitRef="usd">80077.0</advbiomed.com:InterestExpenseToStockholderAndRelatedParties>
+  <us-gaap:FairValueDisclosuresTextBlock id="f381" contextRef="c1">&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;NOTE 7 FAIR VALUE OF FINANCIAL INSTRUMENTS&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.5pt; text-align: justify"&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;The Financial Accounting Standards&#13;Board (FASB) Codification Topic 825 (ASC Topic 825), &amp;#8220;Disclosure About Fair Value of Financial Instruments,&amp;#8221; requires&#13;certain disclosures regarding the fair value of financial instruments. The carrying amounts of other receivables and prepaid expenses,&#13;other payables and accrued liabilities and due to a stockholder, directors and related parties approximate their fair values because&#13;of the short-term nature of the instruments. The management of the Company is of the opinion that the Company is not exposed to&#13;significant interest or credit risks arising from these financial statements.&lt;/p&gt;</us-gaap:FairValueDisclosuresTextBlock>
+  <advbiomed.com:InterestExpenseToStockholderAndRelatedParties id="f382" decimals="0" contextRef="c3" unitRef="usd">79463.0</advbiomed.com:InterestExpenseToStockholderAndRelatedParties>
+  <us-gaap:StockholdersEquity id="f383" xsi:nil="true" contextRef="c79" unitRef="usd"/>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f384" decimals="0" contextRef="c34" unitRef="usd">3207.0</advbiomed.com:ImputedInterestOnAdvancesFromDirectors>
+  <us-gaap:NetCashProvidedByUsedInFinancingActivities id="f385" decimals="0" contextRef="c6" unitRef="usd">462313.0</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+  <advbiomed.com:DescriptionOfNewAccountingPronouncementsNotYetAdopted id="f386" contextRef="c1">&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;NOTE 8 RECENT ACCOUNTING PRONOUNCEMENTS&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;There has been no newly effective&#13;accounting pronouncement that has significance, or potential significance, to our consolidated financial statements.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 37.2pt; text-align: justify; background-color: white"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;The Company has reviewed all recently&#13;issued, but not yet effective, accounting pronouncements and does not believe the future adoptions of any such pronouncements may&#13;be expected to cause a material impact on the financial condition or the results of operations. The Company will carefully analyze&#13;these recently accounting pronouncements and take action to adopt them as required.&lt;/p&gt;</advbiomed.com:DescriptionOfNewAccountingPronouncementsNotYetAdopted>
+  <us-gaap:RelatedPartyTransactionRate id="f387" decimals="INF" contextRef="c80" unitRef="pure">0.07</us-gaap:RelatedPartyTransactionRate>
+  <us-gaap:ResearchAndDevelopmentExpense id="f388" decimals="0" contextRef="c6" unitRef="usd">33022.0</us-gaap:ResearchAndDevelopmentExpense>
+  <us-gaap:PrepaidExpenseAndOtherAssetsCurrent id="f389" decimals="0" contextRef="c11" unitRef="usd">36404.0</us-gaap:PrepaidExpenseAndOtherAssetsCurrent>
+  <advbiomed.com:InterestExpenseToStockholderAndRelatedParties id="f390" decimals="0" contextRef="c6" unitRef="usd">154970.0</advbiomed.com:InterestExpenseToStockholderAndRelatedParties>
+  <us-gaap:StockholdersEquity id="f391" xsi:nil="true" contextRef="c81" unitRef="usd"/>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f392" xsi:nil="true" contextRef="c35" unitRef="usd"/>
+  <advbiomed.com:CostOfSales id="f393" decimals="0" contextRef="c1" unitRef="usd">-33011.0</advbiomed.com:CostOfSales>
+  <us-gaap:ResearchAndDevelopmentExpense id="f394" decimals="0" contextRef="c5" unitRef="usd">41305.0</us-gaap:ResearchAndDevelopmentExpense>
+  <us-gaap:PrepaidExpenseAndOtherAssetsCurrent id="f395" decimals="0" contextRef="c2" unitRef="usd">49767.0</us-gaap:PrepaidExpenseAndOtherAssetsCurrent>
+  <us-gaap:InterestExpenseDebt id="f396" decimals="0" contextRef="c3" unitRef="usd">3207.0</us-gaap:InterestExpenseDebt>
+  <us-gaap:LesseeOperatingLeaseLiabilityMaturityTableTextBlock id="f397" contextRef="c1">&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;As of April 30, 2020, the Company&#13;has lease commitments as follows:&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.55pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;table cellspacing="0" cellpadding="0" style="font: 11pt Calibri, Helvetica, Sans-Serif; width: 100%; border-collapse: collapse"&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: #CCEEFF"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;For the year ending October 31,&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan="2" style="text-align: right"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: white"&gt;&#13;    &lt;td style="width: 77%; text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;2020&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style="width: 1%"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="width: 1%"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style="width: 20%; text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;23,789&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style="width: 1%"&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: #CCEEFF"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;2021&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;27,753&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: white"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;2022&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 1.5pt solid"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 1.5pt solid; text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;6,797&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: #CCEEFF"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;Total lease payment payables&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;58,339&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: white"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;Less: Interest element&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 1.5pt solid"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 1.5pt solid; text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;(2,949&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: #CCEEFF"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;Total lease liabilities&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;55,390&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: white"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;Lease liabilities current portion&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 1.5pt solid"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 1.5pt solid; text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;(42,298&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style="vertical-align: bottom; background-color: #CCEEFF"&gt;&#13;    &lt;td style="text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;Lease liabilities non-current portion&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 2.25pt double"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style="border-bottom: black 2.25pt double; text-align: right"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;13,092&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;/table&gt;</us-gaap:LesseeOperatingLeaseLiabilityMaturityTableTextBlock>
+  <us-gaap:StockholdersEquity id="f398" xsi:nil="true" contextRef="c82" unitRef="usd"/>
+  <us-gaap:OtherComprehensiveIncomeLossNetOfTax id="f399" decimals="0" contextRef="c1" unitRef="usd">21294.0</us-gaap:OtherComprehensiveIncomeLossNetOfTax>
+  <advbiomed.com:ImputedInterestOnAdvancesFromDirectors id="f400" xsi:nil="true" contextRef="c37" unitRef="usd"/>
+  <us-gaap:RelatedPartyTransactionRate id="f401" decimals="INF" contextRef="c1" unitRef="pure">0.07</us-gaap:RelatedPartyTransactionRate>
+  <advbiomed.com:DepreciationOnRightofuseAssets id="f402" decimals="0" contextRef="c1" unitRef="usd">21569.0</advbiomed.com:DepreciationOnRightofuseAssets>
+  <us-gaap:OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock id="f403" contextRef="c1">&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;NOTE 2 ORGANIZATION&lt;/b&gt;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.25in; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;Advanced BioMedical Technologies,&#13;Inc. (fka &amp;#8220;Geostar Mineral Corporation&amp;#8221; or &amp;#8220;Geostar&amp;#8221;) (&amp;#8220;ABMT&amp;#8221;) was incorporated in Nevada on&#13;September 12, 2006.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.5pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;Shenzhen Changhua Biomedical Engineering&#13;Company Limited (&amp;#8220;Shenzhen Changhua&amp;#8221;) was incorporated in the People&amp;#8217;s Republic of China (&amp;#8220;PRC&amp;#8221;)&#13;on September 25, 2002 as a limited liability company with a registered capital of $724,017. Shenzhen Changhua is owned by two stockholders&#13;in the proportion of 70% and 30% respectively. Shenzhen Changhua plans to develop, manufacture and market self-reinforced, re-absorbable&#13;degradable PA screws, robs and binding ties for fixation on human fractured bones. The Company is currently conducting clinical&#13;trials on its products and intends to raise additional capital to produce and market its products commercially pending the approval&#13;from the China Food and Drug Administration (&amp;#8220;CFDA&amp;#8221;, fka &amp;#8220;SFDA&amp;#8221;) of the PRC on its products. The Company&#13;has no revenue since its inception and, in accordance with Accounting Standards Codification (&amp;#8220;ASC&amp;#8221;) Topic 915, &amp;#8220;Development&#13;Stage Entities&amp;#8221; (formerly Statement of Financial Accounting Standard (&amp;#8220;SFAS&amp;#8221;) No. 7, &amp;#8220;Accounting and Reporting&#13;by Development Stage Enterprise&amp;#8221;), is considered a Development Stage Company.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.5pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;Masterise Holdings Limited (&amp;#8220;Masterise&amp;#8221;)&#13;was incorporated in the British Virgin Islands on May 31, 2007 as an investment holding company and was then owned as to 63% by&#13;the spouse of Shenzhen Changhua&amp;#8217;s 70% majority stockholder at the time and 37% by a third party corporation.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.5pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;On January 29, 2008, Masterise entered&#13;into a Share Purchase Agreement (&amp;#8220;the Agreement&amp;#8221;) with a stockholder of Shenzhen Changhua whereupon Masterise acquired&#13;70% of Shenzhen Changhua for US$64,100 in cash. The acquisition was completed on February 25, 2008. As both Masterise and Shenzhen&#13;Changhua were under common control and management, the acquisition was accounted for as a reorganization of entities under common&#13;control. Accordingly, the operations of Shenzhen Changhua were included in the consolidated financial statements as if the transactions&#13;had occurred retroactively.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.5pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;On December 31, 2008, ABMT consummated&#13;a Share Exchange Agreement (&amp;#8220;the Exchange Agreement&amp;#8221;) with the stockholders of Masterise pursuant to which ABMT issued&#13;50,000 shares of Common Stock to the stockholders of Masterise for 100% equity interest in Masterise.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.5pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;Concurrently, on December 31, 2008,&#13;a major stockholder of ABMT also consummated an Affiliate Stock Purchase Agreement (the &amp;#8220;Affiliate Agreement&amp;#8221;) with&#13;thirteen individuals including all the stockholders of Masterise, pursuant to which the major stockholder sold a total of 5,001,000&#13;shares of ABMT&amp;#8217;s common stock for a total aggregate consideration of $5,000, including 4,438,250 shares to the stockholders&#13;of Masterise.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.25in; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;On consummation of the Exchange Agreement&#13;and the Affiliate Agreement, the 70% majority stockholder of Masterise became an 80.7% stockholder of ABMT.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.5pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;On March 13, 2009, the name of the&#13;Company was changed from Geostar Mineral Corporation to Advanced Biomedical Technologies, Inc.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;The merger of ABMT and Masterise&#13;was treated for accounting purposes as a capital transaction and recapitalization by Masterise (&amp;#8220;the accounting acquirer&amp;#8221;)&#13;and a re-organization by ABMT (&amp;#8220;the accounting acquiree&amp;#8221;). The financial statements have been prepared as if the re-organization&#13;had occurred retroactively.&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 42pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;Accordingly, these financial statements&#13;include the following:&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.45pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;table cellspacing="0" cellpadding="0" style="width: 100%"&gt;&#13;&lt;tr style="vertical-align: top"&gt;&#13;    &lt;td style="width: 48px"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font: 11pt Calibri, Helvetica, Sans-Serif; width: 24px"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;(1)&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style="font: 11pt Calibri, Helvetica, Sans-Serif; text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;The balance sheet consisting of the net assets of the acquirer at historical cost and the net assets of the acquiree at historical cost.&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;/table&gt;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 69pt; text-align: justify; text-indent: -27pt"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;table cellspacing="0" cellpadding="0" style="width: 100%"&gt;&#13;&lt;tr style="vertical-align: top"&gt;&#13;    &lt;td style="width: 48px"&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style="font: 11pt Calibri, Helvetica, Sans-Serif; width: 24px"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;(2)&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style="font: 11pt Calibri, Helvetica, Sans-Serif; text-align: justify"&gt;&lt;font style="font: 10pt Times New Roman, Times, Serif"&gt;The statement of operations including the operations of the acquirer for the periods presented and the operations of the acquiree from the date of the transaction.&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;/table&gt;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 40.5pt; text-align: justify"&gt;&amp;#160;&lt;/p&gt;&#13;&#13;&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"&gt;ABMT, Masterise and Shenzhen Changhua&#13;are hereinafter referred to as (&amp;#8220;the Company&amp;#8221;).&lt;/p&gt;</us-gaap:OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock>
+</xbrli:xbrl>
