@@ -1,0 +1,2336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in Xince and Xodel successful, version 1.0. - xodel </message>
+ <ref href="xodel"/></entry>
+<entry code="info" level="info">
+ <message>[info] Xule version: 3.0.30045 - </message>
+ <ref href=""/></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="dei:EntityIncorporationStateCountryCode" transform="ixt-sec:stateprovnameen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact dei:EntityIncorporationStateCountryCode has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 18</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/1/9/1/1/1/1)" sourceLine="18">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="18"/>
+  <property name="label" value="Entity Incorporation, State or Country Code"/>
+  <property name="namespace" value="http://xbrl.sec.gov/dei/2023"/>
+  <property name="name" value="EntityIncorporationStateCountryCode"/>
+  <property name="QName" value="dei:EntityIncorporationStateCountryCode"/>
+  <property name="contextRef" value="c0">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-09-30"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="dei:EntityFilerCategory" transform="ixt-sec:entityfilercategoryen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact dei:EntityFilerCategory has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 47</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/1/23/2/1/1/1)" sourceLine="47">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="47"/>
+  <property name="label" value="Entity Filer Category"/>
+  <property name="namespace" value="http://xbrl.sec.gov/dei/2023"/>
+  <property name="name" value="EntityFilerCategory"/>
+  <property name="QName" value="dei:EntityFilerCategory"/>
+  <property name="contextRef" value="c0">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-09-30"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:TemporaryEquityParOrStatedValuePerShare" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:TemporaryEquityParOrStatedValuePerShare has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 8647</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/362/3/37/1/1/1)" sourceLine="8647">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="8647"/>
+  <property name="label" value="Temporary Equity, Par or Stated Value Per Share"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="TemporaryEquityParOrStatedValuePerShare"/>
+  <property name="QName" value="us-gaap:TemporaryEquityParOrStatedValuePerShare"/>
+  <property name="contextRef" value="c1">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+  </property>
+  <property name="unitRef" value="usdPershares ($ / shares)">
+   <property name="mul" value="iso4217:USD"/>
+   <property name="div" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="zero"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:TemporaryEquityParOrStatedValuePerShare" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:TemporaryEquityParOrStatedValuePerShare has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 8647</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/362/3/37/1/1/1/1)" sourceLine="8647">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="8647"/>
+  <property name="label" value="Temporary Equity, Par or Stated Value Per Share"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="TemporaryEquityParOrStatedValuePerShare"/>
+  <property name="QName" value="us-gaap:TemporaryEquityParOrStatedValuePerShare"/>
+  <property name="contextRef" value="c2">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2021-12-31"/>
+  </property>
+  <property name="unitRef" value="usdPershares ($ / shares)">
+   <property name="mul" value="iso4217:USD"/>
+   <property name="div" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="zero"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:TemporaryEquityParOrStatedValuePerShare" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:TemporaryEquityParOrStatedValuePerShare has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 8658</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/362/3/38/1/1/1)" sourceLine="8658">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="8658"/>
+  <property name="label" value="Temporary Equity, Par or Stated Value Per Share"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="TemporaryEquityParOrStatedValuePerShare"/>
+  <property name="QName" value="us-gaap:TemporaryEquityParOrStatedValuePerShare"/>
+  <property name="contextRef" value="c3">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:StatementClassOfStockAxis" value="nvve:ClassDIncentiveUnitsMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="usdPershares ($ / shares)">
+   <property name="mul" value="iso4217:USD"/>
+   <property name="div" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="zero"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PreferredStockSharesIssued" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:PreferredStockSharesIssued has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 8690</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/362/3/40/1/1/3)" sourceLine="8690">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="8690"/>
+  <property name="label" value="Preferred Stock, Shares Issued"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PreferredStockSharesIssued"/>
+  <property name="QName" value="us-gaap:PreferredStockSharesIssued"/>
+  <property name="contextRef" value="c1">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="zero"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PreferredStockSharesIssued" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:PreferredStockSharesIssued has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 8690</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/362/3/40/1/1/3/1)" sourceLine="8690">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="8690"/>
+  <property name="label" value="Preferred Stock, Shares Issued"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PreferredStockSharesIssued"/>
+  <property name="QName" value="us-gaap:PreferredStockSharesIssued"/>
+  <property name="contextRef" value="c2">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2021-12-31"/>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="zero"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PreferredStockSharesOutstanding" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:PreferredStockSharesOutstanding has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 8690</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/362/3/40/1/1/3/1/1)" sourceLine="8690">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="8690"/>
+  <property name="label" value="Preferred Stock, Shares Outstanding"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PreferredStockSharesOutstanding"/>
+  <property name="QName" value="us-gaap:PreferredStockSharesOutstanding"/>
+  <property name="contextRef" value="c1">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="zero"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PreferredStockSharesOutstanding" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:PreferredStockSharesOutstanding has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 8690</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/362/3/40/1/1/3/1/1/1)" sourceLine="8690">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="8690"/>
+  <property name="label" value="Preferred Stock, Shares Outstanding"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PreferredStockSharesOutstanding"/>
+  <property name="QName" value="us-gaap:PreferredStockSharesOutstanding"/>
+  <property name="contextRef" value="c2">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2021-12-31"/>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="zero"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 15171</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c11_cont_1/1/4/4/1/1)" sourceLine="15171">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="15171"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c251">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-12-31"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesCMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 15179</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c11_cont_1/1/4/8/1/1)" sourceLine="15179">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="15179"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c252">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-12-31"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesDMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 15187</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c11_cont_1/1/4/12/1/1)" sourceLine="15187">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="15187"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c253">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-12-31"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesEMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 15195</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c11_cont_1/1/4/16/1/1)" sourceLine="15195">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="15195"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c254">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-12-31"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesFMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 15503</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c11_cont_3/1/4/4/1/1)" sourceLine="15503">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="15503"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c259">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2021-01-01"/>
+   <property name="endDate" value="2021-12-31"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesCMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 15511</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c11_cont_3/1/4/8/1/1)" sourceLine="15511">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="15511"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c260">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2021-01-01"/>
+   <property name="endDate" value="2021-12-31"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesDMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 15519</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c11_cont_3/1/4/12/1/1)" sourceLine="15519">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="15519"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c261">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2021-01-01"/>
+   <property name="endDate" value="2021-12-31"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesEMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 15527</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c11_cont_3/1/4/16/1/1)" sourceLine="15527">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="15527"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c262">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2021-01-01"/>
+   <property name="endDate" value="2021-12-31"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesFMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 15876</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c11_cont_5/1/4/4/1/1)" sourceLine="15876">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="15876"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c269">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2021-01-01"/>
+   <property name="endDate" value="2021-05-17"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesBMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 15884</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c11_cont_5/1/4/8/1/1)" sourceLine="15884">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="15884"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c270">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2021-01-01"/>
+   <property name="endDate" value="2021-05-17"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesCMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 15892</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c11_cont_5/1/4/12/1/1)" sourceLine="15892">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="15892"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c271">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2021-01-01"/>
+   <property name="endDate" value="2021-05-17"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesDMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 15900</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c11_cont_5/1/4/16/1/1)" sourceLine="15900">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="15900"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c272">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2021-01-01"/>
+   <property name="endDate" value="2021-05-17"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesEMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 15908</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c11_cont_5/1/4/20/1/1)" sourceLine="15908">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="15908"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c273">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2021-01-01"/>
+   <property name="endDate" value="2021-05-17"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesFMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 15916</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c11_cont_5/1/4/24/1/1)" sourceLine="15916">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="15916"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c274">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2021-01-01"/>
+   <property name="endDate" value="2021-05-17"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsOptionMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 16647</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c11_cont_1/1/3/3/1/1)" sourceLine="16647">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="16647"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c285">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MinimumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="us-gaap:ComputerEquipmentMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 16647</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c11_cont_1/1/3/3/1/2)" sourceLine="16647">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="16647"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c286">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MaximumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="us-gaap:ComputerEquipmentMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 16670</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c11_cont_1/1/4/3/1/1)" sourceLine="16670">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="16670"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c289">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MinimumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="us-gaap:VehiclesMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 16670</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c11_cont_1/1/4/3/1/2)" sourceLine="16670">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="16670"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c290">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MaximumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="us-gaap:VehiclesMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 16693</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c11_cont_1/1/5/3/1/1)" sourceLine="16693">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="16693"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c293">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MinimumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="us-gaap:OfficeEquipmentMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 16693</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c11_cont_1/1/5/3/1/2)" sourceLine="16693">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="16693"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c294">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MaximumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="us-gaap:OfficeEquipmentMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 16716</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c11_cont_1/1/6/3/1/1)" sourceLine="16716">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="16716"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c297">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MinimumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="nvve:ChargesOnLoanMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 16716</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c11_cont_1/1/6/3/1/2)" sourceLine="16716">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="16716"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c298">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MaximumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="nvve:ChargesOnLoanMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="nvve:NumberOfClassesOfStock" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact nvve:NumberOfClassesOfStock has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 16932</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/437/6/2/1)" sourceLine="16932">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="16932"/>
+  <property name="label" value="Number Of Classes Of Stock"/>
+  <property name="namespace" value="http://www.nvve.com/20230930"/>
+  <property name="name" value="NumberOfClassesOfStock"/>
+  <property name="QName" value="nvve:NumberOfClassesOfStock"/>
+  <property name="contextRef" value="c1">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+  </property>
+  <property name="unitRef" value="pure (pure)">
+   <property name="measure" value="xbrli:pure"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="two"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:ClassOfWarrantOrRightNumberOfSecuritiesCalledByEachWarrantOrRight" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:ClassOfWarrantOrRightNumberOfSecuritiesCalledByEachWarrantOrRight has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 16966</message>
+ <ref href="fs12024_nuvve.htm#element(_StockholdersEquityNoteDisclosureTextBlock-c11_cont_2/3/10)" sourceLine="16966">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="16966"/>
+  <property name="label" value="Class of Warrant or Right, Number of Securities Called by Each Warrant or Right"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="ClassOfWarrantOrRightNumberOfSecuritiesCalledByEachWarrantOrRight"/>
+  <property name="QName" value="us-gaap:ClassOfWarrantOrRightNumberOfSecuritiesCalledByEachWarrantOrRight"/>
+  <property name="contextRef" value="c308">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-07-27"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:PrefundedWarrantMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="one"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="nvve:UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact nvve:UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 16991</message>
+ <ref href="fs12024_nuvve.htm#element(_StockholdersEquityNoteDisclosureTextBlock-c11_cont_3/8/2)" sourceLine="16991">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="16991"/>
+  <property name="label" value="Units Issued During Period Number Of Warrants Per Unit"/>
+  <property name="namespace" value="http://www.nvve.com/20230930"/>
+  <property name="name" value="UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit"/>
+  <property name="QName" value="nvve:UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit"/>
+  <property name="contextRef" value="c328">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2020-02-19"/>
+   <property name="endDate" value="2020-02-19"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:SubsidiarySaleOfStockAxis" value="us-gaap:IPOMember"/>
+    <property name="dei:LegalEntityAxis" value="nvve:NewbornAcquisitionCorpMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="one"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="nvve:UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact nvve:UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 16991</message>
+ <ref href="fs12024_nuvve.htm#element(_StockholdersEquityNoteDisclosureTextBlock-c11_cont_3/8/4)" sourceLine="16991">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="16991"/>
+  <property name="label" value="Units Issued During Period Number Of Warrants Per Unit"/>
+  <property name="namespace" value="http://www.nvve.com/20230930"/>
+  <property name="name" value="UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit"/>
+  <property name="QName" value="nvve:UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit"/>
+  <property name="contextRef" value="c330">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2020-02-19"/>
+   <property name="endDate" value="2020-02-19"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:ClassOfWarrantOrRightAxis" value="us-gaap:WarrantMember"/>
+    <property name="us-gaap:SubsidiarySaleOfStockAxis" value="us-gaap:PrivatePlacementMember"/>
+    <property name="dei:LegalEntityAxis" value="nvve:NewbornAcquisitionCorpMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="one"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="nvve:ClassOfWarrantOrRightOutstandingNoticeForRedemptionPeriod" transform="ixt-sec:durwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact nvve:ClassOfWarrantOrRightOutstandingNoticeForRedemptionPeriod has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 16992</message>
+ <ref href="fs12024_nuvve.htm#element(_StockholdersEquityNoteDisclosureTextBlock-c11_cont_3/9/4)" sourceLine="16992">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="16992"/>
+  <property name="label" value="Class Of Warrant Or Right Outstanding Notice For Redemption Period"/>
+  <property name="namespace" value="http://www.nvve.com/20230930"/>
+  <property name="name" value="ClassOfWarrantOrRightOutstandingNoticeForRedemptionPeriod"/>
+  <property name="QName" value="nvve:ClassOfWarrantOrRightOutstandingNoticeForRedemptionPeriod"/>
+  <property name="contextRef" value="c331">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:StatementEquityComponentsAxis" value="us-gaap:WarrantMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardRequisiteServicePeriod1" transform="ixt-sec:durwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardRequisiteServicePeriod1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 17270</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/452/4/2/5)" sourceLine="17270">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="17270"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Award Requisite Service Period"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardRequisiteServicePeriod1"/>
+  <property name="QName" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardRequisiteServicePeriod1"/>
+  <property name="contextRef" value="c367">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-12-31"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2020PlanMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 17360</message>
+ <ref href="fs12024_nuvve.htm#ix_2_fact" sourceLine="17360">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="17360"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c367">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-12-31"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2020PlanMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 17448</message>
+ <ref href="fs12024_nuvve.htm#element(_ScheduleOfShareBasedCompensationStockOptionsActivityTableTextBlock-c11_cont_1/1/2/8/1/1)" sourceLine="17448">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="17448"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Outstanding, Weighted Average Remaining Contractual Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2"/>
+  <property name="contextRef" value="c380">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2021-01-01"/>
+   <property name="endDate" value="2021-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2010PlanMember"/>
+    <property name="us-gaap:RelatedPartyTransactionAxis" value="nvve:StockBasedCompensationMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 17540</message>
+ <ref href="fs12024_nuvve.htm#element(_ScheduleOfShareBasedCompensationStockOptionsActivityTableTextBlock-c11_cont_1/1/7/8/1/1)" sourceLine="17540">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="17540"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Outstanding, Weighted Average Remaining Contractual Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2"/>
+  <property name="contextRef" value="c383">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2010PlanMember"/>
+    <property name="us-gaap:RelatedPartyTransactionAxis" value="nvve:StockBasedCompensationMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 17558</message>
+ <ref href="fs12024_nuvve.htm#element(_ScheduleOfShareBasedCompensationStockOptionsActivityTableTextBlock-c11_cont_1/1/8/8/1/1)" sourceLine="17558">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="17558"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Exercisable, Weighted Average Remaining Contractual Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm1"/>
+  <property name="contextRef" value="c383">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2010PlanMember"/>
+    <property name="us-gaap:RelatedPartyTransactionAxis" value="nvve:StockBasedCompensationMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemaini..." transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemainingContractualTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 17576</message>
+ <ref href="fs12024_nuvve.htm#element(_ScheduleOfShareBasedCompensationStockOptionsActivityTableTextBlock-c11_cont_1/1/9/8/1/1)" sourceLine="17576">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="17576"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Vested and Expected to Vest, Exercisable, Weighted Average Remaining Contractual Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemainingContractualTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemainingContractualTerm1"/>
+  <property name="contextRef" value="c383">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2010PlanMember"/>
+    <property name="us-gaap:RelatedPartyTransactionAxis" value="nvve:StockBasedCompensationMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 17625</message>
+ <ref href="fs12024_nuvve.htm#element(_ScheduleOfShareBasedCompensationStockOptionsActivityTableTextBlock-c11_cont_3/1/2/9/1/1)" sourceLine="17625">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="17625"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Outstanding, Weighted Average Remaining Contractual Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2"/>
+  <property name="contextRef" value="c382">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2021-01-01"/>
+   <property name="endDate" value="2021-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2020PlanMember"/>
+    <property name="us-gaap:RelatedPartyTransactionAxis" value="nvve:StockBasedCompensationMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 17732</message>
+ <ref href="fs12024_nuvve.htm#element(_ScheduleOfShareBasedCompensationStockOptionsActivityTableTextBlock-c11_cont_3/1/7/9/1/1)" sourceLine="17732">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="17732"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Outstanding, Weighted Average Remaining Contractual Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2"/>
+  <property name="contextRef" value="c384">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2020PlanMember"/>
+    <property name="us-gaap:RelatedPartyTransactionAxis" value="nvve:StockBasedCompensationMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemaini..." transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemainingContractualTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 17778</message>
+ <ref href="fs12024_nuvve.htm#element(_ScheduleOfShareBasedCompensationStockOptionsActivityTableTextBlock-c11_cont_3/1/9/9/1/1)" sourceLine="17778">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="17778"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Vested and Expected to Vest, Exercisable, Weighted Average Remaining Contractual Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemainingContractualTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemainingContractualTerm1"/>
+  <property name="contextRef" value="c384">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2020PlanMember"/>
+    <property name="us-gaap:RelatedPartyTransactionAxis" value="nvve:StockBasedCompensationMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:OperatingLeaseWeightedAverageRemainingLeaseTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:OperatingLeaseWeightedAverageRemainingLeaseTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 19453</message>
+ <ref href="fs12024_nuvve.htm#element(_LeaseCostTableTextBlock-c11_cont_3/1/3/3/1/1)" sourceLine="19453">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="19453"/>
+  <property name="label" value="Operating Lease, Weighted Average Remaining Lease Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="OperatingLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="QName" value="us-gaap:OperatingLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="contextRef" value="c1">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:OperatingLeaseWeightedAverageRemainingLeaseTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:OperatingLeaseWeightedAverageRemainingLeaseTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 19458</message>
+ <ref href="fs12024_nuvve.htm#element(_LeaseCostTableTextBlock-c11_cont_3/1/3/6/1/1)" sourceLine="19458">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="19458"/>
+  <property name="label" value="Operating Lease, Weighted Average Remaining Lease Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="OperatingLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="QName" value="us-gaap:OperatingLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="contextRef" value="c2">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2021-12-31"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:FinanceLeaseWeightedAverageRemainingLeaseTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:FinanceLeaseWeightedAverageRemainingLeaseTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 19468</message>
+ <ref href="fs12024_nuvve.htm#element(_LeaseCostTableTextBlock-c11_cont_3/1/4/3/1/1)" sourceLine="19468">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="19468"/>
+  <property name="label" value="Finance Lease, Weighted Average Remaining Lease Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="FinanceLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="QName" value="us-gaap:FinanceLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="contextRef" value="c1">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:FinanceLeaseWeightedAverageRemainingLeaseTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:FinanceLeaseWeightedAverageRemainingLeaseTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 19473</message>
+ <ref href="fs12024_nuvve.htm#element(_LeaseCostTableTextBlock-c11_cont_3/1/4/6/1/1)" sourceLine="19473">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="19473"/>
+  <property name="label" value="Finance Lease, Weighted Average Remaining Lease Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="FinanceLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="QName" value="us-gaap:FinanceLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="contextRef" value="c2">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2021-12-31"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 19822</message>
+ <ref href="fs12024_nuvve.htm#element(_CommitmentsAndContingenciesDisclosureTextBlock-c11_cont_1/2/2)" sourceLine="19822">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="19822"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c1">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 20309</message>
+ <ref href="fs12024_nuvve.htm#ix_6_fact" sourceLine="20309">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="20309"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c438">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-12-31"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:AwardTypeAxis" value="nvve:ClassDIncentiveUnitsMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:TemporaryEquityParOrStatedValuePerShare" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:TemporaryEquityParOrStatedValuePerShare has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 21009</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/491/3/39/1/1/1)" sourceLine="21009">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="21009"/>
+  <property name="label" value="Temporary Equity, Par or Stated Value Per Share"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="TemporaryEquityParOrStatedValuePerShare"/>
+  <property name="QName" value="us-gaap:TemporaryEquityParOrStatedValuePerShare"/>
+  <property name="contextRef" value="c5">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+  </property>
+  <property name="unitRef" value="usdPershares ($ / shares)">
+   <property name="mul" value="iso4217:USD"/>
+   <property name="div" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="zero"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:TemporaryEquityParOrStatedValuePerShare" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:TemporaryEquityParOrStatedValuePerShare has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 21009</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/491/3/39/1/1/1/1)" sourceLine="21009">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="21009"/>
+  <property name="label" value="Temporary Equity, Par or Stated Value Per Share"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="TemporaryEquityParOrStatedValuePerShare"/>
+  <property name="QName" value="us-gaap:TemporaryEquityParOrStatedValuePerShare"/>
+  <property name="contextRef" value="c1">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+  </property>
+  <property name="unitRef" value="usdPershares ($ / shares)">
+   <property name="mul" value="iso4217:USD"/>
+   <property name="div" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="zero"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:TemporaryEquityParOrStatedValuePerShare" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:TemporaryEquityParOrStatedValuePerShare has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 21018</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/491/3/40/1/1/1)" sourceLine="21018">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="21018"/>
+  <property name="label" value="Temporary Equity, Par or Stated Value Per Share"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="TemporaryEquityParOrStatedValuePerShare"/>
+  <property name="QName" value="us-gaap:TemporaryEquityParOrStatedValuePerShare"/>
+  <property name="contextRef" value="c6">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:StatementClassOfStockAxis" value="nvve:ClassDIncentiveUnitsMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="usdPershares ($ / shares)">
+   <property name="mul" value="iso4217:USD"/>
+   <property name="div" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="zero"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:TemporaryEquityParOrStatedValuePerShare" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:TemporaryEquityParOrStatedValuePerShare has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 21018</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/491/3/40/1/1/1/1)" sourceLine="21018">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="21018"/>
+  <property name="label" value="Temporary Equity, Par or Stated Value Per Share"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="TemporaryEquityParOrStatedValuePerShare"/>
+  <property name="QName" value="us-gaap:TemporaryEquityParOrStatedValuePerShare"/>
+  <property name="contextRef" value="c3">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:StatementClassOfStockAxis" value="nvve:ClassDIncentiveUnitsMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="usdPershares ($ / shares)">
+   <property name="mul" value="iso4217:USD"/>
+   <property name="div" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="zero"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PreferredStockSharesIssued" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:PreferredStockSharesIssued has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 21075</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/494/2/3/1/1/3)" sourceLine="21075">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="21075"/>
+  <property name="label" value="Preferred Stock, Shares Issued"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PreferredStockSharesIssued"/>
+  <property name="QName" value="us-gaap:PreferredStockSharesIssued"/>
+  <property name="contextRef" value="c5">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="zero"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PreferredStockSharesIssued" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:PreferredStockSharesIssued has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 21075</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/494/2/3/1/1/3/1)" sourceLine="21075">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="21075"/>
+  <property name="label" value="Preferred Stock, Shares Issued"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PreferredStockSharesIssued"/>
+  <property name="QName" value="us-gaap:PreferredStockSharesIssued"/>
+  <property name="contextRef" value="c1">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="zero"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PreferredStockSharesOutstanding" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:PreferredStockSharesOutstanding has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 21075</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/494/2/3/1/1/3/1/1)" sourceLine="21075">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="21075"/>
+  <property name="label" value="Preferred Stock, Shares Outstanding"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PreferredStockSharesOutstanding"/>
+  <property name="QName" value="us-gaap:PreferredStockSharesOutstanding"/>
+  <property name="contextRef" value="c5">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="zero"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PreferredStockSharesOutstanding" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:PreferredStockSharesOutstanding has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 21075</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/494/2/3/1/1/3/1/1/1)" sourceLine="21075">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="21075"/>
+  <property name="label" value="Preferred Stock, Shares Outstanding"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PreferredStockSharesOutstanding"/>
+  <property name="QName" value="us-gaap:PreferredStockSharesOutstanding"/>
+  <property name="contextRef" value="c1">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="zero"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:WarrantsAndRightsOutstandingTerm" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:WarrantsAndRightsOutstandingTerm has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 29020</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c0_cont_2/1/4/4/1/1)" sourceLine="29020">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="29020"/>
+  <property name="label" value="Warrants and Rights Outstanding, Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="WarrantsAndRightsOutstandingTerm"/>
+  <property name="QName" value="us-gaap:WarrantsAndRightsOutstandingTerm"/>
+  <property name="contextRef" value="c607">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesCMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:WarrantsAndRightsOutstandingTerm" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:WarrantsAndRightsOutstandingTerm has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 29028</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c0_cont_2/1/4/8/1/1)" sourceLine="29028">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="29028"/>
+  <property name="label" value="Warrants and Rights Outstanding, Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="WarrantsAndRightsOutstandingTerm"/>
+  <property name="QName" value="us-gaap:WarrantsAndRightsOutstandingTerm"/>
+  <property name="contextRef" value="c608">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesDMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:WarrantsAndRightsOutstandingTerm" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:WarrantsAndRightsOutstandingTerm has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 29036</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c0_cont_2/1/4/12/1/1)" sourceLine="29036">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="29036"/>
+  <property name="label" value="Warrants and Rights Outstanding, Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="WarrantsAndRightsOutstandingTerm"/>
+  <property name="QName" value="us-gaap:WarrantsAndRightsOutstandingTerm"/>
+  <property name="contextRef" value="c609">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesEMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:WarrantsAndRightsOutstandingTerm" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:WarrantsAndRightsOutstandingTerm has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 29044</message>
+ <ref href="fs12024_nuvve.htm#element(_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisValuationTechniquesTableTextBlock-c0_cont_2/1/4/16/1/1)" sourceLine="29044">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="29044"/>
+  <property name="label" value="Warrants and Rights Outstanding, Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="WarrantsAndRightsOutstandingTerm"/>
+  <property name="QName" value="us-gaap:WarrantsAndRightsOutstandingTerm"/>
+  <property name="contextRef" value="c610">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+   <property name="dimensions" value="(3)">
+    <property name="us-gaap:FairValueByFairValueHierarchyLevelAxis" value="us-gaap:FairValueInputsLevel3Member"/>
+    <property name="us-gaap:FairValueByMeasurementFrequencyAxis" value="us-gaap:FairValueMeasurementsNonrecurringMember"/>
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:StonepeakEvolveWarrantsSeriesFMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 29664</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c0_cont_1/1/2/3/1/1)" sourceLine="29664">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="29664"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c631">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MinimumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="us-gaap:ComputerEquipmentMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 29664</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c0_cont_1/1/2/3/1/2)" sourceLine="29664">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="29664"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c632">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MaximumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="us-gaap:ComputerEquipmentMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 29687</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c0_cont_1/1/3/3/1/1)" sourceLine="29687">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="29687"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c634">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MinimumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="us-gaap:VehiclesMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 29687</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c0_cont_1/1/3/3/1/2)" sourceLine="29687">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="29687"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c635">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MaximumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="us-gaap:VehiclesMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 29710</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c0_cont_1/1/4/3/1/1)" sourceLine="29710">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="29710"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c637">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MinimumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="us-gaap:OfficeEquipmentMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 29710</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c0_cont_1/1/4/3/1/2)" sourceLine="29710">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="29710"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c638">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MaximumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="us-gaap:OfficeEquipmentMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 29733</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c0_cont_1/1/5/3/1/1)" sourceLine="29733">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="29733"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c640">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MinimumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="nvve:TestUnitsAndLoanedChargersMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:PropertyPlantAndEquipmentUsefulLife" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:PropertyPlantAndEquipmentUsefulLife has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 29733</message>
+ <ref href="fs12024_nuvve.htm#element(_PropertyPlantAndEquipmentTextBlock-c0_cont_1/1/5/3/1/2)" sourceLine="29733">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="29733"/>
+  <property name="label" value="Property, Plant and Equipment, Useful Life"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentUsefulLife"/>
+  <property name="contextRef" value="c641">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+   <property name="dimensions" value="(2)">
+    <property name="srt:RangeAxis" value="srt:MaximumMember"/>
+    <property name="us-gaap:PropertyPlantAndEquipmentByTypeAxis" value="nvve:TestUnitsAndLoanedChargersMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="nvve:NumberOfClassesOfStock" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact nvve:NumberOfClassesOfStock has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 29973</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/545/2/2/1)" sourceLine="29973">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="29973"/>
+  <property name="label" value="Number Of Classes Of Stock"/>
+  <property name="namespace" value="http://www.nvve.com/20230930"/>
+  <property name="name" value="NumberOfClassesOfStock"/>
+  <property name="QName" value="nvve:NumberOfClassesOfStock"/>
+  <property name="contextRef" value="c5">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+  </property>
+  <property name="unitRef" value="pure (pure)">
+   <property name="measure" value="xbrli:pure"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="two"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:ClassOfWarrantOrRightNumberOfSecuritiesCalledByEachWarrantOrRight" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:ClassOfWarrantOrRightNumberOfSecuritiesCalledByEachWarrantOrRight has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 29996</message>
+ <ref href="fs12024_nuvve.htm#element(_StockholdersEquityNoteDisclosureTextBlock-c0_cont_1/3/2)" sourceLine="29996">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="29996"/>
+  <property name="label" value="Class of Warrant or Right, Number of Securities Called by Each Warrant or Right"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="ClassOfWarrantOrRightNumberOfSecuritiesCalledByEachWarrantOrRight"/>
+  <property name="QName" value="us-gaap:ClassOfWarrantOrRightNumberOfSecuritiesCalledByEachWarrantOrRight"/>
+  <property name="contextRef" value="c308">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-07-27"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:StatementEquityComponentsAxis" value="nvve:PrefundedWarrantMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="one"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:WarrantsAndRightsOutstandingTerm" transform="ixt-sec:durwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:WarrantsAndRightsOutstandingTerm has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 29998</message>
+ <ref href="fs12024_nuvve.htm#element(_StockholdersEquityNoteDisclosureTextBlock-c0_cont_1/5/1)" sourceLine="29998">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="29998"/>
+  <property name="label" value="Warrants and Rights Outstanding, Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="WarrantsAndRightsOutstandingTerm"/>
+  <property name="QName" value="us-gaap:WarrantsAndRightsOutstandingTerm"/>
+  <property name="contextRef" value="c657">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2021-05-17"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:ClassOfWarrantOrRightAxis" value="us-gaap:WarrantMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="nvve:UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact nvve:UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 30021</message>
+ <ref href="fs12024_nuvve.htm#element(_StockholdersEquityNoteDisclosureTextBlock-c0_cont_2/7/2)" sourceLine="30021">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="30021"/>
+  <property name="label" value="Units Issued During Period Number Of Warrants Per Unit"/>
+  <property name="namespace" value="http://www.nvve.com/20230930"/>
+  <property name="name" value="UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit"/>
+  <property name="QName" value="nvve:UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit"/>
+  <property name="contextRef" value="c668">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2020-02-19"/>
+   <property name="endDate" value="2020-02-19"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:SubsidiarySaleOfStockAxis" value="us-gaap:IPOMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="one"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="nvve:UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact nvve:UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 30021</message>
+ <ref href="fs12024_nuvve.htm#element(_StockholdersEquityNoteDisclosureTextBlock-c0_cont_2/7/4)" sourceLine="30021">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="30021"/>
+  <property name="label" value="Units Issued During Period Number Of Warrants Per Unit"/>
+  <property name="namespace" value="http://www.nvve.com/20230930"/>
+  <property name="name" value="UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit"/>
+  <property name="QName" value="nvve:UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit"/>
+  <property name="contextRef" value="c669">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2020-02-19"/>
+   <property name="endDate" value="2020-02-19"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:SubsidiarySaleOfStockAxis" value="us-gaap:PrivatePlacementMember"/>
+    <property name="dei:LegalEntityAxis" value="nvve:NewbornAcquisitionCorpMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="one"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="nvve:UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact nvve:UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 30264</message>
+ <ref href="fs12024_nuvve.htm#element(_StockholdersEquityNoteDisclosureTextBlock-c0_cont_3/4/5)" sourceLine="30264">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="30264"/>
+  <property name="label" value="Units Issued During Period Number Of Warrants Per Unit"/>
+  <property name="namespace" value="http://www.nvve.com/20230930"/>
+  <property name="name" value="UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit"/>
+  <property name="QName" value="nvve:UnitsIssuedDuringPeriodNumberOfWarrantsPerUnit"/>
+  <property name="contextRef" value="c328">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2020-02-19"/>
+   <property name="endDate" value="2020-02-19"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:SubsidiarySaleOfStockAxis" value="us-gaap:IPOMember"/>
+    <property name="dei:LegalEntityAxis" value="nvve:NewbornAcquisitionCorpMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="one"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:ClassOfWarrantOrRightNumberOfSecuritiesCalledByEachWarrantOrRight" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:ClassOfWarrantOrRightNumberOfSecuritiesCalledByEachWarrantOrRight has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 30264</message>
+ <ref href="fs12024_nuvve.htm#element(_StockholdersEquityNoteDisclosureTextBlock-c0_cont_3/4/7)" sourceLine="30264">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="30264"/>
+  <property name="label" value="Class of Warrant or Right, Number of Securities Called by Each Warrant or Right"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="ClassOfWarrantOrRightNumberOfSecuritiesCalledByEachWarrantOrRight"/>
+  <property name="QName" value="us-gaap:ClassOfWarrantOrRightNumberOfSecuritiesCalledByEachWarrantOrRight"/>
+  <property name="contextRef" value="c674">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2020-02-19"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:SubsidiarySaleOfStockAxis" value="us-gaap:IPOMember"/>
+    <property name="dei:LegalEntityAxis" value="nvve:NewbornAcquisitionCorpMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="shares (shares)">
+   <property name="measure" value="xbrli:shares"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="one"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardRequisiteServicePeriod1" transform="ixt-sec:durwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardRequisiteServicePeriod1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 30266</message>
+ <ref href="fs12024_nuvve.htm#element(/1/2/1/1/554/4/2/7)" sourceLine="30266">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="30266"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Award Requisite Service Period"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardRequisiteServicePeriod1"/>
+  <property name="QName" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardRequisiteServicePeriod1"/>
+  <property name="contextRef" value="c696">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-09-30"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2020PlanMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 30492</message>
+ <ref href="fs12024_nuvve.htm#element(nvve_ScheduleOfShareBasedCompensationStockOptionsactivityTableTextBlock-c0_cont_1/1/2/8/1/1)" sourceLine="30492">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="30492"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Outstanding, Weighted Average Remaining Contractual Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2"/>
+  <property name="contextRef" value="c727">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-12-31"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2010PlanMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="nvve:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact nvve:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 30592</message>
+ <ref href="fs12024_nuvve.htm#element(nvve_ScheduleOfShareBasedCompensationStockOptionsactivityTableTextBlock-c0_cont_1/1/7/8/1/1)" sourceLine="30592">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="30592"/>
+  <property name="label" value="Sharebased Compensation Arrangement By Sharebased Payment Award Options Outstanding Weighted Average Remaining Contractual Term1"/>
+  <property name="namespace" value="http://www.nvve.com/20230930"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1"/>
+  <property name="QName" value="nvve:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1"/>
+  <property name="contextRef" value="c699">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-09-30"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2010PlanMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 30610</message>
+ <ref href="fs12024_nuvve.htm#element(nvve_ScheduleOfShareBasedCompensationStockOptionsactivityTableTextBlock-c0_cont_1/1/8/8/1/1)" sourceLine="30610">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="30610"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Exercisable, Weighted Average Remaining Contractual Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm1"/>
+  <property name="contextRef" value="c699">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-09-30"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2010PlanMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemaini..." transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemainingContractualTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 30628</message>
+ <ref href="fs12024_nuvve.htm#element(nvve_ScheduleOfShareBasedCompensationStockOptionsactivityTableTextBlock-c0_cont_1/1/9/8/1/1)" sourceLine="30628">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="30628"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Vested and Expected to Vest, Exercisable, Weighted Average Remaining Contractual Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemainingContractualTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemainingContractualTerm1"/>
+  <property name="contextRef" value="c699">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-09-30"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2010PlanMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 30674</message>
+ <ref href="fs12024_nuvve.htm#element(nvve_ScheduleOfShareBasedCompensationStockOptionsactivityTableTextBlock-c0_cont_2/1/2/8/1/1)" sourceLine="30674">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="30674"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Outstanding, Weighted Average Remaining Contractual Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2"/>
+  <property name="contextRef" value="c367">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-12-31"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2020PlanMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="nvve:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact nvve:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 30770</message>
+ <ref href="fs12024_nuvve.htm#element(nvve_ScheduleOfShareBasedCompensationStockOptionsactivityTableTextBlock-c0_cont_2/1/7/8/1/1)" sourceLine="30770">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="30770"/>
+  <property name="label" value="Sharebased Compensation Arrangement By Sharebased Payment Award Options Outstanding Weighted Average Remaining Contractual Term1"/>
+  <property name="namespace" value="http://www.nvve.com/20230930"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1"/>
+  <property name="QName" value="nvve:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1"/>
+  <property name="contextRef" value="c696">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-09-30"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2020PlanMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 30788</message>
+ <ref href="fs12024_nuvve.htm#element(nvve_ScheduleOfShareBasedCompensationStockOptionsactivityTableTextBlock-c0_cont_2/1/8/8/1/1)" sourceLine="30788">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="30788"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Exercisable, Weighted Average Remaining Contractual Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm1"/>
+  <property name="contextRef" value="c696">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-09-30"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2020PlanMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemaini..." transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemainingContractualTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 30806</message>
+ <ref href="fs12024_nuvve.htm#element(nvve_ScheduleOfShareBasedCompensationStockOptionsactivityTableTextBlock-c0_cont_2/1/9/8/1/1)" sourceLine="30806">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="30806"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Vested and Expected to Vest, Exercisable, Weighted Average Remaining Contractual Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemainingContractualTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemainingContractualTerm1"/>
+  <property name="contextRef" value="c696">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-09-30"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:PlanNameAxis" value="nvve:A2020PlanMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:OperatingLeaseWeightedAverageRemainingLeaseTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:OperatingLeaseWeightedAverageRemainingLeaseTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 31672</message>
+ <ref href="fs12024_nuvve.htm#element(_OperatingLeasesOfLesseeDisclosureTextBlock-c0_cont_1/1/3/3/1/1)" sourceLine="31672">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="31672"/>
+  <property name="label" value="Operating Lease, Weighted Average Remaining Lease Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="OperatingLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="QName" value="us-gaap:OperatingLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="contextRef" value="c5">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:OperatingLeaseWeightedAverageRemainingLeaseTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:OperatingLeaseWeightedAverageRemainingLeaseTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 31677</message>
+ <ref href="fs12024_nuvve.htm#element(_OperatingLeasesOfLesseeDisclosureTextBlock-c0_cont_1/1/3/6/1/1)" sourceLine="31677">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="31677"/>
+  <property name="label" value="Operating Lease, Weighted Average Remaining Lease Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="OperatingLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="QName" value="us-gaap:OperatingLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="contextRef" value="c1">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:FinanceLeaseWeightedAverageRemainingLeaseTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:FinanceLeaseWeightedAverageRemainingLeaseTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 31687</message>
+ <ref href="fs12024_nuvve.htm#element(_OperatingLeasesOfLesseeDisclosureTextBlock-c0_cont_1/1/4/3/1/1)" sourceLine="31687">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="31687"/>
+  <property name="label" value="Finance Lease, Weighted Average Remaining Lease Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="FinanceLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="QName" value="us-gaap:FinanceLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="contextRef" value="c5">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-09-30"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:FinanceLeaseWeightedAverageRemainingLeaseTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:FinanceLeaseWeightedAverageRemainingLeaseTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 31692</message>
+ <ref href="fs12024_nuvve.htm#element(_OperatingLeasesOfLesseeDisclosureTextBlock-c0_cont_1/1/4/6/1/1)" sourceLine="31692">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="31692"/>
+  <property name="label" value="Finance Lease, Weighted Average Remaining Lease Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="FinanceLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="QName" value="us-gaap:FinanceLeaseWeightedAverageRemainingLeaseTerm1"/>
+  <property name="contextRef" value="c1">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-12-31"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:LesseeOperatingLeaseTermOfContract" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:LesseeOperatingLeaseTermOfContract has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 31946</message>
+ <ref href="fs12024_nuvve.htm#element(_LesseeOperatingLeasesTextBlock-c0_cont_1/10/1)" sourceLine="31946">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="31946"/>
+  <property name="label" value="Lessee, Operating Lease, Term of Contract"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="LesseeOperatingLeaseTermOfContract"/>
+  <property name="QName" value="us-gaap:LesseeOperatingLeaseTermOfContract"/>
+  <property name="contextRef" value="c773">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2022-02-28"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1" transform="ixt-sec:duryear" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1 has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - fs12024_nuvve.htm 32596</message>
+ <ref href="fs12024_nuvve.htm#ix_9_fact" sourceLine="32596">
+  <property name="file" value="fs12024_nuvve.htm"/>
+  <property name="line" value="32596"/>
+  <property name="label" value="Share-Based Compensation Arrangement by Share-Based Payment Award, Fair Value Assumptions, Expected Term"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1"/>
+  <property name="contextRef" value="c800">
+   <property name="entity" value="0001836875">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-09-30"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:AwardTypeAxis" value="nvve:ClassDIncentiveUnitsMember"/>
+   </property>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="info" level="info">
+ <message>[info] loaded in 19.94 secs at 2025-05-08T18:15:19 - http://www.sec.gov/Archives/edgar/data/1836875/000121390024001647/fs12024_nuvve.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/1836875/000121390024001647/fs12024_nuvve.htm"/></entry>
+</log>

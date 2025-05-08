@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in Xince and Xodel successful, version 1.0. - xodel </message>
+ <ref href="xodel"/></entry>
+<entry code="info" level="info">
+ <message>[info] Xule version: 3.0.30045 - </message>
+ <ref href=""/></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="sah:NumberOfFranchisesDisposed" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact sah:NumberOfFranchisesDisposed has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - sah-20230630.htm 4</message>
+ <ref href="sah-20230630.htm#f-547" sourceLine="4">
+  <property name="file" value="sah-20230630.htm"/>
+  <property name="line" value="4"/>
+  <property name="label" value="NumberOfFranchisesDisposed"/>
+  <property name="namespace" value="http://www.sonicautomotive.com/20230630"/>
+  <property name="name" value="NumberOfFranchisesDisposed"/>
+  <property name="QName" value="sah:NumberOfFranchisesDisposed"/>
+  <property name="contextRef" value="c-38">
+   <property name="entity" value="0001043509">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-06-30"/>
+  </property>
+  <property name="unitRef" value="retail_units (retail_Units)">
+   <property name="measure" value="sah:retail_Units"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="one"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="dei:EntityIncorporationStateCountryCode" transform="ixt-sec:stateprovnameen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact dei:EntityIncorporationStateCountryCode has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - sah-20230630.htm 4</message>
+ <ref href="sah-20230630.htm#f-7" sourceLine="4">
+  <property name="file" value="sah-20230630.htm"/>
+  <property name="line" value="4"/>
+  <property name="label" value="Entity Incorporation, State or Country Code"/>
+  <property name="namespace" value="http://xbrl.sec.gov/dei/2023"/>
+  <property name="name" value="EntityIncorporationStateCountryCode"/>
+  <property name="QName" value="dei:EntityIncorporationStateCountryCode"/>
+  <property name="contextRef" value="c-1">
+   <property name="entity" value="0001043509">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-06-30"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="dei:EntityAddressStateOrProvince" transform="ixt-sec:stateprovnameen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact dei:EntityAddressStateOrProvince has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - sah-20230630.htm 4</message>
+ <ref href="sah-20230630.htm#f-12" sourceLine="4">
+  <property name="file" value="sah-20230630.htm"/>
+  <property name="line" value="4"/>
+  <property name="label" value="Entity Address, State or Province"/>
+  <property name="namespace" value="http://xbrl.sec.gov/dei/2023"/>
+  <property name="name" value="EntityAddressStateOrProvince"/>
+  <property name="QName" value="dei:EntityAddressStateOrProvince"/>
+  <property name="contextRef" value="c-1">
+   <property name="entity" value="0001043509">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-06-30"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="dei:SecurityExchangeName" transform="ixt-sec:exchnameen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact dei:SecurityExchangeName has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - sah-20230630.htm 4</message>
+ <ref href="sah-20230630.htm#f-17" sourceLine="4">
+  <property name="file" value="sah-20230630.htm"/>
+  <property name="line" value="4"/>
+  <property name="label" value="Security Exchange Name"/>
+  <property name="namespace" value="http://xbrl.sec.gov/dei/2023"/>
+  <property name="name" value="SecurityExchangeName"/>
+  <property name="QName" value="dei:SecurityExchangeName"/>
+  <property name="contextRef" value="c-1">
+   <property name="entity" value="0001043509">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-06-30"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="dei:EntityFilerCategory" transform="ixt-sec:entityfilercategoryen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact dei:EntityFilerCategory has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - sah-20230630.htm 4</message>
+ <ref href="sah-20230630.htm#f-20" sourceLine="4">
+  <property name="file" value="sah-20230630.htm"/>
+  <property name="line" value="4"/>
+  <property name="label" value="Entity Filer Category"/>
+  <property name="namespace" value="http://xbrl.sec.gov/dei/2023"/>
+  <property name="name" value="EntityFilerCategory"/>
+  <property name="QName" value="dei:EntityFilerCategory"/>
+  <property name="contextRef" value="c-1">
+   <property name="entity" value="0001043509">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-06-30"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:NumberOfBusinessesAcquired" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:NumberOfBusinessesAcquired has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - sah-20230630.htm 4</message>
+ <ref href="sah-20230630.htm#f-505" sourceLine="4">
+  <property name="file" value="sah-20230630.htm"/>
+  <property name="line" value="4"/>
+  <property name="label" value="Number of Businesses Acquired"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="NumberOfBusinessesAcquired"/>
+  <property name="QName" value="us-gaap:NumberOfBusinessesAcquired"/>
+  <property name="contextRef" value="c-123">
+   <property name="entity" value="0001043509">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-12-31"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:BusinessAcquisitionAxis" value="sah:PowersportsSegmentDomain"/>
+   </property>
+  </property>
+  <property name="unitRef" value="retail_units (retail_Units)">
+   <property name="measure" value="sah:retail_Units"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="one"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:NumberOfBusinessesAcquired" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:NumberOfBusinessesAcquired has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - sah-20230630.htm 4</message>
+ <ref href="sah-20230630.htm#f-515" sourceLine="4">
+  <property name="file" value="sah-20230630.htm"/>
+  <property name="line" value="4"/>
+  <property name="label" value="Number of Businesses Acquired"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="NumberOfBusinessesAcquired"/>
+  <property name="QName" value="us-gaap:NumberOfBusinessesAcquired"/>
+  <property name="contextRef" value="c-127">
+   <property name="entity" value="0001043509">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-12-31"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:BusinessAcquisitionAxis" value="sah:FranchisedDomain"/>
+   </property>
+  </property>
+  <property name="unitRef" value="retail_units (retail_Units)">
+   <property name="measure" value="sah:retail_Units"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="two"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="sah:NumberOfFranchisesDisposed" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact sah:NumberOfFranchisesDisposed has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - sah-20230630.htm 4</message>
+ <ref href="sah-20230630.htm#f-526" sourceLine="4">
+  <property name="file" value="sah-20230630.htm"/>
+  <property name="line" value="4"/>
+  <property name="label" value="NumberOfFranchisesDisposed"/>
+  <property name="namespace" value="http://www.sonicautomotive.com/20230630"/>
+  <property name="name" value="NumberOfFranchisesDisposed"/>
+  <property name="QName" value="sah:NumberOfFranchisesDisposed"/>
+  <property name="contextRef" value="c-132">
+   <property name="entity" value="0001043509">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-06-30"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis" value="sah:LuxuryDealershipDomain"/>
+   </property>
+  </property>
+  <property name="unitRef" value="retail_units (retail_Units)">
+   <property name="measure" value="sah:retail_Units"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="one"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="sah:NumberOfFranchisesDisposed" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact sah:NumberOfFranchisesDisposed has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - sah-20230630.htm 4</message>
+ <ref href="sah-20230630.htm#f-527" sourceLine="4">
+  <property name="file" value="sah-20230630.htm"/>
+  <property name="line" value="4"/>
+  <property name="label" value="NumberOfFranchisesDisposed"/>
+  <property name="namespace" value="http://www.sonicautomotive.com/20230630"/>
+  <property name="name" value="NumberOfFranchisesDisposed"/>
+  <property name="QName" value="sah:NumberOfFranchisesDisposed"/>
+  <property name="contextRef" value="c-133">
+   <property name="entity" value="0001043509">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-06-30"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis" value="sah:DomesticFranchiseDealershipDomain"/>
+   </property>
+  </property>
+  <property name="unitRef" value="retail_units (retail_Units)">
+   <property name="measure" value="sah:retail_Units"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="one"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="sah:NumberOfFranchisesDisposed" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact sah:NumberOfFranchisesDisposed has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - sah-20230630.htm 4</message>
+ <ref href="sah-20230630.htm#f-528" sourceLine="4">
+  <property name="file" value="sah-20230630.htm"/>
+  <property name="line" value="4"/>
+  <property name="label" value="NumberOfFranchisesDisposed"/>
+  <property name="namespace" value="http://www.sonicautomotive.com/20230630"/>
+  <property name="name" value="NumberOfFranchisesDisposed"/>
+  <property name="QName" value="sah:NumberOfFranchisesDisposed"/>
+  <property name="contextRef" value="c-134">
+   <property name="entity" value="0001043509">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-06-30"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis" value="sah:MidLineImportFranchiseMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="retail_units (retail_Units)">
+   <property name="measure" value="sah:retail_Units"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="one"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="sah:NumberofPreownedStoresDisposed" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact sah:NumberofPreownedStoresDisposed has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - sah-20230630.htm 4</message>
+ <ref href="sah-20230630.htm#f-530" sourceLine="4">
+  <property name="file" value="sah-20230630.htm"/>
+  <property name="line" value="4"/>
+  <property name="label" value="NumberofPreownedStoresDisposed"/>
+  <property name="namespace" value="http://www.sonicautomotive.com/20230630"/>
+  <property name="name" value="NumberofPreownedStoresDisposed"/>
+  <property name="QName" value="sah:NumberofPreownedStoresDisposed"/>
+  <property name="contextRef" value="c-135">
+   <property name="entity" value="0001043509">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-06-30"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis" value="sah:EchoParkStoresAbstract"/>
+   </property>
+  </property>
+  <property name="unitRef" value="retail_units (retail_Units)">
+   <property name="measure" value="sah:retail_Units"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="eight"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="sah:NumberofPreownedStoresDisposed" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact sah:NumberofPreownedStoresDisposed has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - sah-20230630.htm 4</message>
+ <ref href="sah-20230630.htm#f-532" sourceLine="4">
+  <property name="file" value="sah-20230630.htm"/>
+  <property name="line" value="4"/>
+  <property name="label" value="NumberofPreownedStoresDisposed"/>
+  <property name="namespace" value="http://www.sonicautomotive.com/20230630"/>
+  <property name="name" value="NumberofPreownedStoresDisposed"/>
+  <property name="QName" value="sah:NumberofPreownedStoresDisposed"/>
+  <property name="contextRef" value="c-137">
+   <property name="entity" value="0001043509">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-06-30"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis" value="sah:NorthwestMotorsportSegmentAbstract"/>
+   </property>
+  </property>
+  <property name="unitRef" value="retail_units (retail_Units)">
+   <property name="measure" value="sah:retail_Units"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="three"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:LineOfCredit" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:LineOfCredit has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - sah-20230630.htm 4</message>
+ <ref href="sah-20230630.htm#f-666" sourceLine="4">
+  <property name="file" value="sah-20230630.htm"/>
+  <property name="line" value="4"/>
+  <property name="label" value="Long-Term Line of Credit"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="LineOfCredit"/>
+  <property name="QName" value="us-gaap:LineOfCredit"/>
+  <property name="contextRef" value="c-167">
+   <property name="entity" value="0001043509">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-06-30"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:CreditFacilityAxis" value="us-gaap:RevolvingCreditFacilityMember"/>
+    <property name="us-gaap:DebtInstrumentAxis" value="sah:TwoThousandTwentyRevolvingCreditFacilityMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="usd ($)">
+   <property name="measure" value="iso4217:USD"/>
+  </property>
+  <property name="decimals" value="-5"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="no"/>
+ </ref></entry>
+<entry code="ix11.11.1.2:invalidTransformation" level="error">
+ <message fact="sah:GeneralIndemnificationsMaximumExpirationPeriod" transform="ixt-sec:durwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.11.1.2:invalidTransformation] Fact sah:GeneralIndemnificationsMaximumExpirationPeriod has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - sah-20230630.htm 4</message>
+ <ref href="sah-20230630.htm#f-733" sourceLine="4">
+  <property name="file" value="sah-20230630.htm"/>
+  <property name="line" value="4"/>
+  <property name="label" value="GeneralIndemnificationsMaximumExpirationPeriod"/>
+  <property name="namespace" value="http://www.sonicautomotive.com/20230630"/>
+  <property name="name" value="GeneralIndemnificationsMaximumExpirationPeriod"/>
+  <property name="QName" value="sah:GeneralIndemnificationsMaximumExpirationPeriod"/>
+  <property name="contextRef" value="c-1">
+   <property name="entity" value="0001043509">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-06-30"/>
+  </property>
+  <property name="decimals" value="None"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+ </ref></entry>
+<entry code="ix11.10.1.2:invalidTransformation" level="error">
+ <message fact="us-gaap:NumberOfOperatingSegments" transform="ixt-sec:numwordsen" namespace="http://www.sec.gov/inlineXBRL/transformation/2015-08-31">[ix11.10.1.2:invalidTransformation] Fact us-gaap:NumberOfOperatingSegments has unrecognized transformation namespace http://www.sec.gov/inlineXBRL/transformation/2015-08-31 - sah-20230630.htm 4</message>
+ <ref href="sah-20230630.htm#f-777" sourceLine="4">
+  <property name="file" value="sah-20230630.htm"/>
+  <property name="line" value="4"/>
+  <property name="label" value="Number of Operating Segments"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2023"/>
+  <property name="name" value="NumberOfOperatingSegments"/>
+  <property name="QName" value="us-gaap:NumberOfOperatingSegments"/>
+  <property name="contextRef" value="c-1">
+   <property name="entity" value="0001043509">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-06-30"/>
+  </property>
+  <property name="unitRef" value="segment (Segment)">
+   <property name="measure" value="sah:Segment"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="ixt function not available"/>
+  <property name="format" value="ixt-sec:numwordsen"/>
+  <property name="scale" value="0"/>
+  <property name="html value" value="three"/>
+ </ref></entry>
+<entry code="info" level="info">
+ <message>[info] loaded in 12.73 secs at 2025-05-08T18:15:45 - http://www.sec.gov/Archives/edgar/data/1043509/000104350923000014/sah-20230630.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/1043509/000104350923000014/sah-20230630.htm"/></entry>
+</log>
