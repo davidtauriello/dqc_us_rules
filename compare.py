@@ -164,7 +164,18 @@ def write_table_report(report, args):
         # Filter headers to exclude the specified columns
         excluded_columns = {'severity', 'test file', 'expected file', 'key message'}  # Exclude specific columns
         headers = [col for col in report[0] if col not in excluded_columns]
+        
+        # Deduplicate rows by converting to hashable form
+        seen_rows = set()
+        unique_rows = []
         for row in report[1:]:  # Skip the headers row
+            # Create a hashable representation of the row's visible columns
+            row_key = tuple(str(row[i]) for i, col in enumerate(report[0]) if col not in excluded_columns)
+            if row_key not in seen_rows:
+                seen_rows.add(row_key)
+                unique_rows.append(row)
+        
+        for row in unique_rows:  # Process unique rows only
             # Combine 'code' and 'expected file' into a single column
             if row[5]:  # Check if 'expected file' exists
                 combined_code = f"{row[0]} \n\nExpected file: \n {row[5]}"
