@@ -43,3 +43,48 @@
  <message>[info] validated in 8.22 secs - http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm </message>
  <ref href="http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm"/></entry>
 </log>
+<?xml version="1.0" encoding="utf-8"?>
+<log>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in DQC Rules Validator successful, version Check version using Tools->DQC->Version on the GUI or --dqc-version on the command line. - validate/DQC </message>
+ <ref href="validate/DQC"/></entry>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in SEC Inline Transforms successful, version 19.2. - EDGAR/transform </message>
+ <ref href="EDGAR/transform"/></entry>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in Inline XBRL Document Set successful, version 1.1. - inlineXbrlDocumentSet </message>
+ <ref href="inlineXbrlDocumentSet"/></entry>
+<entry code="info" level="info">
+ <message>[info] Xule version: 3.0.30050 - </message>
+ <ref href=""/></entry>
+<entry code="info" level="info">
+ <message>[info] loaded in 20.10 secs at 2025-12-10T12:26:39 - http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm"/></entry>
+<entry code="xule.buildIndexTime" level="debug">
+ <message>[xule.buildIndexTime] Index build time 0:00:00.469069. - http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm"/></entry>
+<entry code="xule.ruleDebug" level="debug">
+ <message>[xule.ruleDebug] Processing: DQC.US.0212.10739 - 12:27:04.317818 - http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm"/></entry>
+<entry code="xule.ruleDebug" level="debug">
+ <message>[xule.ruleDebug] http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm - http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] DQC.US.0212.10739 time took: 0.32523 - 12:27:04.643119  - http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Total number of rules processed: 1 - http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Number of rules over 0.005s: 1 - http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Rule DQC.US.0212.10739 end. Took 0:00:00.325230 - http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Total time to process: 0:00:00.794717. - http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm"/></entry>
+<entry code="info" level="info">
+ <message>[info] validated in 4.59 secs - http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm"/></entry>
+</log>
