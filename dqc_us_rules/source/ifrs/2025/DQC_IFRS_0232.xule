@@ -15,9 +15,7 @@ $rule_id = (rule-name().split('.'))[rule-name().split('.').length];
 
 $ifrs18_Flag = dts-document-locations(taxonomy()).contains('https://xbrl.ifrs.org/taxonomy/2025-03-27/ifrs_18_entry_point_2025-03-27.xsd')
 
-
-// Added rule but the false flag turns it off for now until we go to V30.//
-if $ifrs18_Flag and false
+if $ifrs18_Flag
 
     /**Identify all concepts used on the statement of operating activities or income statement by looking at the presentation parent-child relationships in the STatement of operating activities role, which starts with the string Statement**/
     $rule_id = (rule-name().split('.'))[rule-name().split('.').length];
@@ -51,7 +49,7 @@ else
     skip
 
 message
-"The concept {$concept.name} is used in the statement of operating activities or income statement, but is not allowed. These items represent totals of operating, investing, or financing activities and should not be included as distinct items.
+"The concept {$concept.name} is used in the statement of operating activities or income statement, but is not allowed when using IFRS18. These items represent the combined totals of operating, investing, or financing activities and should not be included as distinct items. Items specific to the operating, investing or financing activity should be used instead.
 
 Rule Element Id:{$rule_id}
 Rule version: {$ruleVersion}"
