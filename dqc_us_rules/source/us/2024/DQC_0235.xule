@@ -39,7 +39,7 @@ ASSERT US.0235.10932 satisfied
 
 $rule_id = (rule-name().split('.'))[rule-name().split('.').length];
 
-$badFact2 = {@concept in list(FinancialAssetsSoldUnderAgreementsToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement, SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred) @CollateralAxis = *}
+$badFact2 = {@concept in list(FinancialAssetsSoldUnderAgreementsToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement, SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred) @PledgedStatusAxis = *}
 
 if exists($badFact2)
     true
@@ -47,7 +47,7 @@ else
     skip
 
 message
-"The filer has reported a fact value for the concept {$badFact2.concept.name} of {$badFact2} with the CollateralAxis.  This axis should not be used with {$badFact2.concept.name}. The CollateralPledgedInSecuredBorrowingAxis should be used for disaggregation of the gross obligation by class of collateral pledged.
+"The filer has reported a fact value for the concept {$badFact2.concept.name} of {$badFact2} with the PledgedStatusAxis.  This axis should not be used with {$badFact2.concept.name}. The CollateralPledgedInSecuredBorrowingAxis should be used for disaggregation of the gross obligation by class of collateral pledged.
 
 Concept : {$badFact2.name}
 Value : { $badFact2}
