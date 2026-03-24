@@ -1,6 +1,10 @@
 {
 	"folders": [
 		{
+			"path": "source/us/2026",
+			"name": "US-2026"
+		},
+		{
 			"path": "source/us/2025",
 			"name": "US-2025"
 		},
@@ -48,6 +52,10 @@
 		},
 		{
 			"path": "../docs"
+		},
+		{
+			"path": "source/us/test-bed",
+			"name": "US-2025-Test"
 		}
 	],
 	"tasks": {

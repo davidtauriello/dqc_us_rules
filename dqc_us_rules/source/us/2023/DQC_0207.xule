@@ -27,8 +27,12 @@ else
 /** select facts with the BDC subtotals **/
 $BDC_Industry = [nonils @concept = InvestmentOwnedAtFairValue @@EquitySecuritiesByIndustryAxis = *];
 
-$BDC_Industry_And_More = {nonils covered-dims @concept = InvestmentOwnedAtFairValue @@EquitySecuritiesByIndustryAxis = * @InvestmentCompanyNonconsolidatedSubsidiaryAxis != * @dei:LegalEntityAxis != *};
-
+/** Added for case when the dei taxonoy is not loaded **/
+$BDC_Industry_And_More = if $DEI_NAMESPACE == none
+								{nonils covered-dims @concept = InvestmentOwnedAtFairValue @@EquitySecuritiesByIndustryAxis = * @InvestmentCompanyNonconsolidatedSubsidiaryAxis != * } 
+						else
+								{nonils covered-dims @concept = InvestmentOwnedAtFairValue @@EquitySecuritiesByIndustryAxis = * @InvestmentCompanyNonconsolidatedSubsidiaryAxis != * @dei:LegalEntityAxis != *};
+								
 /** check if the BDC subtotals are less than the BDC subtotals with more dimensions **/
 
 $BDC_Industry < $BDC_Industry_And_More
