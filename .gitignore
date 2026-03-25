@@ -25,7 +25,6 @@ tests/gen_test_case_results*
 */source/*/201[4-9]
 */source/esef/esef-201[4-9]
 */dqc*201[4-9]*-ruleset.zip
-*/taxonomy/
 *api.http
 *generate-qname.sh
 test-V17-0126.sh
