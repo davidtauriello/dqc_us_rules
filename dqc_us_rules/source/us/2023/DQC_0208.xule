@@ -3,8 +3,9 @@ DQC Rules
  (c) Copyright 2017 - 2025, XBRL US Inc. All rights reserved.
  See https://xbrl.us/dqc-license for license information.
  See https://xbrl.us/dqc-patent for patent infringement notice.
-Taxonomy: US GAAP 2023
+Taxonomy: US GAAP 2023 
 **/
+
 
 
 rule-name-prefix DQC
@@ -56,7 +57,6 @@ Rule Element Id:{$rule_id}
 Rule version: {$ruleVersion}"
 
 severity error  
-status $status  
 
 effectiveDate $effective_dates[$rule_id]
 
@@ -65,7 +65,6 @@ ASSERT US.0208.10728 SATISFIED
 
 /** Check to make sure an extensible enumeration value for the Industry  is used as a member on the industry type axis.
 Get the value of each extensible enumeration value and check that it is used on the industry  axis if it is not used on the industry axis then it is a violation of this rule.**/
-
 
 $rule_id = (rule-name().split('.'))[rule-name().split('.').length];
 
@@ -106,7 +105,6 @@ Please ensure that these values are used as members on the EquitySecuritiesByInd
 Rule Element Id:{$rule_id}
 Rule version: {$ruleVersion}"
 
-severity error  
-status $status  
+severity error   
 
 effectiveDate $effective_dates[$rule_id]
