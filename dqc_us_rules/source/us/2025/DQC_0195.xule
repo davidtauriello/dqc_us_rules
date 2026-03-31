@@ -451,8 +451,6 @@ for $concept in $Element_Retained_Earnings_empty
 
     /** Get total **/
 
-    $defaultTotal = {nonils @concept = $concept @StatementEquityComponentsAxis = none }
-
     /** This checks that if share based compensation is increasing retained earnings from the gain on treasury stock their must be a reduction in the treasury stock held **/
 
     $ExceptionConceptsIfTreasuryImpact = list(StockIssuedDuringPeriodValueEmployeeBenefitPlan, StockIssuedDuringPeriodValueShareBasedCompensation)
@@ -462,13 +460,14 @@ for $concept in $Element_Retained_Earnings_empty
                         else
                             false
 
-    if  $TreasuryStockFlag
+    if  $TreasuryStockFlag 
         false
     else
 
 /** Use 10% of total as a threshold for the error  as these items have extra stuff which is considered OK as it is not material **/
-
-    if missing($defaultTotal)
+     $defaultTotal = {nonils @concept = $concept @StatementEquityComponentsAxis = none }
+     
+    if missing($defaultTotal) and exists($fact1)
         $customMessage = "";
         true
     else
