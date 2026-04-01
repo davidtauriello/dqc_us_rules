@@ -102,7 +102,7 @@ The rule element id is used to identify unique elements or combinations of eleme
 | DQC.US.0195.10627 |StatementEquityComponentsAxis = RetainedEarningsMember|
 
 
-© Copyright 2016 - 2024 XBRL US, Inc. All rights reserved.   
+© Copyright 2016 - 2026, XBRL US, Inc. All rights reserved.   
 See [License](https://xbrl.us/dqc-license) for license information.  
 See [Patent Notice](https://xbrl.us/dqc-patent) for patent infringement notice. 
 
@@ -452,26 +452,25 @@ for $concept in $Element_Retained_Earnings_empty
    
     $fact1 = {nonils @concept = $concept @StatementEquityComponentsAxis in list(RetainedEarningsMember, RetainedEarningsAppropriatedMember, RetainedEarningsUnappropriatedMember) where $fact != 0}
 
-    /** Get total **/
+   /** Get total **/
 
-    $defaultTotal = {nonils @concept = $concept @StatementEquityComponentsAxis = none }
+    /** This checks that if share based compensation is increasing retained earnings from the gain on treasury stock their must be a reduction in the treasury stock held **/
 
-     /** This checks that if share based compensation is increasing retained earnings from the gain on treasury stock their must be a reduction in the treasury stock held **/
-
-     $ExceptionConceptsIfTreasuryImpact = list(StockIssuedDuringPeriodValueEmployeeBenefitPlan, StockIssuedDuringPeriodValueShareBasedCompensation)
+    $ExceptionConceptsIfTreasuryImpact = list(StockIssuedDuringPeriodValueEmployeeBenefitPlan, StockIssuedDuringPeriodValueShareBasedCompensation)
 
     $TreasuryStockFlag = if $concept in $ExceptionConceptsIfTreasuryImpact 
                               list({nonils @concept = $concept @StatementEquityComponentsAxis = TreasuryStockCommonMember where $fact > 0}).length > 0 and exists($fact1)
                         else
                             false
 
-    if  $TreasuryStockFlag
+    if  $TreasuryStockFlag 
         false
     else
 
 /** Use 10% of total as a threshold for the error  as these items have extra stuff which is considered OK as it is not material **/
-
-    if missing($defaultTotal)
+     $defaultTotal = {nonils @concept = $concept @StatementEquityComponentsAxis = none }
+     
+    if missing($defaultTotal) and exists($fact1)
         $customMessage = "";
         true
     else
