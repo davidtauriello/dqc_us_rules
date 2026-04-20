@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in DQC Rules Validator successful, version Check version using Tools->DQC->Version on the GUI or --dqc-version on the command line. - validate/DQC </message>
+ <ref href="validate/DQC"/></entry>
+<entry code="info" level="info">
+ <message>[info] Xule version: 3.0.30050 - </message>
+ <ref href=""/></entry>
+<entry code="info" level="info">
+ <message>[info] loaded in 0.53 secs at 2026-04-20T16:37:28 - D:/DJT/Documents/GitHub/davidtauriello/dqc_us_rules/tests/input/testfiles/2023-roll-2025/GURE_instance_2023_2025.xml </message>
+ <ref href="D:/DJT/Documents/GitHub/davidtauriello/dqc_us_rules/tests/input/testfiles/2023-roll-2025/GURE_instance_2023_2025.xml"/></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:AssetsCurrentAbstract" target="us-gaap:AssetsCurrent" linkrole="http://gulfresourcesinc.com/role/BalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:AssetsCurrentAbstract to us-gaap:AssetsCurrent in link role http://gulfresourcesinc.com/role/BalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2083</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/101/17)" sourceLine="2083">
+  <property name="label" value="us-gaap:AssetsCurrent"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="AssetsCurrent"/>
+  <property name="QName" value="us-gaap:AssetsCurrent"/>
+  <property name="id" value="us-gaap_AssetsCurrent"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="60.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:AssetsCurrentAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:AssetsNoncurrentAbstract" target="us-gaap:AssetsNoncurrent" linkrole="http://gulfresourcesinc.com/role/BalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:AssetsNoncurrentAbstract to us-gaap:AssetsNoncurrent in link role http://gulfresourcesinc.com/role/BalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2128</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/101/62)" sourceLine="2128">
+  <property name="label" value="us-gaap:AssetsNoncurrent"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="AssetsNoncurrent"/>
+  <property name="QName" value="us-gaap:AssetsNoncurrent"/>
+  <property name="id" value="us-gaap_AssetsNoncurrent"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="130.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:AssetsNoncurrentAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:LiabilitiesCurrentAbstract" target="us-gaap:LiabilitiesCurrent" linkrole="http://gulfresourcesinc.com/role/BalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:LiabilitiesCurrentAbstract to us-gaap:LiabilitiesCurrent in link role http://gulfresourcesinc.com/role/BalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2108</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/101/42)" sourceLine="2108">
+  <property name="label" value="us-gaap:LiabilitiesCurrent"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="LiabilitiesCurrent"/>
+  <property name="QName" value="us-gaap:LiabilitiesCurrent"/>
+  <property name="id" value="us-gaap_LiabilitiesCurrent"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="220.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:LiabilitiesCurrentAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:LiabilitiesNoncurrentAbstract" target="us-gaap:LiabilitiesNoncurrent" linkrole="http://gulfresourcesinc.com/role/BalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:LiabilitiesNoncurrentAbstract to us-gaap:LiabilitiesNoncurrent in link role http://gulfresourcesinc.com/role/BalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2138</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/101/72)" sourceLine="2138">
+  <property name="label" value="us-gaap:LiabilitiesNoncurrent"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="LiabilitiesNoncurrent"/>
+  <property name="QName" value="us-gaap:LiabilitiesNoncurrent"/>
+  <property name="id" value="us-gaap_LiabilitiesNoncurrent"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="260.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:LiabilitiesNoncurrentAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:LiabilitiesNoncurrentAbstract" target="us-gaap:Liabilities" linkrole="http://gulfresourcesinc.com/role/BalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:LiabilitiesNoncurrentAbstract to us-gaap:Liabilities in link role http://gulfresourcesinc.com/role/BalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2146</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/101/80)" sourceLine="2146">
+  <property name="label" value="us-gaap:Liabilities"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="Liabilities"/>
+  <property name="QName" value="us-gaap:Liabilities"/>
+  <property name="id" value="us-gaap_Liabilities"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="270.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:LiabilitiesNoncurrentAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StockholdersEquityAbstract" target="us-gaap:StockholdersEquity" linkrole="http://gulfresourcesinc.com/role/BalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StockholdersEquityAbstract to us-gaap:StockholdersEquity in link role http://gulfresourcesinc.com/role/BalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2134</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/101/68)" sourceLine="2134">
+  <property name="label" value="us-gaap:StockholdersEquity"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="StockholdersEquity"/>
+  <property name="QName" value="us-gaap:StockholdersEquity"/>
+  <property name="id" value="us-gaap_StockholdersEquity"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="370.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StockholdersEquityAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StockholdersEquityAbstract" target="us-gaap:LiabilitiesAndStockholdersEquity" linkrole="http://gulfresourcesinc.com/role/BalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StockholdersEquityAbstract to us-gaap:LiabilitiesAndStockholdersEquity in link role http://gulfresourcesinc.com/role/BalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2142</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/101/76)" sourceLine="2142">
+  <property name="label" value="us-gaap:LiabilitiesAndStockholdersEquity"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="LiabilitiesAndStockholdersEquity"/>
+  <property name="QName" value="us-gaap:LiabilitiesAndStockholdersEquity"/>
+  <property name="id" value="us-gaap_LiabilitiesAndStockholdersEquity"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="380.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StockholdersEquityAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:SegmentReportingInformationLineItems" target="us-gaap:Revenues" linkrole="http://gulfresourcesinc.com/role/BusinessSegments-ScheduleOfRevenueByMajorCustomersDetails" preferredLabel="http://www.xbrl.org/2003/role/terseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:SegmentReportingInformationLineItems to us-gaap:Revenues in link role http://gulfresourcesinc.com/role/BusinessSegments-ScheduleOfRevenueByMajorCustomersDetails missing preferredLabel http://www.xbrl.org/2003/role/terseLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3566</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/213/3)" sourceLine="3566">
+  <property name="label" value="us-gaap:Revenues"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="Revenues"/>
+  <property name="QName" value="us-gaap:Revenues"/>
+  <property name="id" value="us-gaap_Revenues"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/terseLabel"/>
+  <property name="order" value="0.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:SegmentReportingInformationLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:SegmentReportingAbstract" target="us-gaap:OperatingIncomeLoss" linkrole="http://gulfresourcesinc.com/role/BusinessSegments-ScheduleOfSegmentReconciliationsDetails" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:SegmentReportingAbstract to us-gaap:OperatingIncomeLoss in link role http://gulfresourcesinc.com/role/BusinessSegments-ScheduleOfSegmentReconciliationsDetails missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2320</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/118/9)" sourceLine="2320">
+  <property name="label" value="us-gaap:OperatingIncomeLoss"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="OperatingIncomeLoss"/>
+  <property name="QName" value="us-gaap:OperatingIncomeLoss"/>
+  <property name="id" value="us-gaap_OperatingIncomeLoss"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="30.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:SegmentReportingAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:SegmentReportingInformationLineItems" target="us-gaap:Revenues" linkrole="http://gulfresourcesinc.com/role/BusinessSegments-ScheduleOfSegmentReportingInformationBySegmentDetails" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:SegmentReportingInformationLineItems to us-gaap:Revenues in link role http://gulfresourcesinc.com/role/BusinessSegments-ScheduleOfSegmentReportingInformationBySegmentDetails missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2990</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/175/6)" sourceLine="2990">
+  <property name="label" value="us-gaap:Revenues"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="Revenues"/>
+  <property name="QName" value="us-gaap:Revenues"/>
+  <property name="id" value="us-gaap_Revenues"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="0.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:SegmentReportingInformationLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:SegmentReportingInformationLineItems" target="us-gaap:IncomeTaxExpenseBenefit" linkrole="http://gulfresourcesinc.com/role/BusinessSegments-ScheduleOfSegmentReportingInformationBySegmentDetails" preferredLabel="http://www.xbrl.org/2009/role/negatedTerseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:SegmentReportingInformationLineItems to us-gaap:IncomeTaxExpenseBenefit in link role http://gulfresourcesinc.com/role/BusinessSegments-ScheduleOfSegmentReportingInformationBySegmentDetails missing preferredLabel http://www.xbrl.org/2009/role/negatedTerseLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3025</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/175/41)" sourceLine="3025">
+  <property name="label" value="us-gaap:IncomeTaxExpenseBenefit"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="IncomeTaxExpenseBenefit"/>
+  <property name="QName" value="us-gaap:IncomeTaxExpenseBenefit"/>
+  <property name="id" value="us-gaap_IncomeTaxExpenseBenefit"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedTerseLabel"/>
+  <property name="order" value="30.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:SegmentReportingInformationLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:OperatingExpensesAbstract" target="us-gaap:SellingAndMarketingExpense" linkrole="http://gulfresourcesinc.com/role/CondenesdConsolidatedStatementsOfComprehensiveIncomeLoss" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:OperatingExpensesAbstract to us-gaap:SellingAndMarketingExpense in link role http://gulfresourcesinc.com/role/CondenesdConsolidatedStatementsOfComprehensiveIncomeLoss missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2430</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/129/3)" sourceLine="2430">
+  <property name="label" value="us-gaap:SellingAndMarketingExpense"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="SellingAndMarketingExpense"/>
+  <property name="QName" value="us-gaap:SellingAndMarketingExpense"/>
+  <property name="id" value="us-gaap_SellingAndMarketingExpense"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="40.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:OperatingExpensesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:OperatingExpensesAbstract" target="us-gaap:CostOfGoodsAndServicesSoldOverhead" linkrole="http://gulfresourcesinc.com/role/CondenesdConsolidatedStatementsOfComprehensiveIncomeLoss" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:OperatingExpensesAbstract to us-gaap:CostOfGoodsAndServicesSoldOverhead in link role http://gulfresourcesinc.com/role/CondenesdConsolidatedStatementsOfComprehensiveIncomeLoss missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2437</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/129/10)" sourceLine="2437">
+  <property name="label" value="us-gaap:CostOfGoodsAndServicesSoldOverhead"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="CostOfGoodsAndServicesSoldOverhead"/>
+  <property name="QName" value="us-gaap:CostOfGoodsAndServicesSoldOverhead"/>
+  <property name="id" value="us-gaap_CostOfGoodsAndServicesSoldOverhead"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="50.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:OperatingExpensesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:OperatingExpensesAbstract" target="us-gaap:OperatingIncomeLoss" linkrole="http://gulfresourcesinc.com/role/CondenesdConsolidatedStatementsOfComprehensiveIncomeLoss" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:OperatingExpensesAbstract to us-gaap:OperatingIncomeLoss in link role http://gulfresourcesinc.com/role/CondenesdConsolidatedStatementsOfComprehensiveIncomeLoss missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2467</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/129/40)" sourceLine="2467">
+  <property name="label" value="us-gaap:OperatingIncomeLoss"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="OperatingIncomeLoss"/>
+  <property name="QName" value="us-gaap:OperatingIncomeLoss"/>
+  <property name="id" value="us-gaap_OperatingIncomeLoss"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="90.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:OperatingExpensesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:NonoperatingIncomeExpenseAbstract" target="us-gaap:IncomeTaxExpenseBenefit" linkrole="http://gulfresourcesinc.com/role/CondenesdConsolidatedStatementsOfComprehensiveIncomeLoss" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NonoperatingIncomeExpenseAbstract to us-gaap:IncomeTaxExpenseBenefit in link role http://gulfresourcesinc.com/role/CondenesdConsolidatedStatementsOfComprehensiveIncomeLoss missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2461</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/129/34)" sourceLine="2461">
+  <property name="label" value="us-gaap:IncomeTaxExpenseBenefit"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="IncomeTaxExpenseBenefit"/>
+  <property name="QName" value="us-gaap:IncomeTaxExpenseBenefit"/>
+  <property name="id" value="us-gaap_IncomeTaxExpenseBenefit"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="140.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:NonoperatingIncomeExpenseAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:NonoperatingIncomeExpenseAbstract" target="us-gaap:NetIncomeLoss" linkrole="http://gulfresourcesinc.com/role/CondenesdConsolidatedStatementsOfComprehensiveIncomeLoss" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NonoperatingIncomeExpenseAbstract to us-gaap:NetIncomeLoss in link role http://gulfresourcesinc.com/role/CondenesdConsolidatedStatementsOfComprehensiveIncomeLoss missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2469</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/129/42)" sourceLine="2469">
+  <property name="label" value="us-gaap:NetIncomeLoss"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="NetIncomeLoss"/>
+  <property name="QName" value="us-gaap:NetIncomeLoss"/>
+  <property name="id" value="us-gaap_NetIncomeLoss"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="150.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:NonoperatingIncomeExpenseAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParentAbstract" target="us-gaap:ComprehensiveIncomeNetOfTax" linkrole="http://gulfresourcesinc.com/role/CondenesdConsolidatedStatementsOfComprehensiveIncomeLoss" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParentAbstract to us-gaap:ComprehensiveIncomeNetOfTax in link role http://gulfresourcesinc.com/role/CondenesdConsolidatedStatementsOfComprehensiveIncomeLoss missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2455</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/129/28)" sourceLine="2455">
+  <property name="label" value="us-gaap:ComprehensiveIncomeNetOfTax"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ComprehensiveIncomeNetOfTax"/>
+  <property name="QName" value="us-gaap:ComprehensiveIncomeNetOfTax"/>
+  <property name="id" value="us-gaap_ComprehensiveIncomeNetOfTax"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="190.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParentAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:IncomeTaxDisclosureAbstract" target="us-gaap:DeferredOtherTaxExpenseBenefit" linkrole="http://gulfresourcesinc.com/role/IncomeTaxes-ScheduleOfComponentsOfIncomeTaxExpenseBenefitDetails" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncomeTaxDisclosureAbstract to us-gaap:DeferredOtherTaxExpenseBenefit in link role http://gulfresourcesinc.com/role/IncomeTaxes-ScheduleOfComponentsOfIncomeTaxExpenseBenefitDetails missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 588</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/88/5)" sourceLine="588">
+  <property name="label" value="us-gaap:DeferredOtherTaxExpenseBenefit"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="DeferredOtherTaxExpenseBenefit"/>
+  <property name="QName" value="us-gaap:DeferredOtherTaxExpenseBenefit"/>
+  <property name="id" value="us-gaap_DeferredOtherTaxExpenseBenefit"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="10.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:IncomeTaxDisclosureAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:DeferredTaxAssetsNetAbstract" target="us-gaap:DeferredTaxAssetsGross" linkrole="http://gulfresourcesinc.com/role/IncomeTaxes-ScheduleOfDeferredTaxAssetsAndLiabilitiesDetails" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:DeferredTaxAssetsNetAbstract to us-gaap:DeferredTaxAssetsGross in link role http://gulfresourcesinc.com/role/IncomeTaxes-ScheduleOfDeferredTaxAssetsAndLiabilitiesDetails missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 1943</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/92/18)" sourceLine="1943">
+  <property name="label" value="us-gaap:DeferredTaxAssetsGross"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="DeferredTaxAssetsGross"/>
+  <property name="QName" value="us-gaap:DeferredTaxAssetsGross"/>
+  <property name="id" value="us-gaap_DeferredTaxAssetsGross"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="50.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:DeferredTaxAssetsNetAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:DeferredTaxAssetsNetAbstract" target="us-gaap:DeferredTaxAssetsValuationAllowance" linkrole="http://gulfresourcesinc.com/role/IncomeTaxes-ScheduleOfDeferredTaxAssetsAndLiabilitiesDetails" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:DeferredTaxAssetsNetAbstract to us-gaap:DeferredTaxAssetsValuationAllowance in link role http://gulfresourcesinc.com/role/IncomeTaxes-ScheduleOfDeferredTaxAssetsAndLiabilitiesDetails missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 1933</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/92/8)" sourceLine="1933">
+  <property name="label" value="us-gaap:DeferredTaxAssetsValuationAllowance"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="DeferredTaxAssetsValuationAllowance"/>
+  <property name="QName" value="us-gaap:DeferredTaxAssetsValuationAllowance"/>
+  <property name="id" value="us-gaap_DeferredTaxAssetsValuationAllowance"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="60.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:DeferredTaxAssetsNetAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:DeferredTaxAssetsNetAbstract" target="us-gaap:DeferredTaxAssetsLiabilitiesNet" linkrole="http://gulfresourcesinc.com/role/IncomeTaxes-ScheduleOfDeferredTaxAssetsAndLiabilitiesDetails" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:DeferredTaxAssetsNetAbstract to us-gaap:DeferredTaxAssetsLiabilitiesNet in link role http://gulfresourcesinc.com/role/IncomeTaxes-ScheduleOfDeferredTaxAssetsAndLiabilitiesDetails missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 1939</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/92/14)" sourceLine="1939">
+  <property name="label" value="us-gaap:DeferredTaxAssetsLiabilitiesNet"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="DeferredTaxAssetsLiabilitiesNet"/>
+  <property name="QName" value="us-gaap:DeferredTaxAssetsLiabilitiesNet"/>
+  <property name="id" value="us-gaap_DeferredTaxAssetsLiabilitiesNet"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="70.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:DeferredTaxAssetsNetAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract" target="us-gaap:FinanceLeaseLiabilityCurrent" linkrole="http://gulfresourcesinc.com/role/LeaseLiabilities-FinanceAndOperatingLease-ScheduleOfFinanceLeasedLiabilitiesDetails" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract to us-gaap:FinanceLeaseLiabilityCurrent in link role http://gulfresourcesinc.com/role/LeaseLiabilities-FinanceAndOperatingLease-ScheduleOfFinanceLeasedLiabilitiesDetails missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3641</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/217/3)" sourceLine="3641">
+  <property name="label" value="us-gaap:FinanceLeaseLiabilityCurrent"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="FinanceLeaseLiabilityCurrent"/>
+  <property name="QName" value="us-gaap:FinanceLeaseLiabilityCurrent"/>
+  <property name="id" value="us-gaap_FinanceLeaseLiabilityCurrent"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="20.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract" target="us-gaap:FinanceLeaseLiabilityUndiscountedExcessAmount" linkrole="http://gulfresourcesinc.com/role/LeaseLiabilities-FinanceAndOperatingLease-ScheduleOfFinancingAndOperatingLeaseMaturitiesDetails" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract to us-gaap:FinanceLeaseLiabilityUndiscountedExcessAmount in link role http://gulfresourcesinc.com/role/LeaseLiabilities-FinanceAndOperatingLease-ScheduleOfFinancingAndOperatingLeaseMaturitiesDetails missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2261</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/109/31)" sourceLine="2261">
+  <property name="label" value="us-gaap:FinanceLeaseLiabilityUndiscountedExcessAmount"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="FinanceLeaseLiabilityUndiscountedExcessAmount"/>
+  <property name="QName" value="us-gaap:FinanceLeaseLiabilityUndiscountedExcessAmount"/>
+  <property name="id" value="us-gaap_FinanceLeaseLiabilityUndiscountedExcessAmount"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="140.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract" target="us-gaap:LesseeOperatingLeaseLiabilityUndiscountedExcessAmount" linkrole="http://gulfresourcesinc.com/role/LeaseLiabilities-FinanceAndOperatingLease-ScheduleOfFinancingAndOperatingLeaseMaturitiesDetails" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract to us-gaap:LesseeOperatingLeaseLiabilityUndiscountedExcessAmount in link role http://gulfresourcesinc.com/role/LeaseLiabilities-FinanceAndOperatingLease-ScheduleOfFinancingAndOperatingLeaseMaturitiesDetails missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2267</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/109/37)" sourceLine="2267">
+  <property name="label" value="us-gaap:LesseeOperatingLeaseLiabilityUndiscountedExcessAmount"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="LesseeOperatingLeaseLiabilityUndiscountedExcessAmount"/>
+  <property name="QName" value="us-gaap:LesseeOperatingLeaseLiabilityUndiscountedExcessAmount"/>
+  <property name="id" value="us-gaap_LesseeOperatingLeaseLiabilityUndiscountedExcessAmount"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="150.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract" target="us-gaap:FinanceLeaseLiability" linkrole="http://gulfresourcesinc.com/role/LeaseLiabilities-FinanceAndOperatingLease-ScheduleOfFinancingAndOperatingLeaseMaturitiesDetails" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract to us-gaap:FinanceLeaseLiability in link role http://gulfresourcesinc.com/role/LeaseLiabilities-FinanceAndOperatingLease-ScheduleOfFinancingAndOperatingLeaseMaturitiesDetails missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2239</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/109/9)" sourceLine="2239">
+  <property name="label" value="us-gaap:FinanceLeaseLiability"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="FinanceLeaseLiability"/>
+  <property name="QName" value="us-gaap:FinanceLeaseLiability"/>
+  <property name="id" value="us-gaap_FinanceLeaseLiability"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="160.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract" target="us-gaap:OperatingLeaseLiability" linkrole="http://gulfresourcesinc.com/role/LeaseLiabilities-FinanceAndOperatingLease-ScheduleOfFinancingAndOperatingLeaseMaturitiesDetails" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract to us-gaap:OperatingLeaseLiability in link role http://gulfresourcesinc.com/role/LeaseLiabilities-FinanceAndOperatingLease-ScheduleOfFinancingAndOperatingLeaseMaturitiesDetails missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 2245</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/109/15)" sourceLine="2245">
+  <property name="label" value="us-gaap:OperatingLeaseLiability"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="OperatingLeaseLiability"/>
+  <property name="QName" value="us-gaap:OperatingLeaseLiability"/>
+  <property name="id" value="us-gaap_OperatingLeaseLiability"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="170.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract" target="us-gaap:OperatingLeaseLiabilityCurrent" linkrole="http://gulfresourcesinc.com/role/LeaseLiabilities-FinanceAndOperatingLease-ScheduleOfOperatingLeasedLiabilitiesDetails" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract to us-gaap:OperatingLeaseLiabilityCurrent in link role http://gulfresourcesinc.com/role/LeaseLiabilities-FinanceAndOperatingLease-ScheduleOfOperatingLeasedLiabilitiesDetails missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3858</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/241/5)" sourceLine="3858">
+  <property name="label" value="us-gaap:OperatingLeaseLiabilityCurrent"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="OperatingLeaseLiabilityCurrent"/>
+  <property name="QName" value="us-gaap:OperatingLeaseLiabilityCurrent"/>
+  <property name="id" value="us-gaap_OperatingLeaseLiabilityCurrent"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="20.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="gulfresourcesinc.com:DisclosureLeaseLiabilitiesfinanceAndOperatingLeaseAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementLineItems" target="us-gaap:StockholdersEquity" linkrole="http://gulfresourcesinc.com/role/StatementOfStockholdersEquity" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:StockholdersEquity in link role http://gulfresourcesinc.com/role/StatementOfStockholdersEquity missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3521</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/210/12)" sourceLine="3521">
+  <property name="label" value="us-gaap:StockholdersEquity"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="StockholdersEquity"/>
+  <property name="QName" value="us-gaap:StockholdersEquity"/>
+  <property name="id" value="us-gaap_StockholdersEquity"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
+  <property name="order" value="10.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementLineItems" target="us-gaap:SharesIssued" linkrole="http://gulfresourcesinc.com/role/StatementOfStockholdersEquity" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:SharesIssued in link role http://gulfresourcesinc.com/role/StatementOfStockholdersEquity missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3531</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/210/22)" sourceLine="3531">
+  <property name="label" value="us-gaap:SharesIssued"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="SharesIssued"/>
+  <property name="QName" value="us-gaap:SharesIssued"/>
+  <property name="id" value="us-gaap_SharesIssued"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:sharesItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
+  <property name="order" value="20.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementLineItems" target="us-gaap:StockholdersEquity" linkrole="http://gulfresourcesinc.com/role/StatementOfStockholdersEquity" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:StockholdersEquity in link role http://gulfresourcesinc.com/role/StatementOfStockholdersEquity missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3548</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/210/39)" sourceLine="3548">
+  <property name="label" value="us-gaap:StockholdersEquity"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="StockholdersEquity"/>
+  <property name="QName" value="us-gaap:StockholdersEquity"/>
+  <property name="id" value="us-gaap_StockholdersEquity"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
+  <property name="order" value="60.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementLineItems" target="us-gaap:SharesIssued" linkrole="http://gulfresourcesinc.com/role/StatementOfStockholdersEquity" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:SharesIssued in link role http://gulfresourcesinc.com/role/StatementOfStockholdersEquity missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3525</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/210/16)" sourceLine="3525">
+  <property name="label" value="us-gaap:SharesIssued"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="SharesIssued"/>
+  <property name="QName" value="us-gaap:SharesIssued"/>
+  <property name="id" value="us-gaap_SharesIssued"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:sharesItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
+  <property name="order" value="70.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:NetCashProvidedByUsedInOperatingActivitiesAbstract" target="us-gaap:NetIncomeLoss" linkrole="http://gulfresourcesinc.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInOperatingActivitiesAbstract to us-gaap:NetIncomeLoss in link role http://gulfresourcesinc.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3164</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/190/15)" sourceLine="3164">
+  <property name="label" value="us-gaap:NetIncomeLoss"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="NetIncomeLoss"/>
+  <property name="QName" value="us-gaap:NetIncomeLoss"/>
+  <property name="id" value="us-gaap_NetIncomeLoss"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="10.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:NetCashProvidedByUsedInOperatingActivitiesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract" target="us-gaap:IncreaseDecreaseInAccountsReceivable" linkrole="http://gulfresourcesinc.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncreaseDecreaseInOperatingCapitalAbstract to us-gaap:IncreaseDecreaseInAccountsReceivable in link role http://gulfresourcesinc.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3176</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/190/27)" sourceLine="3176">
+  <property name="label" value="us-gaap:IncreaseDecreaseInAccountsReceivable"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="IncreaseDecreaseInAccountsReceivable"/>
+  <property name="QName" value="us-gaap:IncreaseDecreaseInAccountsReceivable"/>
+  <property name="id" value="us-gaap_IncreaseDecreaseInAccountsReceivable"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="80.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract" target="us-gaap:IncreaseDecreaseInInventories" linkrole="http://gulfresourcesinc.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncreaseDecreaseInOperatingCapitalAbstract to us-gaap:IncreaseDecreaseInInventories in link role http://gulfresourcesinc.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3186</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/190/37)" sourceLine="3186">
+  <property name="label" value="us-gaap:IncreaseDecreaseInInventories"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="IncreaseDecreaseInInventories"/>
+  <property name="QName" value="us-gaap:IncreaseDecreaseInInventories"/>
+  <property name="id" value="us-gaap_IncreaseDecreaseInInventories"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="90.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract" target="us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets" linkrole="http://gulfresourcesinc.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncreaseDecreaseInOperatingCapitalAbstract to us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets in link role http://gulfresourcesinc.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3194</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/190/45)" sourceLine="3194">
+  <property name="label" value="us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets"/>
+  <property name="QName" value="us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets"/>
+  <property name="id" value="us-gaap_IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="100.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract" target="us-gaap:IncreaseDecreaseInOtherReceivables" linkrole="http://gulfresourcesinc.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncreaseDecreaseInOperatingCapitalAbstract to us-gaap:IncreaseDecreaseInOtherReceivables in link role http://gulfresourcesinc.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3202</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/190/53)" sourceLine="3202">
+  <property name="label" value="us-gaap:IncreaseDecreaseInOtherReceivables"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="IncreaseDecreaseInOtherReceivables"/>
+  <property name="QName" value="us-gaap:IncreaseDecreaseInOtherReceivables"/>
+  <property name="id" value="us-gaap_IncreaseDecreaseInOtherReceivables"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="110.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract" target="us-gaap:NetCashProvidedByUsedInOperatingActivities" linkrole="http://gulfresourcesinc.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncreaseDecreaseInOperatingCapitalAbstract to us-gaap:NetCashProvidedByUsedInOperatingActivities in link role http://gulfresourcesinc.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3188</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/190/39)" sourceLine="3188">
+  <property name="label" value="us-gaap:NetCashProvidedByUsedInOperatingActivities"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="NetCashProvidedByUsedInOperatingActivities"/>
+  <property name="QName" value="us-gaap:NetCashProvidedByUsedInOperatingActivities"/>
+  <property name="id" value="us-gaap_NetCashProvidedByUsedInOperatingActivities"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="150.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract" target="us-gaap:NetCashProvidedByUsedInInvestingActivities" linkrole="http://gulfresourcesinc.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract to us-gaap:NetCashProvidedByUsedInInvestingActivities in link role http://gulfresourcesinc.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3158</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/190/9)" sourceLine="3158">
+  <property name="label" value="us-gaap:NetCashProvidedByUsedInInvestingActivities"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="NetCashProvidedByUsedInInvestingActivities"/>
+  <property name="QName" value="us-gaap:NetCashProvidedByUsedInInvestingActivities"/>
+  <property name="id" value="us-gaap_NetCashProvidedByUsedInInvestingActivities"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="180.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:CompensationRelatedCostsAbstract" target="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber" linkrole="http://gulfresourcesinc.com/role/Stock-basedCompensation-ScheduleOfStockOptionActivityDetails" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:CompensationRelatedCostsAbstract to us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber in link role http://gulfresourcesinc.com/role/Stock-basedCompensation-ScheduleOfStockOptionActivityDetails missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3292</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/195/21)" sourceLine="3292">
+  <property name="label" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="QName" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="id" value="us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:sharesItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
+  <property name="order" value="0.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:CompensationRelatedCostsAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:CompensationRelatedCostsAbstract" target="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice" linkrole="http://gulfresourcesinc.com/role/Stock-basedCompensation-ScheduleOfStockOptionActivityDetails" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:CompensationRelatedCostsAbstract to us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice in link role http://gulfresourcesinc.com/role/Stock-basedCompensation-ScheduleOfStockOptionActivityDetails missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3290</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/195/19)" sourceLine="3290">
+  <property name="label" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="QName" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="id" value="us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="dtr-types:perShareItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
+  <property name="order" value="10.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:CompensationRelatedCostsAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:CompensationRelatedCostsAbstract" target="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber" linkrole="http://gulfresourcesinc.com/role/Stock-basedCompensation-ScheduleOfStockOptionActivityDetails" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:CompensationRelatedCostsAbstract to us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber in link role http://gulfresourcesinc.com/role/Stock-basedCompensation-ScheduleOfStockOptionActivityDetails missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3280</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/195/9)" sourceLine="3280">
+  <property name="label" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="QName" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="id" value="us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:sharesItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
+  <property name="order" value="120.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:CompensationRelatedCostsAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:CompensationRelatedCostsAbstract" target="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice" linkrole="http://gulfresourcesinc.com/role/Stock-basedCompensation-ScheduleOfStockOptionActivityDetails" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:CompensationRelatedCostsAbstract to us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice in link role http://gulfresourcesinc.com/role/Stock-basedCompensation-ScheduleOfStockOptionActivityDetails missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd 3288</message>
+ <ref href="GURE_taxonomy_2023_2025.zip/GURE_taxonomy_2023_2025/GURE-20251231.xsd#element(/1/1/1/86/195/17)" sourceLine="3288">
+  <property name="label" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="QName" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="id" value="us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="dtr-types:perShareItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
+  <property name="order" value="130.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:CompensationRelatedCostsAbstract"/>
+ </ref></entry>
+<entry code="xule.buildIndexTime" level="debug">
+ <message>[xule.buildIndexTime] Index build time 0:00:00.093555. - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml"/></entry>
+<entry code="xule.ruleDebug" level="debug">
+ <message>[xule.ruleDebug] Processing: DQC.US.0109.9571 - 16:37:39.386047 - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml"/></entry>
+<entry code="xule.ruleDebug" level="debug">
+ <message>[xule.ruleDebug] D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml"/></entry>
+<entry code="xule.otherTaxonomyLoadTime" level="debug">
+ <message>[xule.otherTaxonomyLoadTime] Load taxonomy time 0:00:22.449412 from 'https://xbrl.fasb.org/us-gaap/2025/entire/us-gaap-entryPoint-std-2025.xsd' - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml"/></entry>
+<entry code="DQC.US.0109.9571" level="error">
+ <message filing_url="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml" severity="error" effectiveDate="2021-09-01" cid="1838317169360">[DQC.US.0109.9571] The concept us-gaap:ConcentrationRiskPercentage1 with value 0.49 is used with the ConcentrationRiskByBenchmarkAxis with a benchmark of us-gaap:CustomerConcentrationRiskMember.  This is an invalid benchmark as it is an actual type of risk and not a benchmark. The benchmark should reflect the accounting concept that the risk applies to such as revenues, receivables, loans etc.
+
+The properties of this us-gaap:ConcentrationRiskPercentage1 fact are:
+
+Period :2022-01-01 to 2022-03-31
+Dimensions : us-gaap:ConcentrationRiskByBenchmarkAxis=us-gaap:CustomerConcentrationRiskMember
+Unit : pure
+
+
+Rule Element Id:9571
+Rule version: 29.0.2 - GURE_instance_2023_2025.xml 4044</message>
+ <ref href="GURE_instance_2023_2025.xml#f378" sourceLine="4044">
+  <property name="label" value="Percentage of total revenue"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ConcentrationRiskPercentage1"/>
+  <property name="QName" value="us-gaap:ConcentrationRiskPercentage1"/>
+  <property name="contextRef" value="c105">
+   <property name="entity" value="0000885462">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2022-01-01"/>
+   <property name="endDate" value="2022-03-31"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:ConcentrationRiskByBenchmarkAxis" value="us-gaap:CustomerConcentrationRiskMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="pure (pure)">
+   <property name="measure" value="xbrli:pure"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="0.49"/>
+ </ref></entry>
+<entry code="DQC.US.0109.9571" level="error">
+ <message filing_url="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml" severity="error" effectiveDate="2021-09-01" cid="1838317169360">[DQC.US.0109.9571] The concept us-gaap:ConcentrationRiskPercentage1 with value 0.64 is used with the ConcentrationRiskByBenchmarkAxis with a benchmark of us-gaap:CustomerConcentrationRiskMember.  This is an invalid benchmark as it is an actual type of risk and not a benchmark. The benchmark should reflect the accounting concept that the risk applies to such as revenues, receivables, loans etc.
+
+The properties of this us-gaap:ConcentrationRiskPercentage1 fact are:
+
+Period :2023-01-01 to 2023-03-31
+Dimensions : us-gaap:ConcentrationRiskByBenchmarkAxis=us-gaap:CustomerConcentrationRiskMember
+Unit : pure
+
+
+Rule Element Id:9571
+Rule version: 29.0.2 - GURE_instance_2023_2025.xml 3836</message>
+ <ref href="GURE_instance_2023_2025.xml#f345" sourceLine="3836">
+  <property name="label" value="Percentage of total revenue"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ConcentrationRiskPercentage1"/>
+  <property name="QName" value="us-gaap:ConcentrationRiskPercentage1"/>
+  <property name="contextRef" value="c100">
+   <property name="entity" value="0000885462">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2023-01-01"/>
+   <property name="endDate" value="2023-03-31"/>
+   <property name="dimensions" value="(1)">
+    <property name="us-gaap:ConcentrationRiskByBenchmarkAxis" value="us-gaap:CustomerConcentrationRiskMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="pure (pure)">
+   <property name="measure" value="xbrli:pure"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="0.64"/>
+ </ref></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] DQC.US.0109.9571 time took: 28.4875 - 16:38:07.874260  - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Total number of rules processed: 1 - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Number of rules over 0.005s: 1 - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Rule DQC.US.0109.9571 end. Took 0:00:28.487500 - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Total time to process: 0:00:28.583074. - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\GURE_instance_2023_2025.xml"/></entry>
+<entry code="info" level="info">
+ <message>[info] validated in 38.51 secs - D:/DJT/Documents/GitHub/davidtauriello/dqc_us_rules/tests/input/testfiles/2023-roll-2025/GURE_instance_2023_2025.xml </message>
+ <ref href="D:/DJT/Documents/GitHub/davidtauriello/dqc_us_rules/tests/input/testfiles/2023-roll-2025/GURE_instance_2023_2025.xml"/></entry>
+</log>

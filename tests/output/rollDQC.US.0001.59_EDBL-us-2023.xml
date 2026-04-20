@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in DQC Rules Validator successful, version Check version using Tools->DQC->Version on the GUI or --dqc-version on the command line. - validate/DQC </message>
+ <ref href="validate/DQC"/></entry>
+<entry code="info" level="info">
+ <message>[info] Xule version: 3.0.30050 - </message>
+ <ref href=""/></entry>
+<entry code="info" level="info">
+ <message>[info] loaded in 0.82 secs at 2026-04-20T16:21:29 - D:/DJT/Documents/GitHub/davidtauriello/dqc_us_rules/tests/input/testfiles/2023-roll-2025/EDBL_instance_2023_2025.xml </message>
+ <ref href="D:/DJT/Documents/GitHub/davidtauriello/dqc_us_rules/tests/input/testfiles/2023-roll-2025/EDBL_instance_2023_2025.xml"/></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:PayablesAndAccrualsAbstract" target="us-gaap:AccountsPayableAndAccruedLiabilitiesDisclosureTextBlock" linkrole="http://edbl.com/role/AccountsPayableAndAccruedExpenses" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:PayablesAndAccrualsAbstract to us-gaap:AccountsPayableAndAccruedLiabilitiesDisclosureTextBlock in link role http://edbl.com/role/AccountsPayableAndAccruedExpenses missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2147</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/85/3)" sourceLine="2147">
+  <property name="label" value="us-gaap:AccountsPayableAndAccruedLiabilitiesDisclosureTextBlock"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="AccountsPayableAndAccruedLiabilitiesDisclosureTextBlock"/>
+  <property name="QName" value="us-gaap:AccountsPayableAndAccruedLiabilitiesDisclosureTextBlock"/>
+  <property name="id" value="us-gaap_AccountsPayableAndAccruedLiabilitiesDisclosureTextBlock"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="dtr-types:textBlockItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="1.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:PayablesAndAccrualsAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:AssetsCurrentAbstract" target="us-gaap:Assets" linkrole="http://edbl.com/role/ConsolidatedBalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:AssetsCurrentAbstract to us-gaap:Assets in link role http://edbl.com/role/ConsolidatedBalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2424</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/102/58)" sourceLine="2424">
+  <property name="label" value="us-gaap:Assets"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="Assets"/>
+  <property name="QName" value="us-gaap:Assets"/>
+  <property name="id" value="us-gaap_Assets"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="11.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:AssetsCurrentAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:LiabilitiesNoncurrentAbstract" target="us-gaap:Liabilities" linkrole="http://edbl.com/role/ConsolidatedBalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:LiabilitiesNoncurrentAbstract to us-gaap:Liabilities in link role http://edbl.com/role/ConsolidatedBalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2418</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/102/52)" sourceLine="2418">
+  <property name="label" value="us-gaap:Liabilities"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="Liabilities"/>
+  <property name="QName" value="us-gaap:Liabilities"/>
+  <property name="id" value="us-gaap_Liabilities"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="22.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:LiabilitiesNoncurrentAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StockholdersEquityAbstract" target="us-gaap:LiabilitiesAndStockholdersEquity" linkrole="http://edbl.com/role/ConsolidatedBalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StockholdersEquityAbstract to us-gaap:LiabilitiesAndStockholdersEquity in link role http://edbl.com/role/ConsolidatedBalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2379</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/102/13)" sourceLine="2379">
+  <property name="label" value="us-gaap:LiabilitiesAndStockholdersEquity"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="LiabilitiesAndStockholdersEquity"/>
+  <property name="QName" value="us-gaap:LiabilitiesAndStockholdersEquity"/>
+  <property name="id" value="us-gaap_LiabilitiesAndStockholdersEquity"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="30.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StockholdersEquityAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementLineItems" target="us-gaap:SharesIssued" linkrole="http://edbl.com/role/ConsolidatedStatementOfStockholdersDeficit" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:SharesIssued in link role http://edbl.com/role/ConsolidatedStatementOfStockholdersDeficit missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2626</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/115/37)" sourceLine="2626">
+  <property name="label" value="us-gaap:SharesIssued"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="SharesIssued"/>
+  <property name="QName" value="us-gaap:SharesIssued"/>
+  <property name="id" value="us-gaap_SharesIssued"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:sharesItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
+  <property name="order" value="1.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementLineItems" target="us-gaap:SharesIssued" linkrole="http://edbl.com/role/ConsolidatedStatementOfStockholdersDeficit" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:SharesIssued in link role http://edbl.com/role/ConsolidatedStatementOfStockholdersDeficit missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2622</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/115/33)" sourceLine="2622">
+  <property name="label" value="us-gaap:SharesIssued"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="SharesIssued"/>
+  <property name="QName" value="us-gaap:SharesIssued"/>
+  <property name="id" value="us-gaap_SharesIssued"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:sharesItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
+  <property name="order" value="21.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:NetCashProvidedByUsedInOperatingActivitiesAbstract" target="us-gaap:ProfitLoss" linkrole="http://edbl.com/role/ConsolidatedStatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInOperatingActivitiesAbstract to us-gaap:ProfitLoss in link role http://edbl.com/role/ConsolidatedStatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3008</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/133/27)" sourceLine="3008">
+  <property name="label" value="us-gaap:ProfitLoss"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ProfitLoss"/>
+  <property name="QName" value="us-gaap:ProfitLoss"/>
+  <property name="id" value="us-gaap_ProfitLoss"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="2.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:NetCashProvidedByUsedInOperatingActivitiesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract" target="us-gaap:GainsLossesOnExtinguishmentOfDebt" linkrole="http://edbl.com/role/ConsolidatedStatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract to us-gaap:GainsLossesOnExtinguishmentOfDebt in link role http://edbl.com/role/ConsolidatedStatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3064</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/133/83)" sourceLine="3064">
+  <property name="label" value="us-gaap:GainsLossesOnExtinguishmentOfDebt"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="GainsLossesOnExtinguishmentOfDebt"/>
+  <property name="QName" value="us-gaap:GainsLossesOnExtinguishmentOfDebt"/>
+  <property name="id" value="us-gaap_GainsLossesOnExtinguishmentOfDebt"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="9.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract" target="us-gaap:IncreaseDecreaseInAccountsReceivable" linkrole="http://edbl.com/role/ConsolidatedStatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncreaseDecreaseInOperatingCapitalAbstract to us-gaap:IncreaseDecreaseInAccountsReceivable in link role http://edbl.com/role/ConsolidatedStatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3020</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/133/39)" sourceLine="3020">
+  <property name="label" value="us-gaap:IncreaseDecreaseInAccountsReceivable"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="IncreaseDecreaseInAccountsReceivable"/>
+  <property name="QName" value="us-gaap:IncreaseDecreaseInAccountsReceivable"/>
+  <property name="id" value="us-gaap_IncreaseDecreaseInAccountsReceivable"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="15.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract" target="us-gaap:IncreaseDecreaseInInventories" linkrole="http://edbl.com/role/ConsolidatedStatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncreaseDecreaseInOperatingCapitalAbstract to us-gaap:IncreaseDecreaseInInventories in link role http://edbl.com/role/ConsolidatedStatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3028</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/133/47)" sourceLine="3028">
+  <property name="label" value="us-gaap:IncreaseDecreaseInInventories"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="IncreaseDecreaseInInventories"/>
+  <property name="QName" value="us-gaap:IncreaseDecreaseInInventories"/>
+  <property name="id" value="us-gaap_IncreaseDecreaseInInventories"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="16.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract" target="us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets" linkrole="http://edbl.com/role/ConsolidatedStatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncreaseDecreaseInOperatingCapitalAbstract to us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets in link role http://edbl.com/role/ConsolidatedStatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3044</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/133/63)" sourceLine="3044">
+  <property name="label" value="us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets"/>
+  <property name="QName" value="us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets"/>
+  <property name="id" value="us-gaap_IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="17.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract" target="us-gaap:IncreaseDecreaseInOtherOperatingAssets" linkrole="http://edbl.com/role/ConsolidatedStatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncreaseDecreaseInOperatingCapitalAbstract to us-gaap:IncreaseDecreaseInOtherOperatingAssets in link role http://edbl.com/role/ConsolidatedStatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3052</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/133/71)" sourceLine="3052">
+  <property name="label" value="us-gaap:IncreaseDecreaseInOtherOperatingAssets"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="IncreaseDecreaseInOtherOperatingAssets"/>
+  <property name="QName" value="us-gaap:IncreaseDecreaseInOtherOperatingAssets"/>
+  <property name="id" value="us-gaap_IncreaseDecreaseInOtherOperatingAssets"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="18.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract" target="us-gaap:PaymentsToAcquirePropertyPlantAndEquipment" linkrole="http://edbl.com/role/ConsolidatedStatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract to us-gaap:PaymentsToAcquirePropertyPlantAndEquipment in link role http://edbl.com/role/ConsolidatedStatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2997</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/133/16)" sourceLine="2997">
+  <property name="label" value="us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="PaymentsToAcquirePropertyPlantAndEquipment"/>
+  <property name="QName" value="us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"/>
+  <property name="id" value="us-gaap_PaymentsToAcquirePropertyPlantAndEquipment"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="23.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract" target="us-gaap:PaymentsToAcquireIntangibleAssets" linkrole="http://edbl.com/role/ConsolidatedStatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract to us-gaap:PaymentsToAcquireIntangibleAssets in link role http://edbl.com/role/ConsolidatedStatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3006</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/133/25)" sourceLine="3006">
+  <property name="label" value="us-gaap:PaymentsToAcquireIntangibleAssets"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="PaymentsToAcquireIntangibleAssets"/>
+  <property name="QName" value="us-gaap:PaymentsToAcquireIntangibleAssets"/>
+  <property name="id" value="us-gaap_PaymentsToAcquireIntangibleAssets"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="24.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:NetCashProvidedByUsedInFinancingActivitiesAbstract" target="edbl.com:PaymentOfCostsRelatedToPublicOfferings" linkrole="http://edbl.com/role/ConsolidatedStatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInFinancingActivitiesAbstract to edbl.com:PaymentOfCostsRelatedToPublicOfferings in link role http://edbl.com/role/ConsolidatedStatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3068</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/133/87)" sourceLine="3068">
+  <property name="label" value="edbl.com:PaymentOfCostsRelatedToPublicOfferings"/>
+  <property name="namespace" value="http://edbl.com/20251231"/>
+  <property name="name" value="PaymentOfCostsRelatedToPublicOfferings"/>
+  <property name="QName" value="edbl.com:PaymentOfCostsRelatedToPublicOfferings"/>
+  <property name="id" value="edbl_PaymentOfCostsRelatedToPublicOfferings"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="32.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:NetCashProvidedByUsedInFinancingActivitiesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:IncomeStatementAbstract" target="us-gaap:GrossProfit" linkrole="http://edbl.com/role/ConsolidatedStatementsOfOperations" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncomeStatementAbstract to us-gaap:GrossProfit in link role http://edbl.com/role/ConsolidatedStatementsOfOperations missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3780</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/192/3)" sourceLine="3780">
+  <property name="label" value="us-gaap:GrossProfit"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="GrossProfit"/>
+  <property name="QName" value="us-gaap:GrossProfit"/>
+  <property name="id" value="us-gaap_GrossProfit"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="3.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:IncomeStatementAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:OtherNonoperatingIncomeExpenseAbstract" target="us-gaap:InterestExpense" linkrole="http://edbl.com/role/ConsolidatedStatementsOfOperations" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:OtherNonoperatingIncomeExpenseAbstract to us-gaap:InterestExpense in link role http://edbl.com/role/ConsolidatedStatementsOfOperations missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3803</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/192/26)" sourceLine="3803">
+  <property name="label" value="us-gaap:InterestExpense"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="InterestExpense"/>
+  <property name="QName" value="us-gaap:InterestExpense"/>
+  <property name="id" value="us-gaap_InterestExpense"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="8.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:OtherNonoperatingIncomeExpenseAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="edbl.com:GoingConcernAbstract" target="us-gaap:SubstantialDoubtAboutGoingConcernTextBlock" linkrole="http://edbl.com/role/GoingConcern" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from edbl.com:GoingConcernAbstract to us-gaap:SubstantialDoubtAboutGoingConcernTextBlock in link role http://edbl.com/role/GoingConcern missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3830</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/196/3)" sourceLine="3830">
+  <property name="label" value="us-gaap:SubstantialDoubtAboutGoingConcernTextBlock"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="SubstantialDoubtAboutGoingConcernTextBlock"/>
+  <property name="QName" value="us-gaap:SubstantialDoubtAboutGoingConcernTextBlock"/>
+  <property name="id" value="us-gaap_SubstantialDoubtAboutGoingConcernTextBlock"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="dtr-types:textBlockItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="1.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="edbl.com:GoingConcernAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:InventoryDisclosureAbstract" target="us-gaap:InventoryDisclosureTextBlock" linkrole="http://edbl.com/role/INVENTORY" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:InventoryDisclosureAbstract to us-gaap:InventoryDisclosureTextBlock in link role http://edbl.com/role/INVENTORY missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3761</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/189/3)" sourceLine="3761">
+  <property name="label" value="us-gaap:InventoryDisclosureTextBlock"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="InventoryDisclosureTextBlock"/>
+  <property name="QName" value="us-gaap:InventoryDisclosureTextBlock"/>
+  <property name="id" value="us-gaap_InventoryDisclosureTextBlock"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="dtr-types:textBlockItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="1.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:InventoryDisclosureAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:GoodwillAndIntangibleAssetsDisclosureAbstract" target="us-gaap:IntangibleAssetsDisclosureTextBlock" linkrole="http://edbl.com/role/IntangibleAssets" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:GoodwillAndIntangibleAssetsDisclosureAbstract to us-gaap:IntangibleAssetsDisclosureTextBlock in link role http://edbl.com/role/IntangibleAssets missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2218</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/92/3)" sourceLine="2218">
+  <property name="label" value="us-gaap:IntangibleAssetsDisclosureTextBlock"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="IntangibleAssetsDisclosureTextBlock"/>
+  <property name="QName" value="us-gaap:IntangibleAssetsDisclosureTextBlock"/>
+  <property name="id" value="us-gaap_IntangibleAssetsDisclosureTextBlock"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="dtr-types:textBlockItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="1.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:GoodwillAndIntangibleAssetsDisclosureAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementLineItems" target="us-gaap:FiniteLivedIntangibleAssetsNet" linkrole="http://edbl.com/role/IntangibleAssetsDetails" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:FiniteLivedIntangibleAssetsNet in link role http://edbl.com/role/IntangibleAssetsDetails missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3101</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/134/21)" sourceLine="3101">
+  <property name="label" value="us-gaap:FiniteLivedIntangibleAssetsNet"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="FiniteLivedIntangibleAssetsNet"/>
+  <property name="QName" value="us-gaap:FiniteLivedIntangibleAssetsNet"/>
+  <property name="id" value="us-gaap_FiniteLivedIntangibleAssetsNet"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="3.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:InventoryDisclosureAbstract" target="us-gaap:InventoryNet" linkrole="http://edbl.com/role/InventoryDetails" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:InventoryDisclosureAbstract to us-gaap:InventoryNet in link role http://edbl.com/role/InventoryDetails missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3596</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/175/3)" sourceLine="3596">
+  <property name="label" value="us-gaap:InventoryNet"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="InventoryNet"/>
+  <property name="QName" value="us-gaap:InventoryNet"/>
+  <property name="id" value="us-gaap_InventoryNet"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="4.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:InventoryDisclosureAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:LeasesAbstract" target="edbl.com:OperatingLeaseLiabilities" linkrole="http://edbl.com/role/LeasesDetails" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:LeasesAbstract to edbl.com:OperatingLeaseLiabilities in link role http://edbl.com/role/LeasesDetails missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2196</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/89/3)" sourceLine="2196">
+  <property name="label" value="edbl.com:OperatingLeaseLiabilities"/>
+  <property name="namespace" value="http://edbl.com/20251231"/>
+  <property name="name" value="OperatingLeaseLiabilities"/>
+  <property name="QName" value="edbl.com:OperatingLeaseLiabilities"/>
+  <property name="id" value="edbl_OperatingLeaseLiabilities"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="2.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:LeasesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:LeasesAbstract" target="edbl.com:OperatingLeaseLiabilities" linkrole="http://edbl.com/role/LeasesDetails1" preferredLabel="http://www.xbrl.org/2003/role/terseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:LeasesAbstract to edbl.com:OperatingLeaseLiabilities in link role http://edbl.com/role/LeasesDetails1 missing preferredLabel http://www.xbrl.org/2003/role/terseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3766</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/190/3)" sourceLine="3766">
+  <property name="label" value="edbl.com:OperatingLeaseLiabilities"/>
+  <property name="namespace" value="http://edbl.com/20251231"/>
+  <property name="name" value="OperatingLeaseLiabilities"/>
+  <property name="QName" value="edbl.com:OperatingLeaseLiabilities"/>
+  <property name="id" value="edbl_OperatingLeaseLiabilities"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/terseLabel"/>
+  <property name="order" value="3.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:LeasesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:DebtDisclosureAbstract" target="us-gaap:ShortTermBorrowings" linkrole="http://edbl.com/role/NotesPayableDetails" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:DebtDisclosureAbstract to us-gaap:ShortTermBorrowings in link role http://edbl.com/role/NotesPayableDetails missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3260</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/145/5)" sourceLine="3260">
+  <property name="label" value="us-gaap:ShortTermBorrowings"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ShortTermBorrowings"/>
+  <property name="QName" value="us-gaap:ShortTermBorrowings"/>
+  <property name="id" value="us-gaap_ShortTermBorrowings"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="7.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:DebtDisclosureAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementLineItems" target="us-gaap:ShortTermDebtInterestRateIncrease" linkrole="http://edbl.com/role/NotesPayableDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:ShortTermDebtInterestRateIncrease in link role http://edbl.com/role/NotesPayableDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 1915</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/75/64)" sourceLine="1915">
+  <property name="label" value="us-gaap:ShortTermDebtInterestRateIncrease"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ShortTermDebtInterestRateIncrease"/>
+  <property name="QName" value="us-gaap:ShortTermDebtInterestRateIncrease"/>
+  <property name="id" value="us-gaap_ShortTermDebtInterestRateIncrease"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="dtr-types:percentItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="1.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementLineItems" target="us-gaap:ProceedsFromSecuredNotesPayable" linkrole="http://edbl.com/role/NotesPayableDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:ProceedsFromSecuredNotesPayable in link role http://edbl.com/role/NotesPayableDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 1977</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/75/126)" sourceLine="1977">
+  <property name="label" value="us-gaap:ProceedsFromSecuredNotesPayable"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ProceedsFromSecuredNotesPayable"/>
+  <property name="QName" value="us-gaap:ProceedsFromSecuredNotesPayable"/>
+  <property name="id" value="us-gaap_ProceedsFromSecuredNotesPayable"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="11.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementLineItems" target="edbl.com:DebtPrincipal" linkrole="http://edbl.com/role/NotesPayableDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to edbl.com:DebtPrincipal in link role http://edbl.com/role/NotesPayableDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 1868</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/75/17)" sourceLine="1868">
+  <property name="label" value="edbl.com:DebtPrincipal"/>
+  <property name="namespace" value="http://edbl.com/20251231"/>
+  <property name="name" value="DebtPrincipal"/>
+  <property name="QName" value="edbl.com:DebtPrincipal"/>
+  <property name="id" value="edbl_DebtPrincipal"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="14.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementLineItems" target="us-gaap:InterestExpense" linkrole="http://edbl.com/role/NotesPayableDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:InterestExpense in link role http://edbl.com/role/NotesPayableDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 1854</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/75/3)" sourceLine="1854">
+  <property name="label" value="us-gaap:InterestExpense"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="InterestExpense"/>
+  <property name="QName" value="us-gaap:InterestExpense"/>
+  <property name="id" value="us-gaap_InterestExpense"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="21.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementLineItems" target="us-gaap:GainsLossesOnExtinguishmentOfDebt" linkrole="http://edbl.com/role/NotesPayableDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:GainsLossesOnExtinguishmentOfDebt in link role http://edbl.com/role/NotesPayableDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 1938</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/75/87)" sourceLine="1938">
+  <property name="label" value="us-gaap:GainsLossesOnExtinguishmentOfDebt"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="GainsLossesOnExtinguishmentOfDebt"/>
+  <property name="QName" value="us-gaap:GainsLossesOnExtinguishmentOfDebt"/>
+  <property name="id" value="us-gaap_GainsLossesOnExtinguishmentOfDebt"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="26.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="srt:RangeMember" target="srt:MinimumMember" linkrole="http://edbl.com/role/NotesPayableDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from srt:RangeMember to srt:MinimumMember in link role http://edbl.com/role/NotesPayableDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 1881</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/75/30)" sourceLine="1881">
+  <property name="label" value="srt:MinimumMember"/>
+  <property name="namespace" value="http://fasb.org/srt/2025"/>
+  <property name="name" value="MinimumMember"/>
+  <property name="QName" value="srt:MinimumMember"/>
+  <property name="id" value="srt_MinimumMember"/>
+  <property name="abstract" value="true"/>
+  <property name="type" value="dtr-types:domainItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="length">
+   <property name="length" value="0"/>
+  </property>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="111.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="srt:RangeMember"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="srt:RangeMember" target="srt:MaximumMember" linkrole="http://edbl.com/role/NotesPayableDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from srt:RangeMember to srt:MaximumMember in link role http://edbl.com/role/NotesPayableDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 1887</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/75/36)" sourceLine="1887">
+  <property name="label" value="srt:MaximumMember"/>
+  <property name="namespace" value="http://fasb.org/srt/2025"/>
+  <property name="name" value="MaximumMember"/>
+  <property name="QName" value="srt:MaximumMember"/>
+  <property name="id" value="srt_MaximumMember"/>
+  <property name="abstract" value="true"/>
+  <property name="type" value="dtr-types:domainItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="length">
+   <property name="length" value="0"/>
+  </property>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="112.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="srt:RangeMember"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementLineItems" target="us-gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment" linkrole="http://edbl.com/role/PropertyEquipmentAndLeaseholdImprovementsNetDetails" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment in link role http://edbl.com/role/PropertyEquipmentAndLeaseholdImprovementsNetDetails missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2566</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/114/14)" sourceLine="2566">
+  <property name="label" value="us-gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment"/>
+  <property name="QName" value="us-gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment"/>
+  <property name="id" value="us-gaap_AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="2.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementLineItems" target="us-gaap:PropertyPlantAndEquipmentNet" linkrole="http://edbl.com/role/PropertyEquipmentAndLeaseholdImprovementsNetDetails" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:PropertyPlantAndEquipmentNet in link role http://edbl.com/role/PropertyEquipmentAndLeaseholdImprovementsNetDetails missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2577</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/114/25)" sourceLine="2577">
+  <property name="label" value="us-gaap:PropertyPlantAndEquipmentNet"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="PropertyPlantAndEquipmentNet"/>
+  <property name="QName" value="us-gaap:PropertyPlantAndEquipmentNet"/>
+  <property name="id" value="us-gaap_PropertyPlantAndEquipmentNet"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="3.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:PropertyPlantAndEquipmentAbstract" target="us-gaap:ScheduleOfPublicUtilityPropertyPlantAndEquipmentTextBlock" linkrole="http://edbl.com/role/PropertyEquipmentAndLeaseholdImprovementsNetTables" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:PropertyPlantAndEquipmentAbstract to us-gaap:ScheduleOfPublicUtilityPropertyPlantAndEquipmentTextBlock in link role http://edbl.com/role/PropertyEquipmentAndLeaseholdImprovementsNetTables missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3670</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/177/3)" sourceLine="3670">
+  <property name="label" value="us-gaap:ScheduleOfPublicUtilityPropertyPlantAndEquipmentTextBlock"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ScheduleOfPublicUtilityPropertyPlantAndEquipmentTextBlock"/>
+  <property name="QName" value="us-gaap:ScheduleOfPublicUtilityPropertyPlantAndEquipmentTextBlock"/>
+  <property name="id" value="us-gaap_ScheduleOfPublicUtilityPropertyPlantAndEquipmentTextBlock"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="dtr-types:textBlockItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="1.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:PropertyPlantAndEquipmentAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:RelatedPartyTransactionsAbstract" target="us-gaap:RelatedPartyTransactionsDisclosureTextBlock" linkrole="http://edbl.com/role/RelatedPartyTransactions" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:RelatedPartyTransactionsAbstract to us-gaap:RelatedPartyTransactionsDisclosureTextBlock in link role http://edbl.com/role/RelatedPartyTransactions missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2862</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/130/3)" sourceLine="2862">
+  <property name="label" value="us-gaap:RelatedPartyTransactionsDisclosureTextBlock"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="RelatedPartyTransactionsDisclosureTextBlock"/>
+  <property name="QName" value="us-gaap:RelatedPartyTransactionsDisclosureTextBlock"/>
+  <property name="id" value="us-gaap_RelatedPartyTransactionsDisclosureTextBlock"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="dtr-types:textBlockItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="1.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:RelatedPartyTransactionsAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:EquityAbstract" target="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber" linkrole="http://edbl.com/role/StockholdersEquityDeficitDetails1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:EquityAbstract to us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber in link role http://edbl.com/role/StockholdersEquityDeficitDetails1 missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3419</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/156/13)" sourceLine="3419">
+  <property name="label" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="QName" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="id" value="us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:sharesItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
+  <property name="order" value="1.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:EquityAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:EquityAbstract" target="edbl.com:ExercisedWarrants" linkrole="http://edbl.com/role/StockholdersEquityDeficitDetails1" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:EquityAbstract to edbl.com:ExercisedWarrants in link role http://edbl.com/role/StockholdersEquityDeficitDetails1 missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3415</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/156/9)" sourceLine="3415">
+  <property name="label" value="edbl.com:ExercisedWarrants"/>
+  <property name="namespace" value="http://edbl.com/20251231"/>
+  <property name="name" value="ExercisedWarrants"/>
+  <property name="QName" value="edbl.com:ExercisedWarrants"/>
+  <property name="id" value="edbl_ExercisedWarrants"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:sharesItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="3.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:EquityAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:EquityAbstract" target="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber" linkrole="http://edbl.com/role/StockholdersEquityDeficitDetails1" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:EquityAbstract to us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber in link role http://edbl.com/role/StockholdersEquityDeficitDetails1 missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3421</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/156/15)" sourceLine="3421">
+  <property name="label" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="QName" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="id" value="us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:sharesItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
+  <property name="order" value="4.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:EquityAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:EquityAbstract" target="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice" linkrole="http://edbl.com/role/StockholdersEquityDeficitDetails1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:EquityAbstract to us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice in link role http://edbl.com/role/StockholdersEquityDeficitDetails1 missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3411</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/156/5)" sourceLine="3411">
+  <property name="label" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="QName" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="id" value="us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="dtr-types:perShareItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
+  <property name="order" value="5.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:EquityAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:EquityAbstract" target="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice" linkrole="http://edbl.com/role/StockholdersEquityDeficitDetails1" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:EquityAbstract to us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice in link role http://edbl.com/role/StockholdersEquityDeficitDetails1 missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 3413</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/156/7)" sourceLine="3413">
+  <property name="label" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="QName" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="id" value="us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="dtr-types:perShareItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
+  <property name="order" value="8.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:EquityAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementLineItems" target="us-gaap:ProceedsFromGrantors" linkrole="http://edbl.com/role/StockholdersEquityDeficitDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:ProceedsFromGrantors in link role http://edbl.com/role/StockholdersEquityDeficitDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2237</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/93/17)" sourceLine="2237">
+  <property name="label" value="us-gaap:ProceedsFromGrantors"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="ProceedsFromGrantors"/>
+  <property name="QName" value="us-gaap:ProceedsFromGrantors"/>
+  <property name="id" value="us-gaap_ProceedsFromGrantors"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="3.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:AccountingPoliciesAbstract" target="us-gaap:SignificantAccountingPoliciesTextBlock" linkrole="http://edbl.com/role/SummaryOfSignificantAccountingPolicies" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:AccountingPoliciesAbstract to us-gaap:SignificantAccountingPoliciesTextBlock in link role http://edbl.com/role/SummaryOfSignificantAccountingPolicies missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2814</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/127/3)" sourceLine="2814">
+  <property name="label" value="us-gaap:SignificantAccountingPoliciesTextBlock"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="SignificantAccountingPoliciesTextBlock"/>
+  <property name="QName" value="us-gaap:SignificantAccountingPoliciesTextBlock"/>
+  <property name="id" value="us-gaap_SignificantAccountingPoliciesTextBlock"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="dtr-types:textBlockItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="1.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:AccountingPoliciesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:AccountingPoliciesAbstract" target="us-gaap:InventoryPolicyTextBlock" linkrole="http://edbl.com/role/SummaryOfSignificantAccountingPoliciesPolicies" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:AccountingPoliciesAbstract to us-gaap:InventoryPolicyTextBlock in link role http://edbl.com/role/SummaryOfSignificantAccountingPoliciesPolicies missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2095</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/83/5)" sourceLine="2095">
+  <property name="label" value="us-gaap:InventoryPolicyTextBlock"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="InventoryPolicyTextBlock"/>
+  <property name="QName" value="us-gaap:InventoryPolicyTextBlock"/>
+  <property name="id" value="us-gaap_InventoryPolicyTextBlock"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="dtr-types:textBlockItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="5.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:AccountingPoliciesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="edbl.com:TaxExpenseAbstract" target="edbl.com:TaxExpense" linkrole="http://edbl.com/role/TaxExpense" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from edbl.com:TaxExpenseAbstract to edbl.com:TaxExpense in link role http://edbl.com/role/TaxExpense missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2440</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/104/3)" sourceLine="2440">
+  <property name="label" value="edbl.com:TaxExpense"/>
+  <property name="namespace" value="http://edbl.com/20251231"/>
+  <property name="name" value="TaxExpense"/>
+  <property name="QName" value="edbl.com:TaxExpense"/>
+  <property name="id" value="edbl_TaxExpense"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="non-numeric:textBlockItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="1.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="edbl.com:TaxExpenseAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="edbl.com:TaxExpenseAbstract" target="us-gaap:RealEstateOwnedValuationAllowance" linkrole="http://edbl.com/role/TaxExpenseDetails" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from edbl.com:TaxExpenseAbstract to us-gaap:RealEstateOwnedValuationAllowance in link role http://edbl.com/role/TaxExpenseDetails missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd 2493</message>
+ <ref href="EDBL_taxonomy_2023_2025.zip/EDBL_taxonomy_2023_2025/EDBL-20251231.xsd#element(/1/1/1/70/110/3)" sourceLine="2493">
+  <property name="label" value="us-gaap:RealEstateOwnedValuationAllowance"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="RealEstateOwnedValuationAllowance"/>
+  <property name="QName" value="us-gaap:RealEstateOwnedValuationAllowance"/>
+  <property name="id" value="us-gaap_RealEstateOwnedValuationAllowance"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="5.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="edbl.com:TaxExpenseAbstract"/>
+ </ref></entry>
+<entry code="xule.buildIndexTime" level="debug">
+ <message>[xule.buildIndexTime] Index build time 0:00:00.084715. - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="xule.ruleDebug" level="debug">
+ <message>[xule.ruleDebug] Processing: DQC.US.0001.59 - 16:21:38.673837 - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="xule.ruleDebug" level="debug">
+ <message>[xule.ruleDebug] D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="xule.otherTaxonomyLoadTime" level="debug">
+ <message>[xule.otherTaxonomyLoadTime] Load taxonomy time 0:00:04.432126 from 'https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/refs/heads/v28/dqc_us_rules/resources/Taxonomies/us-gaap-cal-2025-all.xsd' - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="xule.otherTaxonomyLoadTime" level="debug">
+ <message>[xule.otherTaxonomyLoadTime] Load taxonomy time 0:00:00.319487 from 'https://xbrl.sec.gov/exch/2025/exch-2025.xsd' - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="xule.otherTaxonomyLoadTime" level="debug">
+ <message>[xule.otherTaxonomyLoadTime] Load taxonomy time 0:00:00.075677 from 'https://xbrl.sec.gov/stpr/2025/stpr-2025.xsd' - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="xule.otherTaxonomyLoadTime" level="debug">
+ <message>[xule.otherTaxonomyLoadTime] Load taxonomy time 0:00:00.178023 from 'https://xbrl.sec.gov/naics/2025/naics-2025.xsd' - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="xule.otherTaxonomyLoadTime" level="debug">
+ <message>[xule.otherTaxonomyLoadTime] Load taxonomy time 0:00:00.268946 from 'https://xbrl.sec.gov/sic/2025/sic-2025.xsd' - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="xule.otherTaxonomyLoadTime" level="debug">
+ <message>[xule.otherTaxonomyLoadTime] Load taxonomy time 0:00:04.390638 from 'https://xbrl.sec.gov/ecd/2025/ecd-2025.xsd' - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="xule.otherTaxonomyLoadTime" level="debug">
+ <message>[xule.otherTaxonomyLoadTime] Load taxonomy time 0:00:00.102847 from 'https://xbrl.sec.gov/cyd/2025/cyd-2025.xsd' - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="xule.otherTaxonomyLoadTime" level="debug">
+ <message>[xule.otherTaxonomyLoadTime] Load taxonomy time 0:00:25.800624 from 'https://xbrl.fasb.org/us-gaap/2025/entire/us-gaap-entryPoint-std-2025.xsd' - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="DQC.US.0001.59" level="error">
+ <message filing_url="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml" severity="error" effectiveDate="2017-01-01" cid="2188607023824">[DQC.US.0001.59] The concept RevenuePercentageOnSales with a value of 0.444 is dimensionally qualified with the PlanNameAxis and the base taxonomy member SalesMember. Only extension members should be used with the axis PlanNameAxis.
+The properties of the fact for RevenuePercentageOnSales are:
+Period: 2023-12-31
+Dimensions: us-gaap:PlanNameAxis=us-gaap:SalesMember, us-gaap:ConcentrationRiskByTypeAxis=edbl.com:NumberOfCustomerOneMember 
+Unit: pure
+
+Rule Element Id:59
+Rule version: 29.0.2 - EDBL_instance_2023_2025.xml 2255</message>
+ <ref href="EDBL_instance_2023_2025.xml#f633" sourceLine="2255">
+  <property name="label" value="edbl.com:RevenuePercentageOnSales"/>
+  <property name="namespace" value="http://edbl.com/20251231"/>
+  <property name="name" value="RevenuePercentageOnSales"/>
+  <property name="QName" value="edbl.com:RevenuePercentageOnSales"/>
+  <property name="contextRef" value="c137">
+   <property name="entity" value="0001809750">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="instant" value="2023-12-31"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:ConcentrationRiskByTypeAxis" value="edbl.com:NumberOfCustomerOneMember"/>
+    <property name="us-gaap:PlanNameAxis" value="us-gaap:SalesMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="pure (pure)">
+   <property name="measure" value="xbrli:pure"/>
+  </property>
+  <property name="decimals" value="INF"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="0.444"/>
+ </ref></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] DQC.US.0001.59 time took: 44.57128 - 16:22:23.245246  - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Total number of rules processed: 1 - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Number of rules over 0.005s: 1 - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Rule DQC.US.0001.59 end. Took 0:00:44.571280 - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Total time to process: 0:00:44.657346. - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml </message>
+ <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\EDBL_instance_2023_2025.xml"/></entry>
+<entry code="info" level="info">
+ <message>[info] validated in 52.95 secs - D:/DJT/Documents/GitHub/davidtauriello/dqc_us_rules/tests/input/testfiles/2023-roll-2025/EDBL_instance_2023_2025.xml </message>
+ <ref href="D:/DJT/Documents/GitHub/davidtauriello/dqc_us_rules/tests/input/testfiles/2023-roll-2025/EDBL_instance_2023_2025.xml"/></entry>
+</log>
