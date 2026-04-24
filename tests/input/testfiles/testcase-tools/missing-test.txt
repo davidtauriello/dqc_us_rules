@@ -305,3 +305,16 @@ DQC.US.0234.10929
 DQC.US.0234.10930
 DQC.US.0235.10931
 DQC.US.0235.10932
+
+--- INVALID ROLL FILES (no <entry code="DQC.US in output) ---
+invalid-rollDQC.US.0077.7654_MTEX-us-2023.xml
+invalid-rollDQC.US.0142.9864_LKQ-us-2023.xml
+invalid-rollDQC.US.0150.10076_GHC-us-2023.xml
+invalid-rollDQC.US.0157.10077_PNBK-us-2023.xml
+invalid-rollDQC.US.0158.10078_IRIX-us-2023.xml
+invalid-rollDQC.US.0158.10080_UNIO-us-2023.xml
+invalid-rollDQC.US.0177.10133_CUTR-us-2023.xml
+invalid-rollDQC.US.0177.10133_HSIC-us-2023.xml
+invalid-rollDQC.US.0204.10704_ACRS_US-2023.xml
+invalid-rollDQC.US.0207.10722_MRCC_US-2023.xml
+invalid-rollDQC.US.0208.10727_WHF-US-2023.xml

@@ -4,14 +4,17 @@
  <message>[info] Activation of plug-in DQC Rules Validator successful, version Check version using Tools->DQC->Version on the GUI or --dqc-version on the command line. - validate/DQC </message>
  <ref href="validate/DQC"/></entry>
 <entry code="info" level="info">
+ <message>[info] Activation of plug-in SEC Inline Transforms successful, version 19.2. - EDGAR/transform </message>
+ <ref href="EDGAR/transform"/></entry>
+<entry code="info" level="info">
  <message>[info] Xule version: 3.0.30050 - </message>
  <ref href=""/></entry>
 <entry code="info" level="info">
- <message>[info] loaded in 0.62 secs at 2026-04-20T16:35:21 - D:/DJT/Documents/GitHub/davidtauriello/dqc_us_rules/tests/input/testfiles/2023-roll-2025/VRME_instance_2023_2025.xml </message>
+ <message>[info] loaded in 0.61 secs at 2026-04-24T15:57:26 - D:/DJT/Documents/GitHub/davidtauriello/dqc_us_rules/tests/input/testfiles/2023-roll-2025/VRME_instance_2023_2025.xml </message>
  <ref href="D:/DJT/Documents/GitHub/davidtauriello/dqc_us_rules/tests/input/testfiles/2023-roll-2025/VRME_instance_2023_2025.xml"/></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:StatementLineItems" target="us-gaap:Assets" linkrole="http://verifyme.com/role/BalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:Assets in link role http://verifyme.com/role/BalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 632</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/102/77)" sourceLine="632">
+ <message source="us-gaap:StatementLineItems" target="us-gaap:Assets" linkrole="http://verifyme.com/role/BalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:Assets in link role http://verifyme.com/role/BalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5438</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/298/49)" sourceLine="5438">
   <property name="label" value="us-gaap:Assets"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="Assets"/>
@@ -29,8 +32,8 @@
   <property name="from" value="us-gaap:StatementLineItems"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:LiabilitiesAndStockholdersEquityAbstract" target="us-gaap:LiabilitiesCurrent" linkrole="http://verifyme.com/role/BalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:LiabilitiesAndStockholdersEquityAbstract to us-gaap:LiabilitiesCurrent in link role http://verifyme.com/role/BalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 606</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/102/51)" sourceLine="606">
+ <message source="us-gaap:LiabilitiesAndStockholdersEquityAbstract" target="us-gaap:LiabilitiesCurrent" linkrole="http://verifyme.com/role/BalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:LiabilitiesAndStockholdersEquityAbstract to us-gaap:LiabilitiesCurrent in link role http://verifyme.com/role/BalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5415</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/298/26)" sourceLine="5415">
   <property name="label" value="us-gaap:LiabilitiesCurrent"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="LiabilitiesCurrent"/>
@@ -48,102 +51,65 @@
   <property name="from" value="us-gaap:LiabilitiesAndStockholdersEquityAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:BusinessAcquisitionLineItems" target="us-gaap:BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentLiabilitiesAccountsPayable" linkrole="http://verifyme.com/role/BusinessCombinationDetails" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:BusinessAcquisitionLineItems to us-gaap:BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentLiabilitiesAccountsPayable in link role http://verifyme.com/role/BusinessCombinationDetails missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5359</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/301/14)" sourceLine="5359">
-  <property name="label" value="us-gaap:BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentLiabilitiesAccountsPayable"/>
+ <message source="us-gaap:LiabilitiesAndStockholdersEquityAbstract" target="us-gaap:Liabilities" linkrole="http://verifyme.com/role/BalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:LiabilitiesAndStockholdersEquityAbstract to us-gaap:Liabilities in link role http://verifyme.com/role/BalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5476</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/298/87)" sourceLine="5476">
+  <property name="label" value="us-gaap:Liabilities"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentLiabilitiesAccountsPayable"/>
-  <property name="QName" value="us-gaap:BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentLiabilitiesAccountsPayable"/>
-  <property name="id" value="us-gaap_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentLiabilitiesAccountsPayable"/>
+  <property name="name" value="Liabilities"/>
+  <property name="QName" value="us-gaap:Liabilities"/>
+  <property name="id" value="us-gaap_Liabilities"/>
   <property name="abstract" value="false"/>
   <property name="type" value="xbrli:monetaryItemType"/>
   <property name="subst grp" value="xbrli:item"/>
   <property name="period type" value="instant"/>
   <property name="balance" value="credit"/>
   <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
-  <property name="order" value="100.0"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="280.0"/>
   <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:BusinessAcquisitionLineItems"/>
+  <property name="from" value="us-gaap:LiabilitiesAndStockholdersEquityAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:BusinessAcquisitionLineItems" target="verifyme.com:BusinessCombinationLeaseLiabilityCurrent" linkrole="http://verifyme.com/role/BusinessCombinationDetails" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:BusinessAcquisitionLineItems to verifyme.com:BusinessCombinationLeaseLiabilityCurrent in link role http://verifyme.com/role/BusinessCombinationDetails missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5364</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/301/19)" sourceLine="5364">
-  <property name="label" value="verifyme.com:BusinessCombinationLeaseLiabilityCurrent"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="BusinessCombinationLeaseLiabilityCurrent"/>
-  <property name="QName" value="verifyme.com:BusinessCombinationLeaseLiabilityCurrent"/>
-  <property name="id" value="vrme_BusinessCombinationLeaseLiabilityCurrent"/>
+ <message source="us-gaap:StatementLineItems" target="us-gaap:TreasuryStockValue" linkrole="http://verifyme.com/role/BalanceSheets" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:TreasuryStockValue in link role http://verifyme.com/role/BalanceSheets missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5427</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/298/38)" sourceLine="5427">
+  <property name="label" value="us-gaap:TreasuryStockValue"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="TreasuryStockValue"/>
+  <property name="QName" value="us-gaap:TreasuryStockValue"/>
+  <property name="id" value="us-gaap_TreasuryStockValue"/>
   <property name="abstract" value="false"/>
   <property name="type" value="xbrli:monetaryItemType"/>
   <property name="subst grp" value="xbrli:item"/>
   <property name="period type" value="instant"/>
-  <property name="balance" value="credit"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
-  <property name="order" value="110.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:BusinessAcquisitionLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:BusinessAcquisitionLineItems" target="verifyme.com:StockAmount" linkrole="http://verifyme.com/role/BusinessCombinationDetails1" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:BusinessAcquisitionLineItems to verifyme.com:StockAmount in link role http://verifyme.com/role/BusinessCombinationDetails1 missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5534</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/317/14)" sourceLine="5534">
-  <property name="label" value="verifyme.com:StockAmount"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="StockAmount"/>
-  <property name="QName" value="verifyme.com:StockAmount"/>
-  <property name="id" value="vrme_StockAmount"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:monetaryItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
   <property name="balance" value="debit"/>
   <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
-  <property name="order" value="20.0"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="330.0"/>
   <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:BusinessAcquisitionLineItems"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:BusinessAcquisitionLineItems" target="verifyme.com:FiniteLivedIntangibleAssetsRemainingAmortizationPeriod" linkrole="http://verifyme.com/role/BusinessCombinationDetails1" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:BusinessAcquisitionLineItems to verifyme.com:FiniteLivedIntangibleAssetsRemainingAmortizationPeriod in link role http://verifyme.com/role/BusinessCombinationDetails1 missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5551</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/317/31)" sourceLine="5551">
-  <property name="label" value="verifyme.com:FiniteLivedIntangibleAssetsRemainingAmortizationPeriod"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="FiniteLivedIntangibleAssetsRemainingAmortizationPeriod"/>
-  <property name="QName" value="verifyme.com:FiniteLivedIntangibleAssetsRemainingAmortizationPeriod"/>
-  <property name="id" value="vrme_FiniteLivedIntangibleAssetsRemainingAmortizationPeriod"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:durationItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
-  <property name="order" value="70.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:BusinessAcquisitionLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:BusinessAcquisitionLineItems" target="us-gaap:BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentLiabilitiesAccountsPayable" linkrole="http://verifyme.com/role/BusinessCombinationDetails1" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:BusinessAcquisitionLineItems to us-gaap:BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentLiabilitiesAccountsPayable in link role http://verifyme.com/role/BusinessCombinationDetails1 missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5545</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/317/25)" sourceLine="5545">
-  <property name="label" value="us-gaap:BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentLiabilitiesAccountsPayable"/>
+ <message source="us-gaap:StatementLineItems" target="us-gaap:LiabilitiesAndStockholdersEquity" linkrole="http://verifyme.com/role/BalanceSheets" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:LiabilitiesAndStockholdersEquity in link role http://verifyme.com/role/BalanceSheets missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5460</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/298/71)" sourceLine="5460">
+  <property name="label" value="us-gaap:LiabilitiesAndStockholdersEquity"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentLiabilitiesAccountsPayable"/>
-  <property name="QName" value="us-gaap:BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentLiabilitiesAccountsPayable"/>
-  <property name="id" value="us-gaap_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentLiabilitiesAccountsPayable"/>
+  <property name="name" value="LiabilitiesAndStockholdersEquity"/>
+  <property name="QName" value="us-gaap:LiabilitiesAndStockholdersEquity"/>
+  <property name="id" value="us-gaap_LiabilitiesAndStockholdersEquity"/>
   <property name="abstract" value="false"/>
   <property name="type" value="xbrli:monetaryItemType"/>
   <property name="subst grp" value="xbrli:item"/>
   <property name="period type" value="instant"/>
   <property name="balance" value="credit"/>
   <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
-  <property name="order" value="100.0"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="370.0"/>
   <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:BusinessAcquisitionLineItems"/>
+  <property name="from" value="us-gaap:StatementLineItems"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:BusinessAcquisitionLineItems" target="us-gaap:CommonStockSharesIssued" linkrole="http://verifyme.com/role/BusinessCombinationDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:BusinessAcquisitionLineItems to us-gaap:CommonStockSharesIssued in link role http://verifyme.com/role/BusinessCombinationDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3206</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/168/31)" sourceLine="3206">
+ <message source="us-gaap:BusinessAcquisitionLineItems" target="us-gaap:CommonStockSharesIssued" linkrole="http://verifyme.com/role/BusinessCombinationDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:BusinessAcquisitionLineItems to us-gaap:CommonStockSharesIssued in link role http://verifyme.com/role/BusinessCombinationDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3032</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/173/15)" sourceLine="3032">
   <property name="label" value="us-gaap:CommonStockSharesIssued"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="CommonStockSharesIssued"/>
@@ -160,27 +126,8 @@
   <property name="from" value="us-gaap:BusinessAcquisitionLineItems"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:BusinessAcquisitionLineItems" target="verifyme.com:PromissoryNote" linkrole="http://verifyme.com/role/BusinessCombinationDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:BusinessAcquisitionLineItems to verifyme.com:PromissoryNote in link role http://verifyme.com/role/BusinessCombinationDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3181</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/168/6)" sourceLine="3181">
-  <property name="label" value="verifyme.com:PromissoryNote"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="PromissoryNote"/>
-  <property name="QName" value="verifyme.com:PromissoryNote"/>
-  <property name="id" value="vrme_PromissoryNote"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:monetaryItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="balance" value="debit"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
-  <property name="order" value="90.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:BusinessAcquisitionLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ClassOfStockLineItems" target="us-gaap:PreferredStockParOrStatedValuePerShare" linkrole="http://verifyme.com/role/ConvertiblePreferredStockDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ClassOfStockLineItems to us-gaap:PreferredStockParOrStatedValuePerShare in link role http://verifyme.com/role/ConvertiblePreferredStockDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3895</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/192/9)" sourceLine="3895">
+ <message source="us-gaap:ClassOfStockLineItems" target="us-gaap:PreferredStockParOrStatedValuePerShare" linkrole="http://verifyme.com/role/ConvertiblePreferredStockDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ClassOfStockLineItems to us-gaap:PreferredStockParOrStatedValuePerShare in link role http://verifyme.com/role/ConvertiblePreferredStockDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4574</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/245/6)" sourceLine="4574">
   <property name="label" value="us-gaap:PreferredStockParOrStatedValuePerShare"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="PreferredStockParOrStatedValuePerShare"/>
@@ -197,8 +144,8 @@
   <property name="from" value="us-gaap:ClassOfStockLineItems"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ClassOfStockLineItems" target="us-gaap:PreferredStockSharesOutstanding" linkrole="http://verifyme.com/role/ConvertiblePreferredStockDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ClassOfStockLineItems to us-gaap:PreferredStockSharesOutstanding in link role http://verifyme.com/role/ConvertiblePreferredStockDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3906</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/192/20)" sourceLine="3906">
+ <message source="us-gaap:ClassOfStockLineItems" target="us-gaap:PreferredStockSharesOutstanding" linkrole="http://verifyme.com/role/ConvertiblePreferredStockDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ClassOfStockLineItems to us-gaap:PreferredStockSharesOutstanding in link role http://verifyme.com/role/ConvertiblePreferredStockDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4586</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/245/18)" sourceLine="4586">
   <property name="label" value="us-gaap:PreferredStockSharesOutstanding"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="PreferredStockSharesOutstanding"/>
@@ -215,8 +162,8 @@
   <property name="from" value="us-gaap:ClassOfStockLineItems"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ScheduleOfEquityMethodInvestmentsLineItems" target="us-gaap:EquityMethodInvestmentRealizedGainLossOnDisposal" linkrole="http://verifyme.com/role/EquityInvestmentsDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ScheduleOfEquityMethodInvestmentsLineItems to us-gaap:EquityMethodInvestmentRealizedGainLossOnDisposal in link role http://verifyme.com/role/EquityInvestmentsDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3926</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/194/5)" sourceLine="3926">
+ <message source="us-gaap:ScheduleOfEquityMethodInvestmentsLineItems" target="us-gaap:EquityMethodInvestmentRealizedGainLossOnDisposal" linkrole="http://verifyme.com/role/EquityInvestmentsDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ScheduleOfEquityMethodInvestmentsLineItems to us-gaap:EquityMethodInvestmentRealizedGainLossOnDisposal in link role http://verifyme.com/role/EquityInvestmentsDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5058</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/278/33)" sourceLine="5058">
   <property name="label" value="us-gaap:EquityMethodInvestmentRealizedGainLossOnDisposal"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="EquityMethodInvestmentRealizedGainLossOnDisposal"/>
@@ -234,8 +181,8 @@
   <property name="from" value="us-gaap:ScheduleOfEquityMethodInvestmentsLineItems"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:IncomeTaxDisclosureAbstract" target="us-gaap:DeferredTaxAssetsPropertyPlantAndEquipment" linkrole="http://verifyme.com/role/IncomeTaxesDetails1" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncomeTaxDisclosureAbstract to us-gaap:DeferredTaxAssetsPropertyPlantAndEquipment in link role http://verifyme.com/role/IncomeTaxesDetails1 missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2371</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/139/5)" sourceLine="2371">
+ <message source="us-gaap:IncomeTaxDisclosureAbstract" target="us-gaap:DeferredTaxAssetsPropertyPlantAndEquipment" linkrole="http://verifyme.com/role/IncomeTaxesDetails1" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncomeTaxDisclosureAbstract to us-gaap:DeferredTaxAssetsPropertyPlantAndEquipment in link role http://verifyme.com/role/IncomeTaxesDetails1 missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4293</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/237/13)" sourceLine="4293">
   <property name="label" value="us-gaap:DeferredTaxAssetsPropertyPlantAndEquipment"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="DeferredTaxAssetsPropertyPlantAndEquipment"/>
@@ -253,8 +200,8 @@
   <property name="from" value="us-gaap:IncomeTaxDisclosureAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:IncomeTaxDisclosureAbstract" target="us-gaap:DeferredTaxAssetsValuationAllowance" linkrole="http://verifyme.com/role/IncomeTaxesDetails1" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncomeTaxDisclosureAbstract to us-gaap:DeferredTaxAssetsValuationAllowance in link role http://verifyme.com/role/IncomeTaxesDetails1 missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2381</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/139/15)" sourceLine="2381">
+ <message source="us-gaap:IncomeTaxDisclosureAbstract" target="us-gaap:DeferredTaxAssetsValuationAllowance" linkrole="http://verifyme.com/role/IncomeTaxesDetails1" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncomeTaxDisclosureAbstract to us-gaap:DeferredTaxAssetsValuationAllowance in link role http://verifyme.com/role/IncomeTaxesDetails1 missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4285</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/237/5)" sourceLine="4285">
   <property name="label" value="us-gaap:DeferredTaxAssetsValuationAllowance"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="DeferredTaxAssetsValuationAllowance"/>
@@ -272,27 +219,8 @@
   <property name="from" value="us-gaap:IncomeTaxDisclosureAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:OperatingLossCarryforwardsLineItems" target="us-gaap:OperatingLossCarryforwards" linkrole="http://verifyme.com/role/IncomeTaxesDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:OperatingLossCarryforwardsLineItems to us-gaap:OperatingLossCarryforwards in link role http://verifyme.com/role/IncomeTaxesDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4494</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/228/14)" sourceLine="4494">
-  <property name="label" value="us-gaap:OperatingLossCarryforwards"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="OperatingLossCarryforwards"/>
-  <property name="QName" value="us-gaap:OperatingLossCarryforwards"/>
-  <property name="id" value="us-gaap_OperatingLossCarryforwards"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:monetaryItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="balance" value="debit"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
-  <property name="order" value="0.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:OperatingLossCarryforwardsLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:FiniteLivedIntangibleAssetsLineItems" target="us-gaap:FiniteLivedIntangibleAssetUsefulLife" linkrole="http://verifyme.com/role/IntangibleAssetsAndGoodwillDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:FiniteLivedIntangibleAssetsLineItems to us-gaap:FiniteLivedIntangibleAssetUsefulLife in link role http://verifyme.com/role/IntangibleAssetsAndGoodwillDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4579</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/239/3)" sourceLine="4579">
+ <message source="us-gaap:FiniteLivedIntangibleAssetsLineItems" target="us-gaap:FiniteLivedIntangibleAssetUsefulLife" linkrole="http://verifyme.com/role/IntangibleAssetsAndGoodwillDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:FiniteLivedIntangibleAssetsLineItems to us-gaap:FiniteLivedIntangibleAssetUsefulLife in link role http://verifyme.com/role/IntangibleAssetsAndGoodwillDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3303</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/183/19)" sourceLine="3303">
   <property name="label" value="us-gaap:FiniteLivedIntangibleAssetUsefulLife"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="FiniteLivedIntangibleAssetUsefulLife"/>
@@ -309,139 +237,102 @@
   <property name="from" value="us-gaap:FiniteLivedIntangibleAssetsLineItems"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:EarningsPerShareAbstract" target="us-gaap:EarningsPerShareTextBlock" linkrole="http://verifyme.com/role/LossPerShare" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:EarningsPerShareAbstract to us-gaap:EarningsPerShareTextBlock in link role http://verifyme.com/role/LossPerShare missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2141</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/123/3)" sourceLine="2141">
-  <property name="label" value="us-gaap:EarningsPerShareTextBlock"/>
+ <message source="verifyme.com:DisclosureLeasesAbstract" target="us-gaap:LeaseCost" linkrole="http://verifyme.com/role/LeasesDetails" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from verifyme.com:DisclosureLeasesAbstract to us-gaap:LeaseCost in link role http://verifyme.com/role/LeasesDetails missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3824</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/213/7)" sourceLine="3824">
+  <property name="label" value="us-gaap:LeaseCost"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="EarningsPerShareTextBlock"/>
-  <property name="QName" value="us-gaap:EarningsPerShareTextBlock"/>
-  <property name="id" value="us-gaap_EarningsPerShareTextBlock"/>
+  <property name="name" value="LeaseCost"/>
+  <property name="QName" value="us-gaap:LeaseCost"/>
+  <property name="id" value="us-gaap_LeaseCost"/>
   <property name="abstract" value="false"/>
-  <property name="type" value="dtr-types:textBlockItemType"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
   <property name="subst grp" value="xbrli:item"/>
   <property name="period type" value="duration"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="20.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="verifyme.com:DisclosureLeasesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="verifyme.com:DisclosureLeasesAbstract" target="us-gaap:OperatingLeaseRightOfUseAsset" linkrole="http://verifyme.com/role/LeasesDetails1" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from verifyme.com:DisclosureLeasesAbstract to us-gaap:OperatingLeaseRightOfUseAsset in link role http://verifyme.com/role/LeasesDetails1 missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 6377</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/372/9)" sourceLine="6377">
+  <property name="label" value="us-gaap:OperatingLeaseRightOfUseAsset"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="OperatingLeaseRightOfUseAsset"/>
+  <property name="QName" value="us-gaap:OperatingLeaseRightOfUseAsset"/>
+  <property name="id" value="us-gaap_OperatingLeaseRightOfUseAsset"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="debit"/>
   <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
   <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
   <property name="order" value="0.0"/>
   <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:EarningsPerShareAbstract"/>
+  <property name="from" value="verifyme.com:DisclosureLeasesAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:EarningsPerShareBasicAbstract" target="us-gaap:EarningsPerShareDiluted" linkrole="http://verifyme.com/role/LossPerShareDetails" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:EarningsPerShareBasicAbstract to us-gaap:EarningsPerShareDiluted in link role http://verifyme.com/role/LossPerShareDetails missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2128</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/122/9)" sourceLine="2128">
-  <property name="label" value="us-gaap:EarningsPerShareDiluted"/>
+ <message source="us-gaap:EarningsPerShareBasicAbstract" target="us-gaap:EarningsPerShareBasic" linkrole="http://verifyme.com/role/LossPerShareDetails" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:EarningsPerShareBasicAbstract to us-gaap:EarningsPerShareBasic in link role http://verifyme.com/role/LossPerShareDetails missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3751</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/206/5)" sourceLine="3751">
+  <property name="label" value="us-gaap:EarningsPerShareBasic"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="EarningsPerShareDiluted"/>
-  <property name="QName" value="us-gaap:EarningsPerShareDiluted"/>
-  <property name="id" value="us-gaap_EarningsPerShareDiluted"/>
+  <property name="name" value="EarningsPerShareBasic"/>
+  <property name="QName" value="us-gaap:EarningsPerShareBasic"/>
+  <property name="id" value="us-gaap_EarningsPerShareBasic"/>
   <property name="abstract" value="false"/>
   <property name="type" value="dtr-types:perShareItemType"/>
   <property name="subst grp" value="xbrli:item"/>
   <property name="period type" value="duration"/>
   <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
   <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
-  <property name="order" value="60.0"/>
+  <property name="order" value="50.0"/>
   <property name="priority" value="0"/>
   <property name="from" value="us-gaap:EarningsPerShareBasicAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:DisaggregationOfRevenueLineItems" target="us-gaap:Revenues" linkrole="http://verifyme.com/role/RevenueDetails" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:DisaggregationOfRevenueLineItems to us-gaap:Revenues in link role http://verifyme.com/role/RevenueDetails missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3733</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/182/22)" sourceLine="3733">
-  <property name="label" value="us-gaap:Revenues"/>
+ <message source="us-gaap:RevenueFromContractWithCustomerAbstract" target="us-gaap:ContractWithCustomerAssetNet" linkrole="http://verifyme.com/role/RevenueDetails1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:RevenueFromContractWithCustomerAbstract to us-gaap:ContractWithCustomerAssetNet in link role http://verifyme.com/role/RevenueDetails1 missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3691</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/202/3)" sourceLine="3691">
+  <property name="label" value="us-gaap:ContractWithCustomerAssetNet"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="Revenues"/>
-  <property name="QName" value="us-gaap:Revenues"/>
-  <property name="id" value="us-gaap_Revenues"/>
+  <property name="name" value="ContractWithCustomerAssetNet"/>
+  <property name="QName" value="us-gaap:ContractWithCustomerAssetNet"/>
+  <property name="id" value="us-gaap_ContractWithCustomerAssetNet"/>
   <property name="abstract" value="false"/>
   <property name="type" value="xbrli:monetaryItemType"/>
   <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="balance" value="credit"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="debit"/>
   <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
   <property name="order" value="0.0"/>
   <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:DisaggregationOfRevenueLineItems"/>
+  <property name="from" value="us-gaap:RevenueFromContractWithCustomerAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:StatementLineItems" target="us-gaap:Revenues" linkrole="http://verifyme.com/role/SegmentReportingDetails" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:Revenues in link role http://verifyme.com/role/SegmentReportingDetails missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2315</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/132/22)" sourceLine="2315">
-  <property name="label" value="us-gaap:Revenues"/>
+ <message source="us-gaap:RevenueFromContractWithCustomerAbstract" target="us-gaap:ContractWithCustomerAssetNet" linkrole="http://verifyme.com/role/RevenueDetails1" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:RevenueFromContractWithCustomerAbstract to us-gaap:ContractWithCustomerAssetNet in link role http://verifyme.com/role/RevenueDetails1 missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3693</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/202/5)" sourceLine="3693">
+  <property name="label" value="us-gaap:ContractWithCustomerAssetNet"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="Revenues"/>
-  <property name="QName" value="us-gaap:Revenues"/>
-  <property name="id" value="us-gaap_Revenues"/>
+  <property name="name" value="ContractWithCustomerAssetNet"/>
+  <property name="QName" value="us-gaap:ContractWithCustomerAssetNet"/>
+  <property name="id" value="us-gaap_ContractWithCustomerAssetNet"/>
   <property name="abstract" value="false"/>
   <property name="type" value="xbrli:monetaryItemType"/>
   <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="balance" value="credit"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="debit"/>
   <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
-  <property name="order" value="0.0"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
+  <property name="order" value="30.0"/>
   <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:StatementLineItems"/>
+  <property name="from" value="us-gaap:RevenueFromContractWithCustomerAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:NetCashProvidedByUsedInOperatingActivitiesAbstract" target="us-gaap:NetIncomeLoss" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInOperatingActivitiesAbstract to us-gaap:NetIncomeLoss in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3238</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/170/11)" sourceLine="3238">
-  <property name="label" value="us-gaap:NetIncomeLoss"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="NetIncomeLoss"/>
-  <property name="QName" value="us-gaap:NetIncomeLoss"/>
-  <property name="id" value="us-gaap_NetIncomeLoss"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:monetaryItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="balance" value="credit"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
-  <property name="order" value="10.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:NetCashProvidedByUsedInOperatingActivitiesAbstract"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract" target="us-gaap:IncomeLossFromEquityMethodInvestments" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract to us-gaap:IncomeLossFromEquityMethodInvestments in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3284</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/170/57)" sourceLine="3284">
-  <property name="label" value="us-gaap:IncomeLossFromEquityMethodInvestments"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="IncomeLossFromEquityMethodInvestments"/>
-  <property name="QName" value="us-gaap:IncomeLossFromEquityMethodInvestments"/>
-  <property name="id" value="us-gaap_IncomeLossFromEquityMethodInvestments"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:monetaryItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="balance" value="credit"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
-  <property name="order" value="50.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract" target="us-gaap:UnrealizedGainLossOnInvestments" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract to us-gaap:UnrealizedGainLossOnInvestments in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3324</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/170/97)" sourceLine="3324">
-  <property name="label" value="us-gaap:UnrealizedGainLossOnInvestments"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="UnrealizedGainLossOnInvestments"/>
-  <property name="QName" value="us-gaap:UnrealizedGainLossOnInvestments"/>
-  <property name="id" value="us-gaap_UnrealizedGainLossOnInvestments"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:monetaryItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="balance" value="credit"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
-  <property name="order" value="100.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract" target="us-gaap:IncreaseDecreaseInAccountsReceivable" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncreaseDecreaseInOperatingCapitalAbstract to us-gaap:IncreaseDecreaseInAccountsReceivable in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3268</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/170/41)" sourceLine="3268">
+ <message source="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract" target="us-gaap:IncreaseDecreaseInAccountsReceivable" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncreaseDecreaseInOperatingCapitalAbstract to us-gaap:IncreaseDecreaseInAccountsReceivable in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3911</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/218/49)" sourceLine="3911">
   <property name="label" value="us-gaap:IncreaseDecreaseInAccountsReceivable"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="IncreaseDecreaseInAccountsReceivable"/>
@@ -459,8 +350,8 @@
   <property name="from" value="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract" target="us-gaap:IncreaseDecreaseInInventories" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncreaseDecreaseInOperatingCapitalAbstract to us-gaap:IncreaseDecreaseInInventories in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3288</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/170/61)" sourceLine="3288">
+ <message source="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract" target="us-gaap:IncreaseDecreaseInInventories" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncreaseDecreaseInOperatingCapitalAbstract to us-gaap:IncreaseDecreaseInInventories in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3931</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/218/69)" sourceLine="3931">
   <property name="label" value="us-gaap:IncreaseDecreaseInInventories"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="IncreaseDecreaseInInventories"/>
@@ -478,8 +369,8 @@
   <property name="from" value="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract" target="us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncreaseDecreaseInOperatingCapitalAbstract to us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3296</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/170/69)" sourceLine="3296">
+ <message source="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract" target="us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncreaseDecreaseInOperatingCapitalAbstract to us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3939</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/218/77)" sourceLine="3939">
   <property name="label" value="us-gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets"/>
@@ -497,8 +388,8 @@
   <property name="from" value="us-gaap:IncreaseDecreaseInOperatingCapitalAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract" target="us-gaap:PaymentsToAcquireIntangibleAssets" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract to us-gaap:PaymentsToAcquireIntangibleAssets in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3248</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/170/21)" sourceLine="3248">
+ <message source="us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract" target="us-gaap:PaymentsToAcquireIntangibleAssets" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract to us-gaap:PaymentsToAcquireIntangibleAssets in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3877</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/218/15)" sourceLine="3877">
   <property name="label" value="us-gaap:PaymentsToAcquireIntangibleAssets"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="PaymentsToAcquireIntangibleAssets"/>
@@ -516,8 +407,8 @@
   <property name="from" value="us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract" target="us-gaap:PaymentsToAcquirePropertyPlantAndEquipment" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract to us-gaap:PaymentsToAcquirePropertyPlantAndEquipment in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3252</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/170/25)" sourceLine="3252">
+ <message source="us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract" target="us-gaap:PaymentsToAcquirePropertyPlantAndEquipment" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract to us-gaap:PaymentsToAcquirePropertyPlantAndEquipment in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3895</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/218/33)" sourceLine="3895">
   <property name="label" value="us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="PaymentsToAcquirePropertyPlantAndEquipment"/>
@@ -535,13 +426,13 @@
   <property name="from" value="us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract" target="us-gaap:PaymentsForSoftware" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract to us-gaap:PaymentsForSoftware in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3282</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/170/55)" sourceLine="3282">
-  <property name="label" value="us-gaap:PaymentsForSoftware"/>
+ <message source="us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract" target="us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract to us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3905</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/218/43)" sourceLine="3905">
+  <property name="label" value="us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="PaymentsForSoftware"/>
-  <property name="QName" value="us-gaap:PaymentsForSoftware"/>
-  <property name="id" value="us-gaap_PaymentsForSoftware"/>
+  <property name="name" value="PaymentsToAcquireBusinessesNetOfCashAcquired"/>
+  <property name="QName" value="us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired"/>
+  <property name="id" value="us-gaap_PaymentsToAcquireBusinessesNetOfCashAcquired"/>
   <property name="abstract" value="false"/>
   <property name="type" value="xbrli:monetaryItemType"/>
   <property name="subst grp" value="xbrli:item"/>
@@ -549,13 +440,32 @@
   <property name="balance" value="credit"/>
   <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
   <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
-  <property name="order" value="280.0"/>
+  <property name="order" value="260.0"/>
   <property name="priority" value="0"/>
   <property name="from" value="us-gaap:NetCashProvidedByUsedInInvestingActivitiesAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:NetCashProvidedByUsedInFinancingActivitiesAbstract" target="us-gaap:PaymentsForRepurchaseOfEquity" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInFinancingActivitiesAbstract to us-gaap:PaymentsForRepurchaseOfEquity in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3266</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/170/39)" sourceLine="3266">
+ <message source="us-gaap:NetCashProvidedByUsedInFinancingActivitiesAbstract" target="us-gaap:PaymentsRelatedToTaxWithholdingForShareBasedCompensation" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInFinancingActivitiesAbstract to us-gaap:PaymentsRelatedToTaxWithholdingForShareBasedCompensation in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3899</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/218/37)" sourceLine="3899">
+  <property name="label" value="us-gaap:PaymentsRelatedToTaxWithholdingForShareBasedCompensation"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="PaymentsRelatedToTaxWithholdingForShareBasedCompensation"/>
+  <property name="QName" value="us-gaap:PaymentsRelatedToTaxWithholdingForShareBasedCompensation"/>
+  <property name="id" value="us-gaap_PaymentsRelatedToTaxWithholdingForShareBasedCompensation"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="credit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="370.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:NetCashProvidedByUsedInFinancingActivitiesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:NetCashProvidedByUsedInFinancingActivitiesAbstract" target="us-gaap:PaymentsForRepurchaseOfEquity" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:NetCashProvidedByUsedInFinancingActivitiesAbstract to us-gaap:PaymentsForRepurchaseOfEquity in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3909</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/218/47)" sourceLine="3909">
   <property name="label" value="us-gaap:PaymentsForRepurchaseOfEquity"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="PaymentsForRepurchaseOfEquity"/>
@@ -573,8 +483,84 @@
   <property name="from" value="us-gaap:NetCashProvidedByUsedInFinancingActivitiesAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:IncomeStatementAbstract" target="us-gaap:ComprehensiveIncomeNetOfTax" linkrole="http://verifyme.com/role/StatementsOfComprehensiveIncomeloss" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncomeStatementAbstract to us-gaap:ComprehensiveIncomeNetOfTax in link role http://verifyme.com/role/StatementsOfComprehensiveIncomeloss missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3343</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/171/5)" sourceLine="3343">
+ <message source="us-gaap:StatementOfCashFlowsAbstract" target="us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementOfCashFlowsAbstract to us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3945</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/218/83)" sourceLine="3945">
+  <property name="label" value="us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect"/>
+  <property name="QName" value="us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect"/>
+  <property name="id" value="us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="420.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementOfCashFlowsAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementOfCashFlowsAbstract" target="us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementOfCashFlowsAbstract to us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3953</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/218/91)" sourceLine="3953">
+  <property name="label" value="us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"/>
+  <property name="QName" value="us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"/>
+  <property name="id" value="us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
+  <property name="order" value="430.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementOfCashFlowsAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:StatementOfCashFlowsAbstract" target="us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents" linkrole="http://verifyme.com/role/StatementsOfCashFlows" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementOfCashFlowsAbstract to us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents in link role http://verifyme.com/role/StatementsOfCashFlows missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3961</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/218/99)" sourceLine="3961">
+  <property name="label" value="us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"/>
+  <property name="QName" value="us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"/>
+  <property name="id" value="us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
+  <property name="order" value="440.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:StatementOfCashFlowsAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:IncomeStatementAbstract" target="us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentTax" linkrole="http://verifyme.com/role/StatementsOfComprehensiveIncomeloss" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncomeStatementAbstract to us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentTax in link role http://verifyme.com/role/StatementsOfComprehensiveIncomeloss missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 6438</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/381/5)" sourceLine="6438">
+  <property name="label" value="us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentTax"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="OtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentTax"/>
+  <property name="QName" value="us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentTax"/>
+  <property name="id" value="us-gaap_OtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentTax"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <property name="order" value="20.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:IncomeStatementAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:IncomeStatementAbstract" target="us-gaap:ComprehensiveIncomeNetOfTax" linkrole="http://verifyme.com/role/StatementsOfComprehensiveIncomeloss" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncomeStatementAbstract to us-gaap:ComprehensiveIncomeNetOfTax in link role http://verifyme.com/role/StatementsOfComprehensiveIncomeloss missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 6442</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/381/9)" sourceLine="6442">
   <property name="label" value="us-gaap:ComprehensiveIncomeNetOfTax"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="ComprehensiveIncomeNetOfTax"/>
@@ -592,553 +578,27 @@
   <property name="from" value="us-gaap:IncomeStatementAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:IncomeStatementAbstract" target="us-gaap:OperatingIncomeLoss" linkrole="http://verifyme.com/role/StatementsOfOperations" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncomeStatementAbstract to us-gaap:OperatingIncomeLoss in link role http://verifyme.com/role/StatementsOfOperations missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2834</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/163/32)" sourceLine="2834">
-  <property name="label" value="us-gaap:OperatingIncomeLoss"/>
+ <message source="us-gaap:OperatingExpensesAbstract" target="us-gaap:OperatingExpenses" linkrole="http://verifyme.com/role/StatementsOfOperations" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:OperatingExpensesAbstract to us-gaap:OperatingExpenses in link role http://verifyme.com/role/StatementsOfOperations missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2413</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/132/49)" sourceLine="2413">
+  <property name="label" value="us-gaap:OperatingExpenses"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="OperatingIncomeLoss"/>
-  <property name="QName" value="us-gaap:OperatingIncomeLoss"/>
-  <property name="id" value="us-gaap_OperatingIncomeLoss"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:monetaryItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="balance" value="credit"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
-  <property name="order" value="80.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:IncomeStatementAbstract"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:IncomeStatementAbstract" target="us-gaap:NonoperatingIncomeExpense" linkrole="http://verifyme.com/role/StatementsOfOperations" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncomeStatementAbstract to us-gaap:NonoperatingIncomeExpense in link role http://verifyme.com/role/StatementsOfOperations missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2852</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/163/50)" sourceLine="2852">
-  <property name="label" value="us-gaap:NonoperatingIncomeExpense"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="NonoperatingIncomeExpense"/>
-  <property name="QName" value="us-gaap:NonoperatingIncomeExpense"/>
-  <property name="id" value="us-gaap_NonoperatingIncomeExpense"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:monetaryItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="balance" value="credit"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
-  <property name="order" value="160.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:IncomeStatementAbstract"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:IncomeStatementAbstract" target="us-gaap:NetIncomeLoss" linkrole="http://verifyme.com/role/StatementsOfOperations" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:IncomeStatementAbstract to us-gaap:NetIncomeLoss in link role http://verifyme.com/role/StatementsOfOperations missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2813</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/163/11)" sourceLine="2813">
-  <property name="label" value="us-gaap:NetIncomeLoss"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="NetIncomeLoss"/>
-  <property name="QName" value="us-gaap:NetIncomeLoss"/>
-  <property name="id" value="us-gaap_NetIncomeLoss"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:monetaryItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="balance" value="credit"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
-  <property name="order" value="170.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:IncomeStatementAbstract"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:WeightedAverageNumberOfSharesOutstandingAbstract" target="us-gaap:WeightedAverageNumberOfSharesOutstandingBasic" linkrole="http://verifyme.com/role/StatementsOfOperations" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:WeightedAverageNumberOfSharesOutstandingAbstract to us-gaap:WeightedAverageNumberOfSharesOutstandingBasic in link role http://verifyme.com/role/StatementsOfOperations missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2854</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/163/52)" sourceLine="2854">
-  <property name="label" value="us-gaap:WeightedAverageNumberOfSharesOutstandingBasic"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="WeightedAverageNumberOfSharesOutstandingBasic"/>
-  <property name="QName" value="us-gaap:WeightedAverageNumberOfSharesOutstandingBasic"/>
-  <property name="id" value="us-gaap_WeightedAverageNumberOfSharesOutstandingBasic"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
-  <property name="order" value="220.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:WeightedAverageNumberOfSharesOutstandingAbstract"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:WeightedAverageNumberOfSharesOutstandingAbstract" target="us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding" linkrole="http://verifyme.com/role/StatementsOfOperations" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:WeightedAverageNumberOfSharesOutstandingAbstract to us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding in link role http://verifyme.com/role/StatementsOfOperations missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2816</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/163/14)" sourceLine="2816">
-  <property name="label" value="us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="WeightedAverageNumberOfDilutedSharesOutstanding"/>
-  <property name="QName" value="us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"/>
-  <property name="id" value="us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
-  <property name="order" value="230.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:WeightedAverageNumberOfSharesOutstandingAbstract"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:StatementLineItems" target="us-gaap:StockRepurchasedDuringPeriodValue" linkrole="http://verifyme.com/role/StatementsOfStockholdersEquity" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:StockRepurchasedDuringPeriodValue in link role http://verifyme.com/role/StatementsOfStockholdersEquity missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3627</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/180/3)" sourceLine="3627">
-  <property name="label" value="us-gaap:StockRepurchasedDuringPeriodValue"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="StockRepurchasedDuringPeriodValue"/>
-  <property name="QName" value="us-gaap:StockRepurchasedDuringPeriodValue"/>
-  <property name="id" value="us-gaap_StockRepurchasedDuringPeriodValue"/>
+  <property name="name" value="OperatingExpenses"/>
+  <property name="QName" value="us-gaap:OperatingExpenses"/>
+  <property name="id" value="us-gaap_OperatingExpenses"/>
   <property name="abstract" value="false"/>
   <property name="type" value="xbrli:monetaryItemType"/>
   <property name="subst grp" value="xbrli:item"/>
   <property name="period type" value="duration"/>
   <property name="balance" value="debit"/>
   <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
-  <property name="order" value="160.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:StatementLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:StatementLineItems" target="us-gaap:NetIncomeLoss" linkrole="http://verifyme.com/role/StatementsOfStockholdersEquity" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:StatementLineItems to us-gaap:NetIncomeLoss in link role http://verifyme.com/role/StatementsOfStockholdersEquity missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3696</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/180/72)" sourceLine="3696">
-  <property name="label" value="us-gaap:NetIncomeLoss"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="NetIncomeLoss"/>
-  <property name="QName" value="us-gaap:NetIncomeLoss"/>
-  <property name="id" value="us-gaap_NetIncomeLoss"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:monetaryItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="balance" value="credit"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
-  <property name="order" value="250.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:StatementLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedNumberOfShares" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedNumberOfShares in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails1 missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2443</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/141/29)" sourceLine="2443">
-  <property name="label" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedNumberOfShares"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedNumberOfShares"/>
-  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedNumberOfShares"/>
-  <property name="id" value="us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedNumberOfShares"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
-  <property name="order" value="0.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedWeightedAverageGrantDateFairValue" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedWeightedAverageGrantDateFairValue in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails1 missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2422</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/141/8)" sourceLine="2422">
-  <property name="label" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedWeightedAverageGrantDateFairValue"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedWeightedAverageGrantDateFairValue"/>
-  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedWeightedAverageGrantDateFairValue"/>
-  <property name="id" value="us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedWeightedAverageGrantDateFairValue"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="dtr-types:perShareItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
-  <property name="order" value="10.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodGross" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails1" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodGross in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails1 missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2430</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/141/16)" sourceLine="2430">
-  <property name="label" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodGross"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodGross"/>
-  <property name="QName" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodGross"/>
-  <property name="id" value="us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodGross"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
-  <property name="order" value="20.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedNumberOfShares" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails1" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedNumberOfShares in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails1 missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2435</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/141/21)" sourceLine="2435">
-  <property name="label" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedNumberOfShares"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedNumberOfShares"/>
-  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedNumberOfShares"/>
-  <property name="id" value="us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedNumberOfShares"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
-  <property name="order" value="40.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedNumberOfShares" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails1" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedNumberOfShares in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails1 missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2420</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/141/6)" sourceLine="2420">
-  <property name="label" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedNumberOfShares"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedNumberOfShares"/>
-  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedNumberOfShares"/>
-  <property name="id" value="us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedNumberOfShares"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
-  <property name="order" value="60.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedWeightedAverageGrantDateFairValue" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails1" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedWeightedAverageGrantDateFairValue in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails1 missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2441</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/141/27)" sourceLine="2441">
-  <property name="label" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedWeightedAverageGrantDateFairValue"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedWeightedAverageGrantDateFairValue"/>
-  <property name="QName" value="us-gaap:SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedWeightedAverageGrantDateFairValue"/>
-  <property name="id" value="us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsNonvestedWeightedAverageGrantDateFairValue"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="dtr-types:perShareItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
   <property name="order" value="70.0"/>
   <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
+  <property name="from" value="us-gaap:OperatingExpensesAbstract"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails2" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails2 missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4178</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/201/23)" sourceLine="4178">
-  <property name="label" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="QName" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="id" value="vrme_SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
-  <property name="order" value="0.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails2" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails2 missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4168</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/201/13)" sourceLine="4168">
-  <property name="label" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="QName" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="id" value="vrme_SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="type:perShareItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
-  <property name="order" value="10.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardRestrictedStockGrantsInPeriodGross" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails2" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardRestrictedStockGrantsInPeriodGross in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails2 missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4189</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/201/34)" sourceLine="4189">
-  <property name="label" value="verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardRestrictedStockGrantsInPeriodGross"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardRestrictedStockGrantsInPeriodGross"/>
-  <property name="QName" value="verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardRestrictedStockGrantsInPeriodGross"/>
-  <property name="id" value="vrme_ShareBasedCompensationArrangementByShareBasedPaymentAwardRestrictedStockGrantsInPeriodGross"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
-  <property name="order" value="20.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockVestedNumberOfShares" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails2" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockVestedNumberOfShares in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails2 missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4180</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/201/25)" sourceLine="4180">
-  <property name="label" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockVestedNumberOfShares"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockVestedNumberOfShares"/>
-  <property name="QName" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockVestedNumberOfShares"/>
-  <property name="id" value="vrme_SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockVestedNumberOfShares"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
-  <property name="order" value="40.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails2" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails2 missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4160</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/201/5)" sourceLine="4160">
-  <property name="label" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="QName" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="id" value="vrme_SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
-  <property name="order" value="80.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails2" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails2 missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4176</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/201/21)" sourceLine="4176">
-  <property name="label" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="QName" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="id" value="vrme_SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="type:perShareItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
-  <property name="order" value="90.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails3" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails3 missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5323</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/300/12)" sourceLine="5323">
-  <property name="label" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="QName" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="id" value="vrme_SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
-  <property name="order" value="0.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails3" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails3 missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5325</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/300/14)" sourceLine="5325">
-  <property name="label" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="QName" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="id" value="vrme_SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="type:perShareItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
-  <property name="order" value="10.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardRestrictedStockGrantsInPeriodGross" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails3" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardRestrictedStockGrantsInPeriodGross in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails3 missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5333</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/300/22)" sourceLine="5333">
-  <property name="label" value="verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardRestrictedStockGrantsInPeriodGross"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardRestrictedStockGrantsInPeriodGross"/>
-  <property name="QName" value="verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardRestrictedStockGrantsInPeriodGross"/>
-  <property name="id" value="vrme_ShareBasedCompensationArrangementByShareBasedPaymentAwardRestrictedStockGrantsInPeriodGross"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
-  <property name="order" value="20.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails3" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails3 missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5337</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/300/26)" sourceLine="5337">
-  <property name="label" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="QName" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="id" value="vrme_SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStock"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
-  <property name="order" value="80.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems" target="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails3" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems to verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails3 missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 5321</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/300/10)" sourceLine="5321">
-  <property name="label" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="QName" value="verifyme.com:SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="id" value="vrme_SharebasedCompensationArrangementBySharebasedPaymentAwardRestrictedStockWeightedAverageGrantDateFairValue"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="type:perShareItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
-  <property name="order" value="90.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ScheduleOfInvestmentsLineItems" target="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsOutstandingNumber" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails4" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ScheduleOfInvestmentsLineItems to us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsOutstandingNumber in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails4 missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4438</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/226/5)" sourceLine="4438">
-  <property name="label" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsOutstandingNumber"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsOutstandingNumber"/>
-  <property name="QName" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsOutstandingNumber"/>
-  <property name="id" value="us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsOutstandingNumber"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
-  <property name="order" value="0.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ScheduleOfInvestmentsLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ScheduleOfInvestmentsLineItems" target="verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsOutstandingWeightedAverag..." linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails4" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ScheduleOfInvestmentsLineItems to verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsOutstandingWeightedAverageExercisePrice in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails4 missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4463</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/226/30)" sourceLine="4463">
-  <property name="label" value="verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsOutstandingWeightedAverageExercisePrice"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsOutstandingWeightedAverageExercisePrice"/>
-  <property name="QName" value="verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsOutstandingWeightedAverageExercisePrice"/>
-  <property name="id" value="vrme_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsOutstandingWeightedAverageExercisePrice"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="type:perShareItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
-  <property name="order" value="10.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ScheduleOfInvestmentsLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ScheduleOfInvestmentsLineItems" target="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsForfeituresAndExpirations" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails4" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ScheduleOfInvestmentsLineItems to us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsForfeituresAndExpirations in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails4 missing preferredLabel http://www.xbrl.org/2009/role/negatedLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4448</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/226/15)" sourceLine="4448">
-  <property name="label" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsForfeituresAndExpirations"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsForfeituresAndExpirations"/>
-  <property name="QName" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsForfeituresAndExpirations"/>
-  <property name="id" value="us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsForfeituresAndExpirations"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedLabel"/>
-  <property name="order" value="40.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ScheduleOfInvestmentsLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ScheduleOfInvestmentsLineItems" target="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsOutstandingNumber" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ScheduleOfInvestmentsLineItems to us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsOutstandingNumber in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails4 missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4465</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/226/32)" sourceLine="4465">
-  <property name="label" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsOutstandingNumber"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsOutstandingNumber"/>
-  <property name="QName" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsOutstandingNumber"/>
-  <property name="id" value="us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsOutstandingNumber"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
-  <property name="order" value="60.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ScheduleOfInvestmentsLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ScheduleOfInvestmentsLineItems" target="verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsOutstandingWeightedAverag..." linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails4" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ScheduleOfInvestmentsLineItems to verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsOutstandingWeightedAverageExercisePrice in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetails4 missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4471</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/226/38)" sourceLine="4471">
-  <property name="label" value="verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsOutstandingWeightedAverageExercisePrice"/>
-  <property name="namespace" value="http://verifyme.com/20251231"/>
-  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsOutstandingWeightedAverageExercisePrice"/>
-  <property name="QName" value="verifyme.com:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsOutstandingWeightedAverageExercisePrice"/>
-  <property name="id" value="vrme_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsOutstandingWeightedAverageExercisePrice"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="type:perShareItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="instant"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
-  <property name="order" value="70.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ScheduleOfInvestmentsLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ClassOfWarrantOrRightLineItems" target="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodGross" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/terseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ClassOfWarrantOrRightLineItems to us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodGross in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/terseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2693</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/156/11)" sourceLine="2693">
-  <property name="label" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodGross"/>
-  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodGross"/>
-  <property name="QName" value="us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodGross"/>
-  <property name="id" value="us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodGross"/>
-  <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:sharesItemType"/>
-  <property name="subst grp" value="xbrli:item"/>
-  <property name="period type" value="duration"/>
-  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/terseLabel"/>
-  <property name="order" value="30.0"/>
-  <property name="priority" value="0"/>
-  <property name="from" value="us-gaap:ClassOfWarrantOrRightLineItems"/>
- </ref></entry>
-<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ClassOfWarrantOrRightLineItems" target="us-gaap:StockIssuedDuringPeriodSharesIssuedForServices" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/terseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ClassOfWarrantOrRightLineItems to us-gaap:StockIssuedDuringPeriodSharesIssuedForServices in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/terseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2700</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/156/18)" sourceLine="2700">
+ <message source="us-gaap:ClassOfWarrantOrRightLineItems" target="us-gaap:StockIssuedDuringPeriodSharesIssuedForServices" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/terseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ClassOfWarrantOrRightLineItems to us-gaap:StockIssuedDuringPeriodSharesIssuedForServices in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/terseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3670</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/201/58)" sourceLine="3670">
   <property name="label" value="us-gaap:StockIssuedDuringPeriodSharesIssuedForServices"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="StockIssuedDuringPeriodSharesIssuedForServices"/>
@@ -1155,8 +615,8 @@
   <property name="from" value="us-gaap:ClassOfWarrantOrRightLineItems"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:ClassOfWarrantOrRightLineItems" target="us-gaap:ClassOfWarrantOrRightExercisePriceOfWarrantsOrRights1" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ClassOfWarrantOrRightLineItems to us-gaap:ClassOfWarrantOrRightExercisePriceOfWarrantsOrRights1 in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2685</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/156/3)" sourceLine="2685">
+ <message source="us-gaap:ClassOfWarrantOrRightLineItems" target="us-gaap:ClassOfWarrantOrRightExercisePriceOfWarrantsOrRights1" linkrole="http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:ClassOfWarrantOrRightLineItems to us-gaap:ClassOfWarrantOrRightExercisePriceOfWarrantsOrRights1 in link role http://verifyme.com/role/StockOptionsRestrictedStockAndWarrantsDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3677</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/201/65)" sourceLine="3677">
   <property name="label" value="us-gaap:ClassOfWarrantOrRightExercisePriceOfWarrantsOrRights1"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="ClassOfWarrantOrRightExercisePriceOfWarrantsOrRights1"/>
@@ -1173,8 +633,8 @@
   <property name="from" value="us-gaap:ClassOfWarrantOrRightLineItems"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:AccumulatedOtherComprehensiveIncomeLossLineItems" target="us-gaap:StockIssuedDuringPeriodSharesIssuedForServices" linkrole="http://verifyme.com/role/StockholdersEquityDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:AccumulatedOtherComprehensiveIncomeLossLineItems to us-gaap:StockIssuedDuringPeriodSharesIssuedForServices in link role http://verifyme.com/role/StockholdersEquityDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2490</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/144/32)" sourceLine="2490">
+ <message source="us-gaap:AccumulatedOtherComprehensiveIncomeLossLineItems" target="us-gaap:StockIssuedDuringPeriodSharesIssuedForServices" linkrole="http://verifyme.com/role/StockholdersEquityDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:AccumulatedOtherComprehensiveIncomeLossLineItems to us-gaap:StockIssuedDuringPeriodSharesIssuedForServices in link role http://verifyme.com/role/StockholdersEquityDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2749</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/159/66)" sourceLine="2749">
   <property name="label" value="us-gaap:StockIssuedDuringPeriodSharesIssuedForServices"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="StockIssuedDuringPeriodSharesIssuedForServices"/>
@@ -1191,8 +651,8 @@
   <property name="from" value="us-gaap:AccumulatedOtherComprehensiveIncomeLossLineItems"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:AccumulatedOtherComprehensiveIncomeLossLineItems" target="us-gaap:StockIssuedDuringPeriodValueIssuedForServices" linkrole="http://verifyme.com/role/StockholdersEquityDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:AccumulatedOtherComprehensiveIncomeLossLineItems to us-gaap:StockIssuedDuringPeriodValueIssuedForServices in link role http://verifyme.com/role/StockholdersEquityDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2525</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/144/67)" sourceLine="2525">
+ <message source="us-gaap:AccumulatedOtherComprehensiveIncomeLossLineItems" target="us-gaap:StockIssuedDuringPeriodValueIssuedForServices" linkrole="http://verifyme.com/role/StockholdersEquityDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:AccumulatedOtherComprehensiveIncomeLossLineItems to us-gaap:StockIssuedDuringPeriodValueIssuedForServices in link role http://verifyme.com/role/StockholdersEquityDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2755</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/159/72)" sourceLine="2755">
   <property name="label" value="us-gaap:StockIssuedDuringPeriodValueIssuedForServices"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="StockIssuedDuringPeriodValueIssuedForServices"/>
@@ -1210,46 +670,84 @@
   <property name="from" value="us-gaap:AccumulatedOtherComprehensiveIncomeLossLineItems"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="srt:PlatformOperatorCryptoAssetLineItems" target="us-gaap:DerivativeLiabilitiesNoncurrent" linkrole="http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetails" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from srt:PlatformOperatorCryptoAssetLineItems to us-gaap:DerivativeLiabilitiesNoncurrent in link role http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetails missing preferredLabel http://www.xbrl.org/2003/role/periodStartLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2034</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/113/45)" sourceLine="2034">
-  <property name="label" value="us-gaap:DerivativeLiabilitiesNoncurrent"/>
+ <message source="srt:PlatformOperatorCryptoAssetLineItems" target="us-gaap:ContingentConsiderationClassifiedAsEquityFairValueDisclosure" linkrole="http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetails" preferredLabel="http://www.xbrl.org/2009/role/negatedPeriodStartLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from srt:PlatformOperatorCryptoAssetLineItems to us-gaap:ContingentConsiderationClassifiedAsEquityFairValueDisclosure in link role http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetails missing preferredLabel http://www.xbrl.org/2009/role/negatedPeriodStartLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 597</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/102/42)" sourceLine="597">
+  <property name="label" value="us-gaap:ContingentConsiderationClassifiedAsEquityFairValueDisclosure"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="DerivativeLiabilitiesNoncurrent"/>
-  <property name="QName" value="us-gaap:DerivativeLiabilitiesNoncurrent"/>
-  <property name="id" value="us-gaap_DerivativeLiabilitiesNoncurrent"/>
+  <property name="name" value="ContingentConsiderationClassifiedAsEquityFairValueDisclosure"/>
+  <property name="QName" value="us-gaap:ContingentConsiderationClassifiedAsEquityFairValueDisclosure"/>
+  <property name="id" value="us-gaap_ContingentConsiderationClassifiedAsEquityFairValueDisclosure"/>
   <property name="abstract" value="false"/>
   <property name="type" value="xbrli:monetaryItemType"/>
   <property name="subst grp" value="xbrli:item"/>
   <property name="period type" value="instant"/>
   <property name="balance" value="credit"/>
   <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodStartLabel"/>
-  <property name="order" value="10.0"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedPeriodStartLabel"/>
+  <property name="order" value="20.0"/>
   <property name="priority" value="0"/>
   <property name="from" value="srt:PlatformOperatorCryptoAssetLineItems"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="srt:PlatformOperatorCryptoAssetLineItems" target="us-gaap:DerivativeLiabilitiesNoncurrent" linkrole="http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetails" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from srt:PlatformOperatorCryptoAssetLineItems to us-gaap:DerivativeLiabilitiesNoncurrent in link role http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetails missing preferredLabel http://www.xbrl.org/2003/role/periodEndLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2020</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/113/31)" sourceLine="2020">
-  <property name="label" value="us-gaap:DerivativeLiabilitiesNoncurrent"/>
+ <message source="srt:PlatformOperatorCryptoAssetLineItems" target="us-gaap:ContingentConsiderationClassifiedAsEquityFairValueDisclosure" linkrole="http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetails" preferredLabel="http://www.xbrl.org/2009/role/negatedPeriodEndLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from srt:PlatformOperatorCryptoAssetLineItems to us-gaap:ContingentConsiderationClassifiedAsEquityFairValueDisclosure in link role http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetails missing preferredLabel http://www.xbrl.org/2009/role/negatedPeriodEndLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 568</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/102/13)" sourceLine="568">
+  <property name="label" value="us-gaap:ContingentConsiderationClassifiedAsEquityFairValueDisclosure"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="DerivativeLiabilitiesNoncurrent"/>
-  <property name="QName" value="us-gaap:DerivativeLiabilitiesNoncurrent"/>
-  <property name="id" value="us-gaap_DerivativeLiabilitiesNoncurrent"/>
+  <property name="name" value="ContingentConsiderationClassifiedAsEquityFairValueDisclosure"/>
+  <property name="QName" value="us-gaap:ContingentConsiderationClassifiedAsEquityFairValueDisclosure"/>
+  <property name="id" value="us-gaap_ContingentConsiderationClassifiedAsEquityFairValueDisclosure"/>
   <property name="abstract" value="false"/>
   <property name="type" value="xbrli:monetaryItemType"/>
   <property name="subst grp" value="xbrli:item"/>
   <property name="period type" value="instant"/>
   <property name="balance" value="credit"/>
   <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/periodEndLabel"/>
-  <property name="order" value="80.0"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2009/role/negatedPeriodEndLabel"/>
+  <property name="order" value="90.0"/>
   <property name="priority" value="0"/>
   <property name="from" value="srt:PlatformOperatorCryptoAssetLineItems"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="us-gaap:PropertyPlantAndEquipmentLineItems" target="us-gaap:ResearchAndDevelopmentExpense" linkrole="http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:PropertyPlantAndEquipmentLineItems to us-gaap:ResearchAndDevelopmentExpense in link role http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3821</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/189/3)" sourceLine="3821">
+ <message source="us-gaap:AccountingPoliciesAbstract" target="us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents" linkrole="http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetails1" preferredLabel="http://www.xbrl.org/2003/role/totalLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:AccountingPoliciesAbstract to us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents in link role http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetails1 missing preferredLabel http://www.xbrl.org/2003/role/totalLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 4725</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/260/5)" sourceLine="4725">
+  <property name="label" value="us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"/>
+  <property name="QName" value="us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"/>
+  <property name="id" value="us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/totalLabel"/>
+  <property name="order" value="20.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:AccountingPoliciesAbstract"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:PropertyPlantAndEquipmentLineItems" target="us-gaap:RestrictedCash" linkrole="http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:PropertyPlantAndEquipmentLineItems to us-gaap:RestrictedCash in link role http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2181</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/116/27)" sourceLine="2181">
+  <property name="label" value="us-gaap:RestrictedCash"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
+  <property name="name" value="RestrictedCash"/>
+  <property name="QName" value="us-gaap:RestrictedCash"/>
+  <property name="id" value="us-gaap_RestrictedCash"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="instant"/>
+  <property name="balance" value="debit"/>
+  <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="20.0"/>
+  <property name="priority" value="0"/>
+  <property name="from" value="us-gaap:PropertyPlantAndEquipmentLineItems"/>
+ </ref></entry>
+<entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
+ <message source="us-gaap:PropertyPlantAndEquipmentLineItems" target="us-gaap:ResearchAndDevelopmentExpense" linkrole="http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetailsNarrative" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:PropertyPlantAndEquipmentLineItems to us-gaap:ResearchAndDevelopmentExpense in link role http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesDetailsNarrative missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 2176</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/116/22)" sourceLine="2176">
   <property name="label" value="us-gaap:ResearchAndDevelopmentExpense"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="ResearchAndDevelopmentExpense"/>
@@ -1267,38 +765,37 @@
   <property name="from" value="us-gaap:PropertyPlantAndEquipmentLineItems"/>
  </ref></entry>
 <entry code="xbrl.5.2.4.2.1:preferredLabelMissing" level="error">
- <message source="ecd:PvpTableTextBlock" target="us-gaap:NetIncomeLoss" linkrole="http://xbrl.sec.gov/ecd/role/PvpDisclosure" preferredLabel="http://www.xbrl.org/2003/role/terseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from ecd:PvpTableTextBlock to us-gaap:NetIncomeLoss in link role http://xbrl.sec.gov/ecd/role/PvpDisclosure missing preferredLabel http://www.xbrl.org/2003/role/terseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 3043</message>
- <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/166/3)" sourceLine="3043">
-  <property name="label" value="us-gaap:NetIncomeLoss"/>
+ <message source="us-gaap:AccountingPoliciesAbstract" target="us-gaap:InventoryPolicyTextBlock" linkrole="http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesPolicies" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel">[xbrl.5.2.4.2.1:preferredLabelMissing] Presentation relationship from us-gaap:AccountingPoliciesAbstract to us-gaap:InventoryPolicyTextBlock in link role http://verifyme.com/role/SummaryOfSignificantAccountingPoliciesPolicies missing preferredLabel http://www.xbrl.org/2003/role/verboseLabel - VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd 753</message>
+ <ref href="VRME_taxonomy_2023_2025.zip/VRME_taxonomy_2023_2025/VRME-20251231.xsd#element(/1/1/1/79/105/21)" sourceLine="753">
+  <property name="label" value="us-gaap:InventoryPolicyTextBlock"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
-  <property name="name" value="NetIncomeLoss"/>
-  <property name="QName" value="us-gaap:NetIncomeLoss"/>
-  <property name="id" value="us-gaap_NetIncomeLoss"/>
+  <property name="name" value="InventoryPolicyTextBlock"/>
+  <property name="QName" value="us-gaap:InventoryPolicyTextBlock"/>
+  <property name="id" value="us-gaap_InventoryPolicyTextBlock"/>
   <property name="abstract" value="false"/>
-  <property name="type" value="xbrli:monetaryItemType"/>
+  <property name="type" value="dtr-types:textBlockItemType"/>
   <property name="subst grp" value="xbrli:item"/>
   <property name="period type" value="duration"/>
-  <property name="balance" value="credit"/>
   <property name="arcrole" value="http://www.xbrl.org/2003/arcrole/parent-child"/>
-  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/terseLabel"/>
-  <property name="order" value="2200.0"/>
+  <property name="preferredLabel" value="http://www.xbrl.org/2003/role/verboseLabel"/>
+  <property name="order" value="140.0"/>
   <property name="priority" value="0"/>
-  <property name="from" value="ecd:PvpTableTextBlock"/>
+  <property name="from" value="us-gaap:AccountingPoliciesAbstract"/>
  </ref></entry>
 <entry code="xule.buildIndexTime" level="debug">
- <message>[xule.buildIndexTime] Index build time 0:00:00.145552. - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml </message>
+ <message>[xule.buildIndexTime] Index build time 0:00:00.169555. - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml </message>
  <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml"/></entry>
 <entry code="xule.ruleDebug" level="debug">
- <message>[xule.ruleDebug] Processing: DQC.US.0068.7641 - 16:35:35.158062 - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml </message>
+ <message>[xule.ruleDebug] Processing: DQC.US.0068.7641 - 15:57:36.421647 - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml </message>
  <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml"/></entry>
 <entry code="xule.ruleDebug" level="debug">
  <message>[xule.ruleDebug] D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml </message>
  <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml"/></entry>
 <entry code="xule.otherTaxonomyLoadTime" level="debug">
- <message>[xule.otherTaxonomyLoadTime] Load taxonomy time 0:00:16.803731 from 'https://xbrl.fasb.org/us-gaap/2025/entire/us-gaap-entryPoint-std-2025.xsd' - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml </message>
+ <message>[xule.otherTaxonomyLoadTime] Load taxonomy time 0:00:12.053394 from 'https://xbrl.fasb.org/us-gaap/2025/entire/us-gaap-entryPoint-std-2025.xsd' - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml </message>
  <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml"/></entry>
 <entry code="DQC.US.0068.7641" level="error">
- <message filing_url="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml" severity="error" effectiveDate="2019-01-01" cid="1659040672464">[DQC.US.0068.7641] The filing has used the StatementGeographicalAxis in conjunction with the line item us-gaap:DefinedBenefitPlanContributionsByEmployer with a value of 10,000 in the Compensation Related Costs  and Retirement Benefits section of the taxonomy. These line items should not use the StatementGeographicalAxis to report a fact. To identify the physical location of the securities a member should be created that indicates both the type of security and its issuance location.  i.e. EquityUSMmember
+ <message filing_url="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml" severity="error" effectiveDate="2019-01-01" cid="1441287678672">[DQC.US.0068.7641] The filing has used the StatementGeographicalAxis in conjunction with the line item us-gaap:DefinedBenefitPlanContributionsByEmployer with a value of 10,000 in the Compensation Related Costs  and Retirement Benefits section of the taxonomy. These line items should not use the StatementGeographicalAxis to report a fact. To identify the physical location of the securities a member should be created that indicates both the type of security and its issuance location.  i.e. EquityUSMmember
 
 The properties of this us-gaap:DefinedBenefitPlanContributionsByEmployer fact are:
 Period :2023-01-01 to 2023-12-31
@@ -1306,13 +803,13 @@ Dimensions : srt:StatementGeographicalAxis=country:NZ
 Unit : USD
 
 Rule Element Id:7641
-Rule version: 29.0.2 - VRME_instance_2023_2025.xml 5984</message>
- <ref href="VRME_instance_2023_2025.xml#f500" sourceLine="5984">
+Rule version: 29.0.2 - VRME_instance_2023_2025.xml 10509</message>
+ <ref href="VRME_instance_2023_2025.xml#f963" sourceLine="10509">
   <property name="label" value="us-gaap:DefinedBenefitPlanContributionsByEmployer"/>
   <property name="namespace" value="http://fasb.org/us-gaap/2025"/>
   <property name="name" value="DefinedBenefitPlanContributionsByEmployer"/>
   <property name="QName" value="us-gaap:DefinedBenefitPlanContributionsByEmployer"/>
-  <property name="contextRef" value="c131">
+  <property name="contextRef" value="c215">
    <property name="entity" value="0001104038">
     <property name="scheme" value="http://www.sec.gov/CIK"/>
    </property>
@@ -1331,7 +828,7 @@ Rule version: 29.0.2 - VRME_instance_2023_2025.xml 5984</message>
   <property name="value" value="10,000"/>
  </ref></entry>
 <entry code="xule.ruleEvalTime" level="debug">
- <message>[xule.ruleEvalTime] DQC.US.0068.7641 time took: 20.044655 - 16:35:55.202915  - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml </message>
+ <message>[xule.ruleEvalTime] DQC.US.0068.7641 time took: 14.698708 - 15:57:51.120569  - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml </message>
  <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml"/></entry>
 <entry code="xule.ruleEvalTime" level="debug">
  <message>[xule.ruleEvalTime] Total number of rules processed: 1 - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml </message>
@@ -1340,12 +837,12 @@ Rule version: 29.0.2 - VRME_instance_2023_2025.xml 5984</message>
  <message>[xule.ruleEvalTime] Number of rules over 0.005s: 1 - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml </message>
  <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml"/></entry>
 <entry code="xule.ruleEvalTime" level="debug">
- <message>[xule.ruleEvalTime] Rule DQC.US.0068.7641 end. Took 0:00:20.044655 - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml </message>
+ <message>[xule.ruleEvalTime] Rule DQC.US.0068.7641 end. Took 0:00:14.698708 - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml </message>
  <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml"/></entry>
 <entry code="xule.ruleEvalTime" level="debug">
- <message>[xule.ruleEvalTime] Total time to process: 0:00:20.191041. - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml </message>
+ <message>[xule.ruleEvalTime] Total time to process: 0:00:14.869290. - D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml </message>
  <ref href="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\VRME_instance_2023_2025.xml"/></entry>
 <entry code="info" level="info">
- <message>[info] validated in 33.39 secs - D:/DJT/Documents/GitHub/davidtauriello/dqc_us_rules/tests/input/testfiles/2023-roll-2025/VRME_instance_2023_2025.xml </message>
+ <message>[info] validated in 24.02 secs - D:/DJT/Documents/GitHub/davidtauriello/dqc_us_rules/tests/input/testfiles/2023-roll-2025/VRME_instance_2023_2025.xml </message>
  <ref href="D:/DJT/Documents/GitHub/davidtauriello/dqc_us_rules/tests/input/testfiles/2023-roll-2025/VRME_instance_2023_2025.xml"/></entry>
 </log>

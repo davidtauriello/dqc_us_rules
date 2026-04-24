@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in DQC Rules Validator successful, version Check version using Tools->DQC->Version on the GUI or --dqc-version on the command line. - validate/DQC </message>
+ <ref href="validate/DQC"/></entry>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in SEC Inline Transforms successful, version 19.2. - EDGAR/transform </message>
+ <ref href="EDGAR/transform"/></entry>
+<entry code="info" level="info">
+ <message>[info] Xule version: 3.0.30050 - </message>
+ <ref href=""/></entry>
+<entry code="IOerror" level="error">
+ <message url="D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\CUTR_instance_2023_2025.xml" error="[Errno 2] No such file or directory: 'D:\\DJT\\Documents\\GitHub\\davidtauriello\\dqc_us_rules\\tests\\input\\testfiles\\2023-ro...">[IOerror] Could not load file from local filesystem. file: D:\DJT\Documents\GitHub\davidtauriello\dqc_us_rules\tests\input\testfiles\2023-roll-2025\CUTR_instance_2023_2025.xml - CUTR_instance_2023_2025.xml </message>
+ <ref href="CUTR_instance_2023_2025.xml"/></entry>
+</log>
