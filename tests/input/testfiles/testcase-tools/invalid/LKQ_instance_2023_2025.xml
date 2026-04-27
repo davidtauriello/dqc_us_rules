@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!-- Created by Xince -->
-<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase">
-  <link:schemaRef xlink:href="./LKQ_taxonomy_2023_2025.zip/LKQ_taxonomy_2023_2025/LKQ-20250630.xsd" xlink:type="simple"/>
-</xbrli:xbrl>
