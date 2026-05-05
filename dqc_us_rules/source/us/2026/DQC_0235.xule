@@ -9,6 +9,8 @@ Taxonomy: US GAAP 2026
 
 rule-name-prefix DQC
 
+/** V30 Release **/
+
 ASSERT US.0235.10931 satisfied
 
 $rule_id = (rule-name().split('.'))[rule-name().split('.').length];
