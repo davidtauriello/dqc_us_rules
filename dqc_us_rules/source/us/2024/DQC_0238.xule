@@ -9,7 +9,7 @@ Taxonomy: US GAAP 2024
 
 rule-name-prefix DQC
 
-/** V30 Release  **/
+/** V30 Release **/
 
 ASSERT US.0238.10937 SATISFIED
 
