@@ -9,6 +9,8 @@ Taxonomy: US GAAP 2026
 
 rule-name-prefix DQC
 
+/** V30 Release **/
+
 ASSERT US.0233.10926 satisfied
 
 
