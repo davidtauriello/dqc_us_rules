@@ -110,5 +110,5 @@ Rule Element Id:{$rule_id}
 Rule version: {$ruleVersion}"
 
 severity error
-
+rule-focus $calc
 effectiveDate $effective_dates[$rule_id]
