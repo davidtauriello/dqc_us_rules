@@ -41,5 +41,5 @@ Rule Element Id:{$rule_id}
 Rule version: {$ruleVersion}"
 
 severity error
-
+rule-focus $enumerationItem
 effectiveDate $effective_dates[$rule_id]
