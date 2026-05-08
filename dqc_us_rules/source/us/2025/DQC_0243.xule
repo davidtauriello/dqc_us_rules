@@ -40,7 +40,7 @@ $rule_id = (rule-name().split('.'))[rule-name().split('.').length];
 
 $cashflowItems = $CASH_OUTFLOWS + $CASH_INFLOWS;
 
-$badFact = {covered @concept.local-name in $cashflowItems  @srt:ConsolidationItemsAxis = *}
+$badFact = {covered @concept in $cashflowItems  @srt:ConsolidationItemsAxis = *}
 
 exists($badFact)
 
@@ -67,7 +67,7 @@ $rule_id = (rule-name().split('.'))[rule-name().split('.').length];
 
 $equityItems = $EQUITY_ITEMS;
 
-$badFact = {covered @concept.local-name in $equityItems  @srt:ConsolidationItemsAxis = *}
+$badFact = {covered @concept in $equityItems  @srt:ConsolidationItemsAxis = *}
 
 exists($badFact)
 
