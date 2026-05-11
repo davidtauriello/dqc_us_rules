@@ -28,7 +28,7 @@ $badFact = {@concept in list(CapitalizedComputerSoftwareGross, CapitalizedComput
 exists($badFact)
 
 message
-" The concept {$badFact.concept.name} is tagged with the FiniteLivedIntangibleAssetsByMajorClassAxis with a value of {$badFact}.  This axis should not be used for facts tagged with CapitalizedComputerSoftwareGross, CapitalizedComputerSoftwareAccumulatedAmortization, or CapitalizedComputerSoftwareNet.  The line-item elements for capitalized costs for software to be sold, leased, or marketed already specify in their documentation label that they are for software and do not require further disaggregation by a software member element.
+"The concept {$badFact.concept.name} is tagged with the FiniteLivedIntangibleAssetsByMajorClassAxis with a value of {$badFact}.  This axis should not be used for facts tagged with CapitalizedComputerSoftwareGross, CapitalizedComputerSoftwareAccumulatedAmortization, or CapitalizedComputerSoftwareNet.  The line-item elements for capitalized costs for software to be sold, leased, or marketed already specify in their documentation label that they are for software and do not require further disaggregation by a software member element.
 
 Concept : {$badFact.name}
 Value : { $badFact}
@@ -39,4 +39,5 @@ Rule Element Id:{$rule_id}
 Rule version: {$ruleVersion}"
 
 severity error  
+rule-focus $badFact
 effectiveDate $effective_dates[$rule_id]

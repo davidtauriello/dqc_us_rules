@@ -28,7 +28,7 @@ $rule_id = (rule-name().split('.'))[rule-name().split('.').length];
 $PotentialCapitalizedComputerSoftwareGross = list({@concept in list(FiniteLivedIntangibleAssetsGross, FiniteLivedIntangibleAssetsAccumulatedAmortization, FiniteLivedIntangibleAssetsNet) @FiniteLivedIntangibleAssetsByMajorClassAxis =*})
 
 for $x in $PotentialCapitalizedComputerSoftwareGross
-    if $x.concept.label.contains('to be sold') or $x.concept.label.contains('to be leased') or $x.concept.label.contains('marketed')
+     if $x.concept.label.contains('to be sold') or $x.concept.label.contains('for sale') or $x.concept.label.contains('for lease') or $x.concept.label.contains('to be leased') or $x.concept.label.contains('marketed')
         true
     else
         skip

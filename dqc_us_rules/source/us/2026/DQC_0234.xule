@@ -90,4 +90,5 @@ message
 "The filing is missing a value for the concept TaxJurisdictionOfDomicileExtensibleEnumeration.  When reporting a tax reconcilation, a value for TaxJurisdictionOfDomicileExtensibleEnumeration must also be provided to indicate the domestic tax jurisdiction."
 
 severity error
+rule-focus $IncomeTax
 effectiveDate $effective_dates[$rule_id]
