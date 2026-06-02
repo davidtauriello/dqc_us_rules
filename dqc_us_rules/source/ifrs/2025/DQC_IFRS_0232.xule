@@ -41,7 +41,7 @@ if $ifrs18_Flag
         $concepts_in_role = taxonomy().networks(parent-child, $presNetwork.role).concepts;
 
         /** Of the concepts identified, identify those concepts identify those ones that totals and are not distinctly operating items.**/
-        $unallowed_concepts = filter $concepts_in_role where $item.name in list(Depreciation, Amortisation, ImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss) 
+        $unallowed_concepts = filter $concepts_in_role where $item.name in list(Depreciation, Amortisation, ImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss, DepreciationAndAmortisationExpense) 
 
         for $concept in $unallowed_concepts
             true
