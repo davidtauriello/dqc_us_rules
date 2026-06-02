@@ -29,8 +29,7 @@ constant $CASH_OUTFLOWS = navigate 'http://www.xbrl.org/2021/arcrole/instant-out
 
 constant $CASH_INFLOWS = navigate 'http://www.xbrl.org/2021/arcrole/instant-inflow' descendants from list(Cash, CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents) taxonomy $META returns set (target-name)
 
-
-constant $EQUITY_ITEMS = $META.concepts-by-trait(list(EquityMember))
+constant $EQUITY_ITEMS = $META.concepts-by-trait(list(us-gaap-metaModel:EquityMemberMM))
 
 ASSERT US.0243.10944 SATISFIED
 
@@ -40,7 +39,7 @@ $rule_id = (rule-name().split('.'))[rule-name().split('.').length];
 
 $cashflowItems = $CASH_OUTFLOWS + $CASH_INFLOWS;
 
-$badFact = {covered @concept in $cashflowItems  @srt:ConsolidationItemsAxis = *}
+$badFact = {covered @concept in $cashflowItems  @srt:ConsolidationItemsAxis != srt:ReportableLegalEntitiesMember}
 
 exists($badFact)
 
@@ -67,7 +66,7 @@ $rule_id = (rule-name().split('.'))[rule-name().split('.').length];
 
 $equityItems = $EQUITY_ITEMS;
 
-$badFact = {covered @concept in $equityItems  @srt:ConsolidationItemsAxis = *}
+$badFact = {covered @concept in $equityItems  @srt:ConsolidationItemsAxis != srt:ReportableLegalEntitiesMember}}
 
 exists($badFact)
 
