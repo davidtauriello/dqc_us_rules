@@ -303,10 +303,15 @@ $EBPReports = set('11-K','11-K/A','11-KT').contains([covered @concept.local-name
 if $EBPReports
         $EBP_InvestmentFV_OR_CONTRACT = list({ @concept in list(us-gaap-ebp:EmployeeBenefitPlanInvestmentFairValue, us-gaap-ebp:EmployeeBenefitPlanInvestmentContractValue)});
 
+        $EBP_InvestmenstExcludingMasterTrustBreakdown = list({@concept in list(us-gaap-ebp:EmployeeBenefitPlanInvestmentExcludingPlanInterestInMasterTrustFairValue, us-gaap-ebp:EmployeeBenefitPlanInvestmentPlanInterestInMasterTrustContractValue, us-gaap-ebp:EmployeeBenefitPlanInvestmentPlanInterestInMasterTrustFairValue, us-gaap-ebp:EmployeeBenefitPlanInvestmentExcludingPlanInterestInMasterTrustContractValue)});
+
         $EBP_InvestmentMasterTrust = {@concept = us-gaap-ebp:EmployeeBenefitPlanInvestmentFairAndContractValue}
 
         if exists($EBP_InvestmentMasterTrust) and $EBP_InvestmentFV_OR_CONTRACT.length == 0
-            true
+            if  $EBP_InvestmenstExcludingMasterTrustBreakdown.length == 0
+                true
+            else
+                skip
         else    
             skip
 else
