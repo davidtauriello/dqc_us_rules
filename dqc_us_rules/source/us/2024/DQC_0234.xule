@@ -18,7 +18,7 @@ $rule_id = (rule-name().split('.'))[rule-name().split('.').length];
 
 $NON_DOMESTIC_TAX_ITEMS = list(EffectiveIncomeTaxRateReconciliationFdiiAmount, EffectiveIncomeTaxRateReconciliationBeatAmount, EffectiveIncomeTaxRateReconciliationGiltiAmount, EffectiveIncomeTaxRateReconciliationCrossBorderOtherAmount, EffectiveIncomeTaxRateReconciliationCrossBorderTaxEffectAmount);
 
-$bad_facts = {nonils @concept in $NON_DOMESTIC_TAX_ITEMS @IncomeTaxAuthorityAxis = * }
+$bad_facts = list({nonils @concept in $NON_DOMESTIC_TAX_ITEMS @IncomeTaxAuthorityAxis = * })
 
 for $bad_fact in $bad_facts
     true 
@@ -45,7 +45,7 @@ $rule_id = (rule-name().split('.'))[rule-name().split('.').length];
 
 $NON_DOMESTIC_TAX_ITEMS = list(EffectiveIncomeTaxRateReconciliationBeatPercent, EffectiveIncomeTaxRateReconciliationGiltiPercent, EffectiveIncomeTaxRateReconciliationFdiiPercent, EffectiveIncomeTaxRateReconciliationCrossBorderOtherPercent, EffectiveIncomeTaxRateReconciliationCrossBorderTaxEffectPercent);
 
-$bad_facts = {nonils @concept in $NON_DOMESTIC_TAX_ITEMS @IncomeTaxAuthorityAxis = * }
+$bad_facts = list({nonils @concept in $NON_DOMESTIC_TAX_ITEMS @IncomeTaxAuthorityAxis = * })
 
 for $bad_fact in $bad_facts
     true
@@ -87,7 +87,7 @@ else
     skip
 
 message
-"The filing is missing a value for the concept TaxJurisdictionOfDomicileExtensibleEnumeration.  When reporting a tax reconcilation, a value for TaxJurisdictionOfDomicileExtensibleEnumeration must also be provided to indicate the domestic tax jurisdiction."
+"The filing is missing a value for the concept TaxJurisdictionOfDomicileExtensibleEnumeration.  When reporting a tax reconcilation, with a value reported for the concept IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate (with a value of {$IncomeTax}), then a value for TaxJurisdictionOfDomicileExtensibleEnumeration must also be provided to indicate the domestic tax jurisdiction."
 
 severity error
 effectiveDate $effective_dates[$rule_id]
