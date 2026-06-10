@@ -11,7 +11,6 @@ rule-name-prefix DQC
 
 /** V30 Release **/
 
-
 Assert US.0245.10947 satisfied
 
 $rule_id = (rule-name().split('.'))[rule-name().split('.').length];
