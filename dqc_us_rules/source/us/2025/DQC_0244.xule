@@ -39,14 +39,23 @@ for $presNetwork in $STATEMENT_PRES_NETWORKS.sort
             else
                 $RevenueItemsInStatement = filter $presConceptItems where taxonomy().concept($item).is-monetary and taxonomy().concept($item).period-type == duration and taxonomy().concept($item).balance == credit;
 
+                //Added @srt:ProductOrServiceAxis to take this dimension out of alignment so facts without product or service would match with ones that do have the product or service dimension. 
+                $RevenueItemsInStatementFacts = list({nonils @concept in $RevenueItemsInStatement @srt:ProductOrServiceAxis})
+                // If the values are the same then it is likely that the filer is using the standard revenue elements in the notes and custom revenue elements in the statement.
                 for $RevItem in $RevenueInNotes
-                        $RevenueItemsInStatement.length > 0
+                        $match = filter $RevenueItemsInStatementFacts where $RevItem == $item
+                        if exists($match)
+                            true
+                        else
+                            false
         else
             skip
 
 
 message
-"The filing reports values for {$RevItem.concept.name } with a value of {$RevItem} in the notes in section {$presNetwork.role.description}, but does not report values using these items in the Income Statement.  The filing should not have inconsistent application of tags between  income line items that are presented on the income statement and those disclosed in the note. 
+"The filing reports values for {$RevItem.concept.name } with a value of {$RevItem} in the notes to the financial, but does not report values using these items in the Income Statement  defined in section {$presNetwork.role.description}.  The filing should not have inconsistent application of tags between  income line items that are presented on the income statement and those disclosed in the note. 
+
+If the section is not the Income Statement then change the abstract element IncomeStatementAbstract to an appropriate abstract element for the section of the filing. 
 
 See SEC guidance: https://xbrl.fasb.org/impguidance/Rev2_TIG/revenue_2.pdf
 
