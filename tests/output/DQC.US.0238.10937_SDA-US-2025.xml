@@ -13,22 +13,22 @@
  <message>[info] Xule version: 3.0.30050 - </message>
  <ref href=""/></entry>
 <entry code="info" level="info">
- <message>[info] loaded in 4.84 secs at 2026-05-13T17:14:02 - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
+ <message>[info] loaded in 3.63 secs at 2026-06-25T11:22:18 - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
  <ref href="http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm"/></entry>
 <entry code="xule.buildIndexTime" level="debug">
- <message>[xule.buildIndexTime] Index build time 0:00:00.806180. - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
+ <message>[xule.buildIndexTime] Index build time 0:00:00.284657. - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
  <ref href="http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm"/></entry>
 <entry code="xule.ruleDebug" level="debug">
- <message>[xule.ruleDebug] Processing: DQC.US.0238.10937 - 17:14:23.946154 - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
+ <message>[xule.ruleDebug] Processing: DQC.US.0238.10937 - 11:22:25.487986 - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
  <ref href="http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm"/></entry>
 <entry code="xule.ruleDebug" level="debug">
  <message>[xule.ruleDebug] http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
  <ref href="http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm"/></entry>
 <entry code="DQC.US.0238.10937" level="error">
- <message filing_url="http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm" severity="error" effectiveDate="None" cid="2583511003408">[DQC.US.0238.10937] The filer has used the table text block ScheduleOfSegmentReportingInformationBySegmentTextBlock in the filing, but has not reported any facts with the StatementBusinessSegmentsAxis. A segment member is required to be reported with the StatementBusinessSegmentsAxis even if there is only one reportable segment. (see FASB Taxonomy Implementation guide at https://www.fasb.org/projects/fasb-taxonomies/resources/taxonomy-implementation-guides ) The filer should report facts with the StatementBusinessSegmentsAxis if using the ScheduleOfSegmentReportingInformationBySegmentTextBlock to ensure that the segment information is properly tagged and can be identified by data users. If there is a single segment with no name then use the extension member singleReportingSegmentMember in the StatementBusinessSegmentsAxis.
+ <message filing_url="http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm" severity="error" effectiveDate="None" cid="1642541658384">[DQC.US.0238.10937] The filer has used the table text block ScheduleOfSegmentReportingInformationBySegmentTextBlock in the filing, but has not reported any facts with the StatementBusinessSegmentsAxis. A segment member is required to be reported with the StatementBusinessSegmentsAxis even if there is only one reportable segment. (see FASB Taxonomy Implementation guide at https://www.fasb.org/projects/fasb-taxonomies/resources/taxonomy-implementation-guides ) The filer should report facts with the StatementBusinessSegmentsAxis if using the ScheduleOfSegmentReportingInformationBySegmentTextBlock to ensure that the segment information is properly tagged and can be identified by data users. If there is a single segment with no name then use the extension member SingleReportableSegmentMember in the StatementBusinessSegmentsAxis.
 
 Rule Element Id:10937
-Rule version: 30.0.0RC1 - ea0242971-6k_suncar.htm 26</message>
+Rule version: 30.0.0RC2 - ea0242971-6k_suncar.htm 26</message>
  <ref href="ea0242971-6k_suncar.htm#ixv-8449" sourceLine="26">
   <property name="file" value="ea0242971-6k_suncar.htm"/>
   <property name="line" value="26"/>
@@ -49,7 +49,7 @@ Rule version: 30.0.0RC1 - ea0242971-6k_suncar.htm 26</message>
   <property name="value" value="6-K"/>
  </ref></entry>
 <entry code="xule.ruleEvalTime" level="debug">
- <message>[xule.ruleEvalTime] DQC.US.0238.10937 time took: 3.610849 - 17:14:27.557271  - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
+ <message>[xule.ruleEvalTime] DQC.US.0238.10937 time took: 0.846263 - 11:22:26.334346  - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
  <ref href="http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm"/></entry>
 <entry code="xule.ruleEvalTime" level="debug">
  <message>[xule.ruleEvalTime] Total number of rules processed: 1 - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
@@ -58,12 +58,12 @@ Rule version: 30.0.0RC1 - ea0242971-6k_suncar.htm 26</message>
  <message>[xule.ruleEvalTime] Number of rules over 0.005s: 1 - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
  <ref href="http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm"/></entry>
 <entry code="xule.ruleEvalTime" level="debug">
- <message>[xule.ruleEvalTime] Rule DQC.US.0238.10937 end. Took 0:00:03.610849 - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
+ <message>[xule.ruleEvalTime] Rule DQC.US.0238.10937 end. Took 0:00:00.846263 - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
  <ref href="http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm"/></entry>
 <entry code="xule.ruleEvalTime" level="debug">
- <message>[xule.ruleEvalTime] Total time to process: 0:00:04.418998. - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
+ <message>[xule.ruleEvalTime] Total time to process: 0:00:01.131388. - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
  <ref href="http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm"/></entry>
 <entry code="info" level="info">
- <message>[info] validated in 19.75 secs - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
+ <message>[info] validated in 4.42 secs - http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm </message>
  <ref href="http://www.sec.gov/Archives/edgar/data/1936804/000121390025046449/ea0242971-6k_suncar.htm"/></entry>
 </log>
