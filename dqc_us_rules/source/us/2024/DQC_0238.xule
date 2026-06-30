@@ -33,7 +33,7 @@ else
 
 
 message
-"The filer has used the table text block ScheduleOfSegmentReportingInformationBySegmentTextBlock in the filing, but has not reported any facts with the StatementBusinessSegmentsAxis. A segment member is required to be reported with the StatementBusinessSegmentsAxis even if there is only one reportable segment. (see FASB Taxonomy Implementation guide at https://www.fasb.org/projects/fasb-taxonomies/resources/taxonomy-implementation-guides ) The filer should report facts with the StatementBusinessSegmentsAxis if using the ScheduleOfSegmentReportingInformationBySegmentTextBlock to ensure that the segment information is properly tagged and can be identified by data users. If there is a single segment with no name then use the extension member singleReportingSegmentMember in the StatementBusinessSegmentsAxis.
+"The filer has used the table text block ScheduleOfSegmentReportingInformationBySegmentTextBlock in the filing, but has not reported any facts with the StatementBusinessSegmentsAxis. A segment member is required to be reported with the StatementBusinessSegmentsAxis even if there is only one reportable segment. (see FASB Taxonomy Implementation guide at https://www.fasb.org/projects/fasb-taxonomies/resources/taxonomy-implementation-guides ) The filer should report facts with the StatementBusinessSegmentsAxis if using the ScheduleOfSegmentReportingInformationBySegmentTextBlock to ensure that the segment information is properly tagged and can be identified by data users. If there is a single segment with no name then use the extension member SingleReportableSegmentMember in the StatementBusinessSegmentsAxis.
 
 Rule Element Id:{$rule_id}
 Rule version: {$ruleVersion}"
