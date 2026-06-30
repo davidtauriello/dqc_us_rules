@@ -5,3 +5,4 @@
 .gitignore export-ignore
 *ESEF-DQC.py export-ignore
 tests/input/testfiles/*-roll-* export-ignore
+tests/output/remove/* export-ignore
