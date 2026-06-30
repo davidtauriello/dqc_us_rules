@@ -206,6 +206,7 @@ Approved rules listed below will increment with each major release in which they
 | [DQC_US_0239](DQC_US_0239/DQC_0239.md) | Capitalized Computer Software Concepts Incorrectly Tagged with FiniteLivedIntangibleAssetsByMajorClassAxis | Approved | 30 |
 | [DQC_US_0241](DQC_US_0241/DQC_0241.md) | Incorrect Use of TransactionTypeAxis with Transaction Market Method Members | Approved | 30 |
 | [DQC_US_0242](DQC_US_0242/DQC_0242.md) | Software-to-be-Sold Not Using Dedicated Capitalized Software Concepts | Approved | 30 |
+| [DQC_US_0243](DQC_US_0243/DQC_0243.md) | Inappropriate Use of ConsolidationItemsAxis with Cash Flow and Equity Concepts | Approved | 30 |
 
 
 ## Guidance 
