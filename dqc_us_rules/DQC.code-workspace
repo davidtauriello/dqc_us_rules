@@ -21,6 +21,10 @@
 			"name": "US-2022"
 		},
 		{
+			"path": "source/us",
+			"name": "US"
+		},
+		{
 			"path": "source/ifrs/2025",
 			"name": "ifrs-2025"
 		},
@@ -99,6 +103,13 @@
 		]
 	},
 	"settings": {
-		"todo-tree.tree.scanMode": "workspace only"
+		"todo-tree.tree.scanMode": "workspace only",
+		"dqc_us_rules.skillFile": "source/us/xule-UGT-skill/SKILL.md",
+		"dqc_us_rules.skillFolders": [
+			"source/us/xule-UGT-skill/references",
+			"source/us/xule-UGT-skill/scratch",
+			"source/us/xule-UGT-skill/scripts",
+			"source/us/xule-UGT-skill/snippets"
+		]
 	}
 }
