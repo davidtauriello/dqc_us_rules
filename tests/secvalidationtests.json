@@ -1,5 +1,19 @@
 [
   {
+    "name": "",
+    "infiles": [
+      {
+        "file": "http://www.sec.gov/Archives/edgar/data/1817004/000149315224022374/forms-1a.htm",
+        "xule_run_only": "DQC.US.0117.10093"
+      },
+      {
+        "file": "http://www.sec.gov/Archives/edgar/data/1474903/000147490324000089/bgsf-20240929.htm",
+        "xule_run_only": "DQC.US.0192.10620"
+      }
+    ],
+    "exfiles": "./tests/output/DQC.US.0117.10093_NXT-us-2024.xml,./tests/output/DQC.US.0192.10620_BGSF-us-2024.xml"
+  },
+  {
     "name": "V30",
     "infiles": [
       {
@@ -25,9 +39,13 @@
       {
         "file": "http://www.sec.gov/Archives/edgar/data/1781629/000168316825002743/ankam_10q-022825.htm",
         "xule_run_only": "DQC.US.0239.10938"
+      },
+      {
+        "file": "http://www.sec.gov/Archives/edgar/data/837010/000083701025000048/vriac-20250331.htm",
+        "xule_run_only": "DQC.US.0241.10942"
       }
     ],
-    "exfiles": "./tests/output/DQC.US.0234.10930_CPSS-US-2026.xml,./tests/output/DQC.US.0238.10937_CHUC-US-2025.xml,./tests/output/DQC.US.0238.10937_ABVC-US-2025.xml,./tests/output/DQC.US.0238.10937_SDA-US-2025.xml,./tests/output/DQC.US.0238.10937_CIK0001938571-US-2025.xml,./tests/output/DQC.US.0239.10938_ANKM-US-2025.xml"
+    "exfiles": "./tests/output/DQC.US.0234.10930_CPSS-US-2026.xml,./tests/output/DQC.US.0238.10937_CHUC-US-2025.xml,./tests/output/DQC.US.0238.10937_ABVC-US-2025.xml,./tests/output/DQC.US.0238.10937_SDA-US-2025.xml,./tests/output/DQC.US.0238.10937_CIK0001938571-US-2025.xml,./tests/output/DQC.US.0239.10938_ANKM-US-2025.xml,./tests/output/DQC.US.0241.10942_VRIAC-US-2025.xml"
   },
   {
     "name": "US GAAP 2026",
@@ -2943,6 +2961,10 @@
         "xule_run_only": "DQC.IFRS.0156.10079"
       },
       {
+        "file": "http://www.sec.gov/Archives/edgar/data/1015647/000117184325002591/f20f_042925.htm",
+        "xule_run_only": "DQC.IFRS.0159.10081"
+      },
+      {
         "file": "http://www.sec.gov/Archives/edgar/data/1651717/000165171725000011/nomd-20241231.htm",
         "xule_run_only": "DQC.IFRS.0167.10105"
       },
@@ -2987,7 +3009,7 @@
         "xule_run_only": "DQC.IFRS.0202.10703"
       }
     ],
-    "exfiles": "./tests/output/DQC.IFRS.0080_testco_ifrs-2025.xml,./tests/output/DQC.IFRS.0080_testco_ifrs-2024.xml,./tests/output/DQC.IFRS.0092.9523_NEXA-ifrs-2024.xml,./tests/output/DQC.IFRS.0092.9524_SIFY-ifrs-2024.xml,./tests/output/DQC.IFRS.0093.9525_FMST-ifrs-2024.xml,./tests/output/DQC.IFRS.0102.9541_KUKE-ifrs-2024.xml,./tests/output/DQC.IFRS.0102.9543_ARAU-ifrs-2024.xml,./tests/output/DQC.IFRS.0102.9544_ARAU-ifrs-2024.xml,./tests/output/DQC.IFRS.0104.9551_LGO-ifrs-2024.xml,./tests/output/DQC.IFRS.0105.9556_ARAU-ifrs-2024.xml,./tests/output/DQC.IFRS.0115.9565_ARAU-ifrs-2024.xml,./tests/output/DQC.IFRS.0126.9595_ITUB-ifrs-2024.xml,./tests/output/DQC.IFRS.0127.9596_KEN-ifrs-2024.xml,./tests/output/DQC.IFRS.0128.9598_PLG-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_KEP-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_BUD-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_SUUN-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_NNDM-ifrs-2024.xml,./tests/output/DQC.IFRS.0129.9610_UBS-ifrs-2024.xml,./tests/output/DQC.IFRS.0129.9609_UBS-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_AEHL-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_SIFY-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_HBM-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_MDXH-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_ATHE-ifrs-2024.xml,./tests/output/DQC.IFRS.0156.10079_BWAY-ifrs-2024.xml,./tests/output/DQC.IFRS.0167.10105_NOMD-ifrs-2024.xml,./tests/output/DQC.IFRS.0167.10106_NOMD-ifrs-2024.xml,./tests/output/DQC.IFRS.0167.10107_ARAU-ifrs-2024.xml,./tests/output/DQC.IFRS.0168.10108_MMTIF-ifrs-2024.xml,./tests/output/DQC.IFRS.0168.10109_BBAR-ifrs-2024.xml,./tests/output/DQC.IFRS.0173.10114_WILC-ifrs-2024.xml,./tests/output/DQC.IFRS.0176.10118_BWAY-ifrs-2024.xml,./tests/output/DQC.IFRS.0176.10119_FEMFF-ifrs-2024.xml,./tests/output/DQC.IFRS.0186.10170_DZZ-ifrs-2024.xml,./tests/output/DQC.IFRS.0196.10640_UMC-ifrs-2024.xml,./tests/output/DQC.IFRS.0202.10703_AAUAF-ifrs-2024.xml"
+    "exfiles": "./tests/output/DQC.IFRS.0080_testco_ifrs-2025.xml,./tests/output/DQC.IFRS.0080_testco_ifrs-2024.xml,./tests/output/DQC.IFRS.0092.9523_NEXA-ifrs-2024.xml,./tests/output/DQC.IFRS.0092.9524_SIFY-ifrs-2024.xml,./tests/output/DQC.IFRS.0093.9525_FMST-ifrs-2024.xml,./tests/output/DQC.IFRS.0102.9541_KUKE-ifrs-2024.xml,./tests/output/DQC.IFRS.0102.9543_ARAU-ifrs-2024.xml,./tests/output/DQC.IFRS.0102.9544_ARAU-ifrs-2024.xml,./tests/output/DQC.IFRS.0104.9551_LGO-ifrs-2024.xml,./tests/output/DQC.IFRS.0105.9556_ARAU-ifrs-2024.xml,./tests/output/DQC.IFRS.0115.9565_ARAU-ifrs-2024.xml,./tests/output/DQC.IFRS.0126.9595_ITUB-ifrs-2024.xml,./tests/output/DQC.IFRS.0127.9596_KEN-ifrs-2024.xml,./tests/output/DQC.IFRS.0128.9598_PLG-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_KEP-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_BUD-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_SUUN-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_NNDM-ifrs-2024.xml,./tests/output/DQC.IFRS.0129.9610_UBS-ifrs-2024.xml,./tests/output/DQC.IFRS.0129.9609_UBS-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_AEHL-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_SIFY-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_HBM-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_MDXH-ifrs-2024.xml,./tests/output/DQC.IFRS.0129_ATHE-ifrs-2024.xml,./tests/output/DQC.IFRS.0156.10079_BWAY-ifrs-2024.xml,./tests/output/DQC.IFRS.0159.10081_AAUAF-ifrs-2024.xml,./tests/output/DQC.IFRS.0167.10105_NOMD-ifrs-2024.xml,./tests/output/DQC.IFRS.0167.10106_NOMD-ifrs-2024.xml,./tests/output/DQC.IFRS.0167.10107_ARAU-ifrs-2024.xml,./tests/output/DQC.IFRS.0168.10108_MMTIF-ifrs-2024.xml,./tests/output/DQC.IFRS.0168.10109_BBAR-ifrs-2024.xml,./tests/output/DQC.IFRS.0173.10114_WILC-ifrs-2024.xml,./tests/output/DQC.IFRS.0176.10118_BWAY-ifrs-2024.xml,./tests/output/DQC.IFRS.0176.10119_FEMFF-ifrs-2024.xml,./tests/output/DQC.IFRS.0186.10170_DZZ-ifrs-2024.xml,./tests/output/DQC.IFRS.0196.10640_UMC-ifrs-2024.xml,./tests/output/DQC.IFRS.0202.10703_AAUAF-ifrs-2024.xml"
   },
   {
     "name": "IFRS 2023",
