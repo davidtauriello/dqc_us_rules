@@ -315,6 +315,44 @@ jobs:
           cp -r /tmp/EDGAR "$SITE_PACKAGES/arelle/plugin/"
           rm -rf /tmp/EDGAR
 
+      - name: Restore Arelle web cache
+        uses: actions/cache@v6
+        with:
+          path: ~/.config/arelle/cache
+          key: arelle-webcache-${{ hashFiles('dqc_us_rules/source/**/base-taxonomy*.xule', 'dqc_us_rules/source/**/namespace*.xule') }}
+          restore-keys: |
+            arelle-webcache-
+
+      - name: Warm Arelle web cache (external taxonomy schemas)
+        run: |
+          # Compilation and validation pull remote taxonomy schemas (notably from
+          # xbrl.ifrs.org, which intermittently rejects the TLS handshake). Pre-loading
+          # each known entry point here — and persisting the result via actions/cache —
+          # means compile-fresh/validate-fresh jobs mostly hit a warm local cache instead
+          # of depending on a live fetch on every run.
+          # Some years' source files reference the entry point over plain http
+          # (e.g. 2020, 2021, 2023) instead of https, so both schemes must be matched
+          # or those years silently never get warmed.
+          ENTRY_POINTS=$(grep -rhoE "https?://xbrl\.ifrs\.org/taxonomy/[0-9-]+/[a-zA-Z_]+_entry_point[^']*\.xsd" dqc_us_rules/source | sort -u)
+          echo "Entry points to warm:"
+          echo "$ENTRY_POINTS"
+          for url in $ENTRY_POINTS; do
+            echo "::group::Warming $url"
+            ok=false
+            for attempt in 1 2 3; do
+              if python -m arelle.CntlrCmdLine --file "$url" --logFile /tmp/warm-cache.log; then
+                ok=true
+                break
+              fi
+              echo "Attempt $attempt failed, retrying in 10s..."
+              sleep 10
+            done
+            if [ "$ok" != true ]; then
+              echo "::warning::Could not warm cache for $url — compile/validate jobs will fall back to a live fetch."
+            fi
+            echo "::endgroup::"
+          done
+
       - name: Archive virtual environment
         run: tar -C "${{ env.VENV_PATH }}" -czf /tmp/dqc-venv.tar.gz .
 
@@ -591,6 +629,14 @@ jobs:
       - name: Add virtual environment to PATH
         run: echo "${{ env.VENV_PATH }}/bin" >> "$GITHUB_PATH"
 
+      - name: Restore Arelle web cache
+        uses: actions/cache/restore@v6
+        with:
+          path: ~/.config/arelle/cache
+          key: arelle-webcache-${{ hashFiles('dqc_us_rules/source/**/base-taxonomy*.xule', 'dqc_us_rules/source/**/namespace*.xule') }}
+          restore-keys: |
+            arelle-webcache-
+
       - name: Compile ruleset
         uses: ./.github/actions/compile-ruleset
         with:
@@ -847,6 +893,14 @@ jobs:
 
       - name: Add virtual environment to PATH
         run: echo "${{ env.VENV_PATH }}/bin" >> "$GITHUB_PATH"
+
+      - name: Restore Arelle web cache
+        uses: actions/cache/restore@v6
+        with:
+          path: ~/.config/arelle/cache
+          key: arelle-webcache-${{ hashFiles('dqc_us_rules/source/**/base-taxonomy*.xule', 'dqc_us_rules/source/**/namespace*.xule') }}
+          restore-keys: |
+            arelle-webcache-
 
       - name: Download all compiled rulesets
         if: inputs.skip_compilation == false
@@ -1317,20 +1371,25 @@ jobs:
           HAS_FAILURE: ${{ contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled') }}
         run: |
           if [ "$HAS_FAILURE" = "true" ]; then
-            COLOR="%23e5534b"
+            COLOR="e5534b"
             LABEL="Failed"
           else
-            COLOR="%2357ab5a"
+            COLOR="57ab5a"
             LABEL="Passed"
           fi
-          W_VALUE=$(( ${#LABEL} * 8 + 16 ))
-          W_TOTAL=$(( 90 + W_VALUE ))
-          X_VALUE=$(( 90 + W_VALUE / 2 ))
-          BADGE_HTML="<a href=\"${RUN_URL}\"><img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='${W_TOTAL}' height='20'%3E%3ClinearGradient id='b' x2='0' y2='100%25'%3E%3Cstop offset='0' stop-color='%23bbb' stop-opacity='.1'/%3E%3Cstop offset='1' stop-opacity='.1'/%3E%3C/linearGradient%3E%3Cmask id='a'%3E%3Crect width='${W_TOTAL}' height='20' rx='3' fill='%23fff'/%3E%3C/mask%3E%3Cg mask='url(%23a)'%3E%3Crect width='90' height='20' fill='%23555'/%3E%3Crect x='90' width='${W_VALUE}' height='20' fill='${COLOR}'/%3E%3Crect width='${W_TOTAL}' height='20' fill='url(%23b)'/%3E%3C/g%3E%3Cg fill='%23fff' text-anchor='middle' font-family='DejaVu Sans,Verdana,Geneva,sans-serif' font-size='11'%3E%3Ctext x='45' y='15' fill='%23010101' fill-opacity='.3'%3Eworkflow%3C/text%3E%3Ctext x='45' y='14'%3Eworkflow%3C/text%3E%3Ctext x='${X_VALUE}' y='15' fill='%23010101' fill-opacity='.3'%3E${LABEL}%3C/text%3E%3Ctext x='${X_VALUE}' y='14'%3E${LABEL}%3C/text%3E%3C/g%3E%3C/svg%3E\" alt=\"Workflow ${LABEL}\" /></a>"
+          BADGE_SRC="https://img.shields.io/badge/workflow-${LABEL}-${COLOR}"
+          BADGE_HTML="<a href=\"${RUN_URL}\"><img src=\"${BADGE_SRC}\" alt=\"Workflow ${LABEL}\" /></a>"
+          BADGE_MD="[![Workflow ${LABEL}](${BADGE_SRC})](${RUN_URL})"
           {
             echo "### Status Badge HTML"
             echo ""
             echo '```html'
             echo "$BADGE_HTML"
+            echo '```'
+            echo ""
+            echo "### Status Badge Markdown"
+            echo ""
+            echo '```md'
+            echo "$BADGE_MD"
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
