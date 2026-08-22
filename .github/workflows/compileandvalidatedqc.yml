@@ -335,34 +335,71 @@ jobs:
             arelle-webcache-
 
       - name: Warm Arelle web cache (external taxonomy schemas)
+        env:
+          TAXONOMY: ${{ inputs.taxonomy }}
         run: |
+          # xbrl.ifrs.org entry points are only pulled by the ifrs and esef
+          # taxonomies. The taxonomy input filters both what gets compiled
+          # (build-compile-matrix) and what gets validated (build-test-matrix's
+          # matches_scope), so if it excludes ifrs and esef, nothing in this
+          # run will fetch from xbrl.ifrs.org and warming the cache is wasted work.
+          NEEDS_IFRS=false
+          IFS=',' read -ra FILTERS <<< "$TAXONOMY"
+          for f in "${FILTERS[@]}"; do
+            f_trimmed=$(echo "$f" | xargs)
+            if [ "$f_trimmed" = "all" ] || [ "$f_trimmed" = "ifrs" ] || [ "$f_trimmed" = "esef" ]; then
+              NEEDS_IFRS=true
+              break
+            fi
+          done
+          if [ "$NEEDS_IFRS" != true ]; then
+            echo "Taxonomy filter '$TAXONOMY' excludes ifrs/esef — skipping cache warm."
+            exit 0
+          fi
+
           # Compilation and validation pull remote taxonomy schemas (notably from
           # xbrl.ifrs.org, which intermittently rejects the TLS handshake). Pre-loading
-          # each known entry point here — and persisting the result via actions/cache —
-          # means compile-fresh/validate-fresh jobs mostly hit a warm local cache instead
-          # of depending on a live fetch on every run.
+          # each known entry point .xsd here — and persisting the result via
+          # actions/cache — means compile-fresh/validate-fresh jobs mostly hit a warm
+          # local cache for the entry point instead of depending on a live fetch on
+          # every run. Only the entry point file itself is fetched (via Arelle's
+          # webCache directly, not a full --file load), leaving the schemas and
+          # linkbases it imports for Arelle to fetch and cache on demand when
+          # compile/validate actually needs them.
           # Some years' source files reference the entry point over plain http
           # (e.g. 2020, 2021, 2023) instead of https, so both schemes must be matched
           # or those years silently never get warmed.
-          ENTRY_POINTS=$(grep -rhoE "https?://xbrl\.ifrs\.org/taxonomy/[0-9-]+/[a-zA-Z_]+_entry_point[^']*\.xsd" dqc_us_rules/source | sort -u)
+          ENTRY_POINTS=$(grep -rhoE "https?://xbrl\.ifrs\.org/taxonomy/[0-9-]+/[a-zA-Z_]+_entry_point[^']*\.xsd" dqc_us_rules/source | grep -v 'depr' | sort -u)
           echo "Entry points to warm:"
           echo "$ENTRY_POINTS"
-          for url in $ENTRY_POINTS; do
-            echo "::group::Warming $url"
-            ok=false
-            for attempt in 1 2 3; do
-              if python -m arelle.CntlrCmdLine --file "$url" --logFile /tmp/warm-cache.log; then
-                ok=true
-                break
-              fi
-              echo "Attempt $attempt failed, retrying in 10s..."
-              sleep 10
-            done
-            if [ "$ok" != true ]; then
-              echo "::warning::Could not warm cache for $url — compile/validate jobs will fall back to a live fetch."
-            fi
-            echo "::endgroup::"
-          done
+          export ENTRY_POINTS
+          python3 << 'PYEOF'
+          import os
+          import time
+
+          from arelle.Cntlr import Cntlr
+
+          urls = [u for u in os.environ['ENTRY_POINTS'].splitlines() if u.strip()]
+          cntlr = Cntlr(logFileName='/tmp/warm-cache.log')
+
+          for url in urls:
+              print(f'::group::Warming {url}')
+              ok = False
+              for attempt in range(1, 4):
+                  try:
+                      filepath = cntlr.webCache.getfilename(url, reload=True)
+                      ok = bool(filepath and os.path.exists(filepath))
+                  except Exception as exc:
+                      print(f'Attempt {attempt} raised: {exc}')
+                      ok = False
+                  if ok:
+                      break
+                  print(f'Attempt {attempt} failed, retrying in 10s...')
+                  time.sleep(10)
+              if not ok:
+                  print(f'::warning::Could not warm cache for {url} — compile/validate jobs will fall back to a live fetch.')
+              print('::endgroup::')
+          PYEOF
 
       - name: Archive virtual environment
         run: tar -C "${{ env.VENV_PATH }}" -czf /tmp/dqc-venv.tar.gz .
