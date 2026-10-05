@@ -212,6 +212,14 @@ Approved rules listed below will increment with each major release in which they
 | [DQC_US_0248 - 11-K Filing Cover Page Tagging with Legal Entity Axis](DQC_US_0248/DQC_0248.md) | Public Exposure | 31 |
 | [DQC_US_0249 - Single Member Extensible Enumeration Axis Used Without Aggregate Value](DQC_US_0249/DQC_0249.md) | Public Exposure | 31 |
 | [DQC_US_0250 - Members Used Across Incompatible Dimension Classes](DQC_US_0250/DQC_0250.md) | Public Exposure | 31 |
+| [DQC_US_0251 - Lease Not Yet Commenced Reported as an Unrecorded Unconditional Purchase Obligation](DQC_US_0251/DQC_0251.md) | Public Exposure | 32 |
+| [DQC_US_0252 - Identifier Axis Required on Schedule of Investments Tables](DQC_US_0252/DQC_0252.md) | Public Exposure | 32 |
+| [DQC_US_0253 - Unnecessary Custom Elements in Schedule III Real Estate and Accumulated Depreciation](DQC_US_0253/DQC_0253.md) | Public Exposure | 32 |
+| [DQC_US_0254 - Inappropriate Axes Used in Schedule III Real Estate and Accumulated Depreciation](DQC_US_0254/DQC_0254.md) | Public Exposure | 32 |
+| [DQC_US_0255 - Common Roll Forwards Do Not Calculate](DQC_US_0255/DQC_0255.md) | Public Exposure | 32 |
+| [DQC_US_0256 - BDC Investment Income Tagged with Nonoperating Interest and Dividend Elements](DQC_US_0256/DQC_0256.md) | Public Exposure | 32 |
+| [DQC_US_0257 - BDC Investment Income Totals Tagged with InvestmentIncomeNet](DQC_US_0257/DQC_0257.md) | Public Exposure | 32 |
+| [DQC_US_0258 - BDC Total Expenses Tagged with OperatingExpenses](DQC_US_0258/DQC_0258.md) | Public Exposure | 32 |
 
 
 ## Guidance 
