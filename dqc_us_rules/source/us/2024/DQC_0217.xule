@@ -26,7 +26,7 @@ else
 
 /** if get an error then should instruct the user to use a derivative axis like OpenOptionContractIdentifierAxis, OpenFuturesContractIdentifierAxis, OpenForwardForeignCurrencyContractIdentifierAxis or OpenSwapContractIdentifierAxis.  The message should also reference the guidance issued by the SEC on Jun 16th callled Incomplete and Inappropriate Tagging for Business Development Companies Schedule of Investments, located at  https://www.sec.gov/newsroom/whats-new/2506-dqreminder-inappropriate-tagging-bdc-soi  **/
 
-$BDC_FACT = ([covered @concept in list(DerivativeLiabilityNotionalAmount,DerivativeAssetNotionalAmount) @InvestmentIdentifierAxis = *])
+$BDC_FACT = ([covered @concept in list(DerivativeLiabilityNotionalAmount,DerivativeAssetNotionalAmount, DerivativeNotionalAmount) @InvestmentIdentifierAxis = *])
 
 exists($BDC_FACT)
 
