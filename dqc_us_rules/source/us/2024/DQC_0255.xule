@@ -104,7 +104,7 @@ $expirations = [nonils @concept = ShareBasedCompensationArrangementByShareBasedP
 $other = [nonils @concept = ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOtherIncreasesDecreasesInPeriod @period = $grants.period]
 
 /** If the combined forfeitures and expirations element is reported use it, otherwise use the separate elements **/
-$totalForfeituresAndExpirations = if $forfeituresAndExpirations != none
+$totalForfeituresAndExpirations = if exists($forfeituresAndExpirations)
 									$forfeituresAndExpirations
 								else
 									first-value($forfeitures, 0) + first-value($expirations, 0)
