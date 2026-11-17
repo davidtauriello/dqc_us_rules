@@ -63,6 +63,7 @@ Rule version: {$ruleVersion}"
 
 severity error
 rule-focus $fact1
+status $status
 effectiveDate $effective_dates[$rule_id]
 
 
