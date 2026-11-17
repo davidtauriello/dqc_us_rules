@@ -52,7 +52,7 @@ Rule version: {$ruleVersion}"
 
 severity error
 rule-focus $fact1
-status $status
+status first-value($rule_status[$rule_id], $status)
 effectiveDate $effective_dates[$rule_id]
 
 
@@ -82,7 +82,7 @@ Rule version: {$ruleVersion}"
 
 severity error
 rule-focus $fact1
-status $status
+status first-value($rule_status[$rule_id], $status)
 effectiveDate $effective_dates[$rule_id]
 
 
@@ -112,5 +112,5 @@ Rule version: {$ruleVersion}"
 
 severity error
 rule-focus $fact1
-status $status
+status first-value($rule_status[$rule_id], $status)
 effectiveDate $effective_dates[$rule_id]
