@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in DQC Rules Validator successful, version Check version using Tools->DQC->Version on the GUI or --dqc-version on the command line. - validate/DQC </message>
+ <ref href="validate/DQC"/></entry>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in SEC Inline Transforms successful, version 19.2. - EDGAR/transform </message>
+ <ref href="EDGAR/transform"/></entry>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in Inline XBRL Document Set successful, version 1.1. - inlineXbrlDocumentSet </message>
+ <ref href="inlineXbrlDocumentSet"/></entry>
+<entry code="info" level="info">
+ <message>[info] Xule version: 3.0.30055 - </message>
+ <ref href=""/></entry>
+<entry code="info" level="info">
+ <message>[info] loaded in 4.61 secs at 2026-11-17T16:16:29 - http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm"/></entry>
+<entry code="xule.buildIndexTime" level="debug">
+ <message>[xule.buildIndexTime] Index build time 0:00:00.134046. - http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm"/></entry>
+<entry code="xule.ruleDebug" level="debug">
+ <message>[xule.ruleDebug] Processing: DQC.US.0249.10961 - 16:16:37.991824 - http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm"/></entry>
+<entry code="xule.ruleDebug" level="debug">
+ <message>[xule.ruleDebug] http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm - http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm"/></entry>
+<entry code="DQC.US.0249.10961" level="error">
+ <message filing_url="http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm" severity="error" effectiveDate="None" cid="1944200255504">[DQC.US.0249.10961] The filing has  reported a value for the element us-gaap:GainLossOnSaleOfBusiness with a value of 12,400,000 using the axis IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis in the role 9955553 - Disclosure - Income Taxes - Narrative (Details) on the table us-gaap:OperatingLossCarryforwardsTable. However, the only member used to disaggregate the total for us-gaap:GainLossOnSaleOfBusiness was the member ttek:NorwayOperationsMember. If only one member is used on this axis then the filer should either:
+
+1. Retag the filing using the element DiscontinuedOperationNameExtensibleEnumeration or DisposalGroupNotDiscontinuedOperationNameExtensibleEnumeration with a value of ttek:NorwayOperationsMember.  The member ttek:NorwayOperationsMember should be removed from the value as it represents the aggregate value of 12,400,000.
+ 
+2. Tag the aggregate value of us-gaap:GainLossOnSaleOfBusiness with a value of 12,400,000 without the IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis axis. This rule will not generate an error if the aggregate value of us-gaap:GainLossOnSaleOfBusiness is reported.
+
+The properties of this us-gaap:GainLossOnSaleOfBusiness fact are:
+Period :2025-09-29 to 2025-12-28
+Dimensions : us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=ttek:NorwayOperationsMember, us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+Unit : USD
+
+Rule Element Id:10961
+Rule version: 32.0.0RC1
+ - ttek-20260927.htm 8</message>
+ <ref href="ttek-20260927.htm#f-741" sourceLine="8">
+  <property name="file" value="ttek-20260927.htm"/>
+  <property name="line" value="8"/>
+  <property name="label" value="Gain (Loss) on Disposition of Business"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2026"/>
+  <property name="name" value="GainLossOnSaleOfBusiness"/>
+  <property name="QName" value="us-gaap:GainLossOnSaleOfBusiness"/>
+  <property name="contextRef" value="c-121">
+   <property name="entity" value="0000831641">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2025-09-29"/>
+   <property name="endDate" value="2025-12-28"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:DisposalGroupClassificationAxis" value="us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember"/>
+    <property name="us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis" value="ttek:NorwayOperationsMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="usd ($)">
+   <property name="measure" value="iso4217:USD"/>
+  </property>
+  <property name="decimals" value="-5"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="12,400,000"/>
+  <property name="format" value="None"/>
+  <property name="scale" value="6"/>
+  <property name="html value" value="12.4"/>
+ </ref></entry>
+<entry code="DQC.US.0249.10961" level="error">
+ <message filing_url="http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm" severity="error" effectiveDate="None" cid="1944200255504">[DQC.US.0249.10961] The filing has  reported a value for the element us-gaap:ProceedsFromDivestitureOfBusinessesNetOfCashDivested with a value of 40,300,000 using the axis IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis in the role 9955541 - Disclosure - Acquisitions and Divestitures - Narrative (Details) on the table us-gaap:ScheduleOfBusinessAcquisitionsByAcquisitionTable. However, the only member used to disaggregate the total for us-gaap:ProceedsFromDivestitureOfBusinessesNetOfCashDivested was the member ttek:NorwayOperationsMember. If only one member is used on this axis then the filer should either:
+
+1. Retag the filing using the element DiscontinuedOperationNameExtensibleEnumeration or DisposalGroupNotDiscontinuedOperationNameExtensibleEnumeration with a value of ttek:NorwayOperationsMember.  The member ttek:NorwayOperationsMember should be removed from the value as it represents the aggregate value of 40,300,000.
+ 
+2. Tag the aggregate value of us-gaap:ProceedsFromDivestitureOfBusinessesNetOfCashDivested with a value of 40,300,000 without the IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis axis. This rule will not generate an error if the aggregate value of us-gaap:ProceedsFromDivestitureOfBusinessesNetOfCashDivested is reported.
+
+The properties of this us-gaap:ProceedsFromDivestitureOfBusinessesNetOfCashDivested fact are:
+Period :2025-09-29 to 2025-12-28
+Dimensions : us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember, us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=ttek:NorwayOperationsMember
+Unit : USD
+
+Rule Element Id:10961
+Rule version: 32.0.0RC1
+ - ttek-20260927.htm 8</message>
+ <ref href="ttek-20260927.htm#f-740" sourceLine="8">
+  <property name="file" value="ttek-20260927.htm"/>
+  <property name="line" value="8"/>
+  <property name="label" value="Proceeds from Divestiture of Businesses, Net of Cash Divested"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2026"/>
+  <property name="name" value="ProceedsFromDivestitureOfBusinessesNetOfCashDivested"/>
+  <property name="QName" value="us-gaap:ProceedsFromDivestitureOfBusinessesNetOfCashDivested"/>
+  <property name="contextRef" value="c-121">
+   <property name="entity" value="0000831641">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2025-09-29"/>
+   <property name="endDate" value="2025-12-28"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:DisposalGroupClassificationAxis" value="us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember"/>
+    <property name="us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis" value="ttek:NorwayOperationsMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="usd ($)">
+   <property name="measure" value="iso4217:USD"/>
+  </property>
+  <property name="decimals" value="-5"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="40,300,000"/>
+  <property name="format" value="None"/>
+  <property name="scale" value="6"/>
+  <property name="html value" value="40.3"/>
+ </ref></entry>
+<entry code="DQC.US.0249.10961" level="error">
+ <message filing_url="http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm" severity="error" effectiveDate="None" cid="1944200255504">[DQC.US.0249.10961] The filing has  reported a value for the element us-gaap:GainLossOnSaleOfBusiness with a value of 12,400,000 using the axis IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis in the role 9955541 - Disclosure - Acquisitions and Divestitures - Narrative (Details) on the table us-gaap:ScheduleOfBusinessAcquisitionsByAcquisitionTable. However, the only member used to disaggregate the total for us-gaap:GainLossOnSaleOfBusiness was the member ttek:NorwayOperationsMember. If only one member is used on this axis then the filer should either:
+
+1. Retag the filing using the element DiscontinuedOperationNameExtensibleEnumeration or DisposalGroupNotDiscontinuedOperationNameExtensibleEnumeration with a value of ttek:NorwayOperationsMember.  The member ttek:NorwayOperationsMember should be removed from the value as it represents the aggregate value of 12,400,000.
+ 
+2. Tag the aggregate value of us-gaap:GainLossOnSaleOfBusiness with a value of 12,400,000 without the IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis axis. This rule will not generate an error if the aggregate value of us-gaap:GainLossOnSaleOfBusiness is reported.
+
+The properties of this us-gaap:GainLossOnSaleOfBusiness fact are:
+Period :2025-09-29 to 2025-12-28
+Dimensions : us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember, us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=ttek:NorwayOperationsMember
+Unit : USD
+
+Rule Element Id:10961
+Rule version: 32.0.0RC1
+ - ttek-20260927.htm 8</message>
+ <ref href="ttek-20260927.htm#f-741" sourceLine="8">
+  <property name="file" value="ttek-20260927.htm"/>
+  <property name="line" value="8"/>
+  <property name="label" value="Gain (Loss) on Disposition of Business"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2026"/>
+  <property name="name" value="GainLossOnSaleOfBusiness"/>
+  <property name="QName" value="us-gaap:GainLossOnSaleOfBusiness"/>
+  <property name="contextRef" value="c-121">
+   <property name="entity" value="0000831641">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2025-09-29"/>
+   <property name="endDate" value="2025-12-28"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:DisposalGroupClassificationAxis" value="us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember"/>
+    <property name="us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis" value="ttek:NorwayOperationsMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="usd ($)">
+   <property name="measure" value="iso4217:USD"/>
+  </property>
+  <property name="decimals" value="-5"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="12,400,000"/>
+  <property name="format" value="None"/>
+  <property name="scale" value="6"/>
+  <property name="html value" value="12.4"/>
+ </ref></entry>
+<entry code="DQC.US.0249.10961" level="error">
+ <message filing_url="http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm" severity="error" effectiveDate="None" cid="1944200255504">[DQC.US.0249.10961] The filing has  reported a value for the element us-gaap:GainLossOnSaleOfBusiness with a value of 12,400,000 using the axis IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis in the role 9955553 - Disclosure - Income Taxes - Narrative (Details) on the table us-gaap:OperatingLossCarryforwardsTable. However, the only member used to disaggregate the total for us-gaap:GainLossOnSaleOfBusiness was the member ttek:NorwayOperationsMember. If only one member is used on this axis then the filer should either:
+
+1. Retag the filing using the element DiscontinuedOperationNameExtensibleEnumeration or DisposalGroupNotDiscontinuedOperationNameExtensibleEnumeration with a value of ttek:NorwayOperationsMember.  The member ttek:NorwayOperationsMember should be removed from the value as it represents the aggregate value of 12,400,000.
+ 
+2. Tag the aggregate value of us-gaap:GainLossOnSaleOfBusiness with a value of 12,400,000 without the IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis axis. This rule will not generate an error if the aggregate value of us-gaap:GainLossOnSaleOfBusiness is reported.
+
+The properties of this us-gaap:GainLossOnSaleOfBusiness fact are:
+Period :2025-09-29 to 2026-09-27
+Dimensions : us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=ttek:NorwayOperationsMember, us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+Unit : USD
+
+Rule Element Id:10961
+Rule version: 32.0.0RC1
+ - ttek-20260927.htm 8</message>
+ <ref href="ttek-20260927.htm#f-957" sourceLine="8">
+  <property name="file" value="ttek-20260927.htm"/>
+  <property name="line" value="8"/>
+  <property name="label" value="Gain (Loss) on Disposition of Business"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2026"/>
+  <property name="name" value="GainLossOnSaleOfBusiness"/>
+  <property name="QName" value="us-gaap:GainLossOnSaleOfBusiness"/>
+  <property name="contextRef" value="c-152">
+   <property name="entity" value="0000831641">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2025-09-29"/>
+   <property name="endDate" value="2026-09-27"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:DisposalGroupClassificationAxis" value="us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember"/>
+    <property name="us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis" value="ttek:NorwayOperationsMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="usd ($)">
+   <property name="measure" value="iso4217:USD"/>
+  </property>
+  <property name="decimals" value="-5"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="12,400,000"/>
+  <property name="format" value="None"/>
+  <property name="scale" value="6"/>
+  <property name="html value" value="12.4"/>
+ </ref></entry>
+<entry code="DQC.US.0249.10961" level="error">
+ <message filing_url="http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm" severity="error" effectiveDate="None" cid="1944200255504">[DQC.US.0249.10961] The filing has  reported a value for the element us-gaap:GainLossOnSaleOfBusiness with a value of 12,400,000 using the axis IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis in the role 9955541 - Disclosure - Acquisitions and Divestitures - Narrative (Details) on the table us-gaap:ScheduleOfBusinessAcquisitionsByAcquisitionTable. However, the only member used to disaggregate the total for us-gaap:GainLossOnSaleOfBusiness was the member ttek:NorwayOperationsMember. If only one member is used on this axis then the filer should either:
+
+1. Retag the filing using the element DiscontinuedOperationNameExtensibleEnumeration or DisposalGroupNotDiscontinuedOperationNameExtensibleEnumeration with a value of ttek:NorwayOperationsMember.  The member ttek:NorwayOperationsMember should be removed from the value as it represents the aggregate value of 12,400,000.
+ 
+2. Tag the aggregate value of us-gaap:GainLossOnSaleOfBusiness with a value of 12,400,000 without the IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis axis. This rule will not generate an error if the aggregate value of us-gaap:GainLossOnSaleOfBusiness is reported.
+
+The properties of this us-gaap:GainLossOnSaleOfBusiness fact are:
+Period :2025-09-29 to 2026-09-27
+Dimensions : us-gaap:DisposalGroupClassificationAxis=us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember, us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=ttek:NorwayOperationsMember
+Unit : USD
+
+Rule Element Id:10961
+Rule version: 32.0.0RC1
+ - ttek-20260927.htm 8</message>
+ <ref href="ttek-20260927.htm#f-957" sourceLine="8">
+  <property name="file" value="ttek-20260927.htm"/>
+  <property name="line" value="8"/>
+  <property name="label" value="Gain (Loss) on Disposition of Business"/>
+  <property name="namespace" value="http://fasb.org/us-gaap/2026"/>
+  <property name="name" value="GainLossOnSaleOfBusiness"/>
+  <property name="QName" value="us-gaap:GainLossOnSaleOfBusiness"/>
+  <property name="contextRef" value="c-152">
+   <property name="entity" value="0000831641">
+    <property name="scheme" value="http://www.sec.gov/CIK"/>
+   </property>
+   <property name="startDate" value="2025-09-29"/>
+   <property name="endDate" value="2026-09-27"/>
+   <property name="dimensions" value="(2)">
+    <property name="us-gaap:DisposalGroupClassificationAxis" value="us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember"/>
+    <property name="us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis" value="ttek:NorwayOperationsMember"/>
+   </property>
+  </property>
+  <property name="unitRef" value="usd ($)">
+   <property name="measure" value="iso4217:USD"/>
+  </property>
+  <property name="decimals" value="-5"/>
+  <property name="precision" value="None"/>
+  <property name="xsi:nil" value="false"/>
+  <property name="value" value="12,400,000"/>
+  <property name="format" value="None"/>
+  <property name="scale" value="6"/>
+  <property name="html value" value="12.4"/>
+ </ref></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] DQC.US.0249.10961 time took: 1.688076 - 16:16:39.680000  - http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Total number of rules processed: 1 - http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Number of rules over 0.005s: 1 - http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Rule DQC.US.0249.10961 end. Took 0:00:01.688076 - http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm"/></entry>
+<entry code="xule.ruleEvalTime" level="debug">
+ <message>[xule.ruleEvalTime] Total time to process: 0:00:01.822669. - http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm"/></entry>
+<entry code="info" level="info">
+ <message>[info] validated in 5.67 secs - http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm </message>
+ <ref href="http://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm"/></entry>
+</log>
