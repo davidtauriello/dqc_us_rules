@@ -1,0 +1,103 @@
+name: Notify WordPress
+
+# Sends a JSON payload to a custom WordPress REST API endpoint whenever a
+# release is published.
+#
+# Required repository secret:
+#   WP_WEBHOOK_URL    Full endpoint URL, e.g.
+#                     https://example.org/wp-json/dqc/v1/github-event
+#
+# Optional repository secrets:
+#   WP_USERNAME       WordPress user for Basic auth (used with WP_APP_PASSWORD)
+#   WP_APP_PASSWORD   WordPress Application Password for that user
+#   WP_WEBHOOK_SECRET Shared secret; when set, the request carries an
+#                     X-Hub-Signature-256 header (HMAC-SHA256 of the raw body)
+#                     that the endpoint can verify.
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wordpress-notify-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Build JSON payload
+        env:
+          # Values are passed through env vars (never interpolated into the
+          # script) to avoid shell injection.
+          TAG: ${{ github.event.release.tag_name }}
+          PUBLISHED_AT: ${{ github.event.release.published_at }}
+          LINK: ${{ github.event.release.html_url }}
+        run: |
+          set -euo pipefail
+
+          # Format the publish date like "Nov 25, 2027" (US Eastern date, no time).
+          published_date=$(LC_ALL=C TZ=America/New_York date -d "$PUBLISHED_AT" '+%b %-d, %Y')
+
+          jq -n \
+            --arg tag "$TAG" \
+            --arg published_at "$published_date" \
+            --arg link "$LINK" \
+            '{tag: $tag, published_at: $published_at, link: $link}' > payload.json
+
+          echo "Payload:"
+          cat payload.json
+
+      - name: Send payload to WordPress
+        env:
+          WP_WEBHOOK_URL: ${{ secrets.WP_WEBHOOK_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+          WP_WEBHOOK_SECRET: ${{ secrets.WP_WEBHOOK_SECRET }}
+          EVENT_NAME: ${{ github.event_name }}
+          DELIVERY_ID: ${{ github.run_id }}-${{ github.run_attempt }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${WP_WEBHOOK_URL:-}" ]; then
+            echo "::notice::WP_WEBHOOK_URL secret is not set; skipping WordPress notification."
+            exit 0
+          fi
+
+          headers=(
+            -H "Content-Type: application/json"
+            -H "User-Agent: github-actions-wordpress-notify"
+            -H "X-GitHub-Event: ${EVENT_NAME}"
+            -H "X-GitHub-Delivery: ${DELIVERY_ID}"
+          )
+
+          if [ -n "${WP_WEBHOOK_SECRET:-}" ]; then
+            signature=$(openssl dgst -sha256 -hmac "$WP_WEBHOOK_SECRET" -hex < payload.json | sed 's/^.*= //')
+            headers+=(-H "X-Hub-Signature-256: sha256=${signature}")
+          fi
+
+          auth=()
+          if [ -n "${WP_USERNAME:-}" ] && [ -n "${WP_APP_PASSWORD:-}" ]; then
+            auth=(--user "${WP_USERNAME}:${WP_APP_PASSWORD}")
+          fi
+
+          http_code=$(curl --silent --show-error \
+            --retry 3 --retry-delay 5 --retry-all-errors \
+            --max-time 30 \
+            --output response.txt --write-out '%{http_code}' \
+            -X POST "${headers[@]}" "${auth[@]}" \
+            --data-binary @payload.json \
+            "$WP_WEBHOOK_URL")
+
+          echo "HTTP status: ${http_code}"
+          echo "Response body:"
+          cat response.txt; echo
+
+          if [ "${http_code}" -lt 200 ] || [ "${http_code}" -ge 300 ]; then
+            echo "::error::WordPress endpoint returned HTTP ${http_code}"
+            exit 1
+          fi
