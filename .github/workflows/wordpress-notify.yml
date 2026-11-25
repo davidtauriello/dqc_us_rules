@@ -40,9 +40,12 @@ jobs:
         run: |
           set -euo pipefail
 
+          # Format the publish date like "Nov 25, 2027" (UTC date, no time).
+          published_date=$(LC_ALL=C date -u -d "$PUBLISHED_AT" '+%b %-d, %Y')
+
           jq -n \
             --arg tag "$TAG" \
-            --arg published_at "$PUBLISHED_AT" \
+            --arg published_at "$published_date" \
             --arg link "$LINK" \
             '{tag: $tag, published_at: $published_at, link: $link}' > payload.json
 
