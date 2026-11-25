@@ -40,8 +40,8 @@ jobs:
         run: |
           set -euo pipefail
 
-          # Format the publish date like "Nov 25, 2027" (UTC date, no time).
-          published_date=$(LC_ALL=C date -u -d "$PUBLISHED_AT" '+%b %-d, %Y')
+          # Format the publish date like "Nov 25, 2027" (US Eastern date, no time).
+          published_date=$(LC_ALL=C TZ=America/New_York date -d "$PUBLISHED_AT" '+%b %-d, %Y')
 
           jq -n \
             --arg tag "$TAG" \
