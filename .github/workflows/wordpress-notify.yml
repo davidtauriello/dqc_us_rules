@@ -1,7 +1,7 @@
 name: Notify WordPress
 
-# Sends a JSON payload to a custom WordPress REST API endpoint whenever code is
-# pushed or a release is published.
+# Sends a JSON payload to a custom WordPress REST API endpoint whenever a
+# release is published.
 #
 # Required repository secret:
 #   WP_WEBHOOK_URL    Full endpoint URL, e.g.
@@ -15,11 +15,8 @@ name: Notify WordPress
 #                     that the endpoint can verify.
 
 on:
-  push:
-    branches: ['**']
   release:
     types: [published]
-  workflow_dispatch:
 
 permissions:
   contents: read
@@ -44,10 +41,9 @@ jobs:
           SHA: ${{ github.sha }}
           ACTOR: ${{ github.actor }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-          # Event-specific data is passed as JSON through env vars (never
+          # Release data is passed as JSON through an env var (never
           # interpolated into the script) to avoid shell injection.
-          PUSH_JSON: ${{ github.event_name == 'push' && toJSON(github.event) || '{}' }}
-          RELEASE_JSON: ${{ github.event_name == 'release' && toJSON(github.event.release) || '{}' }}
+          RELEASE_JSON: ${{ toJSON(github.event.release) }}
         run: |
           set -euo pipefail
 
@@ -61,7 +57,6 @@ jobs:
             --arg actor "$ACTOR" \
             --arg run_url "$RUN_URL" \
             --arg timestamp "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
-            --argjson push "$PUSH_JSON" \
             --argjson release "$RELEASE_JSON" \
             '{
               event: $event,
@@ -74,30 +69,7 @@ jobs:
               run_url: $run_url,
               timestamp: $timestamp
             }
-            + (if $event == "push" then {
-                push: {
-                  before: $push.before,
-                  after: $push.after,
-                  compare_url: $push.compare,
-                  forced: ($push.forced // false),
-                  created: ($push.created // false),
-                  deleted: ($push.deleted // false),
-                  pusher: $push.pusher.name,
-                  head_commit: (if $push.head_commit then {
-                    id: $push.head_commit.id,
-                    message: $push.head_commit.message,
-                    url: $push.head_commit.url,
-                    timestamp: $push.head_commit.timestamp,
-                    author: $push.head_commit.author.name
-                  } else null end),
-                  commits: [ ($push.commits // [])[] | {
-                    id, message, url, timestamp,
-                    author: .author.name,
-                    added, removed, modified
-                  } ]
-                }
-              } else {} end)
-            + (if $event == "release" then {
+            + {
                 release: {
                   id: $release.id,
                   tag_name: $release.tag_name,
@@ -113,7 +85,7 @@ jobs:
                     download_url: .browser_download_url
                   } ]
                 }
-              } else {} end)' > payload.json
+              }' > payload.json
 
           echo "Payload:"
           cat payload.json
